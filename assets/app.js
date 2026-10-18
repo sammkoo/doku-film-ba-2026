@@ -37,7 +37,7 @@ function updateSelection(){
 function toggleSelection(id){selection.has(id)?selection.delete(id):selection.add(id);persist();if($('selected-only').checked)render();}
 function renderDays(){
  const labels=['PO','UT','ST','ŠT','PI','SO','NE'], today=day(now());
- $('days').innerHTML=`<button type="button" data-day="" class="${!activeDay?'active':''}" aria-pressed="${!activeDay}"><strong>Týždeň</strong><span>19. — 25. 10.</span></button>`+labels.map((label,i)=>{const d=`2026-10-${19+i}`;return `<button type="button" data-day="${d}" class="${activeDay===d?'active ':''}${today===d?'today':''}" aria-pressed="${activeDay===d}"><strong>${19+i}</strong><span>${label} / 10</span></button>`;}).join('');
+ $('days').innerHTML=`<label class="mobile-day">Deň programu<select id="day-select" aria-label="Vyber deň"><option value="" ${!activeDay?'selected':''}>Celý týždeň · 19.–25. 10.</option>${labels.map((label,i)=>{const d=`2026-10-${19+i}`;return `<option value="${d}" ${activeDay===d?'selected':''}>${['Pondelok','Utorok','Streda','Štvrtok','Piatok','Sobota','Nedeľa'][i]} ${19+i}. októbra${today===d?' · dnes':''}</option>`;}).join('')}</select></label><div class="desktop-days"><button type="button" data-day="" class="${!activeDay?'active':''}" aria-pressed="${!activeDay}"><strong>Týždeň</strong><span>19. — 25. 10.</span></button>`+labels.map((label,i)=>{const d=`2026-10-${19+i}`;return `<button type="button" data-day="${d}" class="${activeDay===d?'active ':''}${today===d?'today':''}" aria-pressed="${activeDay===d}"><strong>${19+i}</strong><span>${label} / 10</span></button>`;}).join('')+'</div>';
 }
 function updatePulse(){
  const n=now(),today=day(n),archived=today>'2026-10-25',before=today<'2026-10-19';
@@ -87,9 +87,14 @@ function card(e){
  return `<article class="event" data-id="${esc(e.id)}"><div class="event-time"><time datetime="${esc(e.start)}">${time(e.start)}</time><small>${esc(end)}</small>${state?`<small><strong>${state}</strong></small>`:''}</div><div class="event-main"><h4><button class="event-title" data-open="${esc(e.id)}">${esc(e.title)}</button></h4><div class="event-meta"><span class="tag">${esc(e.festival)}</span><span>${e.types.map(t=>typeNames[t]).join(' / ')}</span></div>${e.director?`<p class="event-snippet">${esc(e.director)}${e.duration?' · '+e.duration+' min film':''}</p>`:e.summary?`<p class="event-snippet">${esc(e.summary)}</p>`:''}${e.notice?`<p class="warning">${esc(e.notice)}</p>`:''}${e.films?.length?`<details class="block-films"><summary>${e.films.length} filmov v pásme — zobraziť</summary>${filmsHTML(e)}</details>`:''}</div><div class="event-place"><strong>${esc(v?.name||e.location||'Miesto nepotvrdené')}</strong><span>${esc(e.room||v?.address||'')}</span>${walking!==null?`<span>≈ ${walking} min pešo (odhad)</span>`:''}<span class="entry">${esc(price(e))}</span></div><button class="select-event" data-select="${esc(e.id)}" aria-pressed="${selection.has(e.id)}" aria-label="Vybrať: ${esc(e.title)}">${selection.has(e.id)?'✓':'+'}</button></article>`;
 }
 function render(){
- const list=filtered(),groups=new Map();list.forEach(e=>{const d=day(e.start);if(!groups.has(d))groups.set(d,[]);groups.get(d).push(e);});
+ const list=filtered(),groups=new Map();
+ const activeFilters=['festival','type','part','from','to'].filter(id=>$(id).value).length+['upcoming','selected-only','free-only'].filter(id=>$(id).checked).length;
+ $('filter-count').textContent=activeFilters?'('+activeFilters+')':'';
+ $('quick-reset').hidden=!activeDay&&!activeFilters&&!$('search').value;list.forEach(e=>{const d=day(e.start);if(!groups.has(d))groups.set(d,[]);groups.get(d).push(e);});
+ const opened=[...document.querySelectorAll('.event details[open]')].map(el=>el.closest('.event').dataset.id);
  $('event-list').innerHTML=[...groups].map(([d,items])=>`<section class="event-day" aria-label="${esc(date(items[0].start))}"><div class="day-heading"><h3>${esc(date(items[0].start))}</h3><span>${items.length} PODUJATÍ</span></div>${items.map(card).join('')}</section>`).join('');
  $('results-count').textContent=`${list.length} z ${events.length} podujatí`+($('from').value&&$('to').value&&$('from').value>=$('to').value?' · Čas „do“ musí byť neskôr než „od“.':'');
+ opened.forEach(id=>{const el=document.querySelector('.event[data-id="'+id+'"] details');if(el)el.open=true;});
  $('empty').hidden=!!list.length;renderDays();updateSelection();if(map)renderMap(list);
 }
 function reset(){activeDay='';$('filters').reset();$('origin').value='';$('walk').value='';origin=null;place='';render();}
@@ -148,7 +153,7 @@ async function init(){
  try{const response=await fetch('data/program.json');if(!response.ok)throw new Error('HTTP '+response.status);model=await response.json();events=model.events.sort((a,b)=>+new Date(a.start)-+new Date(b.start));venues=model.venues;
  selection=new Set([...selection].filter(id=>events.some(e=>e.id===id)));
  events.forEach(e=>{e.searchText=norm([e.title,e.director,e.summary,loc(e),venue(e)?.address,...(e.films||[]).flatMap(f=>[f.title,f.director,f.summary])].join(' '));});
- const today=day(now());if(today>='2026-10-19'&&today<='2026-10-25')activeDay=today;
+ const today=day(now());if(today<'2026-10-19')activeDay='2026-10-19';else if(today<='2026-10-25')activeDay=today;
  $('festival').innerHTML+=[...new Set(events.map(e=>e.festival))].map(f=>`<option>${esc(f)}</option>`).join('');
  $('origin').innerHTML+=venues.filter(v=>v.lat&&v.lon).map(v=>`<option value="${esc(v.id)}">${esc(v.name)}</option>`).join('');
  $('venue-options').innerHTML=venues.map(v=>`<option value="${esc(v.name)}">${esc(v.address)}</option>`).join('');
@@ -157,8 +162,9 @@ async function init(){
  }catch(error){$('results-count').textContent='Program sa nepodarilo načítať. Skús obnoviť stránku.';$('event-list').innerHTML='<p><a href="program.ics">Stiahnuť program ako kalendár</a> · <a href="audit.md">Textový audit</a></p>';$('phase').textContent='Program je dočasne nedostupný.';console.error('Program loading failed',error);}
 }
 $('filters').addEventListener('submit',e=>e.preventDefault());$('filters').addEventListener('input',render);$('filters').addEventListener('change',render);
+$('days').addEventListener('change',e=>{if(e.target.id==='day-select'){activeDay=e.target.value;render();}});
 $('days').addEventListener('click',e=>{const b=e.target.closest('[data-day]');if(b){activeDay=b.dataset.day;render();}});
-$('reset').onclick=reset;$('empty-reset').onclick=reset;
+$('quick-reset').onclick=reset;$('reset').onclick=reset;$('empty-reset').onclick=reset;
 $('view-map').onclick=showMap;$('view-program').onclick=showProgram;
 $('nav-map').onclick=()=>{showMap();$('program').scrollIntoView();};
 $('nav-calendar').onclick=subscribe;$('subscribe-main').onclick=subscribe;$('copy-feed').onclick=()=>copy(FEED,'Odkaz na odber je skopírovaný.');
