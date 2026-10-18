@@ -146,6 +146,7 @@ function showSchedule(){
  $('view-program').setAttribute('aria-pressed','false');$('view-map').setAttribute('aria-pressed','false');$('view-schedule').setAttribute('aria-pressed','true');renderSchedule(filtered());
 }
 function renderSchedule(list){
+ const positions=new Map([...document.querySelectorAll('[data-schedule-day]')].map(el=>[el.dataset.scheduleDay,{left:el.scrollLeft,top:el.scrollTop}]));
  const days=new Map(),scale=1.6,gutter=64;
  list.forEach(e=>{const d=day(e.start);if(!days.has(d))days.set(d,[]);days.get(d).push(e);});
  $('schedule-content').innerHTML=[...days].map(([d,items])=>{
@@ -168,11 +169,12 @@ function renderSchedule(list){
   const fmt=m=>`${String(Math.floor(m/60)%24).padStart(2,'0')}:${String(Math.floor(m%60)).padStart(2,'0')}`;
   const ticks=[];for(let m=min;m<=max;m+=30)ticks.push(`<div class="schedule-gridline ${m%60===0?'hour-line':''}" style="top:${(m-min)*scale}px"><span>${fmt(m)}</span></div>`);
   const nowMin=clockMinutes(time(now())),nowLine=day(now())===d&&nowMin>=min&&nowMin<=max?`<div class="schedule-now" style="top:${(nowMin-min)*scale}px"><span>Teraz ${time(now())}</span></div>`:'';
-  return `<section class="schedule-day"><h3>${esc(date(items[0].start))}</h3><div class="schedule-scroll" role="region" tabindex="0" aria-label="Časová os: ${esc(date(items[0].start))}"><div class="schedule-canvas" style="width:${left}px"><div class="schedule-head" style="grid-template-columns:${gutter}px ${columns.map(r=>r.width+'px').join(' ')}"><div class="schedule-corner">Čas</div>${columns.map(r=>`<div><strong>${esc(r.v?.name||'Miesto nepotvrdené')}</strong>${r.room?`<span>${esc(r.room)}</span>`:''}</div>`).join('')}</div><div class="schedule-body" style="height:${height+20}px">${ticks.join('')}${columns.map(r=>`<div class="schedule-lane" style="left:${r.left}px;width:${r.width}px;height:100%"></div>${r.items.map(({e,start,end,track})=>{
+  return `<section class="schedule-day"><h3>${esc(date(items[0].start))}</h3><div class="schedule-scroll" data-schedule-day="${d}" role="region" tabindex="0" aria-label="Časová os: ${esc(date(items[0].start))}"><div class="schedule-canvas" style="width:${left}px"><div class="schedule-head" style="grid-template-columns:${gutter}px ${columns.map(r=>r.width+'px').join(' ')}"><div class="schedule-corner">Čas</div>${columns.map(r=>`<div><strong>${esc(r.v?.name||'Miesto nepotvrdené')}</strong>${r.room?`<span>${esc(r.room)}</span>`:''}</div>`).join('')}</div><div class="schedule-body" style="height:${height+20}px">${ticks.join('')}${columns.map(r=>`<div class="schedule-lane" style="left:${r.left}px;width:${r.width}px;height:100%"></div>${r.items.map(({e,start,end,track})=>{
    const duration=end===null?null:end-start,label=duration===null?'Koniec neznámy':e.end?time(e.start)+' – '+time(e.end):time(e.start)+' – ≈ '+time(e.estimatedEnd);
    return `<button class="schedule-event ${!e.end?'uncertain':''} ${end===null?'unknown-end':''} ${running(e)?'schedule-live':''} ${past(e)?'schedule-past':''}" data-open="${esc(e.id)}" style="left:${r.left+track*r.trackWidth+5}px;top:${(start-min)*scale}px;width:${r.trackWidth-10}px;height:${end===null?48:Math.max(24,duration*scale-4)}px" aria-label="${esc(e.title)}, ${time(e.start)}, ${esc(label)}, ${esc(loc(e))}" title="${esc(e.title)} · ${esc(label)}"><span class="schedule-time">${end===null?time(e.start)+' · koniec neznámy':esc(label)}</span><strong>${esc(e.title)}</strong><span class="schedule-festival">${esc(e.festival)}${running(e)?' · prebieha':''}</span></button>`;
   }).join('')}`).join('')}${nowLine}</div></div></div></section>`;
  }).join('');
+ document.querySelectorAll('[data-schedule-day]').forEach(el=>{const position=positions.get(el.dataset.scheduleDay);if(position){el.scrollLeft=position.left;el.scrollTop=position.top;}});
 }
 async function showMap(){
  $('schedule-panel').hidden=true;document.body.classList.remove('schedule-mode');$('view-schedule').setAttribute('aria-pressed','false');
