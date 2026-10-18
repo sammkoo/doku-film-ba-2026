@@ -1,11 +1,38 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//DOKU FILM community 2026//SK
+PRODID:-//DOKU FILM BA//SK
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:DOKU & FILM Bratislava 19.-25.10.2026
 X-WR-TIMEZONE:Europe/Bratislava
-X-WR-CALDESC:Festivalovy prehlad - Ackko, Jeden svet a Den slovenskeho dokumentarneho filmu
+X-WR-CALDESC:Neoficialny komunitny program dokumentarnych a filmovych pod
+ ujati v Bratislave
+BEGIN:VEVENT
+UID:pinaBA20261019@doku-film-2026
+DTSTAMP:20261018T120000Z
+DTSTART:20261019T161000Z
+DTEND:20261019T175000Z
+SUMMARY:Pina (Wim Wenders) – dokumentárna projekcia
+LOCATION:Kino Lumière\, Špitálska 4\, Bratislava
+DESCRIPTION:Dokument Wima Wendersa o tanečníčke a choreografke Pine Ba
+ usch. V rámci Be2Can. Stopáž 100 min.\nZdroj: https://cl3.admin.cityl
+ ife.sk/film/pina
+URL:https://cl3.admin.citylife.sk/film/pina
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:holubyBA20261019@doku-film-2026
+DTSTAMP:20261018T120000Z
+DTSTART:20261019T182000Z
+DTEND:20261019T201000Z
+SUMMARY:Keby sa holuby premenili na zlato – dokumentárna projekcia
+LOCATION:Kino Lumière\, Špitálska 4\, Bratislava
+DESCRIPTION:Autorský dokument Pepy Lubojacki (2026\, 110 min) o rodine a
+  závislosti. Ocenený na Berlinale.\nZdroj: https://cl3.admin.citylife.
+ sk/film/keby-sa-holuby-premenili-na-zlato
+URL:https://cl3.admin.citylife.sk/film/keby-sa-holuby-premenili-na-zlato
+TRANSP:TRANSPARENT
+END:VEVENT
 BEGIN:VEVENT
 UID:acko02026@doku-film-2026
 DTSTAMP:20261018T120000Z
@@ -20,10 +47,8 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
  iou a ďalšími profesiami.\n\nSála: BARCO • FTF VŠMU\, Svoradova 2
  A\, Bratislava Program:\nhttps://festivalacko.sk/timetable/event/ako-na-
  casting-od-prveho-kontaktu-po-\nrolu/ Harmonogram: https://festivalacko.
- sk/harmonogram/\nProgram: https://festivalacko.sk/timetable/event/ako-na
- -casting-od-prveho-kontaktu-po-
-URL:https://festivalacko.sk/timetable/event/ako-na-casting-od-prveho-kont
- aktu-po-
+ sk/harmonogram/\nZdroj: https://festivalacko.sk/harmonogram/
+URL:https://festivalacko.sk/harmonogram/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -54,9 +79,9 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
  estávok. Pri filme Ulica V. I. Lenina je na\noficiálnej stránke ako m
  ajster zvuku uvedený Samuel Ostrovský.\n\nSála: KLAP • FTF VŠMU\, 
  Svoradova 2A\, Bratislava Program:\nhttps://festivalacko.sk/filmove-pasm
- a/#trvanie Harmonogram:\nhttps://festivalacko.sk/harmonogram/\nProgram: 
- https://festivalacko.sk/movie/fuck-off-vyroba-platne/
-URL:https://festivalacko.sk/movie/fuck-off-vyroba-platne/
+ a/#trvanie Harmonogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj: ht
+ tps://festivalacko.sk/filmove-pasma/
+URL:https://festivalacko.sk/filmove-pasma/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -85,8 +110,8 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
  pásma vrátane prípadných prestávok.\n\nSála: BARCO • FTF VŠMU\,
   Svoradova 2A\, Bratislava Program:\nhttps://festivalacko.sk/filmove-pas
  ma/#zastavene-hodiny Harmonogram:\nhttps://festivalacko.sk/harmonogram/\
- nProgram: https://festivalacko.sk/movie/kyvadlo/
-URL:https://festivalacko.sk/movie/kyvadlo/
+ nZdroj: https://festivalacko.sk/filmove-pasma/
+URL:https://festivalacko.sk/filmove-pasma/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -103,10 +128,9 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
  artin Navrátil a Matúš Hučko. Moderuje Lenka Bednárová.\n\nSála: 
  KLAP • FTF VŠMU\, Svoradova 2A\, Bratislava Program:\nhttps://festiva
  lacko.sk/timetable/event/za-hranicami-planu-ako-sa-nakruca-\ncestopis/ H
- armonogram: https://festivalacko.sk/harmonogram/\nProgram: https://festi
- valacko.sk/timetable/event/za-hranicami-planu-ako-sa-nakruca-
-URL:https://festivalacko.sk/timetable/event/za-hranicami-planu-ako-sa-nak
- ruca-
+ armonogram: https://festivalacko.sk/harmonogram/\nZdroj: https://festiva
+ lacko.sk/harmonogram/
+URL:https://festivalacko.sk/harmonogram/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -133,7 +157,7 @@ DESCRIPTION:ASDF • Deň slovenského dokumentárneho filmu • 20. okt
  kina slovenčina\; jazyk medzinárodného panelu nie je\nsamostatne spre
  snený. Zdroj: https://www.kino-\nlumiere.sk/klient-863/kino-241/stranka
  -8409/film-842522 Organizátor:\nhttps://asociaciadokumentu.sk/projekty\
- nProgram: https://asociaciadokumentu.sk/projekty
+ nZdroj: https://asociaciadokumentu.sk/projekty
 URL:https://asociaciadokumentu.sk/projekty
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -159,8 +183,8 @@ DESCRIPTION:ASDF • Deň slovenského dokumentárneho filmu • 20. okt
  3:00–18:00 podľa registračného formulára.\nJazyk v evidencii kina 
  slovenčina\; jazyk medzinárodného panelu nie je\nsamostatne spresnen
  ý. Zdroj: https://www.kino-\nlumiere.sk/klient-863/kino-241/stranka-840
- 9/film-842526 Organizátor:\nhttps://asociaciadokumentu.sk/projekty\nPro
- gram: https://asociaciadokumentu.sk/projekty
+ 9/film-842526 Organizátor:\nhttps://asociaciadokumentu.sk/projekty\nZdr
+ oj: https://asociaciadokumentu.sk/projekty
 URL:https://asociaciadokumentu.sk/projekty
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -194,9 +218,9 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
  sú zverejnené\; čas v kalendári je čas\ncelého pásma vrátane pr
  ípadných prestávok.\n\nSála: BARCO • FTF VŠMU\, Svoradova 2A\, Br
  atislava Program:\nhttps://festivalacko.sk/filmove-pasma/#medzicas Harmo
- nogram:\nhttps://festivalacko.sk/harmonogram/\nProgram: https://festival
- acko.sk/movie/under-dog/
-URL:https://festivalacko.sk/movie/under-dog/
+ nogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj: https://festivalac
+ ko.sk/filmove-pasma/
+URL:https://festivalacko.sk/filmove-pasma/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -228,9 +252,9 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
   sú zverejnené\; čas v kalendári je čas\ncelého pásma vrátane pr
  ípadných prestávok.\n\nSála: KLAP • FTF VŠMU\, Svoradova 2A\, Bra
  tislava Program:\nhttps://festivalacko.sk/filmove-pasma/#spomienky Harmo
- nogram:\nhttps://festivalacko.sk/harmonogram/\nProgram: https://festival
- acko.sk/movie/zubok-zubnaty/
-URL:https://festivalacko.sk/movie/zubok-zubnaty/
+ nogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj: https://festivalac
+ ko.sk/filmove-pasma/
+URL:https://festivalacko.sk/filmove-pasma/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -256,23 +280,9 @@ DESCRIPTION:ASDF • Deň slovenského dokumentárneho filmu • 20. okt
  mulára.\nJazyk v evidencii kina slovenčina\; jazyk medzinárodného pa
  nelu nie je\nsamostatne spresnený. Zdroj: https://www.kino-\nlumiere.sk
  /klient-863/kino-241/stranka-8409/film-842530 Organizátor:\nhttps://aso
- ciaciadokumentu.sk/projekty\nProgram: https://asociaciadokumentu.sk/proj
- ekty
+ ciaciadokumentu.sk/projekty\nZdroj: https://asociaciadokumentu.sk/projek
+ ty
 URL:https://asociaciadokumentu.sk/projekty
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:jeden02026@doku-film-2026
-DTSTAMP:20261018T120000Z
-DTSTART:20261020T163000Z
-DTEND:20261020T183000Z
-SUMMARY:Jeden svet | Slávnostné otvorenie + Preladenie
-LOCATION:Kino Lumière\, K1\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť.  Pred návštevou overte lístky a prípadnú diskusiu u orga
- nizátora.\nProgram: https://jedensvet.cinepass.sk/sk/tickets/?day=all&o
- nlyAvailable=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -299,7 +309,7 @@ DESCRIPTION:ASDF • Deň slovenského dokumentárneho filmu • 20. okt
  \nJazyk v evidencii kina slovenčina\; jazyk medzinárodného panelu nie
   je\nsamostatne spresnený. Zdroj: https://www.kino-\nlumiere.sk/klient-
  863/kino-241/stranka-8409/film-842534 Organizátor:\nhttps://asociaciado
- kumentu.sk/projekty\nProgram: https://asociaciadokumentu.sk/projekty
+ kumentu.sk/projekty\nZdroj: https://asociaciadokumentu.sk/projekty
 URL:https://asociaciadokumentu.sk/projekty
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -317,9 +327,22 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
   z\nminuloročných víťazov sa premietnu.\n\nSála: BARCO • FTF VŠM
  U\, Svoradova 2A\, Bratislava Program:\nhttps://festivalacko.sk/timetabl
  e/event/vitazne-pasmo-acko-2025/ Harmonogram:\nhttps://festivalacko.sk/h
- armonogram/\nProgram: https://festivalacko.sk/timetable/event/vitazne-pa
- smo-acko-2025/
-URL:https://festivalacko.sk/timetable/event/vitazne-pasmo-acko-2025/
+ armonogram/\nZdroj: https://festivalacko.sk/harmonogram/
+URL:https://festivalacko.sk/harmonogram/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:jeden02026@doku-film-2026
+DTSTAMP:20261018T120000Z
+DTSTART:20261020T163000Z
+DTEND:20261020T183000Z
+SUMMARY:Jeden svet | Slávnostné otvorenie + Preladenie
+LOCATION:Kino Lumière\, K1\, Bratislava
+DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
+  účasť.  Pred návštevou overte lístky a prípadnú diskusiu u orga
+ nizátora.\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onl
+ yAvailable=0
+URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -333,9 +356,9 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
  p voľný. účasť nie je potvrdená.\n\nSlávnostné otvorenie 30. ro
  čníka festivalu Áčko.\n\nSála: KLAP • FTF VŠMU\, Svoradova 2A\, 
  Bratislava Program:\nhttps://festivalacko.sk/timetable/event/otvaraci-ce
- remonial/ Harmonogram:\nhttps://festivalacko.sk/harmonogram/\nProgram: h
- ttps://festivalacko.sk/timetable/event/otvaraci-ceremonial/
-URL:https://festivalacko.sk/timetable/event/otvaraci-ceremonial/
+ remonial/ Harmonogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj: htt
+ ps://festivalacko.sk/harmonogram/
+URL:https://festivalacko.sk/harmonogram/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -349,9 +372,8 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
  p voľný. účasť nie je potvrdená.\n\nRaut po otváracom ceremoniál
  i.\n\nSála: FOYER • FTF VŠMU\, Svoradova 2A\, Bratislava Program:\nh
  ttps://festivalacko.sk/timetable/event/raut/ Harmonogram:\nhttps://festi
- valacko.sk/harmonogram/\nProgram: https://festivalacko.sk/timetable/even
- t/raut/
-URL:https://festivalacko.sk/timetable/event/raut/
+ valacko.sk/harmonogram/\nZdroj: https://festivalacko.sk/harmonogram/
+URL:https://festivalacko.sk/harmonogram/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -367,10 +389,8 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
  i nie sú v zverejnenom programe rozpísaní.\n\nSála: KLAP • FTF VŠ
  MU\, Svoradova 2A\, Bratislava Program:\nhttps://festivalacko.sk/timetab
  le/event/ftf-industry-days-forum-scenarov/\nHarmonogram: https://festiva
- lacko.sk/harmonogram/\nProgram: https://festivalacko.sk/timetable/event/
- ftf-industry-days-forum-scenarov/
-URL:https://festivalacko.sk/timetable/event/ftf-industry-days-forum-scena
- rov/
+ lacko.sk/harmonogram/\nZdroj: https://festivalacko.sk/harmonogram/
+URL:https://festivalacko.sk/harmonogram/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -402,39 +422,9 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
   sú zverejnené\; čas v kalendári je čas\ncelého pásma vrátane pr
  ípadných prestávok.\n\nSála: BARCO • FTF VŠMU\, Svoradova 2A\, Br
  atislava Program:\nhttps://festivalacko.sk/filmove-pasma/#spomienky Harm
- onogram:\nhttps://festivalacko.sk/harmonogram/\nProgram: https://festiva
- lacko.sk/movie/zubok-zubnaty/
-URL:https://festivalacko.sk/movie/zubok-zubnaty/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:jeden12026@doku-film-2026
-DTSTAMP:20261018T120000Z
-DTSTART:20261021T110000Z
-DTEND:20261021T130000Z
-SUMMARY:Jeden svet | Prezentácia ateliéru réžie dokumentárneho filmu
-  VŠMU
-LOCATION:Kino Lumière\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť.  Pred návštevou overte lístky a prípadnú diskusiu u orga
- nizátora.\nProgram: https://jedensvet.cinepass.sk/sk/tickets/?day=all&o
- nlyAvailable=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:jeden22026@doku-film-2026
-DTSTAMP:20261018T120000Z
-DTSTART:20261021T113000Z
-DTEND:20261021T132000Z
-SUMMARY:Jeden svet | Čo s Péťom?
-LOCATION:Nízkoprahové denné centrum Domec\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nProgram: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvaila
- ble=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+ onogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj: https://festivala
+ cko.sk/filmove-pasma/
+URL:https://festivalacko.sk/filmove-pasma/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -465,9 +455,29 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
  estávok. Pri filme Ulica V. I. Lenina je na\noficiálnej stránke ako m
  ajster zvuku uvedený Samuel Ostrovský.\n\nSála: BARCO • FTF VŠMU\,
   Svoradova 2A\, Bratislava Program:\nhttps://festivalacko.sk/filmove-pas
- ma/#trvanie Harmonogram:\nhttps://festivalacko.sk/harmonogram/\nProgram:
-  https://festivalacko.sk/movie/fuck-off-vyroba-platne/
-URL:https://festivalacko.sk/movie/fuck-off-vyroba-platne/
+ ma/#trvanie Harmonogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj: h
+ ttps://festivalacko.sk/filmove-pasma/
+URL:https://festivalacko.sk/filmove-pasma/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:jeden12026@doku-film-2026
+DTSTAMP:20261018T120000Z
+DTSTART:20261021T110000Z
+DTEND:20261021T130000Z
+SUMMARY:Jeden svet | Prezentácia ateliéru réžie dokumentárneho filmu
+  VŠMU
+LOCATION:Kino Lumière\, Bratislava
+DESCRIPTION:Prezentácia Ateliéru réžie dokumentárneho filmu FTF VŠM
+ U. Filmy:\nDivadlo bez okien – Dominika Tarinová (26 min)\nMapa dotyk
+ ov – Mária Farská (10 min)\nUlica V. I. Lenina – Katarína Bojtoš
+ ová (14 min)\nIhla v kope bankoviek – Victoria Kabarcová (9 min)\nM
+ ám 20 rokov a o živote už viem všetko – Leo Knut (17 min)\nMôj br
+ at sa na mňa pozeral tak dlho ako na akvárium\, až sa zo mňa jedno s
+ talo – Matej Mikloš (14 min)\nKoni – Jakub Vargovčík (13 min).\n
+ Úvod Marek Šulík\, celkový čas orientačný.\nZdroj: https://www.je
+ densvet.sk/
+URL:https://www.jedensvet.sk/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -483,23 +493,23 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
  elov. Jednotlivé projekty a autori nie sú v programe\nrozpísaní.\n\n
  Sála: KLAP • FTF VŠMU\, Svoradova 2A\, Bratislava Program:\nhttps://
  festivalacko.sk/timetable/event/ftf-industry-days-director-s-cut/\nHarmo
- nogram: https://festivalacko.sk/harmonogram/\nProgram: https://festivala
- cko.sk/timetable/event/ftf-industry-days-director-s-cut/
-URL:https://festivalacko.sk/timetable/event/ftf-industry-days-director-s-
- cut/
+ nogram: https://festivalacko.sk/harmonogram/\nZdroj: https://festivalack
+ o.sk/harmonogram/
+URL:https://festivalacko.sk/harmonogram/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:jeden32026@doku-film-2026
+UID:jeden22026@doku-film-2026
 DTSTAMP:20261018T120000Z
-DTSTART:20261021T140000Z
-DTEND:20261021T154000Z
-SUMMARY:Jeden svet | Preladenie + diskusia so Sárou Prokopovou
-LOCATION:Kino Lumière\, K4\, Bratislava
+DTSTART:20261021T113000Z
+DTEND:20261021T132000Z
+SUMMARY:Jeden svet | Čo s Péťom?
+LOCATION:Nízkoprahové denné centrum Domec\, Bratislava
 DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť.  Pred návštevou overte lístky a prípadnú diskusiu u orga
- nizátora.\nProgram: https://jedensvet.cinepass.sk/sk/tickets/?day=all&o
- nlyAvailable=0
+  účasť. Koniec len orientačný (rezervovaných približne 110 minút
+ ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
+ .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
+ e=0
 URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -529,37 +539,21 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
  pásma vrátane prípadných prestávok.\n\nSála: BARCO • FTF VŠMU\,
   Svoradova 2A\, Bratislava Program:\nhttps://festivalacko.sk/filmove-pas
  ma/#zastavene-hodiny Harmonogram:\nhttps://festivalacko.sk/harmonogram/\
- nProgram: https://festivalacko.sk/movie/kyvadlo/
-URL:https://festivalacko.sk/movie/kyvadlo/
+ nZdroj: https://festivalacko.sk/filmove-pasma/
+URL:https://festivalacko.sk/filmove-pasma/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:jeden42026@doku-film-2026
+UID:jeden32026@doku-film-2026
 DTSTAMP:20261018T120000Z
-DTSTART:20261021T160000Z
-DTEND:20261021T175000Z
-SUMMARY:Jeden svet | Amirine deti
-LOCATION:Kino Lumière\, Bratislava
+DTSTART:20261021T140000Z
+DTEND:20261021T154000Z
+SUMMARY:Jeden svet | Preladenie + diskusia so Sárou Prokopovou
+LOCATION:Kino Lumière\, K4\, Bratislava
 DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nProgram: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvaila
- ble=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:jeden52026@doku-film-2026
-DTSTAMP:20261018T120000Z
-DTSTART:20261021T161500Z
-DTEND:20261021T180500Z
-SUMMARY:Jeden svet | Vo vnútri + V šere sa stráca cit pre farby
-LOCATION:Kino Lumière\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nProgram: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvaila
- ble=0
+  účasť.  Pred návštevou overte lístky a prípadnú diskusiu u orga
+ nizátora.\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onl
+ yAvailable=0
 URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -576,10 +570,8 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
  zovanú projekciu celých filmov.\n\nSála: KLAP • FTF VŠMU\, Svorado
  va 2A\, Bratislava Program:\nhttps://festivalacko.sk/timetable/event/ftf
  -industry-days-ako-vznika-debut/\nHarmonogram: https://festivalacko.sk/h
- armonogram/\nProgram: https://festivalacko.sk/timetable/event/ftf-indust
- ry-days-ako-vznika-debut/
-URL:https://festivalacko.sk/timetable/event/ftf-industry-days-ako-vznika-
- debut/
+ armonogram/\nZdroj: https://festivalacko.sk/harmonogram/
+URL:https://festivalacko.sk/harmonogram/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -594,24 +586,8 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
  i autorské hry študentstva herného dizajnu.\n\nSála: BARCO • FTF V
  ŠMU\, Svoradova 2A\, Bratislava Program:\nhttps://festivalacko.sk/timet
  able/event/vystava-hier-timeout/ Harmonogram:\nhttps://festivalacko.sk/h
- armonogram/\nProgram: https://festivalacko.sk/timetable/event/vystava-hi
- er-timeout/
-URL:https://festivalacko.sk/timetable/event/vystava-hier-timeout/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:jeden62026@doku-film-2026
-DTSTAMP:20261018T120000Z
-DTSTART:20261021T180000Z
-DTEND:20261021T195000Z
-SUMMARY:Jeden svet | Stať sa Emou
-LOCATION:Kino Lumière\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nProgram: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvaila
- ble=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+ armonogram/\nZdroj: https://festivalacko.sk/harmonogram/
+URL:https://festivalacko.sk/harmonogram/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -644,9 +620,67 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
  sú zverejnené\; čas v kalendári je čas\ncelého pásma vrátane pr
  ípadných prestávok.\n\nSála: KLAP • FTF VŠMU\, Svoradova 2A\, Bra
  tislava Program:\nhttps://festivalacko.sk/filmove-pasma/#medzicas Harmon
- ogram:\nhttps://festivalacko.sk/harmonogram/\nProgram: https://festivala
- cko.sk/movie/under-dog/
-URL:https://festivalacko.sk/movie/under-dog/
+ ogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj: https://festivalack
+ o.sk/filmove-pasma/
+URL:https://festivalacko.sk/filmove-pasma/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:jeden42026@doku-film-2026
+DTSTAMP:20261018T120000Z
+DTSTART:20261021T160000Z
+DTEND:20261021T175000Z
+SUMMARY:Jeden svet | Amirine deti
+LOCATION:Kino Lumière\, Bratislava
+DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
+  účasť. Koniec len orientačný (rezervovaných približne 110 minút
+ ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
+ .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
+ e=0
+URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:jeden52026@doku-film-2026
+DTSTAMP:20261018T120000Z
+DTSTART:20261021T161500Z
+DTEND:20261021T180500Z
+SUMMARY:Jeden svet | Vo vnútri + V šere sa stráca cit pre farby
+LOCATION:Kino Lumière\, Bratislava
+DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
+  účasť. Koniec len orientačný (rezervovaných približne 110 minút
+ ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
+ .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
+ e=0
+URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:jeden62026@doku-film-2026
+DTSTAMP:20261018T120000Z
+DTSTART:20261021T180000Z
+DTEND:20261021T195000Z
+SUMMARY:Jeden svet | Stať sa Emou
+LOCATION:Kino Lumière\, Bratislava
+DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
+  účasť. Koniec len orientačný (rezervovaných približne 110 minút
+ ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
+ .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
+ e=0
+URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:holubyBA20261021@doku-film-2026
+DTSTAMP:20261018T120000Z
+DTSTART:20261021T183000Z
+DTEND:20261021T202000Z
+SUMMARY:Keby sa holuby premenili na zlato – dokumentárna projekcia
+LOCATION:Kino Lumière\, Špitálska 4\, Bratislava
+DESCRIPTION:Ďalšia projekcia autorského dokumentu Pepy Lubojacki (2026
+ \, 110 min) o rodine a závislosti.\nZdroj: https://cl3.admin.citylife.s
+ k/film/keby-sa-holuby-premenili-na-zlato
+URL:https://cl3.admin.citylife.sk/film/keby-sa-holuby-premenili-na-zlato
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -662,10 +696,8 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
  projektov nie sú v programe rozpísané.\n\nSála: KLAP • FTF VŠMU\,
   Svoradova 2A\, Bratislava Program:\nhttps://festivalacko.sk/timetable/e
  vent/ftf-industry-days-animation-pitch/\nHarmonogram: https://festivalac
- ko.sk/harmonogram/\nProgram: https://festivalacko.sk/timetable/event/ftf
- -industry-days-animation-pitch/
-URL:https://festivalacko.sk/timetable/event/ftf-industry-days-animation-p
- itch/
+ ko.sk/harmonogram/\nZdroj: https://festivalacko.sk/harmonogram/
+URL:https://festivalacko.sk/harmonogram/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -698,25 +730,9 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
  sú zverejnené\; čas v kalendári je čas\ncelého pásma vrátane pr
  ípadných prestávok.\n\nSála: BARCO • FTF VŠMU\, Svoradova 2A\, Br
  atislava Program:\nhttps://festivalacko.sk/filmove-pasma/#medzicas Harmo
- nogram:\nhttps://festivalacko.sk/harmonogram/\nProgram: https://festival
- acko.sk/movie/under-dog/
-URL:https://festivalacko.sk/movie/under-dog/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:jeden72026@doku-film-2026
-DTSTAMP:20261018T120000Z
-DTSTART:20261022T130000Z
-DTEND:20261022T145000Z
-SUMMARY:Jeden svet | Audiovízia bez bariér 6: Ako Európsky akt mení a
- udiovíziu
-LOCATION:Staré Lýceum\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nProgram: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvaila
- ble=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+ nogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj: https://festivalac
+ ko.sk/filmove-pasma/
+URL:https://festivalacko.sk/filmove-pasma/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -732,23 +748,8 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
  torov a názvy projektov nie sú v programe rozpísané.\n\nSála: KLAP 
  • FTF VŠMU\, Svoradova 2A\, Bratislava Program:\nhttps://festivalacko
  .sk/timetable/event/ftf-industry-days-docupitch/\nHarmonogram: https://f
- estivalacko.sk/harmonogram/\nProgram: https://festivalacko.sk/timetable/
- event/ftf-industry-days-docupitch/
-URL:https://festivalacko.sk/timetable/event/ftf-industry-days-docupitch/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:jeden82026@doku-film-2026
-DTSTAMP:20261018T120000Z
-DTSTART:20261022T150000Z
-DTEND:20261022T165000Z
-SUMMARY:Jeden svet | Líška vo svite ružového mesiaca
-LOCATION:Kino Lumière\, K1\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť.  Pred návštevou overte lístky a prípadnú diskusiu u orga
- nizátora.\nProgram: https://jedensvet.cinepass.sk/sk/tickets/?day=all&o
- nlyAvailable=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+ estivalacko.sk/harmonogram/\nZdroj: https://festivalacko.sk/harmonogram/
+URL:https://festivalacko.sk/harmonogram/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -765,39 +766,23 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
  n\nSála: KLAP • FTF VŠMU\, Svoradova 2A\, Bratislava Program:\nhttps
  ://festivalacko.sk/timetable/event/ftf-industry-days-debut-v-sucasnej-\n
  kulturnej-realite/ Harmonogram: https://festivalacko.sk/harmonogram/ Ove
- rené\n17. 10. 2026.\nProgram: https://festivalacko.sk/timetable/event/f
- tf-industry-days-debut-v-sucasnej-
-URL:https://festivalacko.sk/timetable/event/ftf-industry-days-debut-v-suc
- asnej-
+ rené\n17. 10. 2026.\nZdroj: https://festivalacko.sk/harmonogram/
+URL:https://festivalacko.sk/harmonogram/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:jeden92026@doku-film-2026
+UID:jeden72026@doku-film-2026
 DTSTAMP:20261018T120000Z
-DTSTART:20261022T151500Z
-DTEND:20261022T170500Z
-SUMMARY:Jeden svet | Musíme prežiť
-LOCATION:Kino Lumière\, Bratislava
+DTSTART:20261022T130000Z
+DTEND:20261022T145000Z
+SUMMARY:Jeden svet | Audiovízia bez bariér 6: Ako Európsky akt mení a
+ udiovíziu
+LOCATION:Staré Lýceum\, Bratislava
 DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
   účasť. Koniec len orientačný (rezervovaných približne 110 minút
  ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nProgram: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvaila
- ble=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:jeden102026@doku-film-2026
-DTSTAMP:20261018T120000Z
-DTSTART:20261022T160000Z
-DTEND:20261022T175000Z
-SUMMARY:Jeden svet | Kráľovné radosti
-LOCATION:Kino Lumière\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nProgram: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvaila
- ble=0
+ .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
+ e=0
 URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -830,9 +815,9 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
   sú zverejnené\; čas v kalendári je čas\ncelého pásma vrátane pr
  ípadných prestávok.\n\nSála: BARCO • FTF VŠMU\, Svoradova 2A\, Br
  atislava Program:\nhttps://festivalacko.sk/filmove-pasma/#spomienky Harm
- onogram:\nhttps://festivalacko.sk/harmonogram/\nProgram: https://festiva
- lacko.sk/movie/zubok-zubnaty/
-URL:https://festivalacko.sk/movie/zubok-zubnaty/
+ onogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj: https://festivala
+ cko.sk/filmove-pasma/
+URL:https://festivalacko.sk/filmove-pasma/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -850,38 +835,36 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
  vník\, nie bojovník.\n\nSála: KLAP • FTF VŠMU\, Svoradova 2A\, Bra
  tislava Program:\nhttps://festivalacko.sk/timetable/event/strih-ako-dial
  og-od-scenara-k-filmu-\nmasterclass/ Harmonogram: https://festivalacko.s
- k/harmonogram/\nProgram: https://festivalacko.sk/timetable/event/strih-a
- ko-dialog-od-scenara-k-filmu-
-URL:https://festivalacko.sk/timetable/event/strih-ako-dialog-od-scenara-k
- -filmu-
+ k/harmonogram/\nZdroj: https://festivalacko.sk/harmonogram/
+URL:https://festivalacko.sk/harmonogram/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:jeden112026@doku-film-2026
+UID:jeden82026@doku-film-2026
 DTSTAMP:20261018T120000Z
-DTSTART:20261022T173000Z
-DTEND:20261022T194500Z
-SUMMARY:Jeden svet | Zóny nikoho + diskusia s režisérkami
+DTSTART:20261022T150000Z
+DTEND:20261022T165000Z
+SUMMARY:Jeden svet | Líška vo svite ružového mesiaca
 LOCATION:Kino Lumière\, K1\, Bratislava
 DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
   účasť.  Pred návštevou overte lístky a prípadnú diskusiu u orga
- nizátora.\nProgram: https://jedensvet.cinepass.sk/sk/tickets/?day=all&o
- nlyAvailable=0
+ nizátora.\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onl
+ yAvailable=0
 URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:jeden122026@doku-film-2026
+UID:jeden92026@doku-film-2026
 DTSTAMP:20261018T120000Z
-DTSTART:20261022T180000Z
-DTEND:20261022T195000Z
-SUMMARY:Jeden svet | Pre život
+DTSTART:20261022T151500Z
+DTEND:20261022T170500Z
+SUMMARY:Jeden svet | Musíme prežiť
 LOCATION:Kino Lumière\, Bratislava
 DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
   účasť. Koniec len orientačný (rezervovaných približne 110 minút
  ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nProgram: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvaila
- ble=0
+ .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
+ e=0
 URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -913,9 +896,24 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
  estávok. Pri filme Ulica V. I. Lenina je na\noficiálnej stránke ako m
  ajster zvuku uvedený Samuel Ostrovský.\n\nSála: BARCO • FTF VŠMU\,
   Svoradova 2A\, Bratislava Program:\nhttps://festivalacko.sk/filmove-pas
- ma/#trvanie Harmonogram:\nhttps://festivalacko.sk/harmonogram/\nProgram:
-  https://festivalacko.sk/movie/fuck-off-vyroba-platne/
-URL:https://festivalacko.sk/movie/fuck-off-vyroba-platne/
+ ma/#trvanie Harmonogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj: h
+ ttps://festivalacko.sk/filmove-pasma/
+URL:https://festivalacko.sk/filmove-pasma/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:jeden102026@doku-film-2026
+DTSTAMP:20261018T120000Z
+DTSTART:20261022T160000Z
+DTEND:20261022T175000Z
+SUMMARY:Jeden svet | Kráľovné radosti
+LOCATION:Kino Lumière\, Bratislava
+DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
+  účasť. Koniec len orientačný (rezervovaných približne 110 minút
+ ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
+ .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
+ e=0
+URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -931,22 +929,36 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
   a etika\; porovnanie bežného a AI-asistovaného postupu.\n\nSála: KL
  AP • FTF VŠMU\, Svoradova 2A\, Bratislava Program:\nhttps://festivala
  cko.sk/timetable/event/ask-masterclass/ Harmonogram:\nhttps://festivalac
- ko.sk/harmonogram/\nProgram: https://festivalacko.sk/timetable/event/ask
- -masterclass/
-URL:https://festivalacko.sk/timetable/event/ask-masterclass/
+ ko.sk/harmonogram/\nZdroj: https://festivalacko.sk/harmonogram/
+URL:https://festivalacko.sk/harmonogram/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:jeden132026@doku-film-2026
+UID:jeden112026@doku-film-2026
 DTSTAMP:20261018T120000Z
-DTSTART:20261022T200000Z
-DTEND:20261022T215900Z
-SUMMARY:Jeden svet | Zóny nikoho v Temnom Ost Blocku – party
-LOCATION:Temný Ost Block\, Kamenné námestie 1\, Bratislava
+DTSTART:20261022T173000Z
+DTEND:20261022T194500Z
+SUMMARY:Jeden svet | Zóny nikoho + diskusia s režisérkami
+LOCATION:Kino Lumière\, K1\, Bratislava
 DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
   účasť.  Pred návštevou overte lístky a prípadnú diskusiu u orga
- nizátora.\nProgram: https://jedensvet.cinepass.sk/sk/tickets/?day=all&o
- nlyAvailable=0
+ nizátora.\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onl
+ yAvailable=0
+URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:jeden122026@doku-film-2026
+DTSTAMP:20261018T120000Z
+DTSTART:20261022T180000Z
+DTEND:20261022T195000Z
+SUMMARY:Jeden svet | Pre život
+LOCATION:Kino Lumière\, Bratislava
+DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
+  účasť. Koniec len orientačný (rezervovaných približne 110 minút
+ ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
+ .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
+ e=0
 URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -977,9 +989,23 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
  nuvádza 90 minút\; pri ďalších reprízach 95 minút. Zachovaný je 
  zverejnený\nkoniec daného termínu.\n\nSála: KLAP • FTF VŠMU\, Svo
  radova 2A\, Bratislava Program:\nhttps://festivalacko.sk/filmove-pasma/#
- zastavene-hodiny Harmonogram:\nhttps://festivalacko.sk/harmonogram/\nPro
- gram: https://festivalacko.sk/movie/kyvadlo/
-URL:https://festivalacko.sk/movie/kyvadlo/
+ zastavene-hodiny Harmonogram:\nhttps://festivalacko.sk/harmonogram/\nZdr
+ oj: https://festivalacko.sk/filmove-pasma/
+URL:https://festivalacko.sk/filmove-pasma/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:jeden132026@doku-film-2026
+DTSTAMP:20261018T120000Z
+DTSTART:20261022T200000Z
+DTEND:20261022T215900Z
+SUMMARY:Jeden svet | Zóny nikoho v Temnom Ost Blocku – party
+LOCATION:Temný Ost Block\, Kamenné námestie 1\, Bratislava
+DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
+  účasť.  Pred návštevou overte lístky a prípadnú diskusiu u orga
+ nizátora.\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onl
+ yAvailable=0
+URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -995,10 +1021,9 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
  časti\; tiež základy dane právnických osôb a otázky publika.\n\nS
  ála: BARCO • FTF VŠMU\, Svoradova 2A\, Bratislava Program:\nhttps://
  festivalacko.sk/timetable/event/financna-gramotnost-a-dane-prednaska/\nH
- armonogram: https://festivalacko.sk/harmonogram/\nProgram: https://festi
- valacko.sk/timetable/event/financna-gramotnost-a-dane-prednaska/
-URL:https://festivalacko.sk/timetable/event/financna-gramotnost-a-dane-pr
- ednaska/
+ armonogram: https://festivalacko.sk/harmonogram/\nZdroj: https://festiva
+ lacko.sk/harmonogram/
+URL:https://festivalacko.sk/harmonogram/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1027,8 +1052,8 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
  pásma vrátane prípadných prestávok.\n\nSála: KLAP • FTF VŠMU\, 
  Svoradova 2A\, Bratislava Program:\nhttps://festivalacko.sk/filmove-pasm
  a/#zastavene-hodiny Harmonogram:\nhttps://festivalacko.sk/harmonogram/\n
- Program: https://festivalacko.sk/movie/kyvadlo/
-URL:https://festivalacko.sk/movie/kyvadlo/
+ Zdroj: https://festivalacko.sk/filmove-pasma/
+URL:https://festivalacko.sk/filmove-pasma/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1060,9 +1085,9 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
   sú zverejnené\; čas v kalendári je čas\ncelého pásma vrátane pr
  ípadných prestávok.\n\nSála: BARCO • FTF VŠMU\, Svoradova 2A\, Br
  atislava Program:\nhttps://festivalacko.sk/filmove-pasma/#spomienky Harm
- onogram:\nhttps://festivalacko.sk/harmonogram/\nProgram: https://festiva
- lacko.sk/movie/zubok-zubnaty/
-URL:https://festivalacko.sk/movie/zubok-zubnaty/
+ onogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj: https://festivala
+ cko.sk/filmove-pasma/
+URL:https://festivalacko.sk/filmove-pasma/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1080,40 +1105,9 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
  rojekciu celého filmu.\n\nSála: KLAP • FTF VŠMU\, Svoradova 2A\, Br
  atislava Program:\nhttps://festivalacko.sk/timetable/event/masterclass-s
  -rezisermi-filmu-a-fox-\nunder-a-pink-moon/ Harmonogram: https://festiva
- lacko.sk/harmonogram/ Overené\n17. 10. 2026.\nProgram: https://festival
- acko.sk/timetable/event/masterclass-s-rezisermi-filmu-a-fox-
-URL:https://festivalacko.sk/timetable/event/masterclass-s-rezisermi-filmu
- -a-fox-
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:jeden142026@doku-film-2026
-DTSTAMP:20261018T120000Z
-DTSTART:20261023T140000Z
-DTEND:20261023T155000Z
-SUMMARY:Jeden svet | Zvuk nádeje – slovenská premiéra s diskusiou
-LOCATION:Staré Lýceum\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nProgram: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvaila
- ble=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:jeden152026@doku-film-2026
-DTSTAMP:20261018T120000Z
-DTSTART:20261023T150000Z
-DTEND:20261023T165000Z
-SUMMARY:Jeden svet | Čo s Péťom?
-LOCATION:Nízkoprahové denné centrum Domec\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nProgram: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvaila
- ble=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+ lacko.sk/harmonogram/ Overené\n17. 10. 2026.\nZdroj: https://festivalac
+ ko.sk/harmonogram/
+URL:https://festivalacko.sk/harmonogram/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1131,53 +1125,8 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
   BARCO • FTF VŠMU\, Svoradova 2A\, Bratislava Program:\nhttps://festi
  valacko.sk/timetable/event/safesound-film-days-ako-riesit-\nkrizove-situ
  acie-pri-vyrobe-filmu-prednaska/ Harmonogram:\nhttps://festivalacko.sk/h
- armonogram/\nProgram: https://festivalacko.sk/timetable/event/safesound-
- film-days-ako-riesit-
-URL:https://festivalacko.sk/timetable/event/safesound-film-days-ako-riesi
- t-
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:jeden162026@doku-film-2026
-DTSTAMP:20261018T120000Z
-DTSTART:20261023T151500Z
-DTEND:20261023T170500Z
-SUMMARY:Jeden svet | Jedna z milióna
-LOCATION:Kino Lumière\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nProgram: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvaila
- ble=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:jeden182026@doku-film-2026
-DTSTAMP:20261018T120000Z
-DTSTART:20261023T160000Z
-DTEND:20261023T180000Z
-SUMMARY:Jeden svet | NAZA (Yuval Abraham\, Rachel Szor)
-LOCATION:Nová Cvernovka\, Račianska 78\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť.  Pred návštevou overte lístky a prípadnú diskusiu u orga
- nizátora.\nProgram: https://jedensvet.cinepass.sk/sk/tickets/?day=all&o
- nlyAvailable=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:jeden172026@doku-film-2026
-DTSTAMP:20261018T120000Z
-DTSTART:20261023T160000Z
-DTEND:20261023T180000Z
-SUMMARY:Jeden svet | Osem milimetrov rodiny
-LOCATION:Kino Lumière\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť.  Pred návštevou overte lístky a prípadnú diskusiu u orga
- nizátora.\nProgram: https://jedensvet.cinepass.sk/sk/tickets/?day=all&o
- nlyAvailable=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+ armonogram/\nZdroj: https://festivalacko.sk/harmonogram/
+URL:https://festivalacko.sk/harmonogram/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1208,9 +1157,54 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
  estávok. Pri filme Ulica V. I. Lenina je na\noficiálnej stránke ako m
  ajster zvuku uvedený Samuel Ostrovský.\n\nSála: KLAP • FTF VŠMU\, 
  Svoradova 2A\, Bratislava Program:\nhttps://festivalacko.sk/filmove-pasm
- a/#trvanie Harmonogram:\nhttps://festivalacko.sk/harmonogram/\nProgram: 
- https://festivalacko.sk/movie/fuck-off-vyroba-platne/
-URL:https://festivalacko.sk/movie/fuck-off-vyroba-platne/
+ a/#trvanie Harmonogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj: ht
+ tps://festivalacko.sk/filmove-pasma/
+URL:https://festivalacko.sk/filmove-pasma/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:jeden142026@doku-film-2026
+DTSTAMP:20261018T120000Z
+DTSTART:20261023T140000Z
+DTEND:20261023T155000Z
+SUMMARY:Jeden svet | Zvuk nádeje – slovenská premiéra s diskusiou
+LOCATION:Staré Lýceum\, Bratislava
+DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
+  účasť. Koniec len orientačný (rezervovaných približne 110 minút
+ ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
+ .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
+ e=0
+URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:jeden152026@doku-film-2026
+DTSTAMP:20261018T120000Z
+DTSTART:20261023T150000Z
+DTEND:20261023T165000Z
+SUMMARY:Jeden svet | Čo s Péťom?
+LOCATION:Nízkoprahové denné centrum Domec\, Bratislava
+DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
+  účasť. Koniec len orientačný (rezervovaných približne 110 minút
+ ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
+ .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
+ e=0
+URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:jeden162026@doku-film-2026
+DTSTAMP:20261018T120000Z
+DTSTART:20261023T151500Z
+DTEND:20261023T170500Z
+SUMMARY:Jeden svet | Jedna z milióna
+LOCATION:Kino Lumière\, Bratislava
+DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
+  účasť. Koniec len orientačný (rezervovaných približne 110 minút
+ ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
+ .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
+ e=0
+URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1243,38 +1237,36 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
  sú zverejnené\; čas v kalendári je čas\ncelého pásma vrátane pr
  ípadných prestávok.\n\nSála: BARCO • FTF VŠMU\, Svoradova 2A\, Br
  atislava Program:\nhttps://festivalacko.sk/filmove-pasma/#medzicas Harmo
- nogram:\nhttps://festivalacko.sk/harmonogram/\nProgram: https://festival
- acko.sk/movie/under-dog/
-URL:https://festivalacko.sk/movie/under-dog/
+ nogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj: https://festivalac
+ ko.sk/filmove-pasma/
+URL:https://festivalacko.sk/filmove-pasma/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:jeden192026@doku-film-2026
+UID:jeden182026@doku-film-2026
 DTSTAMP:20261018T120000Z
-DTSTART:20261023T180000Z
-DTEND:20261023T195000Z
-SUMMARY:Jeden svet | Dve deci tušu
-LOCATION:Kino Lumière\, Bratislava
+DTSTART:20261023T160000Z
+DTEND:20261023T180000Z
+SUMMARY:Jeden svet | NAZA (Yuval Abraham\, Rachel Szor)
+LOCATION:Nová Cvernovka\, Račianska 78\, Bratislava
 DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nProgram: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvaila
- ble=0
+  účasť.  Pred návštevou overte lístky a prípadnú diskusiu u orga
+ nizátora.\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onl
+ yAvailable=0
 URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:jeden202026@doku-film-2026
+UID:jeden172026@doku-film-2026
 DTSTAMP:20261018T120000Z
-DTSTART:20261023T181500Z
-DTEND:20261023T200500Z
-SUMMARY:Jeden svet | Monikondee
+DTSTART:20261023T160000Z
+DTEND:20261023T180000Z
+SUMMARY:Jeden svet | Osem milimetrov rodiny
 LOCATION:Kino Lumière\, Bratislava
 DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nProgram: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvaila
- ble=0
+  účasť.  Pred návštevou overte lístky a prípadnú diskusiu u orga
+ nizátora.\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onl
+ yAvailable=0
 URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1289,9 +1281,39 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
  p voľný. účasť nie je potvrdená.\n\nZáverečný ceremoniál festi
  valu Áčko.\n\nSála: KLAP • FTF VŠMU\, Svoradova 2A\, Bratislava Pr
  ogram:\nhttps://festivalacko.sk/timetable/event/zaverecny-ceremonial/ Ha
- rmonogram:\nhttps://festivalacko.sk/harmonogram/\nProgram: https://festi
- valacko.sk/timetable/event/zaverecny-ceremonial/
-URL:https://festivalacko.sk/timetable/event/zaverecny-ceremonial/
+ rmonogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj: https://festiva
+ lacko.sk/harmonogram/
+URL:https://festivalacko.sk/harmonogram/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:jeden192026@doku-film-2026
+DTSTAMP:20261018T120000Z
+DTSTART:20261023T180000Z
+DTEND:20261023T195000Z
+SUMMARY:Jeden svet | Dve deci tušu
+LOCATION:Kino Lumière\, Bratislava
+DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
+  účasť. Koniec len orientačný (rezervovaných približne 110 minút
+ ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
+ .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
+ e=0
+URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:jeden202026@doku-film-2026
+DTSTAMP:20261018T120000Z
+DTSTART:20261023T181500Z
+DTEND:20261023T200500Z
+SUMMARY:Jeden svet | Monikondee
+LOCATION:Kino Lumière\, Bratislava
+DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
+  účasť. Koniec len orientačný (rezervovaných približne 110 minút
+ ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
+ .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
+ e=0
+URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1305,24 +1327,9 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
  p voľný. účasť nie je potvrdená.\n\nRaut po záverečnom ceremoni
  áli.\n\nSála: FOYER • FTF VŠMU\, Svoradova 2A\, Bratislava Program:
  \nhttps://festivalacko.sk/timetable/event/raut-2/ Harmonogram:\nhttps://
- festivalacko.sk/harmonogram/\nProgram: https://festivalacko.sk/timetable
- /event/raut-2/
-URL:https://festivalacko.sk/timetable/event/raut-2/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:jeden212026@doku-film-2026
-DTSTAMP:20261018T120000Z
-DTSTART:20261024T080000Z
-DTEND:20261024T095000Z
-SUMMARY:Jeden svet | Festivalové raňajky + workshop Nawras Rashed
-LOCATION:Staré Lýceum\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nProgram: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvaila
- ble=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+ festivalacko.sk/harmonogram/\nZdroj: https://festivalacko.sk/harmonogram
+ /
+URL:https://festivalacko.sk/harmonogram/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1336,9 +1343,9 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
  p voľný. účasť nie je potvrdená.\n\nFestivalové komunitné raňaj
  ky vo foyer.\n\nSála: FOYER • FTF VŠMU\, Svoradova 2A\, Bratislava P
  rogram:\nhttps://festivalacko.sk/timetable/event/komunitne-ranajky/ Harm
- onogram:\nhttps://festivalacko.sk/harmonogram/\nProgram: https://festiva
- lacko.sk/timetable/event/komunitne-ranajky/
-URL:https://festivalacko.sk/timetable/event/komunitne-ranajky/
+ onogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj: https://festivala
+ cko.sk/harmonogram/
+URL:https://festivalacko.sk/harmonogram/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1355,9 +1362,24 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
  uhy zatiaľ nie sú v oficiálnom programe zverejnené.\n\nSála: KLAP 
  • FTF VŠMU\, Svoradova 2A\, Bratislava Program:\nhttps://festivalacko
  .sk/timetable/event/pasmo-stredoskolskych-filmov/\nHarmonogram: https://
- festivalacko.sk/harmonogram/\nProgram: https://festivalacko.sk/timetable
- /event/pasmo-stredoskolskych-filmov/
-URL:https://festivalacko.sk/timetable/event/pasmo-stredoskolskych-filmov/
+ festivalacko.sk/harmonogram/\nZdroj: https://festivalacko.sk/harmonogram
+ /
+URL:https://festivalacko.sk/harmonogram/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:jeden212026@doku-film-2026
+DTSTAMP:20261018T120000Z
+DTSTART:20261024T080000Z
+DTEND:20261024T095000Z
+SUMMARY:Jeden svet | Festivalové raňajky + workshop Nawras Rashed
+LOCATION:Staré Lýceum\, Bratislava
+DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
+  účasť. Koniec len orientačný (rezervovaných približne 110 minút
+ ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
+ .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
+ e=0
+URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1389,40 +1411,9 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
   sú zverejnené\; čas v kalendári je čas\ncelého pásma vrátane pr
  ípadných prestávok.\n\nSála: BARCO • FTF VŠMU\, Svoradova 2A\, Br
  atislava Program:\nhttps://festivalacko.sk/filmove-pasma/#spomienky Harm
- onogram:\nhttps://festivalacko.sk/harmonogram/\nProgram: https://festiva
- lacko.sk/movie/zubok-zubnaty/
-URL:https://festivalacko.sk/movie/zubok-zubnaty/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:jeden222026@doku-film-2026
-DTSTAMP:20261018T120000Z
-DTSTART:20261024T110000Z
-DTEND:20261024T125000Z
-SUMMARY:Jeden svet | Kolonializmus medzi Východom a Západom: čie príb
- ehy rozprávame?
-LOCATION:Staré Lýceum\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nProgram: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvaila
- ble=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:jeden232026@doku-film-2026
-DTSTAMP:20261018T120000Z
-DTSTART:20261024T120000Z
-DTEND:20261024T135000Z
-SUMMARY:Jeden svet | Amadou a Mariam – nevidiaci pár z Mali
-LOCATION:Kino Lumière\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nProgram: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvaila
- ble=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+ onogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj: https://festivala
+ cko.sk/filmove-pasma/
+URL:https://festivalacko.sk/filmove-pasma/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1453,24 +1444,9 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
  estávok. Pri filme Ulica V. I. Lenina je na\noficiálnej stránke ako m
  ajster zvuku uvedený Samuel Ostrovský.\n\nSála: BARCO • FTF VŠMU\,
   Svoradova 2A\, Bratislava Program:\nhttps://festivalacko.sk/filmove-pas
- ma/#trvanie Harmonogram:\nhttps://festivalacko.sk/harmonogram/\nProgram:
-  https://festivalacko.sk/movie/fuck-off-vyroba-platne/
-URL:https://festivalacko.sk/movie/fuck-off-vyroba-platne/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:jeden242026@doku-film-2026
-DTSTAMP:20261018T120000Z
-DTSTART:20261024T123000Z
-DTEND:20261024T142000Z
-SUMMARY:Jeden svet | Všetci na ulicu Kenmure
-LOCATION:Kino Lumière\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nProgram: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvaila
- ble=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+ ma/#trvanie Harmonogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj: h
+ ttps://festivalacko.sk/filmove-pasma/
+URL:https://festivalacko.sk/filmove-pasma/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1486,24 +1462,23 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
  lnom priebehu príprav festivalu.\n\nSála: KLAP • FTF VŠMU\, Svorado
  va 2A\, Bratislava Program:\nhttps://festivalacko.sk/timetable/event/ako
  -vznikalo-30-acko-diskusia/\nHarmonogram: https://festivalacko.sk/harmon
- ogram/\nProgram: https://festivalacko.sk/timetable/event/ako-vznikalo-30
- -acko-diskusia/
-URL:https://festivalacko.sk/timetable/event/ako-vznikalo-30-acko-diskusia
- /
+ ogram/\nZdroj: https://festivalacko.sk/harmonogram/
+URL:https://festivalacko.sk/harmonogram/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:jeden252026@doku-film-2026
+UID:jeden222026@doku-film-2026
 DTSTAMP:20261018T120000Z
-DTSTART:20261024T140000Z
-DTEND:20261024T155000Z
-SUMMARY:Jeden svet | Yanuni
-LOCATION:Kino Lumière\, Bratislava
+DTSTART:20261024T110000Z
+DTEND:20261024T125000Z
+SUMMARY:Jeden svet | Kolonializmus medzi Východom a Západom: čie príb
+ ehy rozprávame?
+LOCATION:Staré Lýceum\, Bratislava
 DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
   účasť. Koniec len orientačný (rezervovaných približne 110 minút
  ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nProgram: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvaila
- ble=0
+ .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
+ e=0
 URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1537,9 +1512,39 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
  sú zverejnené\; čas v kalendári je čas\ncelého pásma vrátane pr
  ípadných prestávok.\n\nSála: BARCO • FTF VŠMU\, Svoradova 2A\, Br
  atislava Program:\nhttps://festivalacko.sk/filmove-pasma/#medzicas Harmo
- nogram:\nhttps://festivalacko.sk/harmonogram/\nProgram: https://festival
- acko.sk/movie/under-dog/
-URL:https://festivalacko.sk/movie/under-dog/
+ nogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj: https://festivalac
+ ko.sk/filmove-pasma/
+URL:https://festivalacko.sk/filmove-pasma/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:jeden232026@doku-film-2026
+DTSTAMP:20261018T120000Z
+DTSTART:20261024T120000Z
+DTEND:20261024T135000Z
+SUMMARY:Jeden svet | Amadou a Mariam – nevidiaci pár z Mali
+LOCATION:Kino Lumière\, Bratislava
+DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
+  účasť. Koniec len orientačný (rezervovaných približne 110 minút
+ ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
+ .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
+ e=0
+URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:jeden242026@doku-film-2026
+DTSTAMP:20261018T120000Z
+DTSTART:20261024T123000Z
+DTEND:20261024T142000Z
+SUMMARY:Jeden svet | Všetci na ulicu Kenmure
+LOCATION:Kino Lumière\, Bratislava
+DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
+  účasť. Koniec len orientačný (rezervovaných približne 110 minút
+ ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
+ .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
+ e=0
+URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1569,23 +1574,23 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
  nuvádza 90 minút\; pri ďalších reprízach 95 minút. Zachovaný je 
  zverejnený\nkoniec daného termínu.\n\nSála: BARCO • FTF VŠMU\, Sv
  oradova 2A\, Bratislava Program:\nhttps://festivalacko.sk/filmove-pasma/
- #zastavene-hodiny Harmonogram:\nhttps://festivalacko.sk/harmonogram/\nPr
- ogram: https://festivalacko.sk/movie/kyvadlo/
-URL:https://festivalacko.sk/movie/kyvadlo/
+ #zastavene-hodiny Harmonogram:\nhttps://festivalacko.sk/harmonogram/\nZd
+ roj: https://festivalacko.sk/filmove-pasma/
+URL:https://festivalacko.sk/filmove-pasma/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:jeden262026@doku-film-2026
+UID:jeden252026@doku-film-2026
 DTSTAMP:20261018T120000Z
-DTSTART:20261024T170000Z
-DTEND:20261024T185000Z
-SUMMARY:Jeden svet | Stopy
+DTSTART:20261024T140000Z
+DTEND:20261024T155000Z
+SUMMARY:Jeden svet | Yanuni
 LOCATION:Kino Lumière\, Bratislava
 DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
   účasť. Koniec len orientačný (rezervovaných približne 110 minút
  ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nProgram: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvaila
- ble=0
+ .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
+ e=0
 URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1601,9 +1606,24 @@ DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
  etra Konečného — VŠMU Edition. Na hranie je potrebný\nmobilný tel
  efón a kvízová aplikácia.\n\nSála: KLAP • FTF VŠMU\, Svoradova 2
  A\, Bratislava Program:\nhttps://festivalacko.sk/timetable/event/kviz-pe
- tra-konecneho/ Harmonogram:\nhttps://festivalacko.sk/harmonogram/\nProgr
- am: https://festivalacko.sk/timetable/event/kviz-petra-konecneho/
-URL:https://festivalacko.sk/timetable/event/kviz-petra-konecneho/
+ tra-konecneho/ Harmonogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj
+ : https://festivalacko.sk/harmonogram/
+URL:https://festivalacko.sk/harmonogram/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:jeden262026@doku-film-2026
+DTSTAMP:20261018T120000Z
+DTSTART:20261024T170000Z
+DTEND:20261024T185000Z
+SUMMARY:Jeden svet | Stopy
+LOCATION:Kino Lumière\, Bratislava
+DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
+  účasť. Koniec len orientačný (rezervovaných približne 110 minút
+ ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
+ .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
+ e=0
+URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1616,8 +1636,8 @@ LOCATION:Kino Lumière\, Bratislava
 DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
   účasť. Koniec len orientačný (rezervovaných približne 110 minút
  ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nProgram: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvaila
- ble=0
+ .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
+ e=0
 URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1631,8 +1651,8 @@ LOCATION:Kino Lumière\, Bratislava
 DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
   účasť. Koniec len orientačný (rezervovaných približne 110 minút
  ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nProgram: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvaila
- ble=0
+ .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
+ e=0
 URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1646,8 +1666,8 @@ LOCATION:Kino Lumière\, Bratislava
 DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
   účasť. Koniec len orientačný (rezervovaných približne 110 minút
  ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nProgram: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvaila
- ble=0
+ .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
+ e=0
 URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1661,8 +1681,8 @@ LOCATION:Kino Lumière\, Bratislava
 DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
   účasť. Koniec len orientačný (rezervovaných približne 110 minút
  ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nProgram: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvaila
- ble=0
+ .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
+ e=0
 URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1676,8 +1696,8 @@ LOCATION:Kino Lumière\, Bratislava
 DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
   účasť. Koniec len orientačný (rezervovaných približne 110 minút
  ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nProgram: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvaila
- ble=0
+ .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
+ e=0
 URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1691,8 +1711,8 @@ LOCATION:Kino Lumière\, Bratislava
 DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
   účasť. Koniec len orientačný (rezervovaných približne 110 minút
  ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nProgram: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvaila
- ble=0
+ .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
+ e=0
 URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
 TRANSP:TRANSPARENT
 END:VEVENT
@@ -1701,43 +1721,19 @@ UID:mystreet20261025@doku-film-2026
 DTSTAMP:20261018T120000Z
 DTSTART:20261025T183000Z
 DTEND:20261025T201000Z
-SUMMARY:Jeden svet | My Street Films SK – premiéra 8 krátkych dokumentov
+SUMMARY:Jeden svet | My Street Films SK – premiéra 8 krátkych dokumen
+ tov
 LOCATION:Kino Lumière\, Špitálska 4\, Bratislava
-DESCRIPTION:Premiéra 8 dokumentov: Nevidím tmu (Kristína Horinková)\, V podzemí (Diana Čaklošová)\, Prepáčte\, že ruším (Dorián Vrbovský)\, Posolstvo (Veronika Machová)\, Vstup na vlastné riziko (Veronika Bajnoková)\, Ema má mamu\, Medo má otca (Ema Ištvánfyová)\, A pri slovenskej hymne naďalej pyšne stáť (Ivana Kováčiková)\, Kde je môj domov? (Kateryna Maliarova). Koniec orientačný.
+DESCRIPTION:Pásmo ôsmich krátkych dokumentov a vyhlásenie My Street F
+ ilms SK Award.\nNevidím tmu – Kristína Horinková (11 min)\nV podzem
+ í – Diana Čaklošová (11 min)\nPrepáčte\, že ruším – Dorián
+  Vrbovský (9 min)\nPosolstvo – Veronika Machová (10 min)\nVstup na v
+ lastné riziko – Veronika Bajnoková (11 min)\nEma má mamu\, Medo má
+  otca – Ema Ištvánfyová (10 min)\nA pri slovenskej hymne naďalej p
+ yšne stáť – Ivana Kováčiková (10 min)\nKde je môj domov? – Ka
+ teryna Maliarova (7 min).\nKoniec je orientačný.\nZdroj: https://mobil
+ .citylife.sk/film/my-street-films-sk
 URL:https://mobil.citylife.sk/film/my-street-films-sk
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:pinaBA20261019@doku-film-2026
-DTSTAMP:20261018T120000Z
-DTSTART:20261019T161000Z
-DTEND:20261019T175000Z
-SUMMARY:Pina – Wim Wenders\, dokumentárna projekcia
-LOCATION:Kino Lumière\, Špitálska 4\, Bratislava
-DESCRIPTION:Dokumentárny film o choreografke Pine Bausch. Be2Can\, 100 min.
-URL:https://cl3.admin.citylife.sk/film/pina
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:holubyBA20261019@doku-film-2026
-DTSTAMP:20261018T120000Z
-DTSTART:20261019T182000Z
-DTEND:20261019T201000Z
-SUMMARY:Keby sa holuby premenili na zlato – dokument
-LOCATION:Kino Lumière\, Špitálska 4\, Bratislava
-DESCRIPTION:Autorský dokument Pepy Lubojacki (2026\, 110 min) o rodine a závislosti.
-URL:https://cl3.admin.citylife.sk/film/keby-sa-holuby-premenili-na-zlato
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:holubyBA20261021@doku-film-2026
-DTSTAMP:20261018T120000Z
-DTSTART:20261021T183000Z
-DTEND:20261021T202000Z
-SUMMARY:Keby sa holuby premenili na zlato – dokument
-LOCATION:Kino Lumière\, Špitálska 4\, Bratislava
-DESCRIPTION:Opakovaná projekcia dokumentu Pepy Lubojacki (2026\, 110 min).
-URL:https://cl3.admin.citylife.sk/film/keby-sa-holuby-premenili-na-zlato
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
