@@ -11,12 +11,23 @@ const longDate = value => new Intl.DateTimeFormat('sk-SK',{timeZone:TZ,day:'nume
 const typeNames = {dokument:'Dokument',hrany:'Hraný film',animacia:'Animácia',diskusia:'Diskusia',masterclass:'Masterclass',industry:'Industry',ostatne:'Ostatné'};
 const FEED = new URL('program.ics',location.href.split('#')[0]).href;
 let model, events=[], venues=[], activeDay='', map, markers, originMarker, origin=null, place='', picking=false, mapLoading;
+let showPast=false,followDay=true,lastDay='',lastRefresh=0;
 let selection = new Set();
 try { selection = new Set(JSON.parse(localStorage.getItem('df26-selection') || '[]')); } catch {}
 const now = () => new Date();
 const finish = e => e.end || e.estimatedEnd || null;
-const running = (e,n=now()) => e.end && +new Date(e.start)<=+n && +new Date(e.end)>+n;
-const recentlyStarted = (e,n=now()) => !e.end && +new Date(e.start)<=+n && +new Date(e.start)>+n-3600000;
+const past = (e,n=now()) => finish(e) ? +new Date(finish(e))<=+n : day(e.start)<day(n);
+const running = (e,n=now()) => finish(e) && +new Date(e.start)<=+n && +new Date(finish(e))>+n;
+const recentlyStarted = (e,n=now()) => !finish(e) && +new Date(e.start)<=+n && day(e.start)===day(n);
+function liveHTML(e,n=now()){
+ const start=+new Date(e.start),end=finish(e)?+new Date(finish(e)):null,elapsed=Math.max(0,Math.floor((+n-start)/60000));
+ if(start>+n){const mins=Math.ceil((start-+n)/60000);return mins<=60?`<div class="event-status upcoming-status">Začína o ${mins} min</div>`:'';}
+ if(past(e,n))return `<div class="event-status past-status">${e.end?'Skončilo':e.estimatedEnd?'Predpokladaný koniec':'Termín uplynul'}${end?' '+time(finish(e)):''}</div>`;
+ if(!end)return `<div class="event-status unknown-status">Začalo o ${time(e.start)} · koniec nezverejnený</div>`;
+ const remaining=Math.max(1,Math.ceil((end-+n)/60000)),percent=Math.min(100,Math.max(0,(+n-start)/(end-start)*100));
+ const exact=(e.films||[]).find(f=>f.start&&f.end&&+new Date(f.start)<=+n&&+new Date(f.end)>+n);
+ return `<div class="live-progress"><div class="progress-caption"><strong>${e.end?'Práve prebieha':'Pravdepodobne prebieha'}</strong><span>${e.end?'':'≈ '}ešte ${remaining} min</span></div><progress max="100" value="${percent.toFixed(2)}" aria-label="${esc(e.title)}: ${Math.round(percent)} % plánovaného času"></progress><div class="progress-detail">${elapsed} min od začiatku${e.estimatedEnd?' · koniec je odhad':''}${exact?`<br>Práve podľa programu: <strong>${esc(exact.title)}</strong>`:e.films?.length?'<br>Priebeh celého pásma. Aktuálny film nie je potvrdený.':''}</div></div>`;
+}
 const venue = e => venues.find(v=>v.id===e.venueId);
 const loc = e => [venue(e)?.name || e.location || 'Miesto čaká na potvrdenie',e.room].filter(Boolean).join(' / ');
 const eventURL = e => `${location.href.split('#')[0]}#event=${encodeURIComponent(e.id)}`;
@@ -54,9 +65,10 @@ function updatePulse(){
  $('remaining-count').textContent=events.filter(e=>+new Date(e.start)>+n).length;
  $('count-explain').textContent=archived?`${events.length} podujatí v archíve`:'podujatí v programe';
 }
-function filtered(){
+function filtered(includePast=showPast){
  const q=norm($('search').value.trim()), f=$('festival').value,t=$('type').value,p=$('part').value,from=$('from').value,to=$('to').value,n=now();
  return events.filter(e=>{
+  if(!includePast&&past(e,n))return false;
   if(activeDay && day(e.start)!==activeDay)return false;
   if(f && e.festival!==f)return false;
   if(t && !e.types.includes(t))return false;
@@ -84,25 +96,33 @@ function filmsHTML(e){
 function card(e){
  const v=venue(e),walking=walkMinutes(v),end=e.end?`do ${time(e.end)}`:e.estimatedEnd?`≈ ${time(e.estimatedEnd)} (odhad)`:'koniec nepotvrdený';
  const state=running(e)?'PREBIEHA':recentlyStarted(e)?'NEDÁVNO ZAČALO':'';
- return `<article class="event" data-id="${esc(e.id)}"><div class="event-time"><time datetime="${esc(e.start)}">${time(e.start)}</time><small>${esc(end)}</small>${state?`<small><strong>${state}</strong></small>`:''}</div><div class="event-main"><h4><button class="event-title" data-open="${esc(e.id)}">${esc(e.title)}</button></h4><div class="event-meta"><span class="tag">${esc(e.festival)}</span><span>${e.types.map(t=>typeNames[t]).join(' / ')}</span></div>${e.director?`<p class="event-snippet">${esc(e.director)}${e.duration?' · '+e.duration+' min film':''}</p>`:e.summary?`<p class="event-snippet">${esc(e.summary)}</p>`:''}${e.notice?`<p class="warning">${esc(e.notice)}</p>`:''}${e.films?.length?`<details class="block-films"><summary>${e.films.length} filmov v pásme — zobraziť</summary>${filmsHTML(e)}</details>`:''}</div><div class="event-place"><strong>${esc(v?.name||e.location||'Miesto nepotvrdené')}</strong><span>${esc(e.room||v?.address||'')}</span>${walking!==null?`<span>≈ ${walking} min pešo (odhad)</span>`:''}<span class="entry">${esc(price(e))}</span></div><button class="select-event" data-select="${esc(e.id)}" aria-pressed="${selection.has(e.id)}" aria-label="Vybrať: ${esc(e.title)}">${selection.has(e.id)?'✓︎':'+'}</button></article>`;
+ return `<article class="event ${running(e)?'is-live':past(e)?'is-past':''}" data-id="${esc(e.id)}"><div class="event-time"><time datetime="${esc(e.start)}">${time(e.start)}</time><small>${esc(end)}</small>${state?`<small><strong>${state}</strong></small>`:''}</div><div class="event-main"><h4><button class="event-title" data-open="${esc(e.id)}">${esc(e.title)}</button></h4><div class="event-meta"><span class="tag">${esc(e.festival)}</span><span>${e.types.map(t=>typeNames[t]).join(' / ')}</span></div>${e.director?`<p class="event-snippet">${esc(e.director)}${e.duration?' · '+e.duration+' min film':''}</p>`:e.summary?`<p class="event-snippet">${esc(e.summary)}</p>`:''}${e.notice?`<p class="warning">${esc(e.notice)}</p>`:''}${liveHTML(e)}${e.films?.length?`<details class="block-films"><summary>${e.films.length} filmov v pásme — zobraziť</summary>${filmsHTML(e)}</details>`:''}</div><div class="event-place"><strong>${esc(v?.name||e.location||'Miesto nepotvrdené')}</strong><span>${esc(e.room||v?.address||'')}</span>${walking!==null?`<span>≈ ${walking} min pešo (odhad)</span>`:''}<span class="entry">${esc(price(e))}</span></div><button class="select-event" data-select="${esc(e.id)}" aria-pressed="${selection.has(e.id)}" aria-label="Vybrať: ${esc(e.title)}">${selection.has(e.id)?'✓︎':'+'}</button></article>`;
 }
 function render(){
  const list=filtered(),groups=new Map();
+ const pastCount=filtered(true).filter(e=>past(e)).length;
+ $('toggle-past').textContent=showPast?'Skryť skončené':`Zobraziť skončené${pastCount?' ('+pastCount+')':''}`;
+ $('toggle-past').setAttribute('aria-pressed',String(showPast));
+ $('toggle-past').hidden=!showPast&&!pastCount;
+ document.querySelector('.live-toolbar p').textContent=showPast?'Program vrátane skončených podujatí':'Prebiehajúce a nadchádzajúce podujatia';
  const activeFilters=['festival','type','part','from','to'].filter(id=>$(id).value).length+['upcoming','selected-only','free-only'].filter(id=>$(id).checked).length;
  $('filter-count').textContent=activeFilters?'('+activeFilters+')':'';
  $('quick-reset').hidden=!activeDay&&!activeFilters&&!$('search').value;list.forEach(e=>{const d=day(e.start);if(!groups.has(d))groups.set(d,[]);groups.get(d).push(e);});
  const opened=[...document.querySelectorAll('.event details[open]')].map(el=>el.closest('.event').dataset.id);
- $('event-list').innerHTML=[...groups].map(([d,items])=>`<section class="event-day" aria-label="${esc(date(items[0].start))}"><div class="day-heading"><h3>${esc(date(items[0].start))}</h3><span>${items.length} PODUJATÍ</span></div>${items.map(card).join('')}</section>`).join('');
+ $('event-list').innerHTML=[...groups].map(([d,items])=>`<section class="event-day" aria-label="${esc(date(items[0].start))}"><div class="day-heading"><h3>${esc(date(items[0].start))}</h3><span>${items.length} PODUJATÍ</span></div>${items.sort((a,b)=>Number(past(a))-Number(past(b))||+new Date(a.start)-+new Date(b.start)).map(card).join('')}</section>`).join('');
  $('results-count').textContent=`${list.length} z ${events.length} podujatí`+($('from').value&&$('to').value&&$('from').value>=$('to').value?' · Čas „do“ musí byť neskôr než „od“.':'');
  opened.forEach(id=>{const el=document.querySelector('.event[data-id="'+id+'"] details');if(el)el.open=true;});
- $('empty').hidden=!!list.length;renderDays();updateSelection();if(map)renderMap(list);
+ $('empty').hidden=!!list.length;
+ $('empty').querySelector('h3').textContent=!showPast&&pastCount?'Tento program už uplynul.':'Nič sa nenašlo.';
+ $('empty').querySelector('p:not(.label)').textContent=!showPast&&pastCount?'Skončené podujatia sú skryté. Zobrazíš ich tlačidlom „Zobraziť skončené“.':'Skús iný deň, širší čas alebo menej filtrov.';
+ renderDays();updateSelection();if(map)renderMap(list);
 }
-function reset(){activeDay='';$('filters').reset();$('origin').value='';$('walk').value='';origin=null;place='';render();}
+function reset(){followDay=false;activeDay='';$('filters').reset();$('origin').value='';$('walk').value='';origin=null;place='';render();}
 function navigate(e){const v=venue(e);return 'https://www.google.com/maps/dir/?api=1&destination='+encodeURIComponent(v?.lat&&v?.lon?`${v.lat},${v.lon}`:[v?.name,v?.address,'Bratislava'].filter(Boolean).join(', '))+'&travelmode=walking';}
 function openEvent(id){
  const e=events.find(e=>e.id===id);if(!e){toast('Tento odkaz nepatrí k udalosti v programe.');return;}
  const v=venue(e),others=events.filter(x=>x.id!==e.id&&x.group===e.group),metadata=[e.director,e.country,e.year,e.duration?e.duration+' min film':null].filter(Boolean);
- $('event-detail').innerHTML=`<div class="detail-meta"><span class="tag">${esc(e.festival)}</span><span>${e.types.map(t=>typeNames[t]).join(' / ')}</span></div><h2 id="event-title">${esc(e.title)}</h2>${e.notice?`<p class="warning">${esc(e.notice)}</p>`:''}<div class="detail-facts"><div><p class="label">KEDY</p><p>${esc(date(e.start))}<br><strong>${time(e.start)}${e.end?' — '+time(e.end):''}</strong>${!e.end?`<br><span class="muted">${e.estimatedEnd?'Orientačný koniec ≈ '+time(e.estimatedEnd):'Koniec zatiaľ nepotvrdený'}</span>`:''}</p></div><div><p class="label">KDE</p><p>${esc(v?.name||e.location||'Miesto nepotvrdené')}${e.room?' / '+esc(e.room):''}<br>${esc(v?.address||'Adresa čaká na overenie')}</p></div></div>${metadata.length?`<p>${esc(metadata.join(' · '))}</p>`:''}<p class="detail-description">${esc(e.summary||'Anotácia nebola zverejnená. Podrobnosti nájdeš v oficiálnom programe.')}</p>${e.films?.length?`<h3>Filmy v pásme</h3>${filmsHTML(e)}<p class="muted">Čas začiatku patrí celému pásmu. Začiatky jednotlivých filmov nie sú zverejnené.</p>`:''}${e.guests?`<h3>Hostia & diskusia</h3><p>${esc(e.guests)}</p>`:''}<h3>Vstupné & registrácia</h3><p>${esc(price(e))}${e.registrationNote?'<br>'+esc(e.registrationNote):''}</p>${e.registrationUrl?`<a href="${esc(e.registrationUrl)}" target="_blank" rel="noopener noreferrer">Registrácia / vstupenky ↗︎</a>`:''}${e.endSource?`<p class="muted">Koniec: ${esc(e.endSource)}</p>`:''}<div class="dialog-actions"><button class="solid" data-export="${esc(e.id)}">PRIDAŤ DO MÔJHO KALENDÁRA ↓</button><button data-map="${esc(e.id)}">OTVORIŤ MAPU ↗︎</button><a class="button" href="${esc(e.url)}" target="_blank" rel="noopener noreferrer">OFICIÁLNY PROGRAM ↗︎</a><button data-share="${esc(e.id)}">ZDIEĽAŤ UDALOSŤ ↗︎</button><button data-select="${esc(e.id)}" aria-pressed="${selection.has(e.id)}" aria-label="Vybrať: ${esc(e.title)}">${selection.has(e.id)?'✓︎':'+'}</button></div><a href="${esc(navigate(e))}" target="_blank" rel="noopener noreferrer">Navigácia do miesta konania ↗︎</a>${others.length?`<h3>Ďalšie termíny</h3><div class="repeat-list">${others.map(x=>`<a href="#event=${encodeURIComponent(x.id)}">${esc(date(x.start))} · ${time(x.start)}</a>`).join('')}</div>`:''}<p class="detail-source">Organizátor: ${esc(e.organizer||e.festival)}<br>Overené: ${esc(e.checkedAt||model.updatedAt)}<br><a href="${esc(e.evidence||e.url)}" target="_blank" rel="noopener noreferrer">Zdroj termínu ↗︎</a></p>`;
+ $('event-detail').innerHTML=`<div class="detail-meta"><span class="tag">${esc(e.festival)}</span><span>${e.types.map(t=>typeNames[t]).join(' / ')}</span></div><h2 id="event-title">${esc(e.title)}</h2>${e.notice?`<p class="warning">${esc(e.notice)}</p>`:''}<div id="detail-live">${liveHTML(e)}</div><div class="detail-facts"><div><p class="label">KEDY</p><p>${esc(date(e.start))}<br><strong>${time(e.start)}${e.end?' — '+time(e.end):''}</strong>${!e.end?`<br><span class="muted">${e.estimatedEnd?'Orientačný koniec ≈ '+time(e.estimatedEnd):'Koniec zatiaľ nepotvrdený'}</span>`:''}</p></div><div><p class="label">KDE</p><p>${esc(v?.name||e.location||'Miesto nepotvrdené')}${e.room?' / '+esc(e.room):''}<br>${esc(v?.address||'Adresa čaká na overenie')}</p></div></div>${metadata.length?`<p>${esc(metadata.join(' · '))}</p>`:''}<p class="detail-description">${esc(e.summary||'Anotácia nebola zverejnená. Podrobnosti nájdeš v oficiálnom programe.')}</p>${e.films?.length?`<h3>Filmy v pásme</h3>${filmsHTML(e)}<p class="muted">Čas začiatku patrí celému pásmu. Aktuálny film sa označí len pri zverejnených individuálnych časoch; poradie a stopáže samy osebe neurčujú presný priebeh.</p>`:''}${e.guests?`<h3>Hostia & diskusia</h3><p>${esc(e.guests)}</p>`:''}<h3>Vstupné & registrácia</h3><p>${esc(price(e))}${e.registrationNote?'<br>'+esc(e.registrationNote):''}</p>${e.registrationUrl?`<a href="${esc(e.registrationUrl)}" target="_blank" rel="noopener noreferrer">Registrácia / vstupenky ↗︎</a>`:''}${e.endSource?`<p class="muted">Koniec: ${esc(e.endSource)}</p>`:''}<div class="dialog-actions"><button class="solid" data-export="${esc(e.id)}">PRIDAŤ DO MÔJHO KALENDÁRA ↓</button><button data-map="${esc(e.id)}">OTVORIŤ MAPU ↗︎</button><a class="button" href="${esc(e.url)}" target="_blank" rel="noopener noreferrer">OFICIÁLNY PROGRAM ↗︎</a><button data-share="${esc(e.id)}">ZDIEĽAŤ UDALOSŤ ↗︎</button><button data-select="${esc(e.id)}" aria-pressed="${selection.has(e.id)}" aria-label="Vybrať: ${esc(e.title)}">${selection.has(e.id)?'✓︎':'+'}</button></div><a href="${esc(navigate(e))}" target="_blank" rel="noopener noreferrer">Navigácia do miesta konania ↗︎</a>${others.length?`<h3>Ďalšie termíny</h3><div class="repeat-list">${others.map(x=>`<a href="#event=${encodeURIComponent(x.id)}">${esc(date(x.start))} · ${time(x.start)}</a>`).join('')}</div>`:''}<p class="detail-source">Organizátor: ${esc(e.organizer||e.festival)}<br>Overené: ${esc(e.checkedAt||model.updatedAt)}<br><a href="${esc(e.evidence||e.url)}" target="_blank" rel="noopener noreferrer">Zdroj termínu ↗︎</a></p>`;
  if(!$('event-dialog').open)$('event-dialog').showModal();
  $('event-dialog').scrollTop=0;
 }
@@ -145,7 +165,7 @@ function renderMap(list){
 }
 function showPlace(id,list=filtered()){
  place=id;const v=venues.find(x=>x.id===id);if(!v)return;const items=list.filter(e=>e.venueId===id),n=now(),future=items.filter(e=>running(e,n)||+new Date(e.start)>+n);
- $('place-events').innerHTML=`<p class="label">VYBRANÉ MIESTO</p><h3>${esc(v.name)}</h3><p>${esc(v.address)}${walkMinutes(v)!==null?`<br>≈ ${walkMinutes(v)} min pešo (odhad)`:''}</p><p>${items.length} podujatí podľa filtrov${future.length?' · '+future.length+' ešte prebieha alebo začne':''}</p><button class="venue-item" data-all-places>Všetky miesta ←</button>${items.map(e=>`<div class="map-event"><p class="label">${esc(date(e.start))} · ${time(e.start)}${running(e)?' / PREBIEHA':''}</p><button data-open="${esc(e.id)}">${esc(e.title)}</button><p>${esc([e.room,price(e)].filter(Boolean).join(' · '))}</p></div>`).join('')||'<p>Pre toto miesto a filtre nemáme žiadne podujatie.</p>'}`;
+ $('place-events').innerHTML=`<p class="label">VYBRANÉ MIESTO</p><h3>${esc(v.name)}</h3><p>${esc(v.address)}${walkMinutes(v)!==null?`<br>≈ ${walkMinutes(v)} min pešo (odhad)`:''}</p><p>${items.length} podujatí podľa filtrov${future.length?' · '+future.length+' ešte prebieha alebo začne':''}</p><button class="venue-item" data-all-places>Všetky miesta ←</button>${items.map(e=>`<div class="map-event"><p class="label">${esc(date(e.start))} · ${time(e.start)}${running(e)?' / PREBIEHA':''}</p><button data-open="${esc(e.id)}">${esc(e.title)}</button><p>${esc([e.room,price(e)].filter(Boolean).join(' · '))}</p>${liveHTML(e)}</div>`).join('')||'<p>Pre toto miesto a filtre nemáme žiadne podujatie.</p>'}`;
  if(map&&v.lat&&v.lon)map.setView([v.lat,v.lon],Math.max(14,map.getZoom()));
 }
 function allPlaces(){place='';$('place-events').innerHTML='<p class="label">MIESTA NA MAPE</p><h3>Čo sa hrá za rohom?</h3><p>Vyber miesto. Filtre nad mapou platia aj pre tento program.</p><div id="venue-list"></div>';renderMap(filtered());}
@@ -158,17 +178,32 @@ async function init(){
  $('origin').innerHTML+=venues.filter(v=>v.lat&&v.lon).map(v=>`<option value="${esc(v.id)}">${esc(v.name)}</option>`).join('');
  $('venue-options').innerHTML=venues.map(v=>`<option value="${esc(v.name)}">${esc(v.address)}</option>`).join('');
  $('updated').textContent='Posledná aktualizácia: '+longDate(model.updatedAt);
- render();updatePulse();route();setInterval(()=>{updatePulse();render();},60000);
+ lastDay=day(now());render();updatePulse();route();setInterval(tickLive,30000);
+ document.addEventListener('visibilitychange',()=>{if(!document.hidden)tickLive();});window.addEventListener('focus',tickLive);
  }catch(error){$('results-count').textContent='Program sa nepodarilo načítať. Skús obnoviť stránku.';$('event-list').innerHTML='<p><a href="program.ics">Stiahnuť program ako kalendár</a> · <a href="audit.md">Textový audit</a></p>';$('phase').textContent='Program je dočasne nedostupný.';console.error('Program loading failed',error);}
 }
+async function tickLive(){
+ if(!model)return;
+ const today=day(now());if(followDay&&today!==lastDay){activeDay=today>='2026-10-19'&&today<='2026-10-25'?today:today<'2026-10-19'?'2026-10-19':'';lastDay=today;}
+ updatePulse();
+ // Do not replace a focused control while somebody is reading or choosing a day.
+ const focused=document.activeElement,editing=focused&&['INPUT','SELECT'].includes(focused.tagName);
+ if(!editing)render();
+ const match=location.hash.match(/^#event=(.+)$/);if(match&&$('event-dialog').open){const e=events.find(e=>e.id===decodeURIComponent(match[1]));if(e&&$('detail-live'))$('detail-live').innerHTML=liveHTML(e);}
+ if(Date.now()-lastRefresh<300000)return;lastRefresh=Date.now();
+ try{const response=await fetch('data/program.json',{cache:'no-cache'});if(!response.ok)return;const fresh=await response.json();if(fresh.updatedAt!==model.updatedAt){model=fresh;venues=fresh.venues;events=fresh.events.sort((a,b)=>+new Date(a.start)-+new Date(b.start));events.forEach(e=>{e.searchText=norm([e.title,e.director,e.summary,loc(e),venue(e)?.address,...(e.films||[]).flatMap(f=>[f.title,f.director,f.summary])].join(' '));});$('updated').textContent='Posledná aktualizácia: '+longDate(model.updatedAt);if(!editing)render();updatePulse();toast('Program bol aktualizovaný.');}}
+ catch{/* Keep the last successfully loaded programme when offline. */}
+}
 $('filters').addEventListener('submit',e=>e.preventDefault());$('filters').addEventListener('input',render);$('filters').addEventListener('change',render);
-$('days').addEventListener('change',e=>{if(e.target.id==='day-select'){activeDay=e.target.value;render();}});
-$('days').addEventListener('click',e=>{const b=e.target.closest('[data-day]');if(b){activeDay=b.dataset.day;render();}});
+$('days').addEventListener('change',e=>{if(e.target.id==='day-select'){followDay=false;activeDay=e.target.value;render();}});
+$('days').addEventListener('click',e=>{const b=e.target.closest('[data-day]');if(b){followDay=false;activeDay=b.dataset.day;render();}});
+$('toggle-past').onclick=()=>{showPast=!showPast;render();};
 $('quick-reset').onclick=reset;$('reset').onclick=reset;$('empty-reset').onclick=reset;
 $('view-map').onclick=showMap;$('view-program').onclick=showProgram;
 $('nav-map').onclick=()=>{showMap();$('program').scrollIntoView();};
 $('nav-calendar').onclick=subscribe;$('subscribe-main').onclick=subscribe;$('copy-feed').onclick=()=>copy(FEED,'Odkaz na odber je skopírovaný.');
 $('feed-url').onclick=e=>e.target.select();
+$('next-event').addEventListener('click',()=>{if(day(now())>'2026-10-25'){showPast=true;activeDay='';followDay=false;render();}});
 $('master-notice').onclick=()=>{location.hash='event=acko332026';};
 $('export-selection').onclick=$('export-main').onclick=()=>download(events.filter(e=>selection.has(e.id)));
 $('clear-selection').onclick=()=>{selection.clear();persist();render();};
