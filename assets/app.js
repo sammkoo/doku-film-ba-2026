@@ -176,12 +176,12 @@ function renderSchedule(list){
    room.trackWidth=trackWidth;room.width=Math.max(1,room.tracks.length)*room.trackWidth;room.left=left;left+=room.width;return room;
   });
   const fmt=m=>`${String(Math.floor(m/60)%24).padStart(2,'0')}:${String(Math.floor(m%60)).padStart(2,'0')}`;
-  const ticks=[];for(let m=min;m<=max;m+=30)ticks.push(`<div class="schedule-gridline ${m%60===0?'hour-line':''}" style="top:${(m-min)*scale}px"><span>${fmt(m)}</span></div>`);
+  const ticks=[],axis=[];for(let m=min;m<=max;m+=30){ticks.push(`<div class="schedule-gridline ${m%60===0?'hour-line':''}" style="top:${(m-min)*scale}px"></div>`);axis.push(`<span class="${m%60===0?'hour-label':''}" style="top:${(m-min)*scale}px">${fmt(m)}</span>`);}
   const nowMin=clockMinutes(time(now())),nowLine=day(now())===d&&nowMin>=min&&nowMin<=max?`<div class="schedule-now" style="top:${(nowMin-min)*scale}px"><span>Teraz ${time(now())}</span></div>`:'';
   return `<section class="schedule-day"><h3>${esc(date(items[0].start))}</h3><div class="schedule-scroll" data-schedule-day="${d}" role="region" tabindex="0" aria-label="Časová os: ${esc(date(items[0].start))}"><div class="schedule-canvas" style="width:${left}px"><div class="schedule-head" style="grid-template-columns:${gutter}px ${columns.map(r=>r.width+'px').join(' ')}"><div class="schedule-corner">Čas</div>${columns.map(r=>`<div><strong>${esc(r.v?.name||'Miesto nepotvrdené')}</strong>${r.room?`<span>${esc(r.room)}</span>`:''}</div>`).join('')}</div><div class="schedule-body" style="height:${height+20}px">${ticks.join('')}${columns.map(r=>`<div class="schedule-lane" style="left:${r.left}px;width:${r.width}px;height:100%"></div>${r.items.map(({e,start,end,track})=>{
    const duration=end===null?null:end-start,label=duration===null?'Koniec neznámy':e.end?time(e.start)+' – '+time(e.end):time(e.start)+' – ≈ '+time(e.estimatedEnd);
    return `<button class="schedule-event ${!e.end?'uncertain':''} ${end===null?'unknown-end':''} ${running(e)?'schedule-live':''} ${past(e)?'schedule-past':''}" data-open="${esc(e.id)}" style="left:${r.left+track*r.trackWidth+5}px;top:${(start-min)*scale}px;width:${r.trackWidth-10}px;height:${end===null?labelHeights.get(e.id):Math.max(24,duration*scale-4)}px" aria-label="${esc(e.title)}, ${time(e.start)}, ${esc(label)}, ${esc(loc(e))}" title="${esc(e.title)} · ${esc(label)}">${contentFor(e)}</button>`;
-  }).join('')}`).join('')}${nowLine}</div></div></div></section>`;
+  }).join('')}`).join('')}${nowLine}<div class="schedule-axis" aria-label="Časy">${axis.join('')}</div></div></div></div></section>`;
  }).join('');
  document.querySelectorAll('[data-schedule-day]').forEach(el=>{const position=positions.get(el.dataset.scheduleDay);if(position){el.scrollLeft=position.left;el.scrollTop=position.top;}});
 }
