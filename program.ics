@@ -8,32 +8,6 @@ X-WR-TIMEZONE:Europe/Bratislava
 REFRESH-INTERVAL;VALUE=DURATION:PT6H
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
-UID:ai-videoklip20261019@doku-film-2026
-DTSTAMP:20261018T125945Z
-LAST-MODIFIED:20261018T125945Z
-SEQUENCE:0
-DTSTART:20261019T081500Z
-DTEND:20261019T100000Z
-SUMMARY:Kde končí umelina a začína umenie? Anatómia jedného AI videok
- lipu
-LOCATION:THE SPOT\, Bottova 2/A\, Bratislava
-DESCRIPTION:Workshop rozoberá vznik AI videoklipu: prípravu obrazu\, orga
- nizáciu produkcie\, strih a autorské rozhodnutia. Súčasťou je projekc
- ia videoklipu a diskusia. Lektori Daniel Vaško a Anna Barseghyan (Gratex 
- International).\n\nPovinná registrácia. Bezplatný vstup podľa textu or
- ganizátora\; dostupnosť miest over pred návštevou.\n\nVstupné: Bezpla
- tný vstup po registrácii podľa textu organizátora.\n\nPovinná registr
- ácia cez EventHUB na stránke organizátora.\n\nKoniec podľa: Koniec 12:
- 00 podľa oficiálneho kalendárového exportu organizátora (08:15–10:0
- 0 UTC).\n\nZdroj: https://asaiconnect.sk/event-detail/workshop-kde-konci-u
- melina-a-zacina-umenie-anatomia-jedneho-ai-videoklipu-6ab0335e2562e0c72505
- b083/\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#event=ai-videoklip20
- 261019
-URL:https://sammkoo.github.io/doku-film-ba-2026/#event=ai-videoklip20261019
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:pinaBA20261019@doku-film-2026
 DTSTAMP:20261018T125945Z
 LAST-MODIFIED:20261018T125945Z

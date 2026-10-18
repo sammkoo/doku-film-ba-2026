@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-18T12:59:45+00:00",
+  "updatedAt": "2026-10-18T14:30:03+00:00",
   "timezone": "Europe/Bratislava",
   "period": {
     "from": "2026-10-19",
@@ -100,34 +100,6 @@
     }
   ],
   "events": [
-    {
-      "id": "ai-videoklip20261019",
-      "title": "Kde končí umelina a začína umenie? Anatómia jedného AI videoklipu",
-      "start": "2026-10-19T10:15:00+02:00",
-      "end": "2026-10-19T12:00:00+02:00",
-      "organizer": "Asociácia AI (ASAI) / Mesiac.AI",
-      "price": "Bezplatný vstup po registrácii podľa textu organizátora.",
-      "registrationUrl": "https://asaiconnect.sk/event-detail/workshop-kde-konci-umelina-a-zacina-umenie-anatomia-jedneho-ai-videoklipu-6ab0335e2562e0c72505b083/",
-      "url": "https://asaiconnect.sk/event-detail/workshop-kde-konci-umelina-a-zacina-umenie-anatomia-jedneho-ai-videoklipu-6ab0335e2562e0c72505b083/",
-      "endSource": "Koniec 12:00 podľa oficiálneho kalendárového exportu organizátora (08:15–10:00 UTC).",
-      "evidence": "https://asaiconnect.sk/event-detail/workshop-kde-konci-umelina-a-zacina-umenie-anatomia-jedneho-ai-videoklipu-6ab0335e2562e0c72505b083/",
-      "festival": "Ďalšie projekcie",
-      "types": [
-        "industry",
-        "diskusia"
-      ],
-      "summary": "Workshop rozoberá vznik AI videoklipu: prípravu obrazu, organizáciu produkcie, strih a autorské rozhodnutia. Súčasťou je projekcia videoklipu a diskusia. Lektori Daniel Vaško a Anna Barseghyan (Gratex International).",
-      "venueId": "spot",
-      "room": null,
-      "uid": "ai-videoklip20261019@doku-film-2026",
-      "updatedAt": "2026-10-18T12:59:45+00:00",
-      "checkedAt": "18. 10. 2026",
-      "sequence": 0,
-      "group": "ai-videoklip20261019",
-      "free": true,
-      "notice": "Povinná registrácia. Bezplatný vstup podľa textu organizátora; dostupnosť miest over pred návštevou.",
-      "registrationNote": "Povinná registrácia cez EventHUB na stránke organizátora."
-    },
     {
       "id": "pinaBA20261019",
       "title": "Pina",

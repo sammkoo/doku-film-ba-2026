@@ -112,3 +112,7 @@ Súkromný e-mail nie je verejne prístupný dôkaz; zverejňuje sa iba potrebn�
 Automatické testy kontrolujú schému, všetky zachované UID, duplicity, 25. október a zimný čas, opravenú nocľaháreň, chýbajúci film v pásme, rozpor masterclass, neznáme konce a UTF-8 ICS. DOM testy kontrolujú vyhľadávanie vrátane filmov v pásmach, denné/festivalové/typové/časové filtre, výber, jeden aj hromadný export, priame odkazy, kopírovanie, odber a archívny režim. DOM test nie je náhradou reálneho Safari na iPhone.
 
 GitHub Pages úspešne publikované 18. 10. 2026 o 15:45. Overená verejná stránka v Chrome: načítanie 91 udalostí, vyhľadávanie, detail udalosti, mapa s 10 bodmi a výber miesta. Mobilné Safari/Android a pomalá sieť neboli overené na fyzických zariadeniach; automatické DOM testy ich nenahrádzajú.
+
+
+### Úprava výberu — 18. 10. 2026
+Na žiadosť správcu bolo zo sprievodcu a verejného ICS feedu odstránené podujatie „Kde končí umelina a začína umenie? Anatómia jedného AI videoklipu“. Nejde o oznámenie zrušenia organizátorom. Aktuálny výber obsahuje 90 podujatí.
