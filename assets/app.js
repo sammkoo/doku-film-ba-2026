@@ -105,9 +105,10 @@ function render(){
  $('toggle-past').setAttribute('aria-pressed',String(showPast));
  $('toggle-past').hidden=!showPast&&!pastCount;
  document.querySelector('.live-toolbar p').textContent=showPast?'Program vrátane skončených podujatí':'Prebiehajúce a nadchádzajúce podujatia';
- const activeFilters=['festival','type','part','from','to'].filter(id=>$(id).value).length+['upcoming','selected-only','free-only'].filter(id=>$(id).checked).length;
+ document.querySelectorAll('[data-festival]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.festival===$('festival').value)));
+ const activeFilters=['type','part','from','to'].filter(id=>$(id).value).length+['upcoming','selected-only','free-only'].filter(id=>$(id).checked).length;
  $('filter-count').textContent=activeFilters?'('+activeFilters+')':'';
- $('quick-reset').hidden=!activeDay&&!activeFilters&&!$('search').value;list.forEach(e=>{const d=day(e.start);if(!groups.has(d))groups.set(d,[]);groups.get(d).push(e);});
+ $('quick-reset').hidden=!activeDay&&!activeFilters&&!$('festival').value&&!$('search').value;list.forEach(e=>{const d=day(e.start);if(!groups.has(d))groups.set(d,[]);groups.get(d).push(e);});
  const opened=[...document.querySelectorAll('.event details[open]')].map(el=>el.closest('.event').dataset.id);
  $('event-list').innerHTML=[...groups].map(([d,items])=>`<section class="event-day" aria-label="${esc(date(items[0].start))}"><div class="day-heading"><h3>${esc(date(items[0].start))}</h3><span>${items.length} PODUJATÍ</span></div>${items.sort((a,b)=>Number(past(a))-Number(past(b))||+new Date(a.start)-+new Date(b.start)).map(card).join('')}</section>`).join('');
  $('results-count').textContent=`${list.length} z ${events.length} podujatí`+($('from').value&&$('to').value&&$('from').value>=$('to').value?' · Čas „do“ musí byť neskôr než „od“.':'');
@@ -173,7 +174,7 @@ async function init(){
  try{const response=await fetch('data/program.json');if(!response.ok)throw new Error('HTTP '+response.status);model=await response.json();events=model.events.sort((a,b)=>+new Date(a.start)-+new Date(b.start));venues=model.venues;
  selection=new Set([...selection].filter(id=>events.some(e=>e.id===id)));
  events.forEach(e=>{e.searchText=norm([e.title,e.director,e.summary,loc(e),venue(e)?.address,...(e.films||[]).flatMap(f=>[f.title,f.director,f.summary])].join(' '));});
- const today=day(now());if(today<'2026-10-19')activeDay='2026-10-19';else if(today<='2026-10-25')activeDay=today;
+ const today=day(now());if(today<'2026-10-19')activeDay='';else if(today<='2026-10-25')activeDay=today;
  $('festival').innerHTML+=[...new Set(events.map(e=>e.festival))].map(f=>`<option>${esc(f)}</option>`).join('');
  $('origin').innerHTML+=venues.filter(v=>v.lat&&v.lon).map(v=>`<option value="${esc(v.id)}">${esc(v.name)}</option>`).join('');
  $('venue-options').innerHTML=venues.map(v=>`<option value="${esc(v.name)}">${esc(v.address)}</option>`).join('');
@@ -184,7 +185,7 @@ async function init(){
 }
 async function tickLive(){
  if(!model)return;
- const today=day(now());if(followDay&&today!==lastDay){activeDay=today>='2026-10-19'&&today<='2026-10-25'?today:today<'2026-10-19'?'2026-10-19':'';lastDay=today;}
+ const today=day(now());if(followDay&&today!==lastDay){activeDay=today>='2026-10-19'&&today<='2026-10-25'?today:'';lastDay=today;}
  updatePulse();
  // Do not replace a focused control while somebody is reading or choosing a day.
  const focused=document.activeElement,editing=focused&&['INPUT','SELECT'].includes(focused.tagName);
@@ -197,6 +198,7 @@ async function tickLive(){
 $('filters').addEventListener('submit',e=>e.preventDefault());$('filters').addEventListener('input',render);$('filters').addEventListener('change',render);
 $('days').addEventListener('change',e=>{if(e.target.id==='day-select'){followDay=false;activeDay=e.target.value;render();}});
 $('days').addEventListener('click',e=>{const b=e.target.closest('[data-day]');if(b){followDay=false;activeDay=b.dataset.day;render();}});
+document.querySelector('.festival-picker').addEventListener('click',e=>{const button=e.target.closest('[data-festival]');if(button){$('festival').value=button.dataset.festival;render();}});
 $('toggle-past').onclick=()=>{showPast=!showPast;render();};
 $('quick-reset').onclick=reset;$('reset').onclick=reset;$('empty-reset').onclick=reset;
 $('view-map').onclick=showMap;$('view-program').onclick=showProgram;
