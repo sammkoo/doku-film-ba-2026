@@ -116,7 +116,7 @@ function render(){
  $('empty').hidden=!!list.length;
  $('empty').querySelector('h3').textContent=!showPast&&pastCount?'Tento program už uplynul.':'Nič sa nenašlo.';
  $('empty').querySelector('p:not(.label)').textContent=!showPast&&pastCount?'Skončené podujatia sú skryté. Zobrazíš ich tlačidlom „Zobraziť skončené“.':'Skús iný deň, širší čas alebo menej filtrov.';
- renderDays();updateSelection();if(map)renderMap(list);
+ renderDays();updateSelection();if(map)renderMap(list);if(!$('schedule-panel').hidden)renderSchedule(list);
 }
 function reset(){followDay=false;activeDay='';$('filters').reset();$('origin').value='';$('walk').value='';origin=null;place='';render();}
 function navigate(e){const v=venue(e);return 'https://www.google.com/maps/dir/?api=1&destination='+encodeURIComponent(v?.lat&&v?.lon?`${v.lat},${v.lon}`:[v?.name,v?.address,'Bratislava'].filter(Boolean).join(', '))+'&travelmode=walking';}
@@ -141,7 +141,41 @@ function makeICS(list){
 function download(list){if(!list.length){toast('Najprv vyber aspoň jedno podujatie pomocou +.');return;}const blob=new Blob([makeICS(list)],{type:'text/calendar;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=list.length===1?`doku-film-${list[0].id}.ics`:'doku-film-moj-vyber.ics';a.click();setTimeout(()=>URL.revokeObjectURL(url),10000);toast(list.length===1?'Stiahnutá jedna udalosť.':'Stiahnutý tvoj výber: '+list.length+' podujatí.');}
 async function copy(text,message){try{await navigator.clipboard.writeText(text);toast(message);}catch{const input=document.createElement('input');input.value=text;document.body.append(input);input.select();try{document.execCommand('copy');toast(message);}catch{toast('Kopírovanie nie je dostupné. Označ a skopíruj adresu ručne.');}input.remove();}}
 function subscribe(){$('feed-url').value=FEED;$('apple-feed').href=FEED.replace(/^https?:/,'webcal:');$('calendar-dialog').showModal();}
+function showSchedule(){
+ $('map-panel').hidden=true;$('schedule-panel').hidden=false;document.body.classList.remove('map-mode');document.body.classList.add('schedule-mode');
+ $('view-program').setAttribute('aria-pressed','false');$('view-map').setAttribute('aria-pressed','false');$('view-schedule').setAttribute('aria-pressed','true');renderSchedule(filtered());
+}
+function renderSchedule(list){
+ const days=new Map(),scale=1.6,gutter=64;
+ list.forEach(e=>{const d=day(e.start);if(!days.has(d))days.set(d,[]);days.get(d).push(e);});
+ $('schedule-content').innerHTML=[...days].map(([d,items])=>{
+  const rooms=new Map();let min=1440,max=0;
+  const specs=items.map(e=>{
+   const start=clockMinutes(time(e.start));
+   const end=finish(e)?start+(+new Date(finish(e))-+new Date(e.start))/60000:null;
+   // Unknown ends are fixed-height markers, never an invented event duration.
+   min=Math.min(min,start);max=Math.max(max,end??start+30);
+   const key=e.venueId+'|'+(e.room||'');if(!rooms.has(key))rooms.set(key,{key,v:venue(e),room:e.room,items:[],tracks:[]});
+   const spec={e,start,end,layoutEnd:end??start+30};rooms.get(key).items.push(spec);return spec;
+  });
+  min=Math.floor(min/60)*60;max=Math.ceil(max/60)*60;const height=(max-min)*scale;
+  let left=gutter;const columns=[...rooms.values()].map(room=>{
+   room.items.sort((a,b)=>a.start-b.start||a.layoutEnd-b.layoutEnd).forEach(item=>{
+    let track=room.tracks.findIndex(end=>end<=item.start);if(track<0)track=room.tracks.length;room.tracks[track]=item.layoutEnd;item.track=track;
+   });
+   room.trackWidth=210;room.width=Math.max(1,room.tracks.length)*room.trackWidth;room.left=left;left+=room.width;return room;
+  });
+  const fmt=m=>`${String(Math.floor(m/60)%24).padStart(2,'0')}:${String(Math.floor(m%60)).padStart(2,'0')}`;
+  const ticks=[];for(let m=min;m<=max;m+=30)ticks.push(`<div class="schedule-gridline ${m%60===0?'hour-line':''}" style="top:${(m-min)*scale}px"><span>${fmt(m)}</span></div>`);
+  const nowMin=clockMinutes(time(now())),nowLine=day(now())===d&&nowMin>=min&&nowMin<=max?`<div class="schedule-now" style="top:${(nowMin-min)*scale}px"><span>Teraz ${time(now())}</span></div>`:'';
+  return `<section class="schedule-day"><h3>${esc(date(items[0].start))}</h3><div class="schedule-scroll" role="region" tabindex="0" aria-label="Časová os: ${esc(date(items[0].start))}"><div class="schedule-canvas" style="width:${left}px"><div class="schedule-head" style="grid-template-columns:${gutter}px ${columns.map(r=>r.width+'px').join(' ')}"><div class="schedule-corner">Čas</div>${columns.map(r=>`<div><strong>${esc(r.v?.name||'Miesto nepotvrdené')}</strong>${r.room?`<span>${esc(r.room)}</span>`:''}</div>`).join('')}</div><div class="schedule-body" style="height:${height+20}px">${ticks.join('')}${columns.map(r=>`<div class="schedule-lane" style="left:${r.left}px;width:${r.width}px;height:100%"></div>${r.items.map(({e,start,end,track})=>{
+   const duration=end===null?null:end-start,label=duration===null?'Koniec neznámy':e.end?time(e.start)+' – '+time(e.end):time(e.start)+' – ≈ '+time(e.estimatedEnd);
+   return `<button class="schedule-event ${!e.end?'uncertain':''} ${end===null?'unknown-end':''} ${running(e)?'schedule-live':''} ${past(e)?'schedule-past':''}" data-open="${esc(e.id)}" style="left:${r.left+track*r.trackWidth+5}px;top:${(start-min)*scale}px;width:${r.trackWidth-10}px;height:${end===null?48:Math.max(24,duration*scale-4)}px" aria-label="${esc(e.title)}, ${time(e.start)}, ${esc(label)}, ${esc(loc(e))}" title="${esc(e.title)} · ${esc(label)}"><span class="schedule-time">${end===null?time(e.start)+' · koniec neznámy':esc(label)}</span><strong>${esc(e.title)}</strong><span class="schedule-festival">${esc(e.festival)}${running(e)?' · prebieha':''}</span></button>`;
+  }).join('')}`).join('')}${nowLine}</div></div></div></section>`;
+ }).join('');
+}
 async function showMap(){
+ $('schedule-panel').hidden=true;document.body.classList.remove('schedule-mode');$('view-schedule').setAttribute('aria-pressed','false');
  $('map-panel').hidden=false;document.body.classList.add('map-mode');$('view-program').setAttribute('aria-pressed','false');$('view-map').setAttribute('aria-pressed','true');
  if(!map){
  try{
@@ -156,7 +190,7 @@ async function showMap(){
  }
  map.invalidateSize();renderMap(filtered());
 }
-function showProgram(){$('map-panel').hidden=true;document.body.classList.remove('map-mode');$('view-program').setAttribute('aria-pressed','true');$('view-map').setAttribute('aria-pressed','false');}
+function showProgram(){$('schedule-panel').hidden=true;document.body.classList.remove('schedule-mode');$('view-schedule').setAttribute('aria-pressed','false');$('map-panel').hidden=true;document.body.classList.remove('map-mode');$('view-program').setAttribute('aria-pressed','true');$('view-map').setAttribute('aria-pressed','false');}
 function renderMap(list){
  markers.clearLayers();const groups=venues.map(v=>({v,items:list.filter(e=>e.venueId===v.id)})).filter(g=>g.items.length),points=[];
  groups.forEach(({v,items})=>{if(!v.lat||!v.lon)return;points.push([v.lat,v.lon]);const m=L.marker([v.lat,v.lon],{title:v.name,keyboard:true,icon:L.divIcon({className:'map-marker',html:String(items.length),iconSize:[32,32],iconAnchor:[16,16]})}).addTo(markers);m.on('click',()=>showPlace(v.id,list));m.bindTooltip(v.name,{direction:'top'});});
@@ -201,7 +235,7 @@ $('days').addEventListener('click',e=>{const b=e.target.closest('[data-day]');if
 document.querySelector('.festival-picker').addEventListener('click',e=>{const button=e.target.closest('[data-festival]');if(button){$('festival').value=button.dataset.festival;render();}});
 $('toggle-past').onclick=()=>{showPast=!showPast;render();};
 $('quick-reset').onclick=reset;$('reset').onclick=reset;$('empty-reset').onclick=reset;
-$('view-map').onclick=showMap;$('view-program').onclick=showProgram;
+$('view-schedule').onclick=showSchedule;$('view-map').onclick=showMap;$('view-program').onclick=showProgram;
 $('nav-map').onclick=()=>{showMap();$('program').scrollIntoView();};
 $('nav-calendar').onclick=subscribe;$('subscribe-main').onclick=subscribe;$('copy-feed').onclick=()=>copy(FEED,'Odkaz na odber je skopírovaný.');
 $('feed-url').onclick=e=>e.target.select();
