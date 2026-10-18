@@ -125,7 +125,7 @@
       "sequence": 0,
       "group": "ai-videoklip20261019",
       "free": true,
-      "notice": "Pred návštevou over registráciu: text uvádza vstup po registrácii zdarma, generický JSON-LD isAccessibleForFree=false tomu odporuje.",
+      "notice": "Povinná registrácia. Bezplatný vstup podľa textu organizátora; dostupnosť miest over pred návštevou.",
       "registrationNote": "Povinná registrácia cez EventHUB na stránke organizátora."
     },
     {
@@ -165,7 +165,7 @@
       "url": "https://www.kino-lumiere.sk/klient-863/kino-241/stranka-8409/film-840549",
       "festival": "Ďalšie projekcie",
       "venueId": "lumiere",
-      "room": null,
+      "room": "K2",
       "summary": "Autorský dokument o rodine a závislosti, ktorý osobný príbeh spracúva cez domáce záznamy a digitálne obrazy.",
       "uid": "holubyBA20261019@doku-film-2026",
       "updatedAt": "2026-10-18T12:59:45+00:00",
@@ -1187,7 +1187,7 @@
       "title": "Študijná prezentácia ateliéru réžie dokumentárneho filmu",
       "start": "2026-10-21T13:00:00+02:00",
       "end": "2026-10-21T14:43:00+02:00",
-      "url": "https://jedensvet.cinepass.sk/sk/blocks/e2bbbf0f-7f8c-4c28-9356-2011c3837db8/",
+      "url": "https://jedensvet.cinepass.sk/sk/tickets/?day=2026-10-21&onlyAvailable=0",
       "director": "",
       "country": "",
       "year": null,
@@ -1274,7 +1274,7 @@
         "dokument"
       ],
       "free": true,
-      "registrationUrl": "https://jedensvet.cinepass.sk/sk/blocks/e2bbbf0f-7f8c-4c28-9356-2011c3837db8/",
+      "registrationUrl": "https://jedensvet.cinepass.sk/sk/tickets/?day=2026-10-21&onlyAvailable=0",
       "registrationNote": "Bezplatný lístok je potrebné rezervovať vopred v Cinepasse.",
       "group": "e2bbbf0f-7f8c-4c28-9356-2011c3837db8"
     },
@@ -1749,7 +1749,7 @@
       "title": "Vo vnútri + V šere sa stráca cit pre farby",
       "start": "2026-10-21T18:15:00+02:00",
       "end": "2026-10-21T19:37:00+02:00",
-      "url": "https://jedensvet.cinepass.sk/sk/blocks/2753f4fd-c889-414d-a40e-b456833ed31f/",
+      "url": "https://jedensvet.cinepass.sk/sk/tickets/?day=2026-10-21&onlyAvailable=0",
       "director": "",
       "country": "",
       "year": null,
@@ -1792,7 +1792,7 @@
         "diskusia"
       ],
       "free": false,
-      "registrationUrl": "https://jedensvet.cinepass.sk/sk/blocks/2753f4fd-c889-414d-a40e-b456833ed31f/",
+      "registrationUrl": "https://jedensvet.cinepass.sk/sk/tickets/?day=2026-10-21&onlyAvailable=0",
       "registrationNote": "Over dostupné lístky v Cinepasse; tento sprievodca rezerváciu nevykonáva.",
       "guests": "Po premietaní filmov nasleduje diskusia s režisérkami Dorotou Vlnovou a Lenou Kušnierikovou v slovenčine. Moderovať ju bude Diana Fabiánová.",
       "group": "2753f4fd-c889-414d-a40e-b456833ed31f"
@@ -1839,7 +1839,7 @@
       "url": "https://www.kino-lumiere.sk/klient-863/kino-241/stranka-8409/film-840549",
       "festival": "Ďalšie projekcie",
       "venueId": "lumiere",
-      "room": null,
+      "room": "K1",
       "summary": "Autorský dokument o rodine a závislosti, ktorý osobný príbeh spracúva cez domáce záznamy a digitálne obrazy.",
       "uid": "holubyBA20261021@doku-film-2026",
       "updatedAt": "2026-10-18T12:59:45+00:00",
@@ -4389,7 +4389,7 @@
       "title": "O PRIATEĽSTVE – Fest Anča pre deti Jedného sveta",
       "start": "2026-10-25T10:30:00+01:00",
       "end": "2026-10-25T11:32:00+01:00",
-      "url": "https://jedensvet.cinepass.sk/sk/blocks/eac92a65-ce4c-45b9-95f6-4a1490c17af8/",
+      "url": "https://jedensvet.cinepass.sk/sk/tickets/?day=2026-10-25&onlyAvailable=0",
       "director": "",
       "country": "",
       "year": null,
@@ -4467,7 +4467,7 @@
         "animacia"
       ],
       "free": false,
-      "registrationUrl": "https://jedensvet.cinepass.sk/sk/blocks/eac92a65-ce4c-45b9-95f6-4a1490c17af8/",
+      "registrationUrl": "https://jedensvet.cinepass.sk/sk/tickets/?day=2026-10-25&onlyAvailable=0",
       "registrationNote": "Over dostupné lístky v Cinepasse; tento sprievodca rezerváciu nevykonáva.",
       "guests": "Pri tomto rodinnom premietaní berieme ohľad na potreby a pohodu všetkých divákov vrátane tých najmenších. Po premietaní si spolu vyrobíme malý darček pre kamarátku alebo kamaráta a ochutnáme kakavko od Kakawco+. Máte sa na čo tešiť!",
       "group": "eac92a65-ce4c-45b9-95f6-4a1490c17af8"
@@ -4640,7 +4640,7 @@
       "title": "My Street Films",
       "start": "2026-10-25T19:30:00+01:00",
       "end": "2026-10-25T21:39:00+01:00",
-      "url": "https://jedensvet.cinepass.sk/sk/blocks/0d9aedd4-0de8-4cd4-bbac-d6542c7181ea/",
+      "url": "https://jedensvet.cinepass.sk/sk/tickets/?day=2026-10-25&onlyAvailable=0",
       "director": "",
       "country": "",
       "year": null,
@@ -4736,7 +4736,7 @@
         "dokument"
       ],
       "free": false,
-      "registrationUrl": "https://jedensvet.cinepass.sk/sk/blocks/0d9aedd4-0de8-4cd4-bbac-d6542c7181ea/",
+      "registrationUrl": "https://jedensvet.cinepass.sk/sk/tickets/?day=2026-10-25&onlyAvailable=0",
       "registrationNote": "Over dostupné lístky v Cinepasse; tento sprievodca rezerváciu nevykonáva.",
       "group": "0d9aedd4-0de8-4cd4-bbac-d6542c7181ea"
     }

@@ -100,7 +100,7 @@ Súkromný e-mail nie je verejne prístupný dôkaz; zverejňuje sa iba potrebn�
 ## Rozsah a zdroje
 
 - [Áčko — harmonogram](https://festivalacko.sk/harmonogram/), [filmové pásma](https://festivalacko.sk/filmove-pasma/), jednotlivé filmové a odborné detaily a [voľný vstup](https://festivalacko.sk/vstupenky/).
-- [Jeden svet — Cinepass](https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0): kontrolované jednotlivo dni 20.–25. 10., aby sa neprehliadlo stránkovanie. Počty položiek: 1, 7, 7, 7, 7, 6, spolu 35. Každá udalosť v dátach má konkrétny detail a zdroj termínu.
+- [Jeden svet — Cinepass](https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0): kontrolované jednotlivo dni 20.–25. 10., aby sa neprehliadlo stránkovanie. Počty položiek: 1, 7, 7, 7, 7, 6, spolu 35. Každá udalosť v dátach má detail alebo denný výpis organizátora a zdroj termínu. Tri nefunkčné odvodené odkazy /blocks/ boli pri kontrole nahradené overeným denným programom Cinepassu.
 - [ASDF](https://asociaciadokumentu.sk/projekty), [Kino Lumière](https://www.kino-lumiere.sk/), [SFÚ](https://sfu.sk/) a konkrétne detaily.
 - [A4 — program](https://a4.sk/events/), [Nová Cvernovka](https://novacvernovka.eu/program), [Kino Film Europe](https://www.kinoeuropa.sk/) a ďalší organizátori vrátane Mesiac.AI. Ďalšia konkrétna dokumentárna projekcia v KFE v danom intervale nebola potvrdená; absencia nálezu nie je dôkazom absencie programu. Be2Can hrané projekcie mimo Áčka neboli plošne zaradené, keďže sprievodca sa mimo Áčka sústreďuje na dokumenty a odborný program.
 - Relevantné školské e-maily na pripojenom školskom Gmaili vrátane nového oznámenia masterclass, pozvánky na Áčko a prezentácie ARDF.
@@ -111,4 +111,4 @@ Súkromný e-mail nie je verejne prístupný dôkaz; zverejňuje sa iba potrebn�
 
 Automatické testy kontrolujú schému, všetky zachované UID, duplicity, 25. október a zimný čas, opravenú nocľaháreň, chýbajúci film v pásme, rozpor masterclass, neznáme konce a UTF-8 ICS. DOM testy kontrolujú vyhľadávanie vrátane filmov v pásmach, denné/festivalové/typové/časové filtre, výber, jeden aj hromadný export, priame odkazy, kopírovanie, odber a archívny režim. DOM test nie je náhradou reálneho Safari na iPhone.
 
-Živé nasadenie a prehliadačové overenie: zatiaľ čaká na aktiváciu GitHub Pages. Tento riadok bude doplnený podľa skutočného výsledku; samotný commit sa nepovažuje za publikovanie.
+GitHub Pages úspešne publikované 18. 10. 2026 o 15:45. Overená verejná stránka v Chrome: načítanie 91 udalostí, vyhľadávanie, detail udalosti, mapa s 10 bodmi a výber miesta. Mobilné Safari/Android a pomalá sieť neboli overené na fyzických zariadeniach; automatické DOM testy ich nenahrádzajú.
