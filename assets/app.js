@@ -147,31 +147,40 @@ function showSchedule(){
 }
 function renderSchedule(list){
  const positions=new Map([...document.querySelectorAll('[data-schedule-day]')].map(el=>[el.dataset.scheduleDay,{left:el.scrollLeft,top:el.scrollTop}]));
- const days=new Map(),scale=1.6,gutter=64;
+ const days=new Map(),gutter=64,trackWidth=260;
+ const labelFor=e=>!finish(e)?time(e.start)+' · koniec neznámy':time(e.start)+' – '+(e.end?'':'≈ ')+time(finish(e));
+ const contentFor=e=>`<span class="schedule-time">${esc(labelFor(e))}</span><strong>${esc(e.title)}</strong><span class="schedule-festival">${esc(e.festival)}${running(e)?' · prebieha':''}</span>`;
+ // Measure the complete labels at their actual column width before sizing time.
+ // One shared scale per day preserves all starts, durations and overlaps.
+ const measure=document.createElement('div');measure.setAttribute('aria-hidden','true');measure.style.cssText='position:fixed;left:-10000px;top:0;visibility:hidden;pointer-events:none';
+ measure.innerHTML=list.map(e=>`<button class="schedule-event" data-measure="${esc(e.id)}" style="position:relative;width:${trackWidth-10}px;height:auto">${contentFor(e)}</button>`).join('');document.body.append(measure);
+ const labelHeights=new Map([...measure.children].map(el=>[el.dataset.measure,Math.ceil(el.getBoundingClientRect().height)+8]));measure.remove();
  list.forEach(e=>{const d=day(e.start);if(!days.has(d))days.set(d,[]);days.get(d).push(e);});
  $('schedule-content').innerHTML=[...days].map(([d,items])=>{
   const rooms=new Map();let min=1440,max=0;
+  const scale=Math.max(1.6,...items.filter(e=>finish(e)).map(e=>(labelHeights.get(e.id)+4)/((+new Date(finish(e))-+new Date(e.start))/60000)));
   const specs=items.map(e=>{
    const start=clockMinutes(time(e.start));
    const end=finish(e)?start+(+new Date(finish(e))-+new Date(e.start))/60000:null;
    // Unknown ends are fixed-height markers, never an invented event duration.
-   min=Math.min(min,start);max=Math.max(max,end??start+30);
+   const markerMinutes=(labelHeights.get(e.id)+4)/scale;
+   min=Math.min(min,start);max=Math.max(max,end??start+markerMinutes);
    const key=e.venueId+'|'+(e.room||'');if(!rooms.has(key))rooms.set(key,{key,v:venue(e),room:e.room,items:[],tracks:[]});
-   const spec={e,start,end,layoutEnd:end??start+30};rooms.get(key).items.push(spec);return spec;
+   const spec={e,start,end,layoutEnd:end??start+markerMinutes};rooms.get(key).items.push(spec);return spec;
   });
   min=Math.floor(min/60)*60;max=Math.ceil(max/60)*60;const height=(max-min)*scale;
   let left=gutter;const columns=[...rooms.values()].map(room=>{
    room.items.sort((a,b)=>a.start-b.start||a.layoutEnd-b.layoutEnd).forEach(item=>{
     let track=room.tracks.findIndex(end=>end<=item.start);if(track<0)track=room.tracks.length;room.tracks[track]=item.layoutEnd;item.track=track;
    });
-   room.trackWidth=210;room.width=Math.max(1,room.tracks.length)*room.trackWidth;room.left=left;left+=room.width;return room;
+   room.trackWidth=trackWidth;room.width=Math.max(1,room.tracks.length)*room.trackWidth;room.left=left;left+=room.width;return room;
   });
   const fmt=m=>`${String(Math.floor(m/60)%24).padStart(2,'0')}:${String(Math.floor(m%60)).padStart(2,'0')}`;
   const ticks=[];for(let m=min;m<=max;m+=30)ticks.push(`<div class="schedule-gridline ${m%60===0?'hour-line':''}" style="top:${(m-min)*scale}px"><span>${fmt(m)}</span></div>`);
   const nowMin=clockMinutes(time(now())),nowLine=day(now())===d&&nowMin>=min&&nowMin<=max?`<div class="schedule-now" style="top:${(nowMin-min)*scale}px"><span>Teraz ${time(now())}</span></div>`:'';
   return `<section class="schedule-day"><h3>${esc(date(items[0].start))}</h3><div class="schedule-scroll" data-schedule-day="${d}" role="region" tabindex="0" aria-label="Časová os: ${esc(date(items[0].start))}"><div class="schedule-canvas" style="width:${left}px"><div class="schedule-head" style="grid-template-columns:${gutter}px ${columns.map(r=>r.width+'px').join(' ')}"><div class="schedule-corner">Čas</div>${columns.map(r=>`<div><strong>${esc(r.v?.name||'Miesto nepotvrdené')}</strong>${r.room?`<span>${esc(r.room)}</span>`:''}</div>`).join('')}</div><div class="schedule-body" style="height:${height+20}px">${ticks.join('')}${columns.map(r=>`<div class="schedule-lane" style="left:${r.left}px;width:${r.width}px;height:100%"></div>${r.items.map(({e,start,end,track})=>{
    const duration=end===null?null:end-start,label=duration===null?'Koniec neznámy':e.end?time(e.start)+' – '+time(e.end):time(e.start)+' – ≈ '+time(e.estimatedEnd);
-   return `<button class="schedule-event ${!e.end?'uncertain':''} ${end===null?'unknown-end':''} ${running(e)?'schedule-live':''} ${past(e)?'schedule-past':''}" data-open="${esc(e.id)}" style="left:${r.left+track*r.trackWidth+5}px;top:${(start-min)*scale}px;width:${r.trackWidth-10}px;height:${end===null?48:Math.max(24,duration*scale-4)}px" aria-label="${esc(e.title)}, ${time(e.start)}, ${esc(label)}, ${esc(loc(e))}" title="${esc(e.title)} · ${esc(label)}"><span class="schedule-time">${end===null?time(e.start)+' · koniec neznámy':esc(label)}</span><strong>${esc(e.title)}</strong><span class="schedule-festival">${esc(e.festival)}${running(e)?' · prebieha':''}</span></button>`;
+   return `<button class="schedule-event ${!e.end?'uncertain':''} ${end===null?'unknown-end':''} ${running(e)?'schedule-live':''} ${past(e)?'schedule-past':''}" data-open="${esc(e.id)}" style="left:${r.left+track*r.trackWidth+5}px;top:${(start-min)*scale}px;width:${r.trackWidth-10}px;height:${end===null?labelHeights.get(e.id):Math.max(24,duration*scale-4)}px" aria-label="${esc(e.title)}, ${time(e.start)}, ${esc(label)}, ${esc(loc(e))}" title="${esc(e.title)} · ${esc(label)}">${contentFor(e)}</button>`;
   }).join('')}`).join('')}${nowLine}</div></div></div></section>`;
  }).join('');
  document.querySelectorAll('[data-schedule-day]').forEach(el=>{const position=positions.get(el.dataset.scheduleDay);if(position){el.scrollLeft=position.left;el.scrollTop=position.top;}});
