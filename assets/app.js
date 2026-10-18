@@ -238,8 +238,8 @@ document.querySelector('.festival-picker').addEventListener('click',e=>{const bu
 $('toggle-past').onclick=()=>{showPast=!showPast;render();};
 $('quick-reset').onclick=reset;$('reset').onclick=reset;$('empty-reset').onclick=reset;
 $('view-schedule').onclick=showSchedule;$('view-map').onclick=showMap;$('view-program').onclick=showProgram;
-$('nav-map').onclick=()=>{showMap();$('program').scrollIntoView();};
-$('nav-calendar').onclick=subscribe;$('subscribe-main').onclick=subscribe;$('copy-feed').onclick=()=>copy(FEED,'Odkaz na odber je skopírovaný.');
+
+$('subscribe-main').onclick=subscribe;$('copy-feed').onclick=()=>copy(FEED,'Odkaz na odber je skopírovaný.');
 $('feed-url').onclick=e=>e.target.select();
 $('next-event').addEventListener('click',()=>{if(day(now())>'2026-10-25'){showPast=true;activeDay='';followDay=false;render();}});
 $('master-notice').onclick=()=>{location.hash='event=acko332026';};
