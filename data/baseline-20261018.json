@@ -1,0 +1,674 @@
+[
+  {
+    "id": "pinaBA20261019",
+    "uid": "pinaBA20261019@doku-film-2026",
+    "title": "Pina (Wim Wenders) – dokumentárna projekcia",
+    "start": "2026-10-19T18:10:00+02:00",
+    "end": "2026-10-19T19:50:00+02:00",
+    "location": "Kino Lumière, Špitálska 4, Bratislava"
+  },
+  {
+    "id": "holubyBA20261019",
+    "uid": "holubyBA20261019@doku-film-2026",
+    "title": "Keby sa holuby premenili na zlato – dokumentárna projekcia",
+    "start": "2026-10-19T20:20:00+02:00",
+    "end": "2026-10-19T22:10:00+02:00",
+    "location": "Kino Lumière, Špitálska 4, Bratislava"
+  },
+  {
+    "id": "acko02026",
+    "uid": "acko02026@doku-film-2026",
+    "title": "Áčko 2026 | Ako na casting: od prvého kontaktu po rolu − Prednáška",
+    "start": "2026-10-20T10:00:00+02:00",
+    "end": "2026-10-20T11:30:00+02:00",
+    "location": "BARCO, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "acko12026",
+    "uid": "acko12026@doku-film-2026",
+    "title": "Áčko 2026 | Filmové pásmo TRVANIE",
+    "start": "2026-10-20T10:30:00+02:00",
+    "end": "2026-10-20T12:10:00+02:00",
+    "location": "KLAP, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "acko22026",
+    "uid": "acko22026@doku-film-2026",
+    "title": "Áčko 2026 | Filmové pásmo ZASTAVENÉ HODINY",
+    "start": "2026-10-20T12:30:00+02:00",
+    "end": "2026-10-20T14:05:00+02:00",
+    "location": "BARCO, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "acko32026",
+    "uid": "acko32026@doku-film-2026",
+    "title": "Áčko 2026 | Za hranicami plánu: ako sa nakrúca cestopis − Diskusia",
+    "start": "2026-10-20T13:00:00+02:00",
+    "end": "2026-10-20T14:30:00+02:00",
+    "location": "KLAP, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "acko42026",
+    "uid": "acko42026@doku-film-2026",
+    "title": "Deň slovenského dokumentárneho filmu | Stav pôvodnej tvorby a možnosti koprodukcie v STVR",
+    "start": "2026-10-20T13:15:00+02:00",
+    "end": "2026-10-20T14:15:00+02:00",
+    "location": "Kino Lumière, K2, Špitálska 4, Bratislava"
+  },
+  {
+    "id": "acko52026",
+    "uid": "acko52026@doku-film-2026",
+    "title": "Deň slovenského dokumentárneho filmu | Alokácia prostriedkov Audiovizuálneho fondu: Čo sa zmenilo?",
+    "start": "2026-10-20T14:30:00+02:00",
+    "end": "2026-10-20T15:20:00+02:00",
+    "location": "Kino Lumière, K2, Špitálska 4, Bratislava"
+  },
+  {
+    "id": "acko72026",
+    "uid": "acko72026@doku-film-2026",
+    "title": "Áčko 2026 | Filmové pásmo MEDZIČAS",
+    "start": "2026-10-20T15:00:00+02:00",
+    "end": "2026-10-20T16:40:00+02:00",
+    "location": "BARCO, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "acko62026",
+    "uid": "acko62026@doku-film-2026",
+    "title": "Áčko 2026 | Filmové pásmo SPOMIENKY A ZABUDNUTIA",
+    "start": "2026-10-20T15:00:00+02:00",
+    "end": "2026-10-20T16:40:00+02:00",
+    "location": "KLAP, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "acko82026",
+    "uid": "acko82026@doku-film-2026",
+    "title": "Deň slovenského dokumentárneho filmu | Fenomén v súčasnej slovenskej dokumentárnej tvorbe",
+    "start": "2026-10-20T15:30:00+02:00",
+    "end": "2026-10-20T16:10:00+02:00",
+    "location": "Kino Lumière, K2, Špitálska 4, Bratislava"
+  },
+  {
+    "id": "acko92026",
+    "uid": "acko92026@doku-film-2026",
+    "title": "Deň slovenského dokumentárneho filmu | Politický dokument v strednej Európe",
+    "start": "2026-10-20T16:30:00+02:00",
+    "end": "2026-10-20T18:00:00+02:00",
+    "location": "Kino Lumière, K2, Špitálska 4, Bratislava"
+  },
+  {
+    "id": "acko102026",
+    "uid": "acko102026@doku-film-2026",
+    "title": "Áčko 2026 | Víťazné pásmo Áčko 2025",
+    "start": "2026-10-20T16:45:00+02:00",
+    "end": "2026-10-20T18:45:00+02:00",
+    "location": "BARCO, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "jeden02026",
+    "uid": "jeden02026@doku-film-2026",
+    "title": "Jeden svet | Slávnostné otvorenie + Preladenie",
+    "start": "2026-10-20T18:30:00+02:00",
+    "end": "2026-10-20T20:30:00+02:00",
+    "location": "Kino Lumière, K1, Bratislava"
+  },
+  {
+    "id": "acko112026",
+    "uid": "acko112026@doku-film-2026",
+    "title": "Áčko 2026 | OTVÁRACÍ CEREMONIÁL",
+    "start": "2026-10-20T19:00:00+02:00",
+    "end": "2026-10-20T21:00:00+02:00",
+    "location": "KLAP, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "acko122026",
+    "uid": "acko122026@doku-film-2026",
+    "title": "Áčko 2026 | Raut",
+    "start": "2026-10-20T21:00:00+02:00",
+    "end": "2026-10-20T22:00:00+02:00",
+    "location": "FOYER, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "acko132026",
+    "uid": "acko132026@doku-film-2026",
+    "title": "Áčko 2026 | FTF INDUSTRY DAYS − Fórum scenárov",
+    "start": "2026-10-21T10:00:00+02:00",
+    "end": "2026-10-21T12:30:00+02:00",
+    "location": "KLAP, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "acko142026",
+    "uid": "acko142026@doku-film-2026",
+    "title": "Áčko 2026 | Filmové pásmo SPOMIENKY A ZABUDNUTIA",
+    "start": "2026-10-21T10:30:00+02:00",
+    "end": "2026-10-21T12:10:00+02:00",
+    "location": "BARCO, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "acko152026",
+    "uid": "acko152026@doku-film-2026",
+    "title": "Áčko 2026 | Filmové pásmo TRVANIE",
+    "start": "2026-10-21T12:30:00+02:00",
+    "end": "2026-10-21T14:10:00+02:00",
+    "location": "BARCO, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "jeden12026",
+    "uid": "jeden12026@doku-film-2026",
+    "title": "Jeden svet | Prezentácia ateliéru réžie dokumentárneho filmu VŠMU",
+    "start": "2026-10-21T13:00:00+02:00",
+    "end": "2026-10-21T15:00:00+02:00",
+    "location": "Kino Lumière, Bratislava"
+  },
+  {
+    "id": "acko162026",
+    "uid": "acko162026@doku-film-2026",
+    "title": "Áčko 2026 | FTF INDUSTRY DAYS − Director’s cut",
+    "start": "2026-10-21T13:30:00+02:00",
+    "end": "2026-10-21T16:00:00+02:00",
+    "location": "KLAP, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "jeden22026",
+    "uid": "jeden22026@doku-film-2026",
+    "title": "Jeden svet | Čo s Péťom?",
+    "start": "2026-10-21T13:30:00+02:00",
+    "end": "2026-10-21T15:20:00+02:00",
+    "location": "Nízkoprahové denné centrum Domec, Bratislava"
+  },
+  {
+    "id": "acko172026",
+    "uid": "acko172026@doku-film-2026",
+    "title": "Áčko 2026 | Filmové pásmo ZASTAVENÉ HODINY",
+    "start": "2026-10-21T15:00:00+02:00",
+    "end": "2026-10-21T16:35:00+02:00",
+    "location": "BARCO, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "jeden32026",
+    "uid": "jeden32026@doku-film-2026",
+    "title": "Jeden svet | Preladenie + diskusia so Sárou Prokopovou",
+    "start": "2026-10-21T16:00:00+02:00",
+    "end": "2026-10-21T17:40:00+02:00",
+    "location": "Kino Lumière, K4, Bratislava"
+  },
+  {
+    "id": "acko182026",
+    "uid": "acko182026@doku-film-2026",
+    "title": "Áčko 2026 | FTF INDUSTRY DAYS − Ako vzniká debut",
+    "start": "2026-10-21T16:30:00+02:00",
+    "end": "2026-10-21T17:30:00+02:00",
+    "location": "KLAP, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "acko192026",
+    "uid": "acko192026@doku-film-2026",
+    "title": "Áčko 2026 | VÝSTAVA HIER TIMEOUT",
+    "start": "2026-10-21T17:30:00+02:00",
+    "end": "2026-10-21T19:30:00+02:00",
+    "location": "BARCO, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "acko202026",
+    "uid": "acko202026@doku-film-2026",
+    "title": "Áčko 2026 | Filmové pásmo MEDZIČAS",
+    "start": "2026-10-21T18:00:00+02:00",
+    "end": "2026-10-21T19:40:00+02:00",
+    "location": "KLAP, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "jeden42026",
+    "uid": "jeden42026@doku-film-2026",
+    "title": "Jeden svet | Amirine deti",
+    "start": "2026-10-21T18:00:00+02:00",
+    "end": "2026-10-21T19:50:00+02:00",
+    "location": "Kino Lumière, Bratislava"
+  },
+  {
+    "id": "jeden52026",
+    "uid": "jeden52026@doku-film-2026",
+    "title": "Jeden svet | Vo vnútri + V šere sa stráca cit pre farby",
+    "start": "2026-10-21T18:15:00+02:00",
+    "end": "2026-10-21T20:05:00+02:00",
+    "location": "Kino Lumière, Bratislava"
+  },
+  {
+    "id": "jeden62026",
+    "uid": "jeden62026@doku-film-2026",
+    "title": "Jeden svet | Stať sa Emou",
+    "start": "2026-10-21T20:00:00+02:00",
+    "end": "2026-10-21T21:50:00+02:00",
+    "location": "Kino Lumière, Bratislava"
+  },
+  {
+    "id": "holubyBA20261021",
+    "uid": "holubyBA20261021@doku-film-2026",
+    "title": "Keby sa holuby premenili na zlato – dokumentárna projekcia",
+    "start": "2026-10-21T20:30:00+02:00",
+    "end": "2026-10-21T22:20:00+02:00",
+    "location": "Kino Lumière, Špitálska 4, Bratislava"
+  },
+  {
+    "id": "acko212026",
+    "uid": "acko212026@doku-film-2026",
+    "title": "Áčko 2026 | FTF INDUSTRY DAYS − Animation pitch",
+    "start": "2026-10-22T10:00:00+02:00",
+    "end": "2026-10-22T12:30:00+02:00",
+    "location": "KLAP, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "acko222026",
+    "uid": "acko222026@doku-film-2026",
+    "title": "Áčko 2026 | Filmové pásmo MEDZIČAS",
+    "start": "2026-10-22T12:30:00+02:00",
+    "end": "2026-10-22T14:10:00+02:00",
+    "location": "BARCO, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "acko232026",
+    "uid": "acko232026@doku-film-2026",
+    "title": "Áčko 2026 | FTF INDUSTRY DAYS − DocuPitch",
+    "start": "2026-10-22T13:30:00+02:00",
+    "end": "2026-10-22T14:30:00+02:00",
+    "location": "KLAP, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "acko242026",
+    "uid": "acko242026@doku-film-2026",
+    "title": "Áčko 2026 | FTF INDUSTRY DAYS − Debut v súčasnej kultúrnej realite",
+    "start": "2026-10-22T15:00:00+02:00",
+    "end": "2026-10-22T16:00:00+02:00",
+    "location": "KLAP, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "jeden72026",
+    "uid": "jeden72026@doku-film-2026",
+    "title": "Jeden svet | Audiovízia bez bariér 6: Ako Európsky akt mení audiovíziu",
+    "start": "2026-10-22T15:00:00+02:00",
+    "end": "2026-10-22T16:50:00+02:00",
+    "location": "Staré Lýceum, Bratislava"
+  },
+  {
+    "id": "acko252026",
+    "uid": "acko252026@doku-film-2026",
+    "title": "Áčko 2026 | Filmové pásmo SPOMIENKY A ZABUDNUTIA",
+    "start": "2026-10-22T16:00:00+02:00",
+    "end": "2026-10-22T17:40:00+02:00",
+    "location": "BARCO, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "acko262026",
+    "uid": "acko262026@doku-film-2026",
+    "title": "Áčko 2026 | Strih ako dialóg: od scenára k filmu − Masterclass",
+    "start": "2026-10-22T16:30:00+02:00",
+    "end": "2026-10-22T18:00:00+02:00",
+    "location": "KLAP, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "jeden82026",
+    "uid": "jeden82026@doku-film-2026",
+    "title": "Jeden svet | Líška vo svite ružového mesiaca",
+    "start": "2026-10-22T17:00:00+02:00",
+    "end": "2026-10-22T18:50:00+02:00",
+    "location": "Kino Lumière, K1, Bratislava"
+  },
+  {
+    "id": "jeden92026",
+    "uid": "jeden92026@doku-film-2026",
+    "title": "Jeden svet | Musíme prežiť",
+    "start": "2026-10-22T17:15:00+02:00",
+    "end": "2026-10-22T19:05:00+02:00",
+    "location": "Kino Lumière, Bratislava"
+  },
+  {
+    "id": "acko272026",
+    "uid": "acko272026@doku-film-2026",
+    "title": "Áčko 2026 | Filmové pásmo TRVANIE",
+    "start": "2026-10-22T18:00:00+02:00",
+    "end": "2026-10-22T19:40:00+02:00",
+    "location": "BARCO, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "jeden102026",
+    "uid": "jeden102026@doku-film-2026",
+    "title": "Jeden svet | Kráľovné radosti",
+    "start": "2026-10-22T18:00:00+02:00",
+    "end": "2026-10-22T19:50:00+02:00",
+    "location": "Kino Lumière, Bratislava"
+  },
+  {
+    "id": "acko282026",
+    "uid": "acko282026@doku-film-2026",
+    "title": "Áčko 2026 | ASK Masterclass",
+    "start": "2026-10-22T18:15:00+02:00",
+    "end": "2026-10-22T20:00:00+02:00",
+    "location": "KLAP, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "jeden112026",
+    "uid": "jeden112026@doku-film-2026",
+    "title": "Jeden svet | Zóny nikoho + diskusia s režisérkami",
+    "start": "2026-10-22T19:30:00+02:00",
+    "end": "2026-10-22T21:45:00+02:00",
+    "location": "Kino Lumière, K1, Bratislava"
+  },
+  {
+    "id": "jeden122026",
+    "uid": "jeden122026@doku-film-2026",
+    "title": "Jeden svet | Pre život",
+    "start": "2026-10-22T20:00:00+02:00",
+    "end": "2026-10-22T21:50:00+02:00",
+    "location": "Kino Lumière, Bratislava"
+  },
+  {
+    "id": "acko292026",
+    "uid": "acko292026@doku-film-2026",
+    "title": "Áčko 2026 | Filmové pásmo ZASTAVENÉ HODINY",
+    "start": "2026-10-22T20:15:00+02:00",
+    "end": "2026-10-22T21:45:00+02:00",
+    "location": "KLAP, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "jeden132026",
+    "uid": "jeden132026@doku-film-2026",
+    "title": "Jeden svet | Zóny nikoho v Temnom Ost Blocku – party",
+    "start": "2026-10-22T22:00:00+02:00",
+    "end": "2026-10-22T23:59:00+02:00",
+    "location": "Temný Ost Block, Kamenné námestie 1, Bratislava"
+  },
+  {
+    "id": "acko302026",
+    "uid": "acko302026@doku-film-2026",
+    "title": "Áčko 2026 | Finančná gramotnosť a dane − Prednáška",
+    "start": "2026-10-23T10:00:00+02:00",
+    "end": "2026-10-23T11:30:00+02:00",
+    "location": "BARCO, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "acko312026",
+    "uid": "acko312026@doku-film-2026",
+    "title": "Áčko 2026 | Filmové pásmo ZASTAVENÉ HODINY",
+    "start": "2026-10-23T10:30:00+02:00",
+    "end": "2026-10-23T12:05:00+02:00",
+    "location": "KLAP, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "acko322026",
+    "uid": "acko322026@doku-film-2026",
+    "title": "Áčko 2026 | Filmové pásmo SPOMIENKY A ZABUDNUTIA",
+    "start": "2026-10-23T12:00:00+02:00",
+    "end": "2026-10-23T13:40:00+02:00",
+    "location": "BARCO, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "acko332026",
+    "uid": "acko332026@doku-film-2026",
+    "title": "Áčko 2026 | Masterclass s režisérmi filmu „A Fox Under A Pink Moon“",
+    "start": "2026-10-23T13:00:00+02:00",
+    "end": "2026-10-23T15:00:00+02:00",
+    "location": "KLAP, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "acko342026",
+    "uid": "acko342026@doku-film-2026",
+    "title": "Áčko 2026 | Safe&Sound film days: ako riešiť krízové situácie pri výrobe filmu − Prednáška",
+    "start": "2026-10-23T15:00:00+02:00",
+    "end": "2026-10-23T17:00:00+02:00",
+    "location": "BARCO, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "acko352026",
+    "uid": "acko352026@doku-film-2026",
+    "title": "Áčko 2026 | Filmové pásmo TRVANIE",
+    "start": "2026-10-23T16:00:00+02:00",
+    "end": "2026-10-23T17:40:00+02:00",
+    "location": "KLAP, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "jeden142026",
+    "uid": "jeden142026@doku-film-2026",
+    "title": "Jeden svet | Zvuk nádeje – slovenská premiéra s diskusiou",
+    "start": "2026-10-23T16:00:00+02:00",
+    "end": "2026-10-23T17:50:00+02:00",
+    "location": "Staré Lýceum, Bratislava"
+  },
+  {
+    "id": "jeden152026",
+    "uid": "jeden152026@doku-film-2026",
+    "title": "Jeden svet | Čo s Péťom?",
+    "start": "2026-10-23T17:00:00+02:00",
+    "end": "2026-10-23T18:50:00+02:00",
+    "location": "Nízkoprahové denné centrum Domec, Bratislava"
+  },
+  {
+    "id": "jeden162026",
+    "uid": "jeden162026@doku-film-2026",
+    "title": "Jeden svet | Jedna z milióna",
+    "start": "2026-10-23T17:15:00+02:00",
+    "end": "2026-10-23T19:05:00+02:00",
+    "location": "Kino Lumière, Bratislava"
+  },
+  {
+    "id": "acko362026",
+    "uid": "acko362026@doku-film-2026",
+    "title": "Áčko 2026 | Filmové pásmo MEDZIČAS",
+    "start": "2026-10-23T17:20:00+02:00",
+    "end": "2026-10-23T19:00:00+02:00",
+    "location": "BARCO, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "jeden182026",
+    "uid": "jeden182026@doku-film-2026",
+    "title": "Jeden svet | NAZA (Yuval Abraham, Rachel Szor)",
+    "start": "2026-10-23T18:00:00+02:00",
+    "end": "2026-10-23T20:00:00+02:00",
+    "location": "Nová Cvernovka, Račianska 78, Bratislava"
+  },
+  {
+    "id": "jeden172026",
+    "uid": "jeden172026@doku-film-2026",
+    "title": "Jeden svet | Osem milimetrov rodiny",
+    "start": "2026-10-23T18:00:00+02:00",
+    "end": "2026-10-23T20:00:00+02:00",
+    "location": "Kino Lumière, Bratislava"
+  },
+  {
+    "id": "acko372026",
+    "uid": "acko372026@doku-film-2026",
+    "title": "Áčko 2026 | ZÁVEREČNÝ CEREMONIÁL",
+    "start": "2026-10-23T19:00:00+02:00",
+    "end": "2026-10-23T21:00:00+02:00",
+    "location": "KLAP, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "jeden192026",
+    "uid": "jeden192026@doku-film-2026",
+    "title": "Jeden svet | Dve deci tušu",
+    "start": "2026-10-23T20:00:00+02:00",
+    "end": "2026-10-23T21:50:00+02:00",
+    "location": "Kino Lumière, Bratislava"
+  },
+  {
+    "id": "jeden202026",
+    "uid": "jeden202026@doku-film-2026",
+    "title": "Jeden svet | Monikondee",
+    "start": "2026-10-23T20:15:00+02:00",
+    "end": "2026-10-23T22:05:00+02:00",
+    "location": "Kino Lumière, Bratislava"
+  },
+  {
+    "id": "acko382026",
+    "uid": "acko382026@doku-film-2026",
+    "title": "Áčko 2026 | Raut",
+    "start": "2026-10-23T21:00:00+02:00",
+    "end": "2026-10-23T22:00:00+02:00",
+    "location": "FOYER, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "acko402026",
+    "uid": "acko402026@doku-film-2026",
+    "title": "Áčko 2026 | Komunitné raňajky",
+    "start": "2026-10-24T10:00:00+02:00",
+    "end": "2026-10-24T13:00:00+02:00",
+    "location": "FOYER, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "acko392026",
+    "uid": "acko392026@doku-film-2026",
+    "title": "Áčko 2026 | Pásmo stredoškolských filmov",
+    "start": "2026-10-24T10:00:00+02:00",
+    "end": "2026-10-24T11:30:00+02:00",
+    "location": "KLAP, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "jeden212026",
+    "uid": "jeden212026@doku-film-2026",
+    "title": "Jeden svet | Festivalové raňajky + workshop Nawras Rashed",
+    "start": "2026-10-24T10:00:00+02:00",
+    "end": "2026-10-24T11:50:00+02:00",
+    "location": "Staré Lýceum, Bratislava"
+  },
+  {
+    "id": "acko412026",
+    "uid": "acko412026@doku-film-2026",
+    "title": "Áčko 2026 | Filmové pásmo SPOMIENKY A ZABUDNUTIA",
+    "start": "2026-10-24T10:30:00+02:00",
+    "end": "2026-10-24T12:10:00+02:00",
+    "location": "BARCO, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "acko422026",
+    "uid": "acko422026@doku-film-2026",
+    "title": "Áčko 2026 | Filmové pásmo TRVANIE",
+    "start": "2026-10-24T12:10:00+02:00",
+    "end": "2026-10-24T13:50:00+02:00",
+    "location": "BARCO, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "acko432026",
+    "uid": "acko432026@doku-film-2026",
+    "title": "Áčko 2026 | Ako vznikalo 30. Áčko − Diskusia",
+    "start": "2026-10-24T13:00:00+02:00",
+    "end": "2026-10-24T15:00:00+02:00",
+    "location": "KLAP, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "jeden222026",
+    "uid": "jeden222026@doku-film-2026",
+    "title": "Jeden svet | Kolonializmus medzi Východom a Západom: čie príbehy rozprávame?",
+    "start": "2026-10-24T13:00:00+02:00",
+    "end": "2026-10-24T14:50:00+02:00",
+    "location": "Staré Lýceum, Bratislava"
+  },
+  {
+    "id": "acko442026",
+    "uid": "acko442026@doku-film-2026",
+    "title": "Áčko 2026 | Filmové pásmo MEDZIČAS",
+    "start": "2026-10-24T14:00:00+02:00",
+    "end": "2026-10-24T15:40:00+02:00",
+    "location": "BARCO, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "jeden232026",
+    "uid": "jeden232026@doku-film-2026",
+    "title": "Jeden svet | Amadou a Mariam – nevidiaci pár z Mali",
+    "start": "2026-10-24T14:00:00+02:00",
+    "end": "2026-10-24T15:50:00+02:00",
+    "location": "Kino Lumière, Bratislava"
+  },
+  {
+    "id": "jeden242026",
+    "uid": "jeden242026@doku-film-2026",
+    "title": "Jeden svet | Všetci na ulicu Kenmure",
+    "start": "2026-10-24T14:30:00+02:00",
+    "end": "2026-10-24T16:20:00+02:00",
+    "location": "Kino Lumière, Bratislava"
+  },
+  {
+    "id": "acko452026",
+    "uid": "acko452026@doku-film-2026",
+    "title": "Áčko 2026 | Filmové pásmo ZASTAVENÉ HODINY",
+    "start": "2026-10-24T15:40:00+02:00",
+    "end": "2026-10-24T17:10:00+02:00",
+    "location": "BARCO, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "jeden252026",
+    "uid": "jeden252026@doku-film-2026",
+    "title": "Jeden svet | Yanuni",
+    "start": "2026-10-24T16:00:00+02:00",
+    "end": "2026-10-24T17:50:00+02:00",
+    "location": "Kino Lumière, Bratislava"
+  },
+  {
+    "id": "acko462026",
+    "uid": "acko462026@doku-film-2026",
+    "title": "Áčko 2026 | Filmový kvíz Petra Konečného",
+    "start": "2026-10-24T18:00:00+02:00",
+    "end": "2026-10-24T21:00:00+02:00",
+    "location": "KLAP, FTF VŠMU, Svoradova 2A, Bratislava"
+  },
+  {
+    "id": "jeden262026",
+    "uid": "jeden262026@doku-film-2026",
+    "title": "Jeden svet | Stopy",
+    "start": "2026-10-24T19:00:00+02:00",
+    "end": "2026-10-24T20:50:00+02:00",
+    "location": "Kino Lumière, Bratislava"
+  },
+  {
+    "id": "jeden272026",
+    "uid": "jeden272026@doku-film-2026",
+    "title": "Jeden svet | Nácviky revolúcie",
+    "start": "2026-10-24T21:00:00+02:00",
+    "end": "2026-10-24T22:50:00+02:00",
+    "location": "Kino Lumière, Bratislava"
+  },
+  {
+    "id": "jeden282026",
+    "uid": "jeden282026@doku-film-2026",
+    "title": "Jeden svet | Fest Anča pre deti Jedného sveta: O priateľstve",
+    "start": "2026-10-25T10:30:00+01:00",
+    "end": "2026-10-25T12:20:00+01:00",
+    "location": "Kino Lumière, Bratislava"
+  },
+  {
+    "id": "jeden292026",
+    "uid": "jeden292026@doku-film-2026",
+    "title": "Jeden svet | Medzi bratmi",
+    "start": "2026-10-25T14:00:00+01:00",
+    "end": "2026-10-25T15:50:00+01:00",
+    "location": "Kino Lumière, Bratislava"
+  },
+  {
+    "id": "jeden302026",
+    "uid": "jeden302026@doku-film-2026",
+    "title": "Jeden svet | Tichá potopa",
+    "start": "2026-10-25T14:30:00+01:00",
+    "end": "2026-10-25T16:20:00+01:00",
+    "location": "Kino Lumière, Bratislava"
+  },
+  {
+    "id": "jeden312026",
+    "uid": "jeden312026@doku-film-2026",
+    "title": "Jeden svet | Dialógová polícia",
+    "start": "2026-10-25T16:45:00+01:00",
+    "end": "2026-10-25T18:35:00+01:00",
+    "location": "Kino Lumière, Bratislava"
+  },
+  {
+    "id": "jeden322026",
+    "uid": "jeden322026@doku-film-2026",
+    "title": "Jeden svet | Odovzdávanie cien + premietanie víťazného filmu",
+    "start": "2026-10-25T19:00:00+01:00",
+    "end": "2026-10-25T20:50:00+01:00",
+    "location": "Kino Lumière, Bratislava"
+  },
+  {
+    "id": "mystreet20261025",
+    "uid": "mystreet20261025@doku-film-2026",
+    "title": "Jeden svet | My Street Films SK – premiéra 8 krátkych dokumentov",
+    "start": "2026-10-25T19:30:00+01:00",
+    "end": "2026-10-25T21:10:00+01:00",
+    "location": "Kino Lumière, Špitálska 4, Bratislava"
+  }
+]

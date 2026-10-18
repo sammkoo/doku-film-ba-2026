@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://festivalacko.sk/harmonogram/",
+    "sha256": "6a19dfe6159d00f416a7076d9c9dcd11936fd259af974445467bd643d2d9ac26",
+    "checkedAt": "2026-10-18T12:59:45+00:00"
+  },
+  {
+    "url": "https://festivalacko.sk/filmove-pasma/",
+    "sha256": "87c03e0a1c31b9735fe44c38e7b0e2ba0222a7c4c0e7a3094b2b40d02856bd37",
+    "checkedAt": "2026-10-18T12:59:45+00:00"
+  },
+  {
+    "url": "https://jedensvet.cinepass.sk/sk/tickets/?day=2026-10-20&onlyAvailable=0",
+    "sha256": "751b16eddba1d8878c366c51d8aa5a46420eee0db108ea97793764738e6a6222",
+    "checkedAt": "2026-10-18T12:59:45+00:00"
+  },
+  {
+    "url": "https://jedensvet.cinepass.sk/sk/tickets/?day=2026-10-21&onlyAvailable=0",
+    "sha256": "d2b3113abc1ca5107702929ac2fb41b03396d6a9cac347e211b6b98f7cbc3c15",
+    "checkedAt": "2026-10-18T12:59:45+00:00"
+  },
+  {
+    "url": "https://jedensvet.cinepass.sk/sk/tickets/?day=2026-10-22&onlyAvailable=0",
+    "sha256": "de9181b135a5f1d49a13c83bf0c977701921344bad9adfcf726d1048f3dc9df9",
+    "checkedAt": "2026-10-18T12:59:45+00:00"
+  },
+  {
+    "url": "https://jedensvet.cinepass.sk/sk/tickets/?day=2026-10-23&onlyAvailable=0",
+    "sha256": "7a42445c36a08fc0431bf6ef838ffe3dc3f6e90c5274cf05883c4109837b452b",
+    "checkedAt": "2026-10-18T12:59:45+00:00"
+  },
+  {
+    "url": "https://jedensvet.cinepass.sk/sk/tickets/?day=2026-10-24&onlyAvailable=0",
+    "sha256": "2955ccbeb6e6d0d584a189d8bebddcc6da28a522a6d697fd4ce583f9d1d45271",
+    "checkedAt": "2026-10-18T12:59:45+00:00"
+  },
+  {
+    "url": "https://jedensvet.cinepass.sk/sk/tickets/?day=2026-10-25&onlyAvailable=0",
+    "sha256": "43f553572788bbea11a9c874bc0638b1e13f3807c14e289e9ebdca6691452187",
+    "checkedAt": "2026-10-18T12:59:45+00:00"
+  }
+]

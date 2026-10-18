@@ -1,1739 +1,2046 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//DOKU FILM BA//SK
+PRODID:-//DOKU & FILM BA//Program 2026//SK
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:DOKU & FILM Bratislava 19.-25.10.2026
+X-WR-CALNAME:DOKU & FILM / Bratislava 2026
 X-WR-TIMEZONE:Europe/Bratislava
-X-WR-CALDESC:Neoficialny komunitny program dokumentarnych a filmovych pod
- ujati v Bratislave
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:ai-videoklip20261019@doku-film-2026
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:0
+DTSTART:20261019T081500Z
+DTEND:20261019T100000Z
+SUMMARY:Kde končí umelina a začína umenie? Anatómia jedného AI videok
+ lipu
+LOCATION:THE SPOT\, Bottova 2/A\, Bratislava
+DESCRIPTION:Workshop rozoberá vznik AI videoklipu: prípravu obrazu\, orga
+ nizáciu produkcie\, strih a autorské rozhodnutia. Súčasťou je projekc
+ ia videoklipu a diskusia. Lektori Daniel Vaško a Anna Barseghyan (Gratex 
+ International).\n\nPred návštevou over registráciu: text uvádza vstup 
+ po registrácii zdarma\, generický JSON-LD isAccessibleForFree=false tomu
+  odporuje.\n\nVstupné: Bezplatný vstup po registrácii podľa textu orga
+ nizátora.\n\nPovinná registrácia cez EventHUB na stránke organizátora
+ .\n\nKoniec podľa: Koniec 12:00 podľa oficiálneho kalendárového expor
+ tu organizátora (08:15–10:00 UTC).\n\nZdroj: https://asaiconnect.sk/eve
+ nt-detail/workshop-kde-konci-umelina-a-zacina-umenie-anatomia-jedneho-ai-v
+ ideoklipu-6ab0335e2562e0c72505b083/\n\nhttps://sammkoo.github.io/doku-film
+ -ba-2026/#event=ai-videoklip20261019
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=ai-videoklip20261019
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
 BEGIN:VEVENT
 UID:pinaBA20261019@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261019T161000Z
 DTEND:20261019T175000Z
-SUMMARY:Pina (Wim Wenders) – dokumentárna projekcia
-LOCATION:Kino Lumière\, Špitálska 4\, Bratislava
-DESCRIPTION:Dokument Wima Wendersa o tanečníčke a choreografke Pine Ba
- usch. V rámci Be2Can. Stopáž 100 min.\nZdroj: https://cl3.admin.cityl
- ife.sk/film/pina
-URL:https://cl3.admin.citylife.sk/film/pina
+SUMMARY:Pina
+LOCATION:Kino Lumière\, K1\, Špitálska 4\, Bratislava
+DESCRIPTION:Filmová pocta choreografke Pine Bausch a jej tanečnému divad
+ lu. Dokument Wima Wendersa v programe Be2Can.\n\nVstupné: 7 €\n\nKoniec
+  nie je potvrdený. Čas konca v kalendári je iba orientačný odhad.\n\n
+ Koniec podľa: Orientačný koniec vypočítaný zo stopáže filmu\; neza
+ hŕňa prípadný úvod.\n\nZdroj: https://www.kino-lumiere.sk/klient-863/
+ kino-241/stranka-8409/film-797518\n\nhttps://sammkoo.github.io/doku-film-b
+ a-2026/#event=pinaBA20261019
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=pinaBA20261019
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:holubyBA20261019@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261019T182000Z
 DTEND:20261019T201000Z
-SUMMARY:Keby sa holuby premenili na zlato – dokumentárna projekcia
+SUMMARY:Keby sa holuby premenili na zlato
 LOCATION:Kino Lumière\, Špitálska 4\, Bratislava
-DESCRIPTION:Autorský dokument Pepy Lubojacki (2026\, 110 min) o rodine a
-  závislosti. Ocenený na Berlinale.\nZdroj: https://cl3.admin.citylife.
- sk/film/keby-sa-holuby-premenili-na-zlato
-URL:https://cl3.admin.citylife.sk/film/keby-sa-holuby-premenili-na-zlato
+DESCRIPTION:Autorský dokument o rodine a závislosti\, ktorý osobný prí
+ beh spracúva cez domáce záznamy a digitálne obrazy.\n\nVstupné: Cena 
+ sa môže líšiť podľa projekcie\; over v kine.\n\nKoniec nie je potvrd
+ ený. Čas konca v kalendári je iba orientačný odhad.\n\nKoniec podľa:
+  Orientačný koniec vypočítaný zo stopáže filmu\; nezahŕňa prípad
+ ný úvod.\n\nZdroj: https://www.kino-lumiere.sk/klient-863/kino-241/stran
+ ka-8409/film-840549\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#event=
+ holubyBA20261019
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=holubyBA20261019
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko02026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261020T080000Z
 DTEND:20261020T093000Z
-SUMMARY:Áčko 2026 | Ako na casting: od prvého kontaktu po rolu − Pre
- dnáška
-LOCATION:BARCO\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nPrednáška Diany Blatnickej o
-  výbere hereckého obsadenia\, komparze a spolupráci\ncastingu s réž
- iou a ďalšími profesiami.\n\nSála: BARCO • FTF VŠMU\, Svoradova 2
- A\, Bratislava Program:\nhttps://festivalacko.sk/timetable/event/ako-na-
- casting-od-prveho-kontaktu-po-\nrolu/ Harmonogram: https://festivalacko.
- sk/harmonogram/\nZdroj: https://festivalacko.sk/harmonogram/
-URL:https://festivalacko.sk/harmonogram/
+SUMMARY:Ako na casting: od prvého kontaktu po rolu − Prednáška
+LOCATION:FTF VŠMU\, BARCO\, Svoradova 2A\, Bratislava
+DESCRIPTION:Diana Blatnická vyštudovala filmovú dokumentárnu tvorbu na 
+ Akadémii umení v Banskej Bystrici. Posledných 17 rokov sa venuje castin
+ gu a počas svojej kariéry prešla od zabezpečovania komparzu až k prá
+ ci castingovej režisérky. Špecializuje sa najmä na celovečerné filmy
+ \, dobové projekty a minisérie. Na svojom filmovom konte má projekty ak
+ o Špina\, Svetlonoc\, Ostrým nožom\, Duchoň\, Cowgirl\, Čas nádejí\
+ , Dotyk života\, Kavej a viaceré ďalšie filmové a…\n\nVstupné: Vst
+ up voľný\n\nKoniec podľa: Čas konca publikovaný v oficiálnom harmono
+ grame Áčka.\n\nZdroj: https://festivalacko.sk/timetable/event/ako-na-cas
+ ting-od-prveho-kontaktu-po-rolu/\n\nhttps://sammkoo.github.io/doku-film-ba
+ -2026/#event=acko02026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko02026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko12026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261020T083000Z
 DTEND:20261020T101000Z
-SUMMARY:Áčko 2026 | Filmové pásmo TRVANIE
-LOCATION:KLAP\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nFILMY V PÁSME (poradie podľa
-  festivalového zoznamu): 1\\. Fuck off (výroba\nplatne) — réžia: 
- Šimon Mináč — animovaný s hranými sekvenciami\, 2025\, 4 min.\nht
- tps://festivalacko.sk/movie/fuck-off-vyroba-platne/ 2\\. Betónka — r
- éžia:\nRastislav Kupšo — hraný film\, 2026\, 12 min.\nhttps://fest
- ivalacko.sk/movie/betonka/ 3\\. Vtedy na Morave — réžia: Rastislav\n
- Kupšo — hraný film\, 2026\, 29 min. https://festivalacko.sk/movie/vt
- edy-na-\nmorave/ 4\\. NEUSMIEVAJ SA NA MŇA ŠŤASTIE — réžia: Frant
- iška Horváthová — hraný\nfilm\, 2025\, 11 min. https://festivalack
- o.sk/movie/neusmievaj-sa-na-mna-\nstastie/ 5\\. Ulica V. I. Lenina — r
- éžia: Katarína Bojtošová — dokumentárny\nfilm\, 2025\, 14 min. h
- ttps://festivalacko.sk/movie/ulica-v-i-lenina/ 6\\. Máj —\nréžia: R
- ichard Mikloši — hraný film\, 2025\, 21 min.\nhttps://festivalacko.s
- k/movie/maj/ 7\\. Kde rastú mesiačiky — réžia: Mária\nKišeľová
-  — hraný film\, 2026\, 7 min. https://festivalacko.sk/movie/kde-rastu
- -\nmesiaciky/\n\nPresné začiatky jednotlivých filmov nie sú zverejne
- né\; čas v kalendári je čas\ncelého pásma vrátane prípadných pr
- estávok. Pri filme Ulica V. I. Lenina je na\noficiálnej stránke ako m
- ajster zvuku uvedený Samuel Ostrovský.\n\nSála: KLAP • FTF VŠMU\, 
- Svoradova 2A\, Bratislava Program:\nhttps://festivalacko.sk/filmove-pasm
- a/#trvanie Harmonogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj: ht
- tps://festivalacko.sk/filmove-pasma/
-URL:https://festivalacko.sk/filmove-pasma/
+SUMMARY:Filmové pásmo TRVANIE
+LOCATION:FTF VŠMU\, KLAP\, Svoradova 2A\, Bratislava
+DESCRIPTION:Súťažné pásmo študentských filmov. Jednotlivé filmy\, a
+ utorky a autori sú uvedení v rozbaliteľnom zozname.\n\nVstupné: Vstup 
+ voľný\n\nFuck off (výroba platne) — Šimon Mináč (4 min)\nBetónka 
+ — Rastislav Kupšo (12 min)\nVtedy na Morave — Rastislav Kupšo (29 mi
+ n)\nNEUSMIEVAJ SA NA MŇA ŠŤASTIE — Františka Horváthová (11 min)\n
+ Ulica V. I. Lenina — Katarína Bojtošová (14 min)\nMáj — Richard Mi
+ kloši (21 min)\nKde rastú mesiačiky — Mária Kišeľová (7 min)\n\nK
+ oniec podľa: Čas konca publikovaný v oficiálnom harmonograme Áčka.\n
+ \nZdroj: https://festivalacko.sk/filmove-pasma/#trvanie\n\nhttps://sammkoo
+ .github.io/doku-film-ba-2026/#event=acko12026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko12026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko22026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261020T103000Z
 DTEND:20261020T120500Z
-SUMMARY:Áčko 2026 | Filmové pásmo ZASTAVENÉ HODINY
-LOCATION:BARCO\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nFILMY V PÁSME (poradie podľa
-  festivalového zoznamu): 1\\. Kyvadlo — réžia:\nVeronika Kočišov
- á — dokumentárny film\, 2026\, 9 min.\nhttps://festivalacko.sk/movie
- /kyvadlo/ 2\\. Počúvam! — réžia: Samuel Kluvánek —\nhraný film
- \, 2026\, 20 min. https://festivalacko.sk/movie/pocuvam/ 3\\. Tadeto\nš
- iel človek — réžia: Denis Šatan — hraný film\, 2026\, 12 min.\n
- https://festivalacko.sk/movie/tadeto-siel-clovek/ 4\\. Ako sa Kubo strat
- il —\nréžia: Ján Kuciak — hraný film\, 2026\, 8 min.\nhttps://fe
- stivalacko.sk/movie/ako-sa-kubo-stratil/ 5\\. Esi — réžia: Terézia\
- nMoravčíková — dokumentárny film\, 2026\, 25 min.\nhttps://festiva
- lacko.sk/movie/esi/ 6\\. Malý princ — réžia: Nina Hovorková —\nh
- raný film\, 2026\, 6 min. https://festivalacko.sk/movie/maly-princ/ 7\\
- . Bublina\n— réžia: Wanda Przeworska — animovaný film\, 2025\, 5 
- min.\nhttps://festivalacko.sk/movie/bublina/\n\nPresné začiatky jednot
- livých filmov nie sú zverejnené\; čas v kalendári je čas\ncelého 
- pásma vrátane prípadných prestávok.\n\nSála: BARCO • FTF VŠMU\,
-  Svoradova 2A\, Bratislava Program:\nhttps://festivalacko.sk/filmove-pas
- ma/#zastavene-hodiny Harmonogram:\nhttps://festivalacko.sk/harmonogram/\
- nZdroj: https://festivalacko.sk/filmove-pasma/
-URL:https://festivalacko.sk/filmove-pasma/
+SUMMARY:Filmové pásmo ZASTAVENÉ HODINY
+LOCATION:FTF VŠMU\, BARCO\, Svoradova 2A\, Bratislava
+DESCRIPTION:Súťažné pásmo študentských filmov. Jednotlivé filmy\, a
+ utorky a autori sú uvedení v rozbaliteľnom zozname.\n\nVstupné: Vstup 
+ voľný\n\nKyvadlo — Veronika Kočišová (9 min)\nPočúvam! — Samuel
+  Kluvánek (20 min)\nTadeto šiel človek — Denis Šatan (12 min)\nAko s
+ a Kubo stratil — Ján Kuciak (8 min)\nRozšliapnutý melón — Adam Sar
+ ik (8 min)\nEsi — Terézia Moravčíková (25 min)\nMalý princ — Nina
+  Hovorková (6 min)\nBublina — Wanda Przeworska (5 min)\n\nKoniec podľa
+ : Čas konca publikovaný v oficiálnom harmonograme Áčka.\n\nZdroj: htt
+ ps://festivalacko.sk/filmove-pasma/#zastavene-hodiny\n\nhttps://sammkoo.gi
+ thub.io/doku-film-ba-2026/#event=acko22026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko22026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko32026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261020T110000Z
 DTEND:20261020T123000Z
-SUMMARY:Áčko 2026 | Za hranicami plánu: ako sa nakrúca cestopis − D
- iskusia
-LOCATION:KLAP\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nDiskusia o príprave a nakrúc
- aní série Dve tváre sveta. Hostia: Peter Núñez\,\nRobo Bošeľa\, M
- artin Navrátil a Matúš Hučko. Moderuje Lenka Bednárová.\n\nSála: 
- KLAP • FTF VŠMU\, Svoradova 2A\, Bratislava Program:\nhttps://festiva
- lacko.sk/timetable/event/za-hranicami-planu-ako-sa-nakruca-\ncestopis/ H
- armonogram: https://festivalacko.sk/harmonogram/\nZdroj: https://festiva
- lacko.sk/harmonogram/
-URL:https://festivalacko.sk/harmonogram/
+SUMMARY:Za hranicami plánu: ako sa nakrúca cestopis − Diskusia
+LOCATION:FTF VŠMU\, KLAP\, Svoradova 2A\, Bratislava
+DESCRIPTION:India\, Brazília\, Nepál\, Mongolsko\, Uganda….Ako sa pripr
+ avuje a nakrúca cestopis na miestach\, kde plán často prestáva platiť
+ ? Producent Peter Núñez\, režisér a kameraman Robo Bošeľa\, cestovat
+ eľ Martin Navrátil a produkčný Matúš Hučko odkryjú zákulisie vzni
+ ku série Dve tváre sveta – čo divák nevidí\, čo všetko musí št
+ áb zvládnuť a ako sa z nečakaných situácií rodia tie najlepšie pr
+ íbehy. Diskusiu moderuje Lenka Bednárová\n\nVstupné: Vstup voľný\n\n
+ Koniec podľa: Čas konca publikovaný v oficiálnom harmonograme Áčka.\
+ n\nZdroj: https://festivalacko.sk/timetable/event/za-hranicami-planu-ako-s
+ a-nakruca-cestopis/\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#event=
+ acko32026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko32026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko42026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261020T111500Z
 DTEND:20261020T121500Z
-SUMMARY:Deň slovenského dokumentárneho filmu | Stav pôvodnej tvorby a
-  možnosti koprodukcie v STVR
+SUMMARY:Stav pôvodnej tvorby a možnosti koprodukcie v STVR
 LOCATION:Kino Lumière\, K2\, Špitálska 4\, Bratislava
-DESCRIPTION:ASDF • Deň slovenského dokumentárneho filmu • 20. okt
- óber 2026 Radarová\nponuka\; účasť ani registrácia nie sú potvrde
- né.\n\nDiskusia s bývalými zamestnancami STVR Alexandrom Kmeťom a On
- drejom Starinským\no fungovaní verejnoprávnej televízie\, pôvodnej 
- tvorbe a spolupráci s\ndokumentaristami. Moderuje Adam Straka. Nadväzu
- je na odborné návrhy obnovy\nkultúrneho sektora.\n\nVstup voľný pod
- ľa popisu organizátora\, potrebná registrácia:\nhttps://docs.google.
- com/forms/d/e/1FAIpQLScQAun3vKEn6n3ga7kIgl1rh9_nuzOXwN2bxbEPeOkhBFb4eQ/v
- iewform\nKino v spoločnom prehľade zobrazuje „Vypredané“\, hoci o
- dkazuje na samostatnú\nregistráciu\; aktuálna voľná kapacita nebola
-  potvrdená. Formulár nebol\nodoslaný. Časy začiatkov a trvanie pod
- ľa kina\; konce vypočítané z uvedeného\ntrvania. Konferencia ako ce
- lok 13:00–18:00 podľa registračného formulára.\nJazyk v evidencii 
- kina slovenčina\; jazyk medzinárodného panelu nie je\nsamostatne spre
- snený. Zdroj: https://www.kino-\nlumiere.sk/klient-863/kino-241/stranka
- -8409/film-842522 Organizátor:\nhttps://asociaciadokumentu.sk/projekty\
- nZdroj: https://asociaciadokumentu.sk/projekty
-URL:https://asociaciadokumentu.sk/projekty
+DESCRIPTION:Diskusia o pôvodnej tvorbe a koprodukciách v STVR. Hostia Ale
+ xander Kmeť a Ondrej Starinský\, moderuje Adam Straka.\n\nVstupné: Vstu
+ p voľný\, povinná registrácia\n\nPovinná registrácia na konferenciu.
+  Aktuálna kapacita nie je potvrdená.\n\nKoniec nie je potvrdený. Čas k
+ onca v kalendári je iba orientačný odhad.\n\nKoniec podľa: Orientačn
+ ý koniec vypočítaný z publikovanej dĺžky diskusie\; samostatný čas
+  konca nebol zverejnený.\n\nZdroj: https://www.kino-lumiere.sk/klient-863
+ /kino-241/stranka-8409/film-842522\n\nhttps://sammkoo.github.io/doku-film-
+ ba-2026/#event=acko42026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko42026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko52026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261020T123000Z
 DTEND:20261020T132000Z
-SUMMARY:Deň slovenského dokumentárneho filmu | Alokácia prostriedkov 
- Audiovizuálneho fondu: Čo sa zmenilo?
+SUMMARY:Alokácia prostriedkov Audiovizuálneho fondu: Čo sa zmenilo?
 LOCATION:Kino Lumière\, K2\, Špitálska 4\, Bratislava
-DESCRIPTION:ASDF • Deň slovenského dokumentárneho filmu • 20. okt
- óber 2026 Radarová\nponuka\; účasť ani registrácia nie sú potvrde
- né.\n\nDiskusia s riaditeľom AVF o vývoji financovania dokumentu\, di
- stribúcii\,\ntransparentnosti rozhodovania a ďalších zdrojoch fondu 
- od budúceho roka.\nModeruje Roman Pivovarník.\n\nVstup voľný podľa 
- popisu organizátora\, potrebná registrácia:\nhttps://docs.google.com/
- forms/d/e/1FAIpQLScQAun3vKEn6n3ga7kIgl1rh9_nuzOXwN2bxbEPeOkhBFb4eQ/viewf
- orm\nKino v spoločnom prehľade zobrazuje „Vypredané“\, hoci odkaz
- uje na samostatnú\nregistráciu\; aktuálna voľná kapacita nebola pot
- vrdená. Formulár nebol\nodoslaný. Časy začiatkov a trvanie podľa k
- ina\; konce vypočítané z uvedeného\ntrvania. Konferencia ako celok 1
- 3:00–18:00 podľa registračného formulára.\nJazyk v evidencii kina 
- slovenčina\; jazyk medzinárodného panelu nie je\nsamostatne spresnen
- ý. Zdroj: https://www.kino-\nlumiere.sk/klient-863/kino-241/stranka-840
- 9/film-842526 Organizátor:\nhttps://asociaciadokumentu.sk/projekty\nZdr
- oj: https://asociaciadokumentu.sk/projekty
-URL:https://asociaciadokumentu.sk/projekty
+DESCRIPTION:Diskusia s riaditeľom Audiovizuálneho fondu o financovaní\, 
+ distribúcii a transparentnosti. Moderuje Roman Pivovarník.\n\nVstupné: 
+ Vstup voľný\, povinná registrácia\n\nPovinná registrácia na konferen
+ ciu. Aktuálna kapacita nie je potvrdená.\n\nKoniec nie je potvrdený. Č
+ as konca v kalendári je iba orientačný odhad.\n\nKoniec podľa: Orienta
+ čný koniec vypočítaný z publikovanej dĺžky diskusie\; samostatný 
+ čas konca nebol zverejnený.\n\nZdroj: https://www.kino-lumiere.sk/klient
+ -863/kino-241/stranka-8409/film-842526\n\nhttps://sammkoo.github.io/doku-f
+ ilm-ba-2026/#event=acko52026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko52026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko72026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261020T130000Z
 DTEND:20261020T144000Z
-SUMMARY:Áčko 2026 | Filmové pásmo MEDZIČAS
-LOCATION:BARCO\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nFILMY V PÁSME (poradie podľa
-  festivalového zoznamu): 1\\. Under Dog — réžia:\nMichal Dubjel —
-  animovaný film\, 2026\, 7 min.\nhttps://festivalacko.sk/movie/under-do
- g/ 2\\. Človek nie je mačka — réžia:\nMarek Tomajka — hraný fil
- m\, 2026\, 16 min.\nhttps://festivalacko.sk/movie/clovek-nie-je-macka/ 3
- \\. Mesto noci — réžia:\nRichard Mikloši — hraný film\, 2026\, 5
-  min.\nhttps://festivalacko.sk/movie/mesto-noci/ 4\\. Problémy úplne c
- elého světa —\nréžia: Radek Chromčák Ševčík — dokumentárny
-  film\, 2024\, 24 min.\nhttps://festivalacko.sk/movie/problemy-uplne-cel
- eho-sveta/ 5\\. ružovejšie rána\n— réžia: Nina Sabolová — hran
- ý film\, 2026\, 5 min.\nhttps://festivalacko.sk/movie/ruzovejsie-rana/ 
- 6\\. Ešte chvíľu — réžia: Jakub\nDúcky — hraný film\, 2026\, 
- 19 min. https://festivalacko.sk/movie/este-chvilu/\n7\\. 2045 — réži
- a: Jakub Frištyk — dokumentárny film\, 2026\, 10 min.\nhttps://festi
- valacko.sk/movie/2045/ 8\\. Nekonečná vojna pána Nikoho (alebo\nkrát
- ka príručka toho ako robiť nacistom zo života peklo) — réžia: Ja
- kub Horňák\n— hraný film\, 2026\, 12 min. https://festivalacko.sk/m
- ovie/nekonecna-vojna-\npana-nikoho-alebo-kratka-prirucka-toho-ako-robit-
- nacistom-zo-zivota-peklo/\n\nPresné začiatky jednotlivých filmov nie 
- sú zverejnené\; čas v kalendári je čas\ncelého pásma vrátane pr
- ípadných prestávok.\n\nSála: BARCO • FTF VŠMU\, Svoradova 2A\, Br
- atislava Program:\nhttps://festivalacko.sk/filmove-pasma/#medzicas Harmo
- nogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj: https://festivalac
- ko.sk/filmove-pasma/
-URL:https://festivalacko.sk/filmove-pasma/
+SUMMARY:Filmové pásmo MEDZIČAS
+LOCATION:FTF VŠMU\, BARCO\, Svoradova 2A\, Bratislava
+DESCRIPTION:Súťažné pásmo študentských filmov. Jednotlivé filmy\, a
+ utorky a autori sú uvedení v rozbaliteľnom zozname.\n\nVstupné: Vstup 
+ voľný\n\nUnder Dog — Michal Dubjel (7 min)\nČlovek nie je mačka — 
+ Marek Tomajka (16 min)\nMesto noci — Mikloši Richard (5 min)\nProblémy
+  úplne celého světa — Radek Chromčák Ševčík (24 min)\nružovejš
+ ie rána — Nina Sabolová (5 min)\nEšte chvíľu — Jakub Dúcky (19 m
+ in)\n2045 — Jakub Frištyk (10 min)\nNekonečná vojna pána Nikoho (ale
+ bo krátka príručka toho ako robiť nacistom zo života peklo) — Jakub
+  Horňák (12 min)\n\nKoniec podľa: Čas konca publikovaný v oficiálnom
+  harmonograme Áčka.\n\nZdroj: https://festivalacko.sk/filmove-pasma/#med
+ zicas\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#event=acko72026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko72026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko62026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261020T130000Z
 DTEND:20261020T144000Z
-SUMMARY:Áčko 2026 | Filmové pásmo SPOMIENKY A ZABUDNUTIA
-LOCATION:KLAP\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nFILMY V PÁSME (poradie podľa
-  festivalového zoznamu): 1\\. zúbok zubnatý —\nréžia: Nina Sabolo
- vá — hraný film\, 2026\, 5 min.\nhttps://festivalacko.sk/movie/zubok
- -zubnaty/ 2\\. Vrksasana — réžia: Hannah\nDale — hraný film\, 202
- 6\, 22 min. https://festivalacko.sk/movie/vrksasana/ 3\\.\nVlak nikdy ne
- mešká — réžia: Anastasiia Nikitina — hraný film\, 2026\, 8 min.
- \nhttps://festivalacko.sk/movie/vlak-nikdy-nemeska/ 4\\. Usmievaj sa! 
- — réžia:\nYelyzaveta Hordieieva — hraný film\, 2026\, 20 min.\nht
- tps://festivalacko.sk/movie/usmievaj-sa/ 5\\. Sweetheart — réžia: Ma
- rek\nTomajka — hraný film\, 2026\, 10 min. https://festivalacko.sk/mo
- vie/sweetheart/\n6\\. Nákupný zoznam — réžia: Patrícia Suráková
-  — animovaný film\, 2025\, 5 min.\nhttps://festivalacko.sk/movie/naku
- pny-zoznam/ 7\\. Koni — réžia: Jakub\nVargovčík — dokumentárny 
- film\, 2026\, 13 min.\nhttps://festivalacko.sk/movie/koni/ 8\\. Drahá m
- ama — réžia: Rastislav Kupšo —\nhraný film\, 2026\, 11 min. http
- s://festivalacko.sk/movie/draha-mama/ 9\\.\nČarovný vrch — réžia: 
- Mária Farská — dokumentárny film\, 2026\, 6 min.\nhttps://festivala
- cko.sk/movie/carovny-vrch/\n\nPresné začiatky jednotlivých filmov nie
-  sú zverejnené\; čas v kalendári je čas\ncelého pásma vrátane pr
- ípadných prestávok.\n\nSála: KLAP • FTF VŠMU\, Svoradova 2A\, Bra
- tislava Program:\nhttps://festivalacko.sk/filmove-pasma/#spomienky Harmo
- nogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj: https://festivalac
- ko.sk/filmove-pasma/
-URL:https://festivalacko.sk/filmove-pasma/
+SUMMARY:Filmové pásmo SPOMIENKY A ZABUDNUTIA
+LOCATION:FTF VŠMU\, KLAP\, Svoradova 2A\, Bratislava
+DESCRIPTION:Súťažné pásmo študentských filmov. Jednotlivé filmy\, a
+ utorky a autori sú uvedení v rozbaliteľnom zozname.\n\nVstupné: Vstup 
+ voľný\n\nzúbok zubnatý — Nina Sabolová (5 min)\nVrksasana — Hanna
+ h Dale (22 min)\nVlak nikdy nemešká — Anastasiia Nikitina (8 min)\nUsm
+ ievaj sa! — Yelyzaveta Hordieieva (20 min)\nSweetheart — Marek Tomajka
+  (10 min)\nNákupný zoznam — Patrícia Suráková (5 min)\nKoni — Jak
+ ub Vargovčík (13 min)\nDrahá mama — Rastislav Kupšo (11 min)\nČarov
+ ný vrch — Mária Farská (6 min)\n\nKoniec podľa: Čas konca publikova
+ ný v oficiálnom harmonograme Áčka.\n\nZdroj: https://festivalacko.sk/f
+ ilmove-pasma/#spomienky\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#ev
+ ent=acko62026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko62026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko82026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261020T133000Z
 DTEND:20261020T141000Z
-SUMMARY:Deň slovenského dokumentárneho filmu | Fenomén v súčasnej s
- lovenskej dokumentárnej tvorbe
+SUMMARY:Fenomén v súčasnej slovenskej dokumentárnej tvorbe
 LOCATION:Kino Lumière\, K2\, Špitálska 4\, Bratislava
-DESCRIPTION:ASDF • Deň slovenského dokumentárneho filmu • 20. okt
- óber 2026 Radarová\nponuka\; účasť ani registrácia nie sú potvrde
- né.\n\nPrednáška filmovej teoretičky Barbory Nemčekovej: starostliv
- osť vo vzťahoch vo\nviac-než-ľudskom svete\, environmentálna úzkos
- ť a žiaľ\, introspekcia a\nangažovanosť v dokumentoch mladšej gene
- rácie.\n\nVstup voľný podľa popisu organizátora\, potrebná registr
- ácia:\nhttps://docs.google.com/forms/d/e/1FAIpQLScQAun3vKEn6n3ga7kIgl1r
- h9_nuzOXwN2bxbEPeOkhBFb4eQ/viewform\nKino v spoločnom prehľade zobrazu
- je „Vypredané“\, hoci odkazuje na samostatnú\nregistráciu\; aktu
- álna voľná kapacita nebola potvrdená. Formulár nebol\nodoslaný. Č
- asy začiatkov a trvanie podľa kina\; konce vypočítané z uvedeného\
- ntrvania. Konferencia ako celok 13:00–18:00 podľa registračného for
- mulára.\nJazyk v evidencii kina slovenčina\; jazyk medzinárodného pa
- nelu nie je\nsamostatne spresnený. Zdroj: https://www.kino-\nlumiere.sk
- /klient-863/kino-241/stranka-8409/film-842530 Organizátor:\nhttps://aso
- ciaciadokumentu.sk/projekty\nZdroj: https://asociaciadokumentu.sk/projek
- ty
-URL:https://asociaciadokumentu.sk/projekty
+DESCRIPTION:Prednáška Barbory Nemčekovej o súčasnom slovenskom dokumen
+ te\, starostlivosti a environmentálnej úzkosti.\n\nVstupné: Vstup voľn
+ ý\, povinná registrácia\n\nPovinná registrácia na konferenciu. Aktuá
+ lna kapacita nie je potvrdená.\n\nKoniec nie je potvrdený. Čas konca v 
+ kalendári je iba orientačný odhad.\n\nKoniec podľa: Orientačný konie
+ c vypočítaný z publikovanej dĺžky diskusie\; samostatný čas konca n
+ ebol zverejnený.\n\nZdroj: https://www.kino-lumiere.sk/klient-863/kino-24
+ 1/stranka-8409/film-842530\n\nhttps://sammkoo.github.io/doku-film-ba-2026/
+ #event=acko82026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko82026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko92026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261020T143000Z
 DTEND:20261020T160000Z
-SUMMARY:Deň slovenského dokumentárneho filmu | Politický dokument v s
- trednej Európe
+SUMMARY:Politický dokument v strednej Európe
 LOCATION:Kino Lumière\, K2\, Špitálska 4\, Bratislava
-DESCRIPTION:ASDF • Deň slovenského dokumentárneho filmu • 20. okt
- óber 2026 Radarová\nponuka\; účasť ani registrácia nie sú potvrde
- né.\n\nMedzinárodný panel: krátke pitchingy pripravovaných politick
- ých dokumentov\,\nukážky a autorské zámery\, potom diskusia o metó
- dach\, etike a distribúcii v\njednotlivých krajinách. Konkrétne náz
- vy projektov a mená účastníkov nie sú v\noverenom popise uvedené.\
- n\nVstup voľný podľa popisu organizátora\, potrebná registrácia:\n
- https://docs.google.com/forms/d/e/1FAIpQLScQAun3vKEn6n3ga7kIgl1rh9_nuzOX
- wN2bxbEPeOkhBFb4eQ/viewform\nKino v spoločnom prehľade zobrazuje „Vy
- predané“\, hoci odkazuje na samostatnú\nregistráciu\; aktuálna vo
- ľná kapacita nebola potvrdená. Formulár nebol\nodoslaný. Časy zač
- iatkov a trvanie podľa kina\; konce vypočítané z uvedeného\ntrvania
- . Konferencia ako celok 13:00–18:00 podľa registračného formulára.
- \nJazyk v evidencii kina slovenčina\; jazyk medzinárodného panelu nie
-  je\nsamostatne spresnený. Zdroj: https://www.kino-\nlumiere.sk/klient-
- 863/kino-241/stranka-8409/film-842534 Organizátor:\nhttps://asociaciado
- kumentu.sk/projekty\nZdroj: https://asociaciadokumentu.sk/projekty
-URL:https://asociaciadokumentu.sk/projekty
+DESCRIPTION:Panel s tvorcami politických dokumentov zo strednej Európy: u
+ kážky\, prezentácie projektov a debata o etike a distribúcii.\n\nVstup
+ né: Vstup voľný\, povinná registrácia\n\nPovinná registrácia na kon
+ ferenciu. Aktuálna kapacita nie je potvrdená.\n\nKoniec nie je potvrden
+ ý. Čas konca v kalendári je iba orientačný odhad.\n\nKoniec podľa: O
+ rientačný koniec vypočítaný z publikovanej dĺžky diskusie\; samosta
+ tný čas konca nebol zverejnený.\n\nZdroj: https://www.kino-lumiere.sk/k
+ lient-863/kino-241/stranka-8409/film-842534\n\nhttps://sammkoo.github.io/d
+ oku-film-ba-2026/#event=acko92026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko92026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko102026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261020T144500Z
 DTEND:20261020T164500Z
-SUMMARY:Áčko 2026 | Víťazné pásmo Áčko 2025
-LOCATION:BARCO\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nProjekcia víťazného výberu
-  z Áčka 2025. Konkrétne filmy\, režiséri a ich druhy\nzatiaľ v akt
- uálnom oficiálnom programe nie sú uvedené\; nie je overené\, ktorí
-  z\nminuloročných víťazov sa premietnu.\n\nSála: BARCO • FTF VŠM
- U\, Svoradova 2A\, Bratislava Program:\nhttps://festivalacko.sk/timetabl
- e/event/vitazne-pasmo-acko-2025/ Harmonogram:\nhttps://festivalacko.sk/h
- armonogram/\nZdroj: https://festivalacko.sk/harmonogram/
-URL:https://festivalacko.sk/harmonogram/
+SUMMARY:Víťazné pásmo Áčko 2025
+LOCATION:FTF VŠMU\, BARCO\, Svoradova 2A\, Bratislava
+DESCRIPTION:Súčasť programu festivalu Áčko. Podrobnosti organizátor z
+ atiaľ nezverejnil.\n\nKonkrétny zoznam premietaných filmov nebol na str
+ ánke podujatia zverejnený.\n\nVstupné: Vstup voľný\n\nKoniec podľa: 
+ Čas konca publikovaný v oficiálnom harmonograme Áčka.\n\nZdroj: https
+ ://festivalacko.sk/timetable/event/vitazne-pasmo-acko-2025/\n\nhttps://sam
+ mkoo.github.io/doku-film-ba-2026/#event=acko102026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko102026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:jeden02026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261020T163000Z
-DTEND:20261020T183000Z
-SUMMARY:Jeden svet | Slávnostné otvorenie + Preladenie
-LOCATION:Kino Lumière\, K1\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť.  Pred návštevou overte lístky a prípadnú diskusiu u orga
- nizátora.\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onl
- yAvailable=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+DTEND:20261020T181500Z
+SUMMARY:Slávnostné otvorenie festivalu: Preladenie
+LOCATION:Kino Lumière\, K1\, Špitálska 4\, Bratislava
+DESCRIPTION:Otvorenie Jedného sveta a dokument o obrane novinárskej nezá
+ vislosti pri premene RTVS na STVR. Súčasťou večera je odovzdanie Ceny 
+ Eleny Lackovej.\n\nVstupné: 7 € / festivalový cinepass\n\nProjekcii fi
+ lmu predchádza slávnostné otvorenie festivalu\, spojené s odovzdávan
+ ím Ceny Eleny Lackovej. Moderuje Marta Balaga.\n\nOver dostupné lístky 
+ v Cinepasse\; tento sprievodca rezerváciu nevykonáva.\n\nKoniec podľa: 
+ Oficiálny rezervačný systém Cinepass – pole Projection.end\; dĺžka
+  podujatia zahŕňa program navyše k filmu.\n\nZdroj: https://jedensvet.c
+ inepass.sk/sk/movies/b5d9115c-3e7c-4b9c-897b-ba633a083596/\n\nhttps://samm
+ koo.github.io/doku-film-ba-2026/#event=jeden02026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=jeden02026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko112026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261020T170000Z
 DTEND:20261020T190000Z
-SUMMARY:Áčko 2026 | OTVÁRACÍ CEREMONIÁL
-LOCATION:KLAP\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nSlávnostné otvorenie 30. ro
- čníka festivalu Áčko.\n\nSála: KLAP • FTF VŠMU\, Svoradova 2A\, 
- Bratislava Program:\nhttps://festivalacko.sk/timetable/event/otvaraci-ce
- remonial/ Harmonogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj: htt
- ps://festivalacko.sk/harmonogram/
-URL:https://festivalacko.sk/harmonogram/
+SUMMARY:OTVÁRACÍ CEREMONIÁL
+LOCATION:FTF VŠMU\, KLAP\, Svoradova 2A\, Bratislava
+DESCRIPTION:Súčasť programu festivalu Áčko. Podrobnosti organizátor z
+ atiaľ nezverejnil.\n\nVstupné: Vstup voľný\n\nKoniec podľa: Čas konc
+ a publikovaný v oficiálnom harmonograme Áčka.\n\nZdroj: https://festiv
+ alacko.sk/timetable/event/otvaraci-ceremonial/\n\nhttps://sammkoo.github.i
+ o/doku-film-ba-2026/#event=acko112026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko112026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko122026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261020T190000Z
 DTEND:20261020T200000Z
-SUMMARY:Áčko 2026 | Raut
-LOCATION:FOYER\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nRaut po otváracom ceremoniál
- i.\n\nSála: FOYER • FTF VŠMU\, Svoradova 2A\, Bratislava Program:\nh
- ttps://festivalacko.sk/timetable/event/raut/ Harmonogram:\nhttps://festi
- valacko.sk/harmonogram/\nZdroj: https://festivalacko.sk/harmonogram/
-URL:https://festivalacko.sk/harmonogram/
+SUMMARY:Raut
+LOCATION:FTF VŠMU\, FOYER\, Svoradova 2A\, Bratislava
+DESCRIPTION:Súčasť programu festivalu Áčko. Podrobnosti organizátor z
+ atiaľ nezverejnil.\n\nVstupné: Vstup voľný\n\nKoniec podľa: Čas konc
+ a publikovaný v oficiálnom harmonograme Áčka.\n\nZdroj: https://festiv
+ alacko.sk/timetable/event/raut/\n\nhttps://sammkoo.github.io/doku-film-ba-
+ 2026/#event=acko122026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko122026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko132026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261021T080000Z
 DTEND:20261021T103000Z
-SUMMARY:Áčko 2026 | FTF INDUSTRY DAYS − Fórum scenárov
-LOCATION:KLAP\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nPrezentácia absolventských s
- cenárov Ateliéru scenáristickej tvorby. Jednotlivé\nprojekty a autor
- i nie sú v zverejnenom programe rozpísaní.\n\nSála: KLAP • FTF VŠ
- MU\, Svoradova 2A\, Bratislava Program:\nhttps://festivalacko.sk/timetab
- le/event/ftf-industry-days-forum-scenarov/\nHarmonogram: https://festiva
- lacko.sk/harmonogram/\nZdroj: https://festivalacko.sk/harmonogram/
-URL:https://festivalacko.sk/harmonogram/
+SUMMARY:FTF INDUSTRY DAYS − Fórum scenárov
+LOCATION:FTF VŠMU\, KLAP\, Svoradova 2A\, Bratislava
+DESCRIPTION:Prezentácie absolventských scenárov študentstva Ateliéru s
+ cenáristickej tvorby\n\nVstupné: Vstup voľný\n\nKoniec podľa: Čas ko
+ nca publikovaný v oficiálnom harmonograme Áčka.\n\nZdroj: https://fest
+ ivalacko.sk/timetable/event/ftf-industry-days-forum-scenarov/\n\nhttps://s
+ ammkoo.github.io/doku-film-ba-2026/#event=acko132026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko132026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko142026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261021T083000Z
 DTEND:20261021T101000Z
-SUMMARY:Áčko 2026 | Filmové pásmo SPOMIENKY A ZABUDNUTIA
-LOCATION:BARCO\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nFILMY V PÁSME (poradie podľa
-  festivalového zoznamu): 1\\. zúbok zubnatý —\nréžia: Nina Sabolo
- vá — hraný film\, 2026\, 5 min.\nhttps://festivalacko.sk/movie/zubok
- -zubnaty/ 2\\. Vrksasana — réžia: Hannah\nDale — hraný film\, 202
- 6\, 22 min. https://festivalacko.sk/movie/vrksasana/ 3\\.\nVlak nikdy ne
- mešká — réžia: Anastasiia Nikitina — hraný film\, 2026\, 8 min.
- \nhttps://festivalacko.sk/movie/vlak-nikdy-nemeska/ 4\\. Usmievaj sa! 
- — réžia:\nYelyzaveta Hordieieva — hraný film\, 2026\, 20 min.\nht
- tps://festivalacko.sk/movie/usmievaj-sa/ 5\\. Sweetheart — réžia: Ma
- rek\nTomajka — hraný film\, 2026\, 10 min. https://festivalacko.sk/mo
- vie/sweetheart/\n6\\. Nákupný zoznam — réžia: Patrícia Suráková
-  — animovaný film\, 2025\, 5 min.\nhttps://festivalacko.sk/movie/naku
- pny-zoznam/ 7\\. Koni — réžia: Jakub\nVargovčík — dokumentárny 
- film\, 2026\, 13 min.\nhttps://festivalacko.sk/movie/koni/ 8\\. Drahá m
- ama — réžia: Rastislav Kupšo —\nhraný film\, 2026\, 11 min. http
- s://festivalacko.sk/movie/draha-mama/ 9\\.\nČarovný vrch — réžia: 
- Mária Farská — dokumentárny film\, 2026\, 6 min.\nhttps://festivala
- cko.sk/movie/carovny-vrch/\n\nPresné začiatky jednotlivých filmov nie
-  sú zverejnené\; čas v kalendári je čas\ncelého pásma vrátane pr
- ípadných prestávok.\n\nSála: BARCO • FTF VŠMU\, Svoradova 2A\, Br
- atislava Program:\nhttps://festivalacko.sk/filmove-pasma/#spomienky Harm
- onogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj: https://festivala
- cko.sk/filmove-pasma/
-URL:https://festivalacko.sk/filmove-pasma/
+SUMMARY:Filmové pásmo SPOMIENKY A ZABUDNUTIA
+LOCATION:FTF VŠMU\, BARCO\, Svoradova 2A\, Bratislava
+DESCRIPTION:Súťažné pásmo študentských filmov. Jednotlivé filmy\, a
+ utorky a autori sú uvedení v rozbaliteľnom zozname.\n\nVstupné: Vstup 
+ voľný\n\nzúbok zubnatý — Nina Sabolová (5 min)\nVrksasana — Hanna
+ h Dale (22 min)\nVlak nikdy nemešká — Anastasiia Nikitina (8 min)\nUsm
+ ievaj sa! — Yelyzaveta Hordieieva (20 min)\nSweetheart — Marek Tomajka
+  (10 min)\nNákupný zoznam — Patrícia Suráková (5 min)\nKoni — Jak
+ ub Vargovčík (13 min)\nDrahá mama — Rastislav Kupšo (11 min)\nČarov
+ ný vrch — Mária Farská (6 min)\n\nKoniec podľa: Čas konca publikova
+ ný v oficiálnom harmonograme Áčka.\n\nZdroj: https://festivalacko.sk/f
+ ilmove-pasma/#spomienky\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#ev
+ ent=acko142026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko142026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko152026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261021T103000Z
 DTEND:20261021T121000Z
-SUMMARY:Áčko 2026 | Filmové pásmo TRVANIE
-LOCATION:BARCO\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nFILMY V PÁSME (poradie podľa
-  festivalového zoznamu): 1\\. Fuck off (výroba\nplatne) — réžia: 
- Šimon Mináč — animovaný s hranými sekvenciami\, 2025\, 4 min.\nht
- tps://festivalacko.sk/movie/fuck-off-vyroba-platne/ 2\\. Betónka — r
- éžia:\nRastislav Kupšo — hraný film\, 2026\, 12 min.\nhttps://fest
- ivalacko.sk/movie/betonka/ 3\\. Vtedy na Morave — réžia: Rastislav\n
- Kupšo — hraný film\, 2026\, 29 min. https://festivalacko.sk/movie/vt
- edy-na-\nmorave/ 4\\. NEUSMIEVAJ SA NA MŇA ŠŤASTIE — réžia: Frant
- iška Horváthová — hraný\nfilm\, 2025\, 11 min. https://festivalack
- o.sk/movie/neusmievaj-sa-na-mna-\nstastie/ 5\\. Ulica V. I. Lenina — r
- éžia: Katarína Bojtošová — dokumentárny\nfilm\, 2025\, 14 min. h
- ttps://festivalacko.sk/movie/ulica-v-i-lenina/ 6\\. Máj —\nréžia: R
- ichard Mikloši — hraný film\, 2025\, 21 min.\nhttps://festivalacko.s
- k/movie/maj/ 7\\. Kde rastú mesiačiky — réžia: Mária\nKišeľová
-  — hraný film\, 2026\, 7 min. https://festivalacko.sk/movie/kde-rastu
- -\nmesiaciky/\n\nPresné začiatky jednotlivých filmov nie sú zverejne
- né\; čas v kalendári je čas\ncelého pásma vrátane prípadných pr
- estávok. Pri filme Ulica V. I. Lenina je na\noficiálnej stránke ako m
- ajster zvuku uvedený Samuel Ostrovský.\n\nSála: BARCO • FTF VŠMU\,
-  Svoradova 2A\, Bratislava Program:\nhttps://festivalacko.sk/filmove-pas
- ma/#trvanie Harmonogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj: h
- ttps://festivalacko.sk/filmove-pasma/
-URL:https://festivalacko.sk/filmove-pasma/
+SUMMARY:Filmové pásmo TRVANIE
+LOCATION:FTF VŠMU\, BARCO\, Svoradova 2A\, Bratislava
+DESCRIPTION:Súťažné pásmo študentských filmov. Jednotlivé filmy\, a
+ utorky a autori sú uvedení v rozbaliteľnom zozname.\n\nVstupné: Vstup 
+ voľný\n\nFuck off (výroba platne) — Šimon Mináč (4 min)\nBetónka 
+ — Rastislav Kupšo (12 min)\nVtedy na Morave — Rastislav Kupšo (29 mi
+ n)\nNEUSMIEVAJ SA NA MŇA ŠŤASTIE — Františka Horváthová (11 min)\n
+ Ulica V. I. Lenina — Katarína Bojtošová (14 min)\nMáj — Richard Mi
+ kloši (21 min)\nKde rastú mesiačiky — Mária Kišeľová (7 min)\n\nK
+ oniec podľa: Čas konca publikovaný v oficiálnom harmonograme Áčka.\n
+ \nZdroj: https://festivalacko.sk/filmove-pasma/#trvanie\n\nhttps://sammkoo
+ .github.io/doku-film-ba-2026/#event=acko152026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko152026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:jeden12026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261021T110000Z
-DTEND:20261021T130000Z
-SUMMARY:Jeden svet | Prezentácia ateliéru réžie dokumentárneho filmu
-  VŠMU
-LOCATION:Kino Lumière\, Bratislava
-DESCRIPTION:Prezentácia Ateliéru réžie dokumentárneho filmu FTF VŠM
- U. Filmy:\nDivadlo bez okien – Dominika Tarinová (26 min)\nMapa dotyk
- ov – Mária Farská (10 min)\nUlica V. I. Lenina – Katarína Bojtoš
- ová (14 min)\nIhla v kope bankoviek – Victoria Kabarcová (9 min)\nM
- ám 20 rokov a o živote už viem všetko – Leo Knut (17 min)\nMôj br
- at sa na mňa pozeral tak dlho ako na akvárium\, až sa zo mňa jedno s
- talo – Matej Mikloš (14 min)\nKoni – Jakub Vargovčík (13 min).\n
- Úvod Marek Šulík\, celkový čas orientačný.\nZdroj: https://www.je
- densvet.sk/
-URL:https://www.jedensvet.sk/
+DTEND:20261021T124300Z
+SUMMARY:Študijná prezentácia ateliéru réžie dokumentárneho filmu
+LOCATION:Kino Lumière\, K2\, Špitálska 4\, Bratislava
+DESCRIPTION:Prezentácia dokumentárneho ateliéru FTF VŠMU a sedem krátk
+ ych filmov mladých autoriek a autorov. Ateliér predstaví Marek Šulík.
+ \n\nVstupné: Vstup voľný / bezplatná rezervácia v Cinepass\n\nBezplat
+ ný lístok je potrebné rezervovať vopred v Cinepasse.\n\nDivadlo bez ok
+ ien — Dominika Tarinová (26 min)\nMapa dotykov — Mária Farská (10 m
+ in)\nUlica V. I. Lenina — Katarína Bojtošová (14 min)\nIhla v kope ba
+ nkoviek — Viktória Kabarcová (9 min)\nMám dvadsať rokov\, a o život
+ e už viem všetko — Leo Knut (17 min)\nMôj brat sa na mňa pozeral tak
+  dlho ako na akvárium\, až sa zo mňa jedno stalo — Matej Mikloš (14 
+ min)\nKoni — Jakub Vargovčík (13 min)\n\nKoniec podľa: Oficiálny rez
+ ervačný systém Cinepass – pole Projection.end\; dĺžka podujatia zah
+ ŕňa program navyše k filmu.\n\nZdroj: https://jedensvet.cinepass.sk/sk/
+ blocks/e2bbbf0f-7f8c-4c28-9356-2011c3837db8/\n\nhttps://sammkoo.github.io/
+ doku-film-ba-2026/#event=jeden12026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=jeden12026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko162026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261021T113000Z
 DTEND:20261021T140000Z
-SUMMARY:Áčko 2026 | FTF INDUSTRY DAYS − Director’s cut
-LOCATION:KLAP\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nPrezentácia rozpracovaných f
- ilmov Ateliéru filmovej a televíznej réžie a\nabsolventských showre
- elov. Jednotlivé projekty a autori nie sú v programe\nrozpísaní.\n\n
- Sála: KLAP • FTF VŠMU\, Svoradova 2A\, Bratislava Program:\nhttps://
- festivalacko.sk/timetable/event/ftf-industry-days-director-s-cut/\nHarmo
- nogram: https://festivalacko.sk/harmonogram/\nZdroj: https://festivalack
- o.sk/harmonogram/
-URL:https://festivalacko.sk/harmonogram/
+SUMMARY:FTF INDUSTRY DAYS − Director’s cut
+LOCATION:FTF VŠMU\, KLAP\, Svoradova 2A\, Bratislava
+DESCRIPTION:Prezentácie pripravovaných filmov študentstva Ateliéru film
+ ovej a televíznej réžie a showreelov jeho absolventstva\n\nVstupné: Vs
+ tup voľný\n\nKoniec podľa: Čas konca publikovaný v oficiálnom harmon
+ ograme Áčka.\n\nZdroj: https://festivalacko.sk/timetable/event/ftf-indus
+ try-days-director-s-cut/\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#e
+ vent=acko162026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko162026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:jeden22026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261021T113000Z
-DTEND:20261021T132000Z
-SUMMARY:Jeden svet | Čo s Péťom?
-LOCATION:Nízkoprahové denné centrum Domec\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
- e=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+DTEND:20261021T125600Z
+SUMMARY:Čo s Péťom?
+LOCATION:Domec\, Mýtna 33\, Bratislava
+DESCRIPTION:Otec po smrti manželky preberá každodennú starostlivosť o 
+ dospievajúce deti vrátane syna s autizmom.\n\nŠpeciálna projekcia pre 
+ klientky a klientov nízkoprahových služieb. Verejnú účasť a kapacit
+ u si najprv over u organizátora.\n\nVstupné: Vstup voľný v prípade ne
+ naplnenej kapacity\n\nOver dostupné lístky v Cinepasse\; tento sprievodc
+ a rezerváciu nevykonáva.\n\nKoniec podľa: Oficiálny rezervačný syst
+ ém Cinepass – pole Projection.end\; dĺžka podujatia zahŕňa program 
+ navyše k filmu.\n\nZdroj: https://jedensvet.cinepass.sk/sk/movies/c4df810
+ 2-0275-4bdb-9502-f18fc7a89018/\n\nhttps://sammkoo.github.io/doku-film-ba-2
+ 026/#event=jeden22026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=jeden22026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko172026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261021T130000Z
 DTEND:20261021T143500Z
-SUMMARY:Áčko 2026 | Filmové pásmo ZASTAVENÉ HODINY
-LOCATION:BARCO\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nFILMY V PÁSME (poradie podľa
-  festivalového zoznamu): 1\\. Kyvadlo — réžia:\nVeronika Kočišov
- á — dokumentárny film\, 2026\, 9 min.\nhttps://festivalacko.sk/movie
- /kyvadlo/ 2\\. Počúvam! — réžia: Samuel Kluvánek —\nhraný film
- \, 2026\, 20 min. https://festivalacko.sk/movie/pocuvam/ 3\\. Tadeto\nš
- iel človek — réžia: Denis Šatan — hraný film\, 2026\, 12 min.\n
- https://festivalacko.sk/movie/tadeto-siel-clovek/ 4\\. Ako sa Kubo strat
- il —\nréžia: Ján Kuciak — hraný film\, 2026\, 8 min.\nhttps://fe
- stivalacko.sk/movie/ako-sa-kubo-stratil/ 5\\. Esi — réžia: Terézia\
- nMoravčíková — dokumentárny film\, 2026\, 25 min.\nhttps://festiva
- lacko.sk/movie/esi/ 6\\. Malý princ — réžia: Nina Hovorková —\nh
- raný film\, 2026\, 6 min. https://festivalacko.sk/movie/maly-princ/ 7\\
- . Bublina\n— réžia: Wanda Przeworska — animovaný film\, 2025\, 5 
- min.\nhttps://festivalacko.sk/movie/bublina/\n\nPresné začiatky jednot
- livých filmov nie sú zverejnené\; čas v kalendári je čas\ncelého 
- pásma vrátane prípadných prestávok.\n\nSála: BARCO • FTF VŠMU\,
-  Svoradova 2A\, Bratislava Program:\nhttps://festivalacko.sk/filmove-pas
- ma/#zastavene-hodiny Harmonogram:\nhttps://festivalacko.sk/harmonogram/\
- nZdroj: https://festivalacko.sk/filmove-pasma/
-URL:https://festivalacko.sk/filmove-pasma/
+SUMMARY:Filmové pásmo ZASTAVENÉ HODINY
+LOCATION:FTF VŠMU\, BARCO\, Svoradova 2A\, Bratislava
+DESCRIPTION:Súťažné pásmo študentských filmov. Jednotlivé filmy\, a
+ utorky a autori sú uvedení v rozbaliteľnom zozname.\n\nVstupné: Vstup 
+ voľný\n\nKyvadlo — Veronika Kočišová (9 min)\nPočúvam! — Samuel
+  Kluvánek (20 min)\nTadeto šiel človek — Denis Šatan (12 min)\nAko s
+ a Kubo stratil — Ján Kuciak (8 min)\nRozšliapnutý melón — Adam Sar
+ ik (8 min)\nEsi — Terézia Moravčíková (25 min)\nMalý princ — Nina
+  Hovorková (6 min)\nBublina — Wanda Przeworska (5 min)\n\nKoniec podľa
+ : Čas konca publikovaný v oficiálnom harmonograme Áčka.\n\nZdroj: htt
+ ps://festivalacko.sk/filmove-pasma/#zastavene-hodiny\n\nhttps://sammkoo.gi
+ thub.io/doku-film-ba-2026/#event=acko172026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko172026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:jeden32026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261021T140000Z
 DTEND:20261021T154000Z
-SUMMARY:Jeden svet | Preladenie + diskusia so Sárou Prokopovou
-LOCATION:Kino Lumière\, K4\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť.  Pred návštevou overte lístky a prípadnú diskusiu u orga
- nizátora.\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onl
- yAvailable=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+SUMMARY:Preladenie: repríza
+LOCATION:Kino Lumière\, K4\, Špitálska 4\, Bratislava
+DESCRIPTION:Repríza dokumentu o novinároch verejnoprávnej televízie a i
+ ch odpore proti politickému ovládnutiu inštitúcie. Po filme diskusia.\
+ n\nVstupné: 7 € / festivalový cinepass\n\nPo premietaní filmu nasledu
+ je diskusia s režisérkou Sárou Prokopovou v slovenčine. Moderuje riadi
+ teľka festivalu Eva Križková. Diskusia bude tlmočená do slovenského 
+ posunkového jazyka.\n\nOver dostupné lístky v Cinepasse\; tento sprievo
+ dca rezerváciu nevykonáva.\n\nKoniec podľa: Oficiálny rezervačný sys
+ tém Cinepass – pole Projection.end\; dĺžka podujatia zahŕňa program
+  navyše k filmu.\n\nZdroj: https://jedensvet.cinepass.sk/sk/movies/dc2a7e
+ 67-ad75-43d2-8aee-75e3ef044c7f/\n\nhttps://sammkoo.github.io/doku-film-ba-
+ 2026/#event=jeden32026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=jeden32026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cinepass-d35badcd-27a0-4a5b-b9b6-44411d5f0e43@doku-film-2026
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:0
+DTSTART:20261021T140000Z
+DTEND:20261021T150000Z
+SUMMARY:Sacharovova cena: Európsky parlament a ľudské práva
+LOCATION:Nová tržnica\, Šancová 112\, Bratislava
+DESCRIPTION:Otvorenie výstavy o Sacharovovej cene za slobodu myslenia a ľ
+ uďoch\, ktorí sa angažujú za ľudské práva.\n\nVstupné: Vstup voľn
+ ý\n\nKoniec podľa: Oficiálny rezervačný systém Cinepass – pole Pro
+ jection.end\; dĺžka podujatia zahŕňa program navyše k filmu.\n\nZdroj
+ : https://jedensvet.cinepass.sk/sk/accompanying-events/a31dbb55-135c-42b5-
+ 8ba4-c4d91b720cf7/\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#event=c
+ inepass-d35badcd-27a0-4a5b-b9b6-44411d5f0e43
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=cinepass-d35badcd-27
+ a0-4a5b-b9b6-44411d5f0e43
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko182026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261021T143000Z
 DTEND:20261021T153000Z
-SUMMARY:Áčko 2026 | FTF INDUSTRY DAYS − Ako vzniká debut
-LOCATION:KLAP\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nPanel o vzniku debutov 33 krok
- ov a Milovník\, nie bojovník s ich tvorcami. Ide\no diskusiu\, nie avi
- zovanú projekciu celých filmov.\n\nSála: KLAP • FTF VŠMU\, Svorado
- va 2A\, Bratislava Program:\nhttps://festivalacko.sk/timetable/event/ftf
- -industry-days-ako-vznika-debut/\nHarmonogram: https://festivalacko.sk/h
- armonogram/\nZdroj: https://festivalacko.sk/harmonogram/
-URL:https://festivalacko.sk/harmonogram/
+SUMMARY:FTF INDUSTRY DAYS − Ako vzniká debut
+LOCATION:FTF VŠMU\, KLAP\, Svoradova 2A\, Bratislava
+DESCRIPTION:Panelová diskusia o ceste k oceňovanému debutu s tvorkyňami
+  a tvorcami filmov 33 krokov a Milovník\, nie bojovník.\n\nVstupné: Vst
+ up voľný\n\nKoniec podľa: Čas konca publikovaný v oficiálnom harmono
+ grame Áčka.\n\nZdroj: https://festivalacko.sk/timetable/event/ftf-indust
+ ry-days-ako-vznika-debut/\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#
+ event=acko182026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko182026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:zivotfilm20261021@doku-film-2026
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:0
+DTSTART:20261021T143000Z
+DTEND:20261021T155600Z
+SUMMARY:Život alebo film
+LOCATION:Kino Lumière\, K3\, Špitálska 4\, Bratislava
+DESCRIPTION:Dokumentárny portrét Dušana Hanáka skúma jeho tvorbu\, pra
+ covné postupy a vzťah medzi životom a filmom.\n\nVstupné: 7 €\n\nKon
+ iec nie je potvrdený. Čas konca v kalendári je iba orientačný odhad.\
+ n\nKoniec podľa: Orientačný koniec vypočítaný zo stopáže filmu\; k
+ ino samostatný koniec nepotvrdilo.\n\nZdroj: https://www.kino-lumiere.sk/
+ klient-863/kino-241/stranka-8409/film-839094\n\nhttps://sammkoo.github.io/
+ doku-film-ba-2026/#event=zivotfilm20261021
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=zivotfilm20261021
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko192026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261021T153000Z
 DTEND:20261021T173000Z
-SUMMARY:Áčko 2026 | VÝSTAVA HIER TIMEOUT
-LOCATION:BARCO\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nVýstava a možnosť zahrať s
- i autorské hry študentstva herného dizajnu.\n\nSála: BARCO • FTF V
- ŠMU\, Svoradova 2A\, Bratislava Program:\nhttps://festivalacko.sk/timet
- able/event/vystava-hier-timeout/ Harmonogram:\nhttps://festivalacko.sk/h
- armonogram/\nZdroj: https://festivalacko.sk/harmonogram/
-URL:https://festivalacko.sk/harmonogram/
+SUMMARY:VÝSTAVA HIER TIMEOUT
+LOCATION:FTF VŠMU\, BARCO\, Svoradova 2A\, Bratislava
+DESCRIPTION:Nahliadnite do svetov\, ktoré vznikli pod rukami študentov he
+ rného dizajnu! Čaká vás prezentácia ich autorských hier\, ktoré si 
+ nebudete len pozerať – budete si ich môcť sami zahrať\, objavovať i
+ ch pravidlá\, príbehy a herné svety. Príďte si vyskúšať nové náp
+ ady\, nechať sa prekvapiť a zahrať si hry\, ktoré možno ešte nikde i
+ nde nenájdete\n\nVstupné: Vstup voľný\n\nKoniec podľa: Čas konca pub
+ likovaný v oficiálnom harmonograme Áčka.\n\nZdroj: https://festivalack
+ o.sk/timetable/event/vystava-hier-timeout/\n\nhttps://sammkoo.github.io/do
+ ku-film-ba-2026/#event=acko192026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko192026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko202026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261021T160000Z
 DTEND:20261021T174000Z
-SUMMARY:Áčko 2026 | Filmové pásmo MEDZIČAS
-LOCATION:KLAP\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nFILMY V PÁSME (poradie podľa
-  festivalového zoznamu): 1\\. Under Dog — réžia:\nMichal Dubjel —
-  animovaný film\, 2026\, 7 min.\nhttps://festivalacko.sk/movie/under-do
- g/ 2\\. Človek nie je mačka — réžia:\nMarek Tomajka — hraný fil
- m\, 2026\, 16 min.\nhttps://festivalacko.sk/movie/clovek-nie-je-macka/ 3
- \\. Mesto noci — réžia:\nRichard Mikloši — hraný film\, 2026\, 5
-  min.\nhttps://festivalacko.sk/movie/mesto-noci/ 4\\. Problémy úplne c
- elého světa —\nréžia: Radek Chromčák Ševčík — dokumentárny
-  film\, 2024\, 24 min.\nhttps://festivalacko.sk/movie/problemy-uplne-cel
- eho-sveta/ 5\\. ružovejšie rána\n— réžia: Nina Sabolová — hran
- ý film\, 2026\, 5 min.\nhttps://festivalacko.sk/movie/ruzovejsie-rana/ 
- 6\\. Ešte chvíľu — réžia: Jakub\nDúcky — hraný film\, 2026\, 
- 19 min. https://festivalacko.sk/movie/este-chvilu/\n7\\. 2045 — réži
- a: Jakub Frištyk — dokumentárny film\, 2026\, 10 min.\nhttps://festi
- valacko.sk/movie/2045/ 8\\. Nekonečná vojna pána Nikoho (alebo\nkrát
- ka príručka toho ako robiť nacistom zo života peklo) — réžia: Ja
- kub Horňák\n— hraný film\, 2026\, 12 min. https://festivalacko.sk/m
- ovie/nekonecna-vojna-\npana-nikoho-alebo-kratka-prirucka-toho-ako-robit-
- nacistom-zo-zivota-peklo/\n\nPresné začiatky jednotlivých filmov nie 
- sú zverejnené\; čas v kalendári je čas\ncelého pásma vrátane pr
- ípadných prestávok.\n\nSála: KLAP • FTF VŠMU\, Svoradova 2A\, Bra
- tislava Program:\nhttps://festivalacko.sk/filmove-pasma/#medzicas Harmon
- ogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj: https://festivalack
- o.sk/filmove-pasma/
-URL:https://festivalacko.sk/filmove-pasma/
+SUMMARY:Filmové pásmo MEDZIČAS
+LOCATION:FTF VŠMU\, KLAP\, Svoradova 2A\, Bratislava
+DESCRIPTION:Súťažné pásmo študentských filmov. Jednotlivé filmy\, a
+ utorky a autori sú uvedení v rozbaliteľnom zozname.\n\nVstupné: Vstup 
+ voľný\n\nUnder Dog — Michal Dubjel (7 min)\nČlovek nie je mačka — 
+ Marek Tomajka (16 min)\nMesto noci — Mikloši Richard (5 min)\nProblémy
+  úplne celého světa — Radek Chromčák Ševčík (24 min)\nružovejš
+ ie rána — Nina Sabolová (5 min)\nEšte chvíľu — Jakub Dúcky (19 m
+ in)\n2045 — Jakub Frištyk (10 min)\nNekonečná vojna pána Nikoho (ale
+ bo krátka príručka toho ako robiť nacistom zo života peklo) — Jakub
+  Horňák (12 min)\n\nKoniec podľa: Čas konca publikovaný v oficiálnom
+  harmonograme Áčka.\n\nZdroj: https://festivalacko.sk/filmove-pasma/#med
+ zicas\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#event=acko202026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko202026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:jeden42026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261021T160000Z
-DTEND:20261021T175000Z
-SUMMARY:Jeden svet | Amirine deti
-LOCATION:Kino Lumière\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
- e=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+DTEND:20261021T175400Z
+SUMMARY:Amirine deti
+LOCATION:Kino Lumière\, K4\, Špitálska 4\, Bratislava
+DESCRIPTION:Desaťročné pozorovanie sýrskej rodiny v Prahe zachytáva do
+ spievanie detí\, rozdielne predstavy generácií a hľadanie domova.\n\nV
+ stupné: 7 € / festivalový cinepass\n\nPo premietaní filmu nasleduje d
+ iskusia s režisérkou a hlavnou protagonistkou v slovenčine a češtine.
+  Diskusiu bude moderovať Katarína Gališinová.\n\nOver dostupné lístk
+ y v Cinepasse\; tento sprievodca rezerváciu nevykonáva.\n\nKoniec podľa
+ : Oficiálny rezervačný systém Cinepass – pole Projection.end\; dĺž
+ ka podujatia zahŕňa program navyše k filmu.\n\nZdroj: https://jedensvet
+ .cinepass.sk/sk/movies/1e53dc16-a1e1-43f5-9b64-6f720b601a42/\n\nhttps://sa
+ mmkoo.github.io/doku-film-ba-2026/#event=jeden42026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=jeden42026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:jeden52026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261021T161500Z
-DTEND:20261021T180500Z
-SUMMARY:Jeden svet | Vo vnútri + V šere sa stráca cit pre farby
-LOCATION:Kino Lumière\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
- e=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+DTEND:20261021T173700Z
+SUMMARY:Vo vnútri + V šere sa stráca cit pre farby
+LOCATION:Kino Lumière\, K2\, Špitálska 4\, Bratislava
+DESCRIPTION:Dva krátke autorské dokumenty a spoločná diskusia s ich re
+ žisérkami. Jednotlivé filmy a autorky sú uvedené nižšie.\n\nVstupn
+ é: 7 € / festivalový cinepass\n\nPo premietaní filmov nasleduje disku
+ sia s režisérkami Dorotou Vlnovou a Lenou Kušnierikovou v slovenčine. 
+ Moderovať ju bude Diana Fabiánová.\n\nOver dostupné lístky v Cinepass
+ e\; tento sprievodca rezerváciu nevykonáva.\n\nVo vnútri — Dorota Vln
+ ová (17 min)\nV šere sa stráca cit pre farby — Lena Kušnieriková (3
+ 0 min)\n\nKoniec podľa: Oficiálny rezervačný systém Cinepass – pole
+  Projection.end\; dĺžka podujatia zahŕňa program navyše k filmu.\n\nZ
+ droj: https://jedensvet.cinepass.sk/sk/blocks/2753f4fd-c889-414d-a40e-b456
+ 833ed31f/\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#event=jeden52026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=jeden52026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:jeden62026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261021T180000Z
-DTEND:20261021T195000Z
-SUMMARY:Jeden svet | Stať sa Emou
-LOCATION:Kino Lumière\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
- e=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+DTEND:20261021T195300Z
+SUMMARY:Stať sa Emou
+LOCATION:Kino Lumière\, K2\, Špitálska 4\, Bratislava
+DESCRIPTION:Ema sa s partnerom sťahuje na vidiek a skúša žiť podľa vl
+ astných predstáv. Materstvo a rodinné očakávania preverujú jej rozho
+ dnutie.\n\nVstupné: 7 € / festivalový cinepass\n\nPo filme producent M
+ arcel Pazman\; moderuje Diana Fabiánová. Diskusia v slovenčine.\n\nOver
+  dostupné lístky v Cinepasse\; tento sprievodca rezerváciu nevykonáva.
+ \n\nKoniec podľa: Oficiálny rezervačný systém Cinepass – pole Proje
+ ction.end\; dĺžka podujatia zahŕňa program navyše k filmu.\n\nZdroj: 
+ https://jedensvet.cinepass.sk/sk/movies/7a9af56b-ee33-4d04-8d5f-e2028b0bf4
+ 44/\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#event=jeden62026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=jeden62026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:holubyBA20261021@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261021T183000Z
 DTEND:20261021T202000Z
-SUMMARY:Keby sa holuby premenili na zlato – dokumentárna projekcia
+SUMMARY:Keby sa holuby premenili na zlato
 LOCATION:Kino Lumière\, Špitálska 4\, Bratislava
-DESCRIPTION:Ďalšia projekcia autorského dokumentu Pepy Lubojacki (2026
- \, 110 min) o rodine a závislosti.\nZdroj: https://cl3.admin.citylife.s
- k/film/keby-sa-holuby-premenili-na-zlato
-URL:https://cl3.admin.citylife.sk/film/keby-sa-holuby-premenili-na-zlato
+DESCRIPTION:Autorský dokument o rodine a závislosti\, ktorý osobný prí
+ beh spracúva cez domáce záznamy a digitálne obrazy.\n\nVstupné: Cena 
+ sa môže líšiť podľa projekcie\; over v kine.\n\nKoniec nie je potvrd
+ ený. Čas konca v kalendári je iba orientačný odhad.\n\nKoniec podľa:
+  Orientačný koniec vypočítaný zo stopáže filmu\; nezahŕňa prípad
+ ný úvod.\n\nZdroj: https://www.kino-lumiere.sk/klient-863/kino-241/stran
+ ka-8409/film-840549\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#event=
+ holubyBA20261021
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=holubyBA20261021
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko212026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261022T080000Z
 DTEND:20261022T103000Z
-SUMMARY:Áčko 2026 | FTF INDUSTRY DAYS − Animation pitch
-LOCATION:KLAP\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nPrezentácia pripravovaných a
- nimovaných filmov Ateliéru animovanej tvorby. Mená\nautorov a názvy 
- projektov nie sú v programe rozpísané.\n\nSála: KLAP • FTF VŠMU\,
-  Svoradova 2A\, Bratislava Program:\nhttps://festivalacko.sk/timetable/e
- vent/ftf-industry-days-animation-pitch/\nHarmonogram: https://festivalac
- ko.sk/harmonogram/\nZdroj: https://festivalacko.sk/harmonogram/
-URL:https://festivalacko.sk/harmonogram/
+SUMMARY:FTF INDUSTRY DAYS − Animation pitch
+LOCATION:FTF VŠMU\, KLAP\, Svoradova 2A\, Bratislava
+DESCRIPTION:Prezentácie pripravovaných filmov študentstva Ateliéru anim
+ ovanej tvorby\n\nVstupné: Vstup voľný\n\nKoniec podľa: Čas konca publ
+ ikovaný v oficiálnom harmonograme Áčka.\n\nZdroj: https://festivalacko
+ .sk/timetable/event/ftf-industry-days-animation-pitch/\n\nhttps://sammkoo.
+ github.io/doku-film-ba-2026/#event=acko212026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko212026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko222026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261022T103000Z
 DTEND:20261022T121000Z
-SUMMARY:Áčko 2026 | Filmové pásmo MEDZIČAS
-LOCATION:BARCO\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nFILMY V PÁSME (poradie podľa
-  festivalového zoznamu): 1\\. Under Dog — réžia:\nMichal Dubjel —
-  animovaný film\, 2026\, 7 min.\nhttps://festivalacko.sk/movie/under-do
- g/ 2\\. Človek nie je mačka — réžia:\nMarek Tomajka — hraný fil
- m\, 2026\, 16 min.\nhttps://festivalacko.sk/movie/clovek-nie-je-macka/ 3
- \\. Mesto noci — réžia:\nRichard Mikloši — hraný film\, 2026\, 5
-  min.\nhttps://festivalacko.sk/movie/mesto-noci/ 4\\. Problémy úplne c
- elého světa —\nréžia: Radek Chromčák Ševčík — dokumentárny
-  film\, 2024\, 24 min.\nhttps://festivalacko.sk/movie/problemy-uplne-cel
- eho-sveta/ 5\\. ružovejšie rána\n— réžia: Nina Sabolová — hran
- ý film\, 2026\, 5 min.\nhttps://festivalacko.sk/movie/ruzovejsie-rana/ 
- 6\\. Ešte chvíľu — réžia: Jakub\nDúcky — hraný film\, 2026\, 
- 19 min. https://festivalacko.sk/movie/este-chvilu/\n7\\. 2045 — réži
- a: Jakub Frištyk — dokumentárny film\, 2026\, 10 min.\nhttps://festi
- valacko.sk/movie/2045/ 8\\. Nekonečná vojna pána Nikoho (alebo\nkrát
- ka príručka toho ako robiť nacistom zo života peklo) — réžia: Ja
- kub Horňák\n— hraný film\, 2026\, 12 min. https://festivalacko.sk/m
- ovie/nekonecna-vojna-\npana-nikoho-alebo-kratka-prirucka-toho-ako-robit-
- nacistom-zo-zivota-peklo/\n\nPresné začiatky jednotlivých filmov nie 
- sú zverejnené\; čas v kalendári je čas\ncelého pásma vrátane pr
- ípadných prestávok.\n\nSála: BARCO • FTF VŠMU\, Svoradova 2A\, Br
- atislava Program:\nhttps://festivalacko.sk/filmove-pasma/#medzicas Harmo
- nogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj: https://festivalac
- ko.sk/filmove-pasma/
-URL:https://festivalacko.sk/filmove-pasma/
+SUMMARY:Filmové pásmo MEDZIČAS
+LOCATION:FTF VŠMU\, BARCO\, Svoradova 2A\, Bratislava
+DESCRIPTION:Súťažné pásmo študentských filmov. Jednotlivé filmy\, a
+ utorky a autori sú uvedení v rozbaliteľnom zozname.\n\nVstupné: Vstup 
+ voľný\n\nUnder Dog — Michal Dubjel (7 min)\nČlovek nie je mačka — 
+ Marek Tomajka (16 min)\nMesto noci — Mikloši Richard (5 min)\nProblémy
+  úplne celého světa — Radek Chromčák Ševčík (24 min)\nružovejš
+ ie rána — Nina Sabolová (5 min)\nEšte chvíľu — Jakub Dúcky (19 m
+ in)\n2045 — Jakub Frištyk (10 min)\nNekonečná vojna pána Nikoho (ale
+ bo krátka príručka toho ako robiť nacistom zo života peklo) — Jakub
+  Horňák (12 min)\n\nKoniec podľa: Čas konca publikovaný v oficiálnom
+  harmonograme Áčka.\n\nZdroj: https://festivalacko.sk/filmove-pasma/#med
+ zicas\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#event=acko222026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko222026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko232026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261022T113000Z
 DTEND:20261022T123000Z
-SUMMARY:Áčko 2026 | FTF INDUSTRY DAYS − DocuPitch
-LOCATION:KLAP\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nPrezentácia pripravovaných d
- okumentárnych filmov Ateliéru réžie dokumentárneho\nfilmu. Mená au
- torov a názvy projektov nie sú v programe rozpísané.\n\nSála: KLAP 
- • FTF VŠMU\, Svoradova 2A\, Bratislava Program:\nhttps://festivalacko
- .sk/timetable/event/ftf-industry-days-docupitch/\nHarmonogram: https://f
- estivalacko.sk/harmonogram/\nZdroj: https://festivalacko.sk/harmonogram/
-URL:https://festivalacko.sk/harmonogram/
+SUMMARY:FTF INDUSTRY DAYS − DocuPitch
+LOCATION:FTF VŠMU\, KLAP\, Svoradova 2A\, Bratislava
+DESCRIPTION:Prezentácie pripravovaných filmov študentstva Ateliéru ré
+ žie dokumentárneho filmu\n\nVstupné: Vstup voľný\n\nKoniec podľa: Č
+ as konca publikovaný v oficiálnom harmonograme Áčka.\n\nZdroj: https:/
+ /festivalacko.sk/timetable/event/ftf-industry-days-docupitch/\n\nhttps://s
+ ammkoo.github.io/doku-film-ba-2026/#event=acko232026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko232026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko242026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261022T130000Z
 DTEND:20261022T140000Z
-SUMMARY:Áčko 2026 | FTF INDUSTRY DAYS − Debut v súčasnej kultúrnej
-  realite
-LOCATION:KLAP\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nPanel s predstaviteľmi sloven
- ských kultúrnych inštitúcií o dnešných\npodmienkach debutovania.\
- n\nSála: KLAP • FTF VŠMU\, Svoradova 2A\, Bratislava Program:\nhttps
- ://festivalacko.sk/timetable/event/ftf-industry-days-debut-v-sucasnej-\n
- kulturnej-realite/ Harmonogram: https://festivalacko.sk/harmonogram/ Ove
- rené\n17. 10. 2026.\nZdroj: https://festivalacko.sk/harmonogram/
-URL:https://festivalacko.sk/harmonogram/
+SUMMARY:FTF INDUSTRY DAYS − Debut v súčasnej kultúrnej realite
+LOCATION:FTF VŠMU\, KLAP\, Svoradova 2A\, Bratislava
+DESCRIPTION:Panelová diskusia o špecifikách debutovania v súčasnosti s
+  predstaviteľkami a predstaviteľmi slovenských kultúrnych inštitúci
+ í\n\nVstupné: Vstup voľný\n\nKoniec podľa: Čas konca publikovaný v 
+ oficiálnom harmonograme Áčka.\n\nZdroj: https://festivalacko.sk/timetab
+ le/event/ftf-industry-days-debut-v-sucasnej-kulturnej-realite/\n\nhttps://
+ sammkoo.github.io/doku-film-ba-2026/#event=acko242026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko242026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:jeden72026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261022T130000Z
-DTEND:20261022T145000Z
-SUMMARY:Jeden svet | Audiovízia bez bariér 6: Ako Európsky akt mení a
- udiovíziu
-LOCATION:Staré Lýceum\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
- e=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+DTEND:20261022T141000Z
+SUMMARY:Audiovízia bez bariér 6: Ako Európsky akt o prístupnosti mení 
+ audiovíziu
+LOCATION:Staré lýceum\, A1\, Konventná 15\, Bratislava
+DESCRIPTION:Odborná diskusia o prístupnosti filmov\, uplatňovaní Európ
+ skeho aktu o prístupnosti a praktických bariérach v audiovízii.\n\nVst
+ upné: Vstup voľný / bezplatná rezervácia v Cinepass\n\nEmília Perez 
+ moderuje panel s Marianou Chytilovou\, Gabrielem Uzzom a Natáliou Centkov
+ ou. Tlmočenie do/z slovenského posunkového jazyka a zo slovenčiny do a
+ ngličtiny. Nadväzujúci okrúhly stôl je neverejný.\n\nBezplatný lís
+ tok je potrebné rezervovať vopred v Cinepasse.\n\nKoniec podľa: Oficiá
+ lny rezervačný systém Cinepass – pole Projection.end\; dĺžka poduja
+ tia zahŕňa program navyše k filmu.\n\nZdroj: https://jedensvet.cinepass
+ .sk/sk/accompanying-events/eaa0c192-083b-49b1-a068-d53df84577eb/\n\nhttps:
+ //sammkoo.github.io/doku-film-ba-2026/#event=jeden72026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=jeden72026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko252026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261022T140000Z
 DTEND:20261022T154000Z
-SUMMARY:Áčko 2026 | Filmové pásmo SPOMIENKY A ZABUDNUTIA
-LOCATION:BARCO\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nFILMY V PÁSME (poradie podľa
-  festivalového zoznamu): 1\\. zúbok zubnatý —\nréžia: Nina Sabolo
- vá — hraný film\, 2026\, 5 min.\nhttps://festivalacko.sk/movie/zubok
- -zubnaty/ 2\\. Vrksasana — réžia: Hannah\nDale — hraný film\, 202
- 6\, 22 min. https://festivalacko.sk/movie/vrksasana/ 3\\.\nVlak nikdy ne
- mešká — réžia: Anastasiia Nikitina — hraný film\, 2026\, 8 min.
- \nhttps://festivalacko.sk/movie/vlak-nikdy-nemeska/ 4\\. Usmievaj sa! 
- — réžia:\nYelyzaveta Hordieieva — hraný film\, 2026\, 20 min.\nht
- tps://festivalacko.sk/movie/usmievaj-sa/ 5\\. Sweetheart — réžia: Ma
- rek\nTomajka — hraný film\, 2026\, 10 min. https://festivalacko.sk/mo
- vie/sweetheart/\n6\\. Nákupný zoznam — réžia: Patrícia Suráková
-  — animovaný film\, 2025\, 5 min.\nhttps://festivalacko.sk/movie/naku
- pny-zoznam/ 7\\. Koni — réžia: Jakub\nVargovčík — dokumentárny 
- film\, 2026\, 13 min.\nhttps://festivalacko.sk/movie/koni/ 8\\. Drahá m
- ama — réžia: Rastislav Kupšo —\nhraný film\, 2026\, 11 min. http
- s://festivalacko.sk/movie/draha-mama/ 9\\.\nČarovný vrch — réžia: 
- Mária Farská — dokumentárny film\, 2026\, 6 min.\nhttps://festivala
- cko.sk/movie/carovny-vrch/\n\nPresné začiatky jednotlivých filmov nie
-  sú zverejnené\; čas v kalendári je čas\ncelého pásma vrátane pr
- ípadných prestávok.\n\nSála: BARCO • FTF VŠMU\, Svoradova 2A\, Br
- atislava Program:\nhttps://festivalacko.sk/filmove-pasma/#spomienky Harm
- onogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj: https://festivala
- cko.sk/filmove-pasma/
-URL:https://festivalacko.sk/filmove-pasma/
+SUMMARY:Filmové pásmo SPOMIENKY A ZABUDNUTIA
+LOCATION:FTF VŠMU\, BARCO\, Svoradova 2A\, Bratislava
+DESCRIPTION:Súťažné pásmo študentských filmov. Jednotlivé filmy\, a
+ utorky a autori sú uvedení v rozbaliteľnom zozname.\n\nVstupné: Vstup 
+ voľný\n\nzúbok zubnatý — Nina Sabolová (5 min)\nVrksasana — Hanna
+ h Dale (22 min)\nVlak nikdy nemešká — Anastasiia Nikitina (8 min)\nUsm
+ ievaj sa! — Yelyzaveta Hordieieva (20 min)\nSweetheart — Marek Tomajka
+  (10 min)\nNákupný zoznam — Patrícia Suráková (5 min)\nKoni — Jak
+ ub Vargovčík (13 min)\nDrahá mama — Rastislav Kupšo (11 min)\nČarov
+ ný vrch — Mária Farská (6 min)\n\nKoniec podľa: Čas konca publikova
+ ný v oficiálnom harmonograme Áčka.\n\nZdroj: https://festivalacko.sk/f
+ ilmove-pasma/#spomienky\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#ev
+ ent=acko252026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko252026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:zivotfilm20261022@doku-film-2026
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:0
+DTSTART:20261022T142000Z
+DTEND:20261022T154600Z
+SUMMARY:Život alebo film
+LOCATION:Kino Lumière\, K3\, Špitálska 4\, Bratislava
+DESCRIPTION:Dokumentárny portrét Dušana Hanáka skúma jeho tvorbu\, pra
+ covné postupy a vzťah medzi životom a filmom.\n\nVstupné: 7 €\n\nKon
+ iec nie je potvrdený. Čas konca v kalendári je iba orientačný odhad.\
+ n\nKoniec podľa: Orientačný koniec vypočítaný zo stopáže filmu\; k
+ ino samostatný koniec nepotvrdilo.\n\nZdroj: https://www.kino-lumiere.sk/
+ klient-863/kino-241/stranka-8409/film-839094\n\nhttps://sammkoo.github.io/
+ doku-film-ba-2026/#event=zivotfilm20261022
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=zivotfilm20261022
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko262026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261022T143000Z
 DTEND:20261022T160000Z
-SUMMARY:Áčko 2026 | Strih ako dialóg: od scenára k filmu − Mastercl
- ass
-LOCATION:KLAP\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nMartina Buchelová\, Marek Bih
- uň a Katarína Meliš Pavelková: spolupráca réžie a\nstrihu\, emóc
- ia\, rytmus\, ticho a rozhodnutia v strižni na ukážkach z filmu\nMilo
- vník\, nie bojovník.\n\nSála: KLAP • FTF VŠMU\, Svoradova 2A\, Bra
- tislava Program:\nhttps://festivalacko.sk/timetable/event/strih-ako-dial
- og-od-scenara-k-filmu-\nmasterclass/ Harmonogram: https://festivalacko.s
- k/harmonogram/\nZdroj: https://festivalacko.sk/harmonogram/
-URL:https://festivalacko.sk/harmonogram/
+SUMMARY:Strih ako dialóg: od scenára k filmu − Masterclass
+LOCATION:FTF VŠMU\, KLAP\, Svoradova 2A\, Bratislava
+DESCRIPTION:Martina Buchelová je absolventkou réžie na VŠMU. Jej debuto
+ vý film Milovnik\, nie bojovník premiéroval na Medzinárodnom festivale
+  V Karlových Varoch\, odkiaľ si aj odniesol hlavnú cenu súťaže Proxi
+ ma. Marek Bihuň je filmový strihač\, člen ASFS A ASDF. Za svoju prácu
+  získal aj ocenenia ASFS. Vo svojej tvorbe sa pohybuje medzi hraným a do
+ kumentárnym filmom\, reklamou\, trailerovou tvorbou a audiovizuálnymi pr
+ ojektmi v oblasti nových médií. Katarína…\n\nVstupné: Vstup voľný
+ \n\nKoniec podľa: Čas konca publikovaný v oficiálnom harmonograme Áč
+ ka.\n\nZdroj: https://festivalacko.sk/timetable/event/strih-ako-dialog-od-
+ scenara-k-filmu-masterclass/\n\nhttps://sammkoo.github.io/doku-film-ba-202
+ 6/#event=acko262026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko262026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:jeden82026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261022T150000Z
-DTEND:20261022T165000Z
-SUMMARY:Jeden svet | Líška vo svite ružového mesiaca
-LOCATION:Kino Lumière\, K1\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť.  Pred návštevou overte lístky a prípadnú diskusiu u orga
- nizátora.\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onl
- yAvailable=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+DTEND:20261022T170600Z
+SUMMARY:Líška vo svite ružového mesiaca
+LOCATION:Kino Lumière\, K1\, Špitálska 4\, Bratislava
+DESCRIPTION:Autoportrét afganskej umelkyne Soraye vznikajúci z mobilných
+  záznamov a dlhoročnej spolupráce na diaľku. Pokusy odísť z Iránu s
+ a prepájajú s jej tvorbou.\n\nVstupné: 7 € / festivalový cinepass\n\
+ nPo filme Mehrdad Oskouei a Soraya Akhlaghi\; moderuje Nasi / Nastaran Mot
+ lagh. Angličtina a perzština\, tlmočenie do slovenského posunkového j
+ azyka.\n\nOver dostupné lístky v Cinepasse\; tento sprievodca rezerváci
+ u nevykonáva.\n\nKoniec podľa: Oficiálny rezervačný systém Cinepass 
+ – pole Projection.end\; dĺžka podujatia zahŕňa program navyše k fil
+ mu.\n\nZdroj: https://jedensvet.cinepass.sk/sk/movies/4f95232f-6f6d-4721-8
+ 192-6dc5e8234b67/\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#event=je
+ den82026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=jeden82026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:jeden92026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261022T151500Z
-DTEND:20261022T170500Z
-SUMMARY:Jeden svet | Musíme prežiť
-LOCATION:Kino Lumière\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
- e=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+DTEND:20261022T170700Z
+SUMMARY:Musíme prežiť
+LOCATION:Kino Lumière\, K2\, Špitálska 4\, Bratislava
+DESCRIPTION:Dokument putuje štyrmi kontinentmi a sleduje konkrétne spôso
+ by\, akými sa ľudia prispôsobujú meniacej sa planéte.\n\nVstupné: 7 
+ € / festivalový cinepass\n\nOver dostupné lístky v Cinepasse\; tento 
+ sprievodca rezerváciu nevykonáva.\n\nKoniec podľa: Oficiálny rezervač
+ ný systém Cinepass – pole Projection.end\; dĺžka podujatia zahŕňa 
+ program navyše k filmu.\n\nZdroj: https://jedensvet.cinepass.sk/sk/movies
+ /2c8b150d-7060-4aac-9312-93b7193a0944/\n\nhttps://sammkoo.github.io/doku-f
+ ilm-ba-2026/#event=jeden92026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=jeden92026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko272026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261022T160000Z
 DTEND:20261022T174000Z
-SUMMARY:Áčko 2026 | Filmové pásmo TRVANIE
-LOCATION:BARCO\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nFILMY V PÁSME (poradie podľa
-  festivalového zoznamu): 1\\. Fuck off (výroba\nplatne) — réžia: 
- Šimon Mináč — animovaný s hranými sekvenciami\, 2025\, 4 min.\nht
- tps://festivalacko.sk/movie/fuck-off-vyroba-platne/ 2\\. Betónka — r
- éžia:\nRastislav Kupšo — hraný film\, 2026\, 12 min.\nhttps://fest
- ivalacko.sk/movie/betonka/ 3\\. Vtedy na Morave — réžia: Rastislav\n
- Kupšo — hraný film\, 2026\, 29 min. https://festivalacko.sk/movie/vt
- edy-na-\nmorave/ 4\\. NEUSMIEVAJ SA NA MŇA ŠŤASTIE — réžia: Frant
- iška Horváthová — hraný\nfilm\, 2025\, 11 min. https://festivalack
- o.sk/movie/neusmievaj-sa-na-mna-\nstastie/ 5\\. Ulica V. I. Lenina — r
- éžia: Katarína Bojtošová — dokumentárny\nfilm\, 2025\, 14 min. h
- ttps://festivalacko.sk/movie/ulica-v-i-lenina/ 6\\. Máj —\nréžia: R
- ichard Mikloši — hraný film\, 2025\, 21 min.\nhttps://festivalacko.s
- k/movie/maj/ 7\\. Kde rastú mesiačiky — réžia: Mária\nKišeľová
-  — hraný film\, 2026\, 7 min. https://festivalacko.sk/movie/kde-rastu
- -\nmesiaciky/\n\nPresné začiatky jednotlivých filmov nie sú zverejne
- né\; čas v kalendári je čas\ncelého pásma vrátane prípadných pr
- estávok. Pri filme Ulica V. I. Lenina je na\noficiálnej stránke ako m
- ajster zvuku uvedený Samuel Ostrovský.\n\nSála: BARCO • FTF VŠMU\,
-  Svoradova 2A\, Bratislava Program:\nhttps://festivalacko.sk/filmove-pas
- ma/#trvanie Harmonogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj: h
- ttps://festivalacko.sk/filmove-pasma/
-URL:https://festivalacko.sk/filmove-pasma/
+SUMMARY:Filmové pásmo TRVANIE
+LOCATION:FTF VŠMU\, BARCO\, Svoradova 2A\, Bratislava
+DESCRIPTION:Súťažné pásmo študentských filmov. Jednotlivé filmy\, a
+ utorky a autori sú uvedení v rozbaliteľnom zozname.\n\nVstupné: Vstup 
+ voľný\n\nFuck off (výroba platne) — Šimon Mináč (4 min)\nBetónka 
+ — Rastislav Kupšo (12 min)\nVtedy na Morave — Rastislav Kupšo (29 mi
+ n)\nNEUSMIEVAJ SA NA MŇA ŠŤASTIE — Františka Horváthová (11 min)\n
+ Ulica V. I. Lenina — Katarína Bojtošová (14 min)\nMáj — Richard Mi
+ kloši (21 min)\nKde rastú mesiačiky — Mária Kišeľová (7 min)\n\nK
+ oniec podľa: Čas konca publikovaný v oficiálnom harmonograme Áčka.\n
+ \nZdroj: https://festivalacko.sk/filmove-pasma/#trvanie\n\nhttps://sammkoo
+ .github.io/doku-film-ba-2026/#event=acko272026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko272026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:jeden102026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261022T160000Z
-DTEND:20261022T175000Z
-SUMMARY:Jeden svet | Kráľovné radosti
-LOCATION:Kino Lumière\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
- e=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+DTEND:20261022T174000Z
+SUMMARY:Kráľovné radosti
+LOCATION:Kino Lumière\, K4\, Špitálska 4\, Bratislava
+DESCRIPTION:Tri ukrajinské drag queens zostávajú počas vojny vo svojej 
+ krajine. Ich umelecký a komunitný život sa stretáva s každodennou nei
+ stotou.\n\nVstupné: 7 € / festivalový cinepass\n\nOver dostupné líst
+ ky v Cinepasse\; tento sprievodca rezerváciu nevykonáva.\n\nKoniec podľ
+ a: Oficiálny rezervačný systém Cinepass – pole Projection.end\; dĺ
+ žka podujatia zahŕňa program navyše k filmu.\n\nZdroj: https://jedensv
+ et.cinepass.sk/sk/movies/712e2fe7-f110-4e23-ad02-c6bfa8106156/\n\nhttps://
+ sammkoo.github.io/doku-film-ba-2026/#event=jeden102026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=jeden102026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko282026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261022T161500Z
 DTEND:20261022T180000Z
-SUMMARY:Áčko 2026 | ASK Masterclass
-LOCATION:KLAP\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nBoris Šmotlák: generatívne 
- nástroje pri previzualizácii\, AI v postprodukcii a\ngradingu\, právo
-  a etika\; porovnanie bežného a AI-asistovaného postupu.\n\nSála: KL
- AP • FTF VŠMU\, Svoradova 2A\, Bratislava Program:\nhttps://festivala
- cko.sk/timetable/event/ask-masterclass/ Harmonogram:\nhttps://festivalac
- ko.sk/harmonogram/\nZdroj: https://festivalacko.sk/harmonogram/
-URL:https://festivalacko.sk/harmonogram/
+SUMMARY:ASK Masterclass
+LOCATION:FTF VŠMU\, KLAP\, Svoradova 2A\, Bratislava
+DESCRIPTION:Boris Šmotlák je kolorista a producent s viac ako jedenásťr
+ očnou praxou vo vedení štúdia zameraného na farebné korekcie a retu
+ š pre filmy\, dokumentárne filmy\, TV relácie a reklamy. Cieľom jeho p
+ ráce je dať každému projektu jedinečný vizuálny štýl a umocniť r
+ ozprávanie príbehu vytvorením špecifickej nálady či atmosféry\, bez
+  ohľadu na to\, o aký žáner ide. Zabezpečuje doručenie pre online\, 
+ broadcast aj kinodistribúciu. Masterclass sa zameria na…\n\nVstupné: V
+ stup voľný\n\nKoniec podľa: Čas konca publikovaný v oficiálnom harmo
+ nograme Áčka.\n\nZdroj: https://festivalacko.sk/timetable/event/ask-mast
+ erclass/\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#event=acko282026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko282026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:jeden112026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261022T173000Z
-DTEND:20261022T194500Z
-SUMMARY:Jeden svet | Zóny nikoho + diskusia s režisérkami
-LOCATION:Kino Lumière\, K1\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť.  Pred návštevou overte lístky a prípadnú diskusiu u orga
- nizátora.\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onl
- yAvailable=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+DTEND:20261022T200000Z
+SUMMARY:Zóny nikoho
+LOCATION:Kino Lumière\, K1\, Špitálska 4\, Bratislava
+DESCRIPTION:Tri autorky skúmajú život v slovenských regiónoch zasiahnu
+ tých environmentálnymi záťažami. Po filme diskusia s tvorkyňami.\n\n
+ Vstupné: 7 € / festivalový cinepass\n\nDiskutovať budú režisérky f
+ ilmu Viera.Čákanyová\, Barbora Sliepková\, Lucia Kašová a starostka 
+ obce Predajná Tatiana Čontofalská. Diskusiu v slovenčine moderuje Vikt
+ ória Novotňaková. Po projekcii a diskusii nasleduje filmová párty v T
+ emnom Ost Blocku.\n\nOver dostupné lístky v Cinepasse\; tento sprievodca
+  rezerváciu nevykonáva.\n\nKoniec podľa: Oficiálny rezervačný systé
+ m Cinepass – pole Projection.end\; dĺžka podujatia zahŕňa program na
+ vyše k filmu.\n\nZdroj: https://jedensvet.cinepass.sk/sk/movies/84b7d380-
+ 0507-4c43-b758-1d5719bd8434/\n\nhttps://sammkoo.github.io/doku-film-ba-202
+ 6/#event=jeden112026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=jeden112026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:jeden122026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261022T180000Z
-DTEND:20261022T195000Z
-SUMMARY:Jeden svet | Pre život
-LOCATION:Kino Lumière\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
- e=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+DTEND:20261022T200500Z
+SUMMARY:Pre život
+LOCATION:Kino Lumière\, K2\, Špitálska 4\, Bratislava
+DESCRIPTION:Palestínčanka Hind túži po materstve\, hoci je jej manžel 
+ dlhodobo väznený. Film sleduje intimitu a rodinný život rozdelený vä
+ zenskými múrmi.\n\nVstupné: 7 € / festivalový cinepass\n\nKeď sa vo
+ jna a okupácia stanú súčasťou každodennej reality\, mení sa aj výz
+ nam bežného života. Stretnúť sa s blízkymi sa zdá nedosiahnuteľné
+ \, bezpečie a istota sa stávajú vzácnosťou a priviesť na svet dieťa
+  sa mení na akt odporu. V diskusii po filme sa hostia – Salma Al Henami
+ \, ktorá má slovensko-jemenský pôvod\, Rami Jacob\, narodený v Libano
+ ne\, a Julián Vrábel\, ktorý strávil dva mesiace na Západnom brehu Jo
+ rdánu – budú venovať otázke\, čo znamená rodina\, keď ju okrem l
+ ásky formuje aj vytrvalosť a boj o prežitie. Diskusia bude prebiehať v
+  slovenčine a bude tlmočená do slovenského posunkového jazyka.\n\nOve
+ r dostupné lístky v Cinepasse\; tento sprievodca rezerváciu nevykonáva
+ .\n\nKoniec podľa: Oficiálny rezervačný systém Cinepass – pole Proj
+ ection.end\; dĺžka podujatia zahŕňa program navyše k filmu.\n\nZdroj:
+  https://jedensvet.cinepass.sk/sk/movies/6365a5e2-d6dd-453e-bc94-aa1d138a3
+ 529/\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#event=jeden122026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=jeden122026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko292026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261022T181500Z
 DTEND:20261022T194500Z
-SUMMARY:Áčko 2026 | Filmové pásmo ZASTAVENÉ HODINY
-LOCATION:KLAP\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nFILMY V PÁSME (poradie podľa
-  festivalového zoznamu): 1\\. Kyvadlo — réžia:\nVeronika Kočišov
- á — dokumentárny film\, 2026\, 9 min.\nhttps://festivalacko.sk/movie
- /kyvadlo/ 2\\. Počúvam! — réžia: Samuel Kluvánek —\nhraný film
- \, 2026\, 20 min. https://festivalacko.sk/movie/pocuvam/ 3\\. Tadeto\nš
- iel človek — réžia: Denis Šatan — hraný film\, 2026\, 12 min.\n
- https://festivalacko.sk/movie/tadeto-siel-clovek/ 4\\. Ako sa Kubo strat
- il —\nréžia: Ján Kuciak — hraný film\, 2026\, 8 min.\nhttps://fe
- stivalacko.sk/movie/ako-sa-kubo-stratil/ 5\\. Esi — réžia: Terézia\
- nMoravčíková — dokumentárny film\, 2026\, 25 min.\nhttps://festiva
- lacko.sk/movie/esi/ 6\\. Malý princ — réžia: Nina Hovorková —\nh
- raný film\, 2026\, 6 min. https://festivalacko.sk/movie/maly-princ/ 7\\
- . Bublina\n— réžia: Wanda Przeworska — animovaný film\, 2025\, 5 
- min.\nhttps://festivalacko.sk/movie/bublina/\n\nPresné začiatky jednot
- livých filmov nie sú zverejnené\; čas v kalendári je čas\ncelého 
- pásma vrátane prípadných prestávok. Harmonogram pri tomto termíne\
- nuvádza 90 minút\; pri ďalších reprízach 95 minút. Zachovaný je 
- zverejnený\nkoniec daného termínu.\n\nSála: KLAP • FTF VŠMU\, Svo
- radova 2A\, Bratislava Program:\nhttps://festivalacko.sk/filmove-pasma/#
- zastavene-hodiny Harmonogram:\nhttps://festivalacko.sk/harmonogram/\nZdr
- oj: https://festivalacko.sk/filmove-pasma/
-URL:https://festivalacko.sk/filmove-pasma/
+SUMMARY:Filmové pásmo ZASTAVENÉ HODINY
+LOCATION:FTF VŠMU\, KLAP\, Svoradova 2A\, Bratislava
+DESCRIPTION:Súťažné pásmo študentských filmov. Jednotlivé filmy\, a
+ utorky a autori sú uvedení v rozbaliteľnom zozname.\n\nVstupné: Vstup 
+ voľný\n\nKyvadlo — Veronika Kočišová (9 min)\nPočúvam! — Samuel
+  Kluvánek (20 min)\nTadeto šiel človek — Denis Šatan (12 min)\nAko s
+ a Kubo stratil — Ján Kuciak (8 min)\nRozšliapnutý melón — Adam Sar
+ ik (8 min)\nEsi — Terézia Moravčíková (25 min)\nMalý princ — Nina
+  Hovorková (6 min)\nBublina — Wanda Przeworska (5 min)\n\nKoniec podľa
+ : Čas konca publikovaný v oficiálnom harmonograme Áčka.\n\nZdroj: htt
+ ps://festivalacko.sk/filmove-pasma/#zastavene-hodiny\n\nhttps://sammkoo.gi
+ thub.io/doku-film-ba-2026/#event=acko292026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko292026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:jeden132026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261022T200000Z
-DTEND:20261022T215900Z
-SUMMARY:Jeden svet | Zóny nikoho v Temnom Ost Blocku – party
+DTEND:20261022T220000Z
+SUMMARY:Zóny nikoho v Temnom Ost Blocku – párty
 LOCATION:Temný Ost Block\, Kamenné námestie 1\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť.  Pred návštevou overte lístky a prípadnú diskusiu u orga
- nizátora.\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onl
- yAvailable=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+DESCRIPTION:Sprievodný večer po premiére Zón nikoho. DJ set Aid Kida\, 
+ autora hudby k filmu\, a stretnutie s tvorivým tímom.\n\nVstupné: Vstup
+  voľný\n\nOver dostupné lístky v Cinepasse\; tento sprievodca rezervá
+ ciu nevykonáva.\n\nKoniec podľa: Oficiálny rezervačný systém Cinepas
+ s – pole Projection.end\; dĺžka podujatia zahŕňa program navyše k f
+ ilmu.\n\nZdroj: https://jedensvet.cinepass.sk/sk/accompanying-events/e9515
+ 02d-f2f4-4381-b6fa-8203b6233ee9/\n\nhttps://sammkoo.github.io/doku-film-ba
+ -2026/#event=jeden132026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=jeden132026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko302026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261023T080000Z
 DTEND:20261023T093000Z
-SUMMARY:Áčko 2026 | Finančná gramotnosť a dane − Prednáška
-LOCATION:BARCO\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nMarta Šuleková: zdaňovanie 
- rôznych príjmov fyzických osôb\, odvody\, sadzby a\nnezdaniteľné 
- časti\; tiež základy dane právnických osôb a otázky publika.\n\nS
- ála: BARCO • FTF VŠMU\, Svoradova 2A\, Bratislava Program:\nhttps://
- festivalacko.sk/timetable/event/financna-gramotnost-a-dane-prednaska/\nH
- armonogram: https://festivalacko.sk/harmonogram/\nZdroj: https://festiva
- lacko.sk/harmonogram/
-URL:https://festivalacko.sk/harmonogram/
+SUMMARY:Finančná gramotnosť a dane − Prednáška
+LOCATION:FTF VŠMU\, BARCO\, Svoradova 2A\, Bratislava
+DESCRIPTION:Ing. Marta Šuleková\, ArtD. je absolventka Vysokej školy eko
+ nomickej v Bratislave. V roku 2014 obhájila titul ArtD. a pôsobí ako pe
+ dagóg na Kadetre produkcie a distribúcie. Od r. 2000 pracuje v Slovensko
+ m filmovom ústave ako riaditeľka Útvaru ekonomiky a manažmentu a od r.
+  2015 pôsobí v odborných komisiách AVF\, je členkou Prezídia SFTA. V
+  r. 2009 získala odbornosť Daňový špecialista na daň z príjmov a da
+ ň z pridanej hodnoty. Prednáška Daň z…\n\nVstupné: Vstup voľný\n\
+ nKoniec podľa: Čas konca publikovaný v oficiálnom harmonograme Áčka.
+ \n\nZdroj: https://festivalacko.sk/timetable/event/financna-gramotnost-a-d
+ ane-prednaska/\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#event=acko3
+ 02026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko302026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko312026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261023T083000Z
 DTEND:20261023T100500Z
-SUMMARY:Áčko 2026 | Filmové pásmo ZASTAVENÉ HODINY
-LOCATION:KLAP\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nFILMY V PÁSME (poradie podľa
-  festivalového zoznamu): 1\\. Kyvadlo — réžia:\nVeronika Kočišov
- á — dokumentárny film\, 2026\, 9 min.\nhttps://festivalacko.sk/movie
- /kyvadlo/ 2\\. Počúvam! — réžia: Samuel Kluvánek —\nhraný film
- \, 2026\, 20 min. https://festivalacko.sk/movie/pocuvam/ 3\\. Tadeto\nš
- iel človek — réžia: Denis Šatan — hraný film\, 2026\, 12 min.\n
- https://festivalacko.sk/movie/tadeto-siel-clovek/ 4\\. Ako sa Kubo strat
- il —\nréžia: Ján Kuciak — hraný film\, 2026\, 8 min.\nhttps://fe
- stivalacko.sk/movie/ako-sa-kubo-stratil/ 5\\. Esi — réžia: Terézia\
- nMoravčíková — dokumentárny film\, 2026\, 25 min.\nhttps://festiva
- lacko.sk/movie/esi/ 6\\. Malý princ — réžia: Nina Hovorková —\nh
- raný film\, 2026\, 6 min. https://festivalacko.sk/movie/maly-princ/ 7\\
- . Bublina\n— réžia: Wanda Przeworska — animovaný film\, 2025\, 5 
- min.\nhttps://festivalacko.sk/movie/bublina/\n\nPresné začiatky jednot
- livých filmov nie sú zverejnené\; čas v kalendári je čas\ncelého 
- pásma vrátane prípadných prestávok.\n\nSála: KLAP • FTF VŠMU\, 
- Svoradova 2A\, Bratislava Program:\nhttps://festivalacko.sk/filmove-pasm
- a/#zastavene-hodiny Harmonogram:\nhttps://festivalacko.sk/harmonogram/\n
- Zdroj: https://festivalacko.sk/filmove-pasma/
-URL:https://festivalacko.sk/filmove-pasma/
+SUMMARY:Filmové pásmo ZASTAVENÉ HODINY
+LOCATION:FTF VŠMU\, KLAP\, Svoradova 2A\, Bratislava
+DESCRIPTION:Súťažné pásmo študentských filmov. Jednotlivé filmy\, a
+ utorky a autori sú uvedení v rozbaliteľnom zozname.\n\nVstupné: Vstup 
+ voľný\n\nKyvadlo — Veronika Kočišová (9 min)\nPočúvam! — Samuel
+  Kluvánek (20 min)\nTadeto šiel človek — Denis Šatan (12 min)\nAko s
+ a Kubo stratil — Ján Kuciak (8 min)\nRozšliapnutý melón — Adam Sar
+ ik (8 min)\nEsi — Terézia Moravčíková (25 min)\nMalý princ — Nina
+  Hovorková (6 min)\nBublina — Wanda Przeworska (5 min)\n\nKoniec podľa
+ : Čas konca publikovaný v oficiálnom harmonograme Áčka.\n\nZdroj: htt
+ ps://festivalacko.sk/filmove-pasma/#zastavene-hodiny\n\nhttps://sammkoo.gi
+ thub.io/doku-film-ba-2026/#event=acko312026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko312026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko322026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261023T100000Z
 DTEND:20261023T114000Z
-SUMMARY:Áčko 2026 | Filmové pásmo SPOMIENKY A ZABUDNUTIA
-LOCATION:BARCO\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nFILMY V PÁSME (poradie podľa
-  festivalového zoznamu): 1\\. zúbok zubnatý —\nréžia: Nina Sabolo
- vá — hraný film\, 2026\, 5 min.\nhttps://festivalacko.sk/movie/zubok
- -zubnaty/ 2\\. Vrksasana — réžia: Hannah\nDale — hraný film\, 202
- 6\, 22 min. https://festivalacko.sk/movie/vrksasana/ 3\\.\nVlak nikdy ne
- mešká — réžia: Anastasiia Nikitina — hraný film\, 2026\, 8 min.
- \nhttps://festivalacko.sk/movie/vlak-nikdy-nemeska/ 4\\. Usmievaj sa! 
- — réžia:\nYelyzaveta Hordieieva — hraný film\, 2026\, 20 min.\nht
- tps://festivalacko.sk/movie/usmievaj-sa/ 5\\. Sweetheart — réžia: Ma
- rek\nTomajka — hraný film\, 2026\, 10 min. https://festivalacko.sk/mo
- vie/sweetheart/\n6\\. Nákupný zoznam — réžia: Patrícia Suráková
-  — animovaný film\, 2025\, 5 min.\nhttps://festivalacko.sk/movie/naku
- pny-zoznam/ 7\\. Koni — réžia: Jakub\nVargovčík — dokumentárny 
- film\, 2026\, 13 min.\nhttps://festivalacko.sk/movie/koni/ 8\\. Drahá m
- ama — réžia: Rastislav Kupšo —\nhraný film\, 2026\, 11 min. http
- s://festivalacko.sk/movie/draha-mama/ 9\\.\nČarovný vrch — réžia: 
- Mária Farská — dokumentárny film\, 2026\, 6 min.\nhttps://festivala
- cko.sk/movie/carovny-vrch/\n\nPresné začiatky jednotlivých filmov nie
-  sú zverejnené\; čas v kalendári je čas\ncelého pásma vrátane pr
- ípadných prestávok.\n\nSála: BARCO • FTF VŠMU\, Svoradova 2A\, Br
- atislava Program:\nhttps://festivalacko.sk/filmove-pasma/#spomienky Harm
- onogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj: https://festivala
- cko.sk/filmove-pasma/
-URL:https://festivalacko.sk/filmove-pasma/
+SUMMARY:Filmové pásmo SPOMIENKY A ZABUDNUTIA
+LOCATION:FTF VŠMU\, BARCO\, Svoradova 2A\, Bratislava
+DESCRIPTION:Súťažné pásmo študentských filmov. Jednotlivé filmy\, a
+ utorky a autori sú uvedení v rozbaliteľnom zozname.\n\nVstupné: Vstup 
+ voľný\n\nzúbok zubnatý — Nina Sabolová (5 min)\nVrksasana — Hanna
+ h Dale (22 min)\nVlak nikdy nemešká — Anastasiia Nikitina (8 min)\nUsm
+ ievaj sa! — Yelyzaveta Hordieieva (20 min)\nSweetheart — Marek Tomajka
+  (10 min)\nNákupný zoznam — Patrícia Suráková (5 min)\nKoni — Jak
+ ub Vargovčík (13 min)\nDrahá mama — Rastislav Kupšo (11 min)\nČarov
+ ný vrch — Mária Farská (6 min)\n\nKoniec podľa: Čas konca publikova
+ ný v oficiálnom harmonograme Áčka.\n\nZdroj: https://festivalacko.sk/f
+ ilmove-pasma/#spomienky\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#ev
+ ent=acko322026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko322026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko332026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261023T110000Z
-DTEND:20261023T130000Z
-SUMMARY:Áčko 2026 | Masterclass s režisérmi filmu „A Fox Under A Pi
- nk Moon“
-LOCATION:KLAP\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nMasterclass Mehrdada Oskoueia 
- a Soraye Akhlaghi k dokumentárnemu filmu A Fox\nUnder a Pink Moon v spo
- lupráci s festivalom Jeden svet. Ide o masterclass\, nie\nsamostatnú p
- rojekciu celého filmu.\n\nSála: KLAP • FTF VŠMU\, Svoradova 2A\, Br
- atislava Program:\nhttps://festivalacko.sk/timetable/event/masterclass-s
- -rezisermi-filmu-a-fox-\nunder-a-pink-moon/ Harmonogram: https://festiva
- lacko.sk/harmonogram/ Overené\n17. 10. 2026.\nZdroj: https://festivalac
- ko.sk/harmonogram/
-URL:https://festivalacko.sk/harmonogram/
+SUMMARY:Masterclass: Mehrdad Oskouei & Soraya Akhlaghi
+LOCATION:FTF VŠMU\, KLAP\, Svoradova 2A\, Bratislava
+DESCRIPTION:Stretnutie s tvorcami filmu Líška vo svite ružového mesiaca
+  v spolupráci festivalov Áčko a Jeden svet.\n\nZačiatok 13:00 podľa n
+ ovšieho školského oznámenia z 18. 10. Verejný harmonogram Áčka stá
+ le uvádza 13:30–15:30. Termín môže byť zmenený\; pred návštevou 
+ over u organizátora.\n\nVstupné: Vstup voľný\n\nMehrdad Oskouei a Sora
+ ya Akhlaghi.\n\nKoniec nie je potvrdený. \n\nKoniec podľa: Po posune za
+ čiatku nebol nový koniec potvrdený.\n\nZdroj: https://festivalacko.sk/t
+ imetable/event/masterclass-s-rezisermi-filmu-a-fox-under-a-pink-moon/\n\nh
+ ttps://sammkoo.github.io/doku-film-ba-2026/#event=acko332026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko332026
 TRANSP:TRANSPARENT
+STATUS:TENTATIVE
 END:VEVENT
 BEGIN:VEVENT
 UID:acko342026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261023T130000Z
 DTEND:20261023T150000Z
-SUMMARY:Áčko 2026 | Safe&Sound film days: ako riešiť krízové situá
- cie pri výrobe filmu − Prednáška
-LOCATION:BARCO\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nMichaela Kaliská a Erika Paul
- ínska: príprava na krízové situácie pri výrobe\nškolských filmov
- \, duševné zdravie a kultúra práce vo filmovom prostredí.\n\nSála:
-  BARCO • FTF VŠMU\, Svoradova 2A\, Bratislava Program:\nhttps://festi
- valacko.sk/timetable/event/safesound-film-days-ako-riesit-\nkrizove-situ
- acie-pri-vyrobe-filmu-prednaska/ Harmonogram:\nhttps://festivalacko.sk/h
- armonogram/\nZdroj: https://festivalacko.sk/harmonogram/
-URL:https://festivalacko.sk/harmonogram/
+SUMMARY:Safe&Sound film days: ako riešiť krízové situácie pri výrobe 
+ filmu − Prednáška
+LOCATION:FTF VŠMU\, BARCO\, Svoradova 2A\, Bratislava
+DESCRIPTION:Michaela Kaliská\, Erika Paulínska Safe and Sound Film Days j
+ e vzdelávacie podujatie\, ktorého hlavným cieľom je scitlivovanie\, ku
+ ltivovanie a edukovanie v oblasti filmovej produkcie v rámci slovenského
+  audiovizuálneho priestoru. Našou ambíciou je formou workshopov\, predn
+ ášok a diskusií s odborníkmi otvoriť témy\, ktoré považujeme za d
+ ôležité\, no chýbajú nám v našej filmovej brandži ako napríklad 
+ – mentálne zdravie\, zvládanie a príprava na krízové…\n\nVstupné
+ : Vstup voľný\n\nKoniec podľa: Čas konca publikovaný v oficiálnom ha
+ rmonograme Áčka.\n\nZdroj: https://festivalacko.sk/timetable/event/safes
+ ound-film-days-ako-riesit-krizove-situacie-pri-vyrobe-filmu-prednaska/\n\n
+ https://sammkoo.github.io/doku-film-ba-2026/#event=acko342026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko342026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko352026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261023T140000Z
 DTEND:20261023T154000Z
-SUMMARY:Áčko 2026 | Filmové pásmo TRVANIE
-LOCATION:KLAP\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nFILMY V PÁSME (poradie podľa
-  festivalového zoznamu): 1\\. Fuck off (výroba\nplatne) — réžia: 
- Šimon Mináč — animovaný s hranými sekvenciami\, 2025\, 4 min.\nht
- tps://festivalacko.sk/movie/fuck-off-vyroba-platne/ 2\\. Betónka — r
- éžia:\nRastislav Kupšo — hraný film\, 2026\, 12 min.\nhttps://fest
- ivalacko.sk/movie/betonka/ 3\\. Vtedy na Morave — réžia: Rastislav\n
- Kupšo — hraný film\, 2026\, 29 min. https://festivalacko.sk/movie/vt
- edy-na-\nmorave/ 4\\. NEUSMIEVAJ SA NA MŇA ŠŤASTIE — réžia: Frant
- iška Horváthová — hraný\nfilm\, 2025\, 11 min. https://festivalack
- o.sk/movie/neusmievaj-sa-na-mna-\nstastie/ 5\\. Ulica V. I. Lenina — r
- éžia: Katarína Bojtošová — dokumentárny\nfilm\, 2025\, 14 min. h
- ttps://festivalacko.sk/movie/ulica-v-i-lenina/ 6\\. Máj —\nréžia: R
- ichard Mikloši — hraný film\, 2025\, 21 min.\nhttps://festivalacko.s
- k/movie/maj/ 7\\. Kde rastú mesiačiky — réžia: Mária\nKišeľová
-  — hraný film\, 2026\, 7 min. https://festivalacko.sk/movie/kde-rastu
- -\nmesiaciky/\n\nPresné začiatky jednotlivých filmov nie sú zverejne
- né\; čas v kalendári je čas\ncelého pásma vrátane prípadných pr
- estávok. Pri filme Ulica V. I. Lenina je na\noficiálnej stránke ako m
- ajster zvuku uvedený Samuel Ostrovský.\n\nSála: KLAP • FTF VŠMU\, 
- Svoradova 2A\, Bratislava Program:\nhttps://festivalacko.sk/filmove-pasm
- a/#trvanie Harmonogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj: ht
- tps://festivalacko.sk/filmove-pasma/
-URL:https://festivalacko.sk/filmove-pasma/
+SUMMARY:Filmové pásmo TRVANIE
+LOCATION:FTF VŠMU\, KLAP\, Svoradova 2A\, Bratislava
+DESCRIPTION:Súťažné pásmo študentských filmov. Jednotlivé filmy\, a
+ utorky a autori sú uvedení v rozbaliteľnom zozname.\n\nVstupné: Vstup 
+ voľný\n\nFuck off (výroba platne) — Šimon Mináč (4 min)\nBetónka 
+ — Rastislav Kupšo (12 min)\nVtedy na Morave — Rastislav Kupšo (29 mi
+ n)\nNEUSMIEVAJ SA NA MŇA ŠŤASTIE — Františka Horváthová (11 min)\n
+ Ulica V. I. Lenina — Katarína Bojtošová (14 min)\nMáj — Richard Mi
+ kloši (21 min)\nKde rastú mesiačiky — Mária Kišeľová (7 min)\n\nK
+ oniec podľa: Čas konca publikovaný v oficiálnom harmonograme Áčka.\n
+ \nZdroj: https://festivalacko.sk/filmove-pasma/#trvanie\n\nhttps://sammkoo
+ .github.io/doku-film-ba-2026/#event=acko352026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko352026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:jeden142026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261023T140000Z
-DTEND:20261023T155000Z
-SUMMARY:Jeden svet | Zvuk nádeje – slovenská premiéra s diskusiou
-LOCATION:Staré Lýceum\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
- e=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+DTEND:20261023T151000Z
+SUMMARY:Zvuk nádeje – slovenská premiéra filmu s diskusiou
+LOCATION:Staré lýceum\, A1\, Konventná 15\, Bratislava
+DESCRIPTION:Krátky dokument sleduje humanitárnych pracovníkov v Sýrii\,
+  na Haiti a v Burundi. Slovenskú premiéru dopĺňa diskusia.\n\nVstupné
+ : Vstup voľný / bezplatná rezervácia v Cinepass\n\nPo premiére Mariá
+ n Cehelník a Andrea Najvirtová diskutujú o rozhodovaní v humanitárnej
+  pomoci.\n\nBezplatný lístok je potrebné rezervovať vopred v Cinepasse
+ .\n\nKoniec podľa: Oficiálny rezervačný systém Cinepass – pole Proj
+ ection.end\; dĺžka podujatia zahŕňa program navyše k filmu.\n\nZdroj:
+  https://jedensvet.cinepass.sk/sk/accompanying-events/2042feea-3d7e-4788-b
+ 068-c28250aa3d71/\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#event=je
+ den142026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=jeden142026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:jeden152026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261023T150000Z
-DTEND:20261023T165000Z
-SUMMARY:Jeden svet | Čo s Péťom?
-LOCATION:Nízkoprahové denné centrum Domec\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
- e=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+DTEND:20261023T162600Z
+SUMMARY:Čo s Péťom?
+LOCATION:Nocľaháreň sv. Vincenta de Paul\, Ivanská cesta 32\, Bratislav
+ a
+DESCRIPTION:Dokument o ovdovenom otcovi a každodennej starostlivosti o dve
+  deti. Špeciálne uvedenie v nocľahárni.\n\nŠpeciálna projekcia pre k
+ lientky a klientov nízkoprahových služieb. Verejnú účasť a kapacitu
+  si najprv over u organizátora.\n\nVstupné: Vstup voľný\n\nOver dostup
+ né lístky v Cinepasse\; tento sprievodca rezerváciu nevykonáva.\n\nKon
+ iec podľa: Oficiálny rezervačný systém Cinepass – pole Projection.e
+ nd\; dĺžka podujatia zahŕňa program navyše k filmu.\n\nZdroj: https:/
+ /jedensvet.cinepass.sk/sk/movies/c4df8102-0275-4bdb-9502-f18fc7a89018/\n\n
+ https://sammkoo.github.io/doku-film-ba-2026/#event=jeden152026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=jeden152026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:jeden162026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261023T151500Z
-DTEND:20261023T170500Z
-SUMMARY:Jeden svet | Jedna z milióna
-LOCATION:Kino Lumière\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
- e=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+DTEND:20261023T174500Z
+SUMMARY:Jedna z milióna
+LOCATION:Kino Lumière\, K2\, Špitálska 4\, Bratislava
+DESCRIPTION:Viac než desať rokov v živote Isray: útek zo Sýrie\, dospi
+ evanie v Nemecku a návrat do rodného Aleppa.\n\nVstupné: 7 € / festiv
+ alový cinepass\n\nMiya Hashimoto (UNHCR)\, Petra Kováč (Mareena) a Isma
+ il Samar. Moderuje Frederika Hazéová. Slovenský jazyk a tlmočenie do s
+ lovenského posunkového jazyka.\n\nOver dostupné lístky v Cinepasse\; t
+ ento sprievodca rezerváciu nevykonáva.\n\nKoniec podľa: Oficiálny reze
+ rvačný systém Cinepass – pole Projection.end\; dĺžka podujatia zah
+ ŕňa program navyše k filmu.\n\nZdroj: https://jedensvet.cinepass.sk/sk/
+ movies/a104e72e-f1d9-4a2a-abbd-f7a891a5b1cd/\n\nhttps://sammkoo.github.io/
+ doku-film-ba-2026/#event=jeden162026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=jeden162026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko362026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261023T152000Z
 DTEND:20261023T170000Z
-SUMMARY:Áčko 2026 | Filmové pásmo MEDZIČAS
-LOCATION:BARCO\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nFILMY V PÁSME (poradie podľa
-  festivalového zoznamu): 1\\. Under Dog — réžia:\nMichal Dubjel —
-  animovaný film\, 2026\, 7 min.\nhttps://festivalacko.sk/movie/under-do
- g/ 2\\. Človek nie je mačka — réžia:\nMarek Tomajka — hraný fil
- m\, 2026\, 16 min.\nhttps://festivalacko.sk/movie/clovek-nie-je-macka/ 3
- \\. Mesto noci — réžia:\nRichard Mikloši — hraný film\, 2026\, 5
-  min.\nhttps://festivalacko.sk/movie/mesto-noci/ 4\\. Problémy úplne c
- elého světa —\nréžia: Radek Chromčák Ševčík — dokumentárny
-  film\, 2024\, 24 min.\nhttps://festivalacko.sk/movie/problemy-uplne-cel
- eho-sveta/ 5\\. ružovejšie rána\n— réžia: Nina Sabolová — hran
- ý film\, 2026\, 5 min.\nhttps://festivalacko.sk/movie/ruzovejsie-rana/ 
- 6\\. Ešte chvíľu — réžia: Jakub\nDúcky — hraný film\, 2026\, 
- 19 min. https://festivalacko.sk/movie/este-chvilu/\n7\\. 2045 — réži
- a: Jakub Frištyk — dokumentárny film\, 2026\, 10 min.\nhttps://festi
- valacko.sk/movie/2045/ 8\\. Nekonečná vojna pána Nikoho (alebo\nkrát
- ka príručka toho ako robiť nacistom zo života peklo) — réžia: Ja
- kub Horňák\n— hraný film\, 2026\, 12 min. https://festivalacko.sk/m
- ovie/nekonecna-vojna-\npana-nikoho-alebo-kratka-prirucka-toho-ako-robit-
- nacistom-zo-zivota-peklo/\n\nPresné začiatky jednotlivých filmov nie 
- sú zverejnené\; čas v kalendári je čas\ncelého pásma vrátane pr
- ípadných prestávok.\n\nSála: BARCO • FTF VŠMU\, Svoradova 2A\, Br
- atislava Program:\nhttps://festivalacko.sk/filmove-pasma/#medzicas Harmo
- nogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj: https://festivalac
- ko.sk/filmove-pasma/
-URL:https://festivalacko.sk/filmove-pasma/
+SUMMARY:Filmové pásmo MEDZIČAS
+LOCATION:FTF VŠMU\, BARCO\, Svoradova 2A\, Bratislava
+DESCRIPTION:Súťažné pásmo študentských filmov. Jednotlivé filmy\, a
+ utorky a autori sú uvedení v rozbaliteľnom zozname.\n\nVstupné: Vstup 
+ voľný\n\nUnder Dog — Michal Dubjel (7 min)\nČlovek nie je mačka — 
+ Marek Tomajka (16 min)\nMesto noci — Mikloši Richard (5 min)\nProblémy
+  úplne celého světa — Radek Chromčák Ševčík (24 min)\nružovejš
+ ie rána — Nina Sabolová (5 min)\nEšte chvíľu — Jakub Dúcky (19 m
+ in)\n2045 — Jakub Frištyk (10 min)\nNekonečná vojna pána Nikoho (ale
+ bo krátka príručka toho ako robiť nacistom zo života peklo) — Jakub
+  Horňák (12 min)\n\nKoniec podľa: Čas konca publikovaný v oficiálnom
+  harmonograme Áčka.\n\nZdroj: https://festivalacko.sk/filmove-pasma/#med
+ zicas\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#event=acko362026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko362026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:jeden182026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261023T160000Z
-DTEND:20261023T180000Z
-SUMMARY:Jeden svet | NAZA (Yuval Abraham\, Rachel Szor)
+DTEND:20261023T173000Z
+SUMMARY:NAZA
 LOCATION:Nová Cvernovka\, Račianska 78\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť.  Pred návštevou overte lístky a prípadnú diskusiu u orga
- nizátora.\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onl
- yAvailable=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+DESCRIPTION:Dokument izraelských novinárov a filmárov skúma systémy a 
+ rozhodovanie súvisiace s násilím voči palestínskym civilistom v Gaze.
+ \n\nVstupné: 7 € / festivalový cinepass\n\nOver dostupné lístky v Ci
+ nepasse\; tento sprievodca rezerváciu nevykonáva.\n\nKoniec podľa: Ofic
+ iálny rezervačný systém Cinepass – pole Projection.end\; dĺžka pod
+ ujatia zahŕňa program navyše k filmu.\n\nZdroj: https://jedensvet.cinep
+ ass.sk/sk/movies/5043913d-787c-497f-b647-76d2afb912f9/\n\nhttps://sammkoo.
+ github.io/doku-film-ba-2026/#event=jeden182026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=jeden182026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:jeden172026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261023T160000Z
-DTEND:20261023T180000Z
-SUMMARY:Jeden svet | Osem milimetrov rodiny
-LOCATION:Kino Lumière\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť.  Pred návštevou overte lístky a prípadnú diskusiu u orga
- nizátora.\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onl
- yAvailable=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+DTEND:20261023T175800Z
+SUMMARY:Osem milimetrov rodiny
+LOCATION:Kino Lumière\, K4\, Špitálska 4\, Bratislava
+DESCRIPTION:Autobiografické nakrúcanie zachytáva filmárovu túžbu zalo
+ žiť rodinu\, partnerské vzťahy a prekážky\, ktoré do nich vstupujú
+ .\n\nVstupné: 7 € / festivalový cinepass\n\nPo projekcii bude nasledov
+ ať diskusia s režisérom Michalom Böhmom v slovenčine a češtine. Mod
+ erovať ju bude Tomáš Hučko.\n\nOver dostupné lístky v Cinepasse\; te
+ nto sprievodca rezerváciu nevykonáva.\n\nKoniec podľa: Oficiálny rezer
+ vačný systém Cinepass – pole Projection.end\; dĺžka podujatia zahŕ
+ ňa program navyše k filmu.\n\nZdroj: https://jedensvet.cinepass.sk/sk/mo
+ vies/4891e5e0-fb4d-4931-836a-da76c4f1da15/\n\nhttps://sammkoo.github.io/do
+ ku-film-ba-2026/#event=jeden172026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=jeden172026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko372026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261023T170000Z
 DTEND:20261023T190000Z
-SUMMARY:Áčko 2026 | ZÁVEREČNÝ CEREMONIÁL
-LOCATION:KLAP\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nZáverečný ceremoniál festi
- valu Áčko.\n\nSála: KLAP • FTF VŠMU\, Svoradova 2A\, Bratislava Pr
- ogram:\nhttps://festivalacko.sk/timetable/event/zaverecny-ceremonial/ Ha
- rmonogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj: https://festiva
- lacko.sk/harmonogram/
-URL:https://festivalacko.sk/harmonogram/
+SUMMARY:ZÁVEREČNÝ CEREMONIÁL
+LOCATION:FTF VŠMU\, KLAP\, Svoradova 2A\, Bratislava
+DESCRIPTION:Súčasť programu festivalu Áčko. Podrobnosti organizátor z
+ atiaľ nezverejnil.\n\nVstupné: Vstup voľný\n\nKoniec podľa: Čas konc
+ a publikovaný v oficiálnom harmonograme Áčka.\n\nZdroj: https://festiv
+ alacko.sk/timetable/event/zaverecny-ceremonial/\n\nhttps://sammkoo.github.
+ io/doku-film-ba-2026/#event=acko372026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko372026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:jeden192026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261023T180000Z
-DTEND:20261023T195000Z
-SUMMARY:Jeden svet | Dve deci tušu
-LOCATION:Kino Lumière\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
- e=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+DTEND:20261023T192300Z
+SUMMARY:Dve deci tušu
+LOCATION:Kino Lumière\, K2\, Špitálska 4\, Bratislava
+DESCRIPTION:Ester Geislerová sa cez rodinné archívy\, listy a spomienky 
+ vracia k svojmu otcovi\, japanológovi a kaligrafovi Petrovi Geislerovi.\n
+ \nVstupné: 7 € / festivalový cinepass\n\nOver dostupné lístky v Cine
+ passe\; tento sprievodca rezerváciu nevykonáva.\n\nKoniec podľa: Ofici
+ álny rezervačný systém Cinepass – pole Projection.end\; dĺžka podu
+ jatia zahŕňa program navyše k filmu.\n\nZdroj: https://jedensvet.cinepa
+ ss.sk/sk/movies/22d0b4f2-cae9-4755-8411-0adbaf794d07/\n\nhttps://sammkoo.g
+ ithub.io/doku-film-ba-2026/#event=jeden192026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=jeden192026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:jeden202026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261023T181500Z
-DTEND:20261023T200500Z
-SUMMARY:Jeden svet | Monikondee
-LOCATION:Kino Lumière\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
- e=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+DTEND:20261023T200800Z
+SUMMARY:Monikondee
+LOCATION:Kino Lumière\, K4\, Špitálska 4\, Bratislava
+DESCRIPTION:Plavba lodníka po rieke Maroni ukazuje život surinamských ko
+ munít a prenikanie ekonomických tlakov do amazonského pralesa.\n\nVstup
+ né: 7 € / festivalový cinepass\n\nOver dostupné lístky v Cinepasse\;
+  tento sprievodca rezerváciu nevykonáva.\n\nKoniec podľa: Oficiálny re
+ zervačný systém Cinepass – pole Projection.end\; dĺžka podujatia za
+ hŕňa program navyše k filmu.\n\nZdroj: https://jedensvet.cinepass.sk/sk
+ /movies/4d5f696f-8e4d-4cee-b03f-5cd91976d8c1/\n\nhttps://sammkoo.github.io
+ /doku-film-ba-2026/#event=jeden202026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=jeden202026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko382026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261023T190000Z
 DTEND:20261023T200000Z
-SUMMARY:Áčko 2026 | Raut
-LOCATION:FOYER\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nRaut po záverečnom ceremoni
- áli.\n\nSála: FOYER • FTF VŠMU\, Svoradova 2A\, Bratislava Program:
- \nhttps://festivalacko.sk/timetable/event/raut-2/ Harmonogram:\nhttps://
- festivalacko.sk/harmonogram/\nZdroj: https://festivalacko.sk/harmonogram
- /
-URL:https://festivalacko.sk/harmonogram/
+SUMMARY:Raut
+LOCATION:FTF VŠMU\, FOYER\, Svoradova 2A\, Bratislava
+DESCRIPTION:Súčasť programu festivalu Áčko. Podrobnosti organizátor z
+ atiaľ nezverejnil.\n\nVstupné: Vstup voľný\n\nKoniec podľa: Čas konc
+ a publikovaný v oficiálnom harmonograme Áčka.\n\nZdroj: https://festiv
+ alacko.sk/timetable/event/raut/\n\nhttps://sammkoo.github.io/doku-film-ba-
+ 2026/#event=acko382026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko382026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko402026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261024T080000Z
 DTEND:20261024T110000Z
-SUMMARY:Áčko 2026 | Komunitné raňajky
-LOCATION:FOYER\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nFestivalové komunitné raňaj
- ky vo foyer.\n\nSála: FOYER • FTF VŠMU\, Svoradova 2A\, Bratislava P
- rogram:\nhttps://festivalacko.sk/timetable/event/komunitne-ranajky/ Harm
- onogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj: https://festivala
- cko.sk/harmonogram/
-URL:https://festivalacko.sk/harmonogram/
+SUMMARY:Komunitné raňajky
+LOCATION:FTF VŠMU\, FOYER\, Svoradova 2A\, Bratislava
+DESCRIPTION:Súčasť programu festivalu Áčko. Podrobnosti organizátor z
+ atiaľ nezverejnil.\n\nVstupné: Vstup voľný\n\nKoniec podľa: Čas konc
+ a publikovaný v oficiálnom harmonograme Áčka.\n\nZdroj: https://festiv
+ alacko.sk/timetable/event/komunitne-ranajky/\n\nhttps://sammkoo.github.io/
+ doku-film-ba-2026/#event=acko402026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko402026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko392026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261024T080000Z
 DTEND:20261024T093000Z
-SUMMARY:Áčko 2026 | Pásmo stredoškolských filmov
-LOCATION:KLAP\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nVýber 10 filmov zo SŠUP Film
- ová v Košiciach\, SŠUP Bohumila Baču v Bratislave a\nSŠUP animovane
- j tvorby v Bratislave. Konkrétne názvy filmov\, réžia a filmové\ndr
- uhy zatiaľ nie sú v oficiálnom programe zverejnené.\n\nSála: KLAP 
- • FTF VŠMU\, Svoradova 2A\, Bratislava Program:\nhttps://festivalacko
- .sk/timetable/event/pasmo-stredoskolskych-filmov/\nHarmonogram: https://
- festivalacko.sk/harmonogram/\nZdroj: https://festivalacko.sk/harmonogram
- /
-URL:https://festivalacko.sk/harmonogram/
+SUMMARY:Pásmo stredoškolských filmov
+LOCATION:FTF VŠMU\, KLAP\, Svoradova 2A\, Bratislava
+DESCRIPTION:Premietanie prinesie výber desiatich študentských filmov zo 
+ školy Súkromná škola umeleckého priemyslu Filmová v Košiciach\, Sú
+ kromná škola umeleckého priemyslu Bohumila Baču v Bratislave a Súkrom
+ ná škola umeleckého priemyslu animovanej tvorby v Bratislave. Diváci b
+ udú mať možnosť nahliadnuť do tvorby mladých filmárov\, spoznať ic
+ h originálne pohľady na svet a objaviť rozmanité filmové prístupy. P
+ ríďte podporiť nastupujúcu generáciu tvorcov a zažiť…\n\nOrganiz
+ átor uvádza 10 filmov\, ich názvy a réžiu zatiaľ nezverejnil.\n\nVst
+ upné: Vstup voľný\n\nKoniec podľa: Čas konca publikovaný v oficiáln
+ om harmonograme Áčka.\n\nZdroj: https://festivalacko.sk/timetable/event/
+ pasmo-stredoskolskych-filmov/\n\nhttps://sammkoo.github.io/doku-film-ba-20
+ 26/#event=acko392026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko392026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:jeden212026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261024T080000Z
-DTEND:20261024T095000Z
-SUMMARY:Jeden svet | Festivalové raňajky + workshop Nawras Rashed
-LOCATION:Staré Lýceum\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
- e=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+DTEND:20261024T110000Z
+SUMMARY:Festivalové raňajky + workshop Nawras Rashed
+LOCATION:Staré lýceum\, A1\, Konventná 15\, Bratislava
+DESCRIPTION:Festivalové raňajky s Evou Križkovou\, hosťami Jedného sve
+ ta a workshopom Nawras Rashed. Potrebná je bezplatná rezervácia.\n\nVst
+ upné: Vstup voľný / bezplatná rezervácia v Cinepass\n\nBezplatný lí
+ stok je potrebné rezervovať vopred v Cinepasse.\n\nKoniec podľa: Ofici
+ álny rezervačný systém Cinepass – pole Projection.end\; dĺžka podu
+ jatia zahŕňa program navyše k filmu.\n\nZdroj: https://jedensvet.cinepa
+ ss.sk/sk/accompanying-events/d19c2455-9555-4add-841d-e0ac558917b5/\n\nhttp
+ s://sammkoo.github.io/doku-film-ba-2026/#event=jeden212026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=jeden212026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko412026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261024T083000Z
 DTEND:20261024T101000Z
-SUMMARY:Áčko 2026 | Filmové pásmo SPOMIENKY A ZABUDNUTIA
-LOCATION:BARCO\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nFILMY V PÁSME (poradie podľa
-  festivalového zoznamu): 1\\. zúbok zubnatý —\nréžia: Nina Sabolo
- vá — hraný film\, 2026\, 5 min.\nhttps://festivalacko.sk/movie/zubok
- -zubnaty/ 2\\. Vrksasana — réžia: Hannah\nDale — hraný film\, 202
- 6\, 22 min. https://festivalacko.sk/movie/vrksasana/ 3\\.\nVlak nikdy ne
- mešká — réžia: Anastasiia Nikitina — hraný film\, 2026\, 8 min.
- \nhttps://festivalacko.sk/movie/vlak-nikdy-nemeska/ 4\\. Usmievaj sa! 
- — réžia:\nYelyzaveta Hordieieva — hraný film\, 2026\, 20 min.\nht
- tps://festivalacko.sk/movie/usmievaj-sa/ 5\\. Sweetheart — réžia: Ma
- rek\nTomajka — hraný film\, 2026\, 10 min. https://festivalacko.sk/mo
- vie/sweetheart/\n6\\. Nákupný zoznam — réžia: Patrícia Suráková
-  — animovaný film\, 2025\, 5 min.\nhttps://festivalacko.sk/movie/naku
- pny-zoznam/ 7\\. Koni — réžia: Jakub\nVargovčík — dokumentárny 
- film\, 2026\, 13 min.\nhttps://festivalacko.sk/movie/koni/ 8\\. Drahá m
- ama — réžia: Rastislav Kupšo —\nhraný film\, 2026\, 11 min. http
- s://festivalacko.sk/movie/draha-mama/ 9\\.\nČarovný vrch — réžia: 
- Mária Farská — dokumentárny film\, 2026\, 6 min.\nhttps://festivala
- cko.sk/movie/carovny-vrch/\n\nPresné začiatky jednotlivých filmov nie
-  sú zverejnené\; čas v kalendári je čas\ncelého pásma vrátane pr
- ípadných prestávok.\n\nSála: BARCO • FTF VŠMU\, Svoradova 2A\, Br
- atislava Program:\nhttps://festivalacko.sk/filmove-pasma/#spomienky Harm
- onogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj: https://festivala
- cko.sk/filmove-pasma/
-URL:https://festivalacko.sk/filmove-pasma/
+SUMMARY:Filmové pásmo SPOMIENKY A ZABUDNUTIA
+LOCATION:FTF VŠMU\, BARCO\, Svoradova 2A\, Bratislava
+DESCRIPTION:Súťažné pásmo študentských filmov. Jednotlivé filmy\, a
+ utorky a autori sú uvedení v rozbaliteľnom zozname.\n\nVstupné: Vstup 
+ voľný\n\nzúbok zubnatý — Nina Sabolová (5 min)\nVrksasana — Hanna
+ h Dale (22 min)\nVlak nikdy nemešká — Anastasiia Nikitina (8 min)\nUsm
+ ievaj sa! — Yelyzaveta Hordieieva (20 min)\nSweetheart — Marek Tomajka
+  (10 min)\nNákupný zoznam — Patrícia Suráková (5 min)\nKoni — Jak
+ ub Vargovčík (13 min)\nDrahá mama — Rastislav Kupšo (11 min)\nČarov
+ ný vrch — Mária Farská (6 min)\n\nKoniec podľa: Čas konca publikova
+ ný v oficiálnom harmonograme Áčka.\n\nZdroj: https://festivalacko.sk/f
+ ilmove-pasma/#spomienky\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#ev
+ ent=acko412026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko412026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko422026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261024T101000Z
 DTEND:20261024T115000Z
-SUMMARY:Áčko 2026 | Filmové pásmo TRVANIE
-LOCATION:BARCO\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nFILMY V PÁSME (poradie podľa
-  festivalového zoznamu): 1\\. Fuck off (výroba\nplatne) — réžia: 
- Šimon Mináč — animovaný s hranými sekvenciami\, 2025\, 4 min.\nht
- tps://festivalacko.sk/movie/fuck-off-vyroba-platne/ 2\\. Betónka — r
- éžia:\nRastislav Kupšo — hraný film\, 2026\, 12 min.\nhttps://fest
- ivalacko.sk/movie/betonka/ 3\\. Vtedy na Morave — réžia: Rastislav\n
- Kupšo — hraný film\, 2026\, 29 min. https://festivalacko.sk/movie/vt
- edy-na-\nmorave/ 4\\. NEUSMIEVAJ SA NA MŇA ŠŤASTIE — réžia: Frant
- iška Horváthová — hraný\nfilm\, 2025\, 11 min. https://festivalack
- o.sk/movie/neusmievaj-sa-na-mna-\nstastie/ 5\\. Ulica V. I. Lenina — r
- éžia: Katarína Bojtošová — dokumentárny\nfilm\, 2025\, 14 min. h
- ttps://festivalacko.sk/movie/ulica-v-i-lenina/ 6\\. Máj —\nréžia: R
- ichard Mikloši — hraný film\, 2025\, 21 min.\nhttps://festivalacko.s
- k/movie/maj/ 7\\. Kde rastú mesiačiky — réžia: Mária\nKišeľová
-  — hraný film\, 2026\, 7 min. https://festivalacko.sk/movie/kde-rastu
- -\nmesiaciky/\n\nPresné začiatky jednotlivých filmov nie sú zverejne
- né\; čas v kalendári je čas\ncelého pásma vrátane prípadných pr
- estávok. Pri filme Ulica V. I. Lenina je na\noficiálnej stránke ako m
- ajster zvuku uvedený Samuel Ostrovský.\n\nSála: BARCO • FTF VŠMU\,
-  Svoradova 2A\, Bratislava Program:\nhttps://festivalacko.sk/filmove-pas
- ma/#trvanie Harmonogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj: h
- ttps://festivalacko.sk/filmove-pasma/
-URL:https://festivalacko.sk/filmove-pasma/
+SUMMARY:Filmové pásmo TRVANIE
+LOCATION:FTF VŠMU\, BARCO\, Svoradova 2A\, Bratislava
+DESCRIPTION:Súťažné pásmo študentských filmov. Jednotlivé filmy\, a
+ utorky a autori sú uvedení v rozbaliteľnom zozname.\n\nVstupné: Vstup 
+ voľný\n\nFuck off (výroba platne) — Šimon Mináč (4 min)\nBetónka 
+ — Rastislav Kupšo (12 min)\nVtedy na Morave — Rastislav Kupšo (29 mi
+ n)\nNEUSMIEVAJ SA NA MŇA ŠŤASTIE — Františka Horváthová (11 min)\n
+ Ulica V. I. Lenina — Katarína Bojtošová (14 min)\nMáj — Richard Mi
+ kloši (21 min)\nKde rastú mesiačiky — Mária Kišeľová (7 min)\n\nK
+ oniec podľa: Čas konca publikovaný v oficiálnom harmonograme Áčka.\n
+ \nZdroj: https://festivalacko.sk/filmove-pasma/#trvanie\n\nhttps://sammkoo
+ .github.io/doku-film-ba-2026/#event=acko422026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko422026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko432026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261024T110000Z
 DTEND:20261024T130000Z
-SUMMARY:Áčko 2026 | Ako vznikalo 30. Áčko − Diskusia
-LOCATION:KLAP\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nRozhovor s organizátormi 30. 
- Áčka o zostavovaní programu\, partnerstvách\,\nvýbere filmov a reá
- lnom priebehu príprav festivalu.\n\nSála: KLAP • FTF VŠMU\, Svorado
- va 2A\, Bratislava Program:\nhttps://festivalacko.sk/timetable/event/ako
- -vznikalo-30-acko-diskusia/\nHarmonogram: https://festivalacko.sk/harmon
- ogram/\nZdroj: https://festivalacko.sk/harmonogram/
-URL:https://festivalacko.sk/harmonogram/
+SUMMARY:Ako vznikalo 30. Áčko − Diskusia
+LOCATION:FTF VŠMU\, KLAP\, Svoradova 2A\, Bratislava
+DESCRIPTION:Vedeli ste\, že hoci Áčko oslavuje 30 rokov\, každý jeho r
+ očník organizoval niekto iný? Festival Áčko vzniká v rámci výučby
+  na Katedre produkcie a distribúcie\, no len málokto mimo katedry vie\, 
+ ako jeho organizácia v skutočnosti vyzerá. Ako vzniká festivalový pro
+ gram? Kto rozhoduje o tom\, či sa partnerom stane Filmarina alebo Filmsup
+ port? Vyberá krátke filmy do súťaže porota\, alebo o ich zaradení ro
+ zhoduje niekto iný? Pri príležitosti 30. ročníka…\n\nVstupné: Vstu
+ p voľný\n\nKoniec podľa: Čas konca publikovaný v oficiálnom harmonog
+ rame Áčka.\n\nZdroj: https://festivalacko.sk/timetable/event/ako-vznikal
+ o-30-acko-diskusia/\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#event=
+ acko432026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko432026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:jeden222026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261024T110000Z
-DTEND:20261024T125000Z
-SUMMARY:Jeden svet | Kolonializmus medzi Východom a Západom: čie príb
- ehy rozprávame?
-LOCATION:Staré Lýceum\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
- e=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+DTEND:20261024T130000Z
+SUMMARY:Kolonializmus medzi Východom a Západom: čie príbehy rozprávame
+ ?
+LOCATION:Staré lýceum\, A2\, Konventná 15\, Bratislava
+DESCRIPTION:Diskusia o koloniálnej moci\, vizuálnych dejinách a tom\, kt
+ o dostáva priestor rozprávať príbehy strednej a východnej Európy.\n\
+ nVstupné: Vstup voľný / bezplatná rezervácia v Cinepass\n\nYuliia Kov
+ alenko\, Eric Seleky a Patrick Laviolette\; moderuje Dobrota Pucherová. D
+ iskusia v angličtine.\n\nBezplatný lístok je potrebné rezervovať vopr
+ ed v Cinepasse.\n\nKoniec podľa: Oficiálny rezervačný systém Cinepass
+  – pole Projection.end\; dĺžka podujatia zahŕňa program navyše k fi
+ lmu.\n\nZdroj: https://jedensvet.cinepass.sk/sk/accompanying-events/a46a1a
+ fd-aa1a-49ee-9eca-5c72ac2eee47/\n\nhttps://sammkoo.github.io/doku-film-ba-
+ 2026/#event=jeden222026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=jeden222026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko442026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261024T120000Z
 DTEND:20261024T134000Z
-SUMMARY:Áčko 2026 | Filmové pásmo MEDZIČAS
-LOCATION:BARCO\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nFILMY V PÁSME (poradie podľa
-  festivalového zoznamu): 1\\. Under Dog — réžia:\nMichal Dubjel —
-  animovaný film\, 2026\, 7 min.\nhttps://festivalacko.sk/movie/under-do
- g/ 2\\. Človek nie je mačka — réžia:\nMarek Tomajka — hraný fil
- m\, 2026\, 16 min.\nhttps://festivalacko.sk/movie/clovek-nie-je-macka/ 3
- \\. Mesto noci — réžia:\nRichard Mikloši — hraný film\, 2026\, 5
-  min.\nhttps://festivalacko.sk/movie/mesto-noci/ 4\\. Problémy úplne c
- elého světa —\nréžia: Radek Chromčák Ševčík — dokumentárny
-  film\, 2024\, 24 min.\nhttps://festivalacko.sk/movie/problemy-uplne-cel
- eho-sveta/ 5\\. ružovejšie rána\n— réžia: Nina Sabolová — hran
- ý film\, 2026\, 5 min.\nhttps://festivalacko.sk/movie/ruzovejsie-rana/ 
- 6\\. Ešte chvíľu — réžia: Jakub\nDúcky — hraný film\, 2026\, 
- 19 min. https://festivalacko.sk/movie/este-chvilu/\n7\\. 2045 — réži
- a: Jakub Frištyk — dokumentárny film\, 2026\, 10 min.\nhttps://festi
- valacko.sk/movie/2045/ 8\\. Nekonečná vojna pána Nikoho (alebo\nkrát
- ka príručka toho ako robiť nacistom zo života peklo) — réžia: Ja
- kub Horňák\n— hraný film\, 2026\, 12 min. https://festivalacko.sk/m
- ovie/nekonecna-vojna-\npana-nikoho-alebo-kratka-prirucka-toho-ako-robit-
- nacistom-zo-zivota-peklo/\n\nPresné začiatky jednotlivých filmov nie 
- sú zverejnené\; čas v kalendári je čas\ncelého pásma vrátane pr
- ípadných prestávok.\n\nSála: BARCO • FTF VŠMU\, Svoradova 2A\, Br
- atislava Program:\nhttps://festivalacko.sk/filmove-pasma/#medzicas Harmo
- nogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj: https://festivalac
- ko.sk/filmove-pasma/
-URL:https://festivalacko.sk/filmove-pasma/
+SUMMARY:Filmové pásmo MEDZIČAS
+LOCATION:FTF VŠMU\, BARCO\, Svoradova 2A\, Bratislava
+DESCRIPTION:Súťažné pásmo študentských filmov. Jednotlivé filmy\, a
+ utorky a autori sú uvedení v rozbaliteľnom zozname.\n\nVstupné: Vstup 
+ voľný\n\nUnder Dog — Michal Dubjel (7 min)\nČlovek nie je mačka — 
+ Marek Tomajka (16 min)\nMesto noci — Mikloši Richard (5 min)\nProblémy
+  úplne celého světa — Radek Chromčák Ševčík (24 min)\nružovejš
+ ie rána — Nina Sabolová (5 min)\nEšte chvíľu — Jakub Dúcky (19 m
+ in)\n2045 — Jakub Frištyk (10 min)\nNekonečná vojna pána Nikoho (ale
+ bo krátka príručka toho ako robiť nacistom zo života peklo) — Jakub
+  Horňák (12 min)\n\nKoniec podľa: Čas konca publikovaný v oficiálnom
+  harmonograme Áčka.\n\nZdroj: https://festivalacko.sk/filmove-pasma/#med
+ zicas\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#event=acko442026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko442026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:jeden232026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261024T120000Z
-DTEND:20261024T135000Z
-SUMMARY:Jeden svet | Amadou a Mariam – nevidiaci pár z Mali
-LOCATION:Kino Lumière\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
- e=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+DTEND:20261024T132700Z
+SUMMARY:Amadou a Mariam – nevidiaci pár z Mali
+LOCATION:Kino Lumière\, K2\, Špitálska 4\, Bratislava
+DESCRIPTION:Hudobný dokument sprevádza nevidiace duo z Mali pri nahrávan
+ í albumu a návrate ku koreňom. Projekcia je vhodná aj pre rodičov s b
+ ábätkami.\n\nVstupné: 7 € / festivalový cinepass\n\nOver dostupné l
+ ístky v Cinepasse\; tento sprievodca rezerváciu nevykonáva.\n\nKoniec p
+ odľa: Oficiálny rezervačný systém Cinepass – pole Projection.end\; 
+ dĺžka podujatia zahŕňa program navyše k filmu.\n\nZdroj: https://jede
+ nsvet.cinepass.sk/sk/movies/8b762779-c46d-4ee2-87cf-40b3e25543c3/\n\nhttps
+ ://sammkoo.github.io/doku-film-ba-2026/#event=jeden232026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=jeden232026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:jeden242026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261024T123000Z
-DTEND:20261024T142000Z
-SUMMARY:Jeden svet | Všetci na ulicu Kenmure
-LOCATION:Kino Lumière\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
- e=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+DTEND:20261024T141800Z
+SUMMARY:Všetci na ulicu Kenmure
+LOCATION:Kino Lumière\, K4\, Špitálska 4\, Bratislava
+DESCRIPTION:Záznamy obyvateľov Glasgowa skladajú príbeh osemhodinového
+  občianskeho odporu proti deportácii na ulici Kenmure v máji 2021.\n\nV
+ stupné: 7 € / festivalový cinepass\n\nOver dostupné lístky v Cinepas
+ se\; tento sprievodca rezerváciu nevykonáva.\n\nKoniec podľa: Oficiáln
+ y rezervačný systém Cinepass – pole Projection.end\; dĺžka podujati
+ a zahŕňa program navyše k filmu.\n\nZdroj: https://jedensvet.cinepass.s
+ k/sk/movies/5388b50d-cd12-4129-a721-07d8468296c1/\n\nhttps://sammkoo.githu
+ b.io/doku-film-ba-2026/#event=jeden242026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=jeden242026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:vyhasinanie20261024@doku-film-2026
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:0
+DTSTART:20261024T133000Z
+SUMMARY:Vyhasínanie — performance Divadla bez domova
+LOCATION:Kino Lumière\, Pred budovou kina\, Špitálska 4\, Bratislava
+DESCRIPTION:Sprievodná performance Divadla bez domova pred projekciou film
+ u Yanuni. Organizátor pozýva publikum prísť ku kinu o pol hodiny skôr
+ .\n\nProgram pred budovou kina\; čas konca nebol potvrdený.\n\nVstupné:
+  Samostatné vstupné na performance nezverejnené\n\nKoniec nie je potvrd
+ ený. \n\nKoniec podľa: Koniec performance nie je zverejnený.\n\nZdroj: 
+ https://jedensvet.cinepass.sk/sk/movies/e97747cf-c82a-42ac-a024-e1907aa247
+ 2d/\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#event=vyhasinanie20261
+ 024
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=vyhasinanie20261024
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko452026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261024T134000Z
 DTEND:20261024T151000Z
-SUMMARY:Áčko 2026 | Filmové pásmo ZASTAVENÉ HODINY
-LOCATION:BARCO\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nFILMY V PÁSME (poradie podľa
-  festivalového zoznamu): 1\\. Kyvadlo — réžia:\nVeronika Kočišov
- á — dokumentárny film\, 2026\, 9 min.\nhttps://festivalacko.sk/movie
- /kyvadlo/ 2\\. Počúvam! — réžia: Samuel Kluvánek —\nhraný film
- \, 2026\, 20 min. https://festivalacko.sk/movie/pocuvam/ 3\\. Tadeto\nš
- iel človek — réžia: Denis Šatan — hraný film\, 2026\, 12 min.\n
- https://festivalacko.sk/movie/tadeto-siel-clovek/ 4\\. Ako sa Kubo strat
- il —\nréžia: Ján Kuciak — hraný film\, 2026\, 8 min.\nhttps://fe
- stivalacko.sk/movie/ako-sa-kubo-stratil/ 5\\. Esi — réžia: Terézia\
- nMoravčíková — dokumentárny film\, 2026\, 25 min.\nhttps://festiva
- lacko.sk/movie/esi/ 6\\. Malý princ — réžia: Nina Hovorková —\nh
- raný film\, 2026\, 6 min. https://festivalacko.sk/movie/maly-princ/ 7\\
- . Bublina\n— réžia: Wanda Przeworska — animovaný film\, 2025\, 5 
- min.\nhttps://festivalacko.sk/movie/bublina/\n\nPresné začiatky jednot
- livých filmov nie sú zverejnené\; čas v kalendári je čas\ncelého 
- pásma vrátane prípadných prestávok. Harmonogram pri tomto termíne\
- nuvádza 90 minút\; pri ďalších reprízach 95 minút. Zachovaný je 
- zverejnený\nkoniec daného termínu.\n\nSála: BARCO • FTF VŠMU\, Sv
- oradova 2A\, Bratislava Program:\nhttps://festivalacko.sk/filmove-pasma/
- #zastavene-hodiny Harmonogram:\nhttps://festivalacko.sk/harmonogram/\nZd
- roj: https://festivalacko.sk/filmove-pasma/
-URL:https://festivalacko.sk/filmove-pasma/
+SUMMARY:Filmové pásmo ZASTAVENÉ HODINY
+LOCATION:FTF VŠMU\, BARCO\, Svoradova 2A\, Bratislava
+DESCRIPTION:Súťažné pásmo študentských filmov. Jednotlivé filmy\, a
+ utorky a autori sú uvedení v rozbaliteľnom zozname.\n\nVstupné: Vstup 
+ voľný\n\nKyvadlo — Veronika Kočišová (9 min)\nPočúvam! — Samuel
+  Kluvánek (20 min)\nTadeto šiel človek — Denis Šatan (12 min)\nAko s
+ a Kubo stratil — Ján Kuciak (8 min)\nRozšliapnutý melón — Adam Sar
+ ik (8 min)\nEsi — Terézia Moravčíková (25 min)\nMalý princ — Nina
+  Hovorková (6 min)\nBublina — Wanda Przeworska (5 min)\n\nKoniec podľa
+ : Čas konca publikovaný v oficiálnom harmonograme Áčka.\n\nZdroj: htt
+ ps://festivalacko.sk/filmove-pasma/#zastavene-hodiny\n\nhttps://sammkoo.gi
+ thub.io/doku-film-ba-2026/#event=acko452026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko452026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:jeden252026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261024T140000Z
-DTEND:20261024T155000Z
-SUMMARY:Jeden svet | Yanuni
-LOCATION:Kino Lumière\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
- e=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+DTEND:20261024T164200Z
+SUMMARY:Yanuni
+LOCATION:Kino Lumière\, K1\, Špitálska 4\, Bratislava
+DESCRIPTION:Juma Xipaia bojuje za svoju komunitu a amazonský prales. Jej p
+ ríbeh prepája domorodé práva\, klimatickú politiku a osobné ohrozeni
+ e.\n\nVstupné: 7 € / festivalový cinepass\n\nMarek Kuchta (My sme les)
+ \, Patrik Krebs (Divadlo bez domova) a Dorota Osvaldová (Znepokojené mat
+ ky / Greenpeace). Moderuje Lucia Szabová\; slovenčina a tlmočenie do sl
+ ovenského posunkového jazyka. O 15:30 pred kinom performance Vyhasínani
+ e.\n\nOver dostupné lístky v Cinepasse\; tento sprievodca rezerváciu ne
+ vykonáva.\n\nKoniec podľa: Oficiálny rezervačný systém Cinepass – 
+ pole Projection.end\; dĺžka podujatia zahŕňa program navyše k filmu.\
+ n\nZdroj: https://jedensvet.cinepass.sk/sk/movies/e97747cf-c82a-42ac-a024-
+ e1907aa2472d/\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#event=jeden2
+ 52026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=jeden252026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko462026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261024T160000Z
 DTEND:20261024T190000Z
-SUMMARY:Áčko 2026 | Filmový kvíz Petra Konečného
-LOCATION:KLAP\, FTF VŠMU\, Svoradova 2A\, Bratislava
-DESCRIPTION:Áčko 2026 • 30. ročník • 20.–24. október 2026 Vstu
- p voľný. účasť nie je potvrdená.\n\nFilmový a seriálový kvíz P
- etra Konečného — VŠMU Edition. Na hranie je potrebný\nmobilný tel
- efón a kvízová aplikácia.\n\nSála: KLAP • FTF VŠMU\, Svoradova 2
- A\, Bratislava Program:\nhttps://festivalacko.sk/timetable/event/kviz-pe
- tra-konecneho/ Harmonogram:\nhttps://festivalacko.sk/harmonogram/\nZdroj
- : https://festivalacko.sk/harmonogram/
-URL:https://festivalacko.sk/harmonogram/
+SUMMARY:Filmový kvíz Petra Konečného
+LOCATION:FTF VŠMU\, KLAP\, Svoradova 2A\, Bratislava
+DESCRIPTION:Veľký filmový a seriálový kvíz Petra Konečného VŠMU Ed
+ ition. Keďže milujete filmy a seriály\, tak aj tento rok je tu pre vás
+  filmový kvíz s množstvom zaujímavých ukážok a otázok. Otestujte s
+ voje filmové znalosti a zabavte sa. Kvíz bude prebiehať formou mobilný
+ ch telefónov a kvízovej aplikácie\n\nVstupné: Vstup voľný\n\nKoniec 
+ podľa: Čas konca publikovaný v oficiálnom harmonograme Áčka.\n\nZdro
+ j: https://festivalacko.sk/timetable/event/kviz-petra-konecneho/\n\nhttps:
+ //sammkoo.github.io/doku-film-ba-2026/#event=acko462026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko462026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:jeden262026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261024T170000Z
-DTEND:20261024T185000Z
-SUMMARY:Jeden svet | Stopy
-LOCATION:Kino Lumière\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
- e=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+DTEND:20261024T191500Z
+SUMMARY:Stopy
+LOCATION:Kino Lumière\, K1\, Špitálska 4\, Bratislava
+DESCRIPTION:Ukrajinské ženy rozprávajú o prežitom sexuálnom násilí 
+ a mučení počas ruskej agresie. Film zachováva ich svedectvá a úsilie
+  o spravodlivosť.\n\nVstupné: 7 € / festivalový cinepass\n\nPo premie
+ taní filmu nasleduje diskusia s režisérkou Alisou Kovalenko v angličti
+ ne. Moderovať ju bude Sára Činčurová.\n\nOver dostupné lístky v Cin
+ epasse\; tento sprievodca rezerváciu nevykonáva.\n\nKoniec podľa: Ofici
+ álny rezervačný systém Cinepass – pole Projection.end\; dĺžka podu
+ jatia zahŕňa program navyše k filmu.\n\nZdroj: https://jedensvet.cinepa
+ ss.sk/sk/movies/d4e1da81-f8f3-4a80-8feb-3af053cc4452/\n\nhttps://sammkoo.g
+ ithub.io/doku-film-ba-2026/#event=jeden262026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=jeden262026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:imago-drz-piesen20261024@doku-film-2026
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:0
+DTSTART:20261024T170000Z
+SUMMARY:IMAGO SONORIS: Drž pieseň – premiéra filmu + koncert
+LOCATION:A4\, Karpatská 2\, Bratislava
+DESCRIPTION:Premiéra hudobného dokumentu o súčasnej elektroakustickej h
+ udbe\, venovaného Experimentálnemu štúdiu Bratislava. Po projekcii nas
+ leduje krátky koncert.\n\nStopáž a čas konca nie sú zverejnené.\n\nV
+ stupné: 6 € predpredaj / zľavnené\; 8 € na mieste\; 0 € s člensk
+ ou kartou A4\n\nKoniec nie je potvrdený. \n\nKoniec podľa: Koniec ani st
+ opáž zatiaľ organizátor nezverejnil.\n\nZdroj: https://a4.sk/events/20
+ 26/10/24/imago-sonoris-drz-piesen-premiera-filmu-koncert\n\nhttps://sammko
+ o.github.io/doku-film-ba-2026/#event=imago-drz-piesen20261024
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=imago-drz-piesen2026
+ 1024
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:jeden272026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261024T190000Z
-DTEND:20261024T205000Z
-SUMMARY:Jeden svet | Nácviky revolúcie
-LOCATION:Kino Lumière\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
- e=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+DTEND:20261024T204500Z
+SUMMARY:Nácviky revolúcie
+LOCATION:Kino Lumière\, K2\, Špitálska 4\, Bratislava
+DESCRIPTION:Iránska režisérka cez päť blízkych ľudí a rodinné arch
+ ívy skúma rôzne podoby odporu a dejiny svojej krajiny.\n\nVstupné: 7 
+ € / festivalový cinepass\n\nOver dostupné lístky v Cinepasse\; tento 
+ sprievodca rezerváciu nevykonáva.\n\nKoniec podľa: Oficiálny rezervač
+ ný systém Cinepass – pole Projection.end\; dĺžka podujatia zahŕňa 
+ program navyše k filmu.\n\nZdroj: https://jedensvet.cinepass.sk/sk/movies
+ /9f05b918-e68c-4b56-9a8c-e3e082493f36/\n\nhttps://sammkoo.github.io/doku-f
+ ilm-ba-2026/#event=jeden272026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=jeden272026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:jeden282026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261025T093000Z
-DTEND:20261025T112000Z
-SUMMARY:Jeden svet | Fest Anča pre deti Jedného sveta: O priateľstve
-LOCATION:Kino Lumière\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
- e=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+DTEND:20261025T103200Z
+SUMMARY:O PRIATEĽSTVE – Fest Anča pre deti Jedného sveta
+LOCATION:Kino Lumière\, K2\, Špitálska 4\, Bratislava
+DESCRIPTION:Výber krátkych animovaných filmov z Fest Anče o priateľstv
+ e. Detské festivalové pásmo pre spoločné nedeľné dopoludnie.\n\nVst
+ upné: Deti zdarma · dospelí 7 € · jednorodičia 5 € na mieste\n\nP
+ ri tomto rodinnom premietaní berieme ohľad na potreby a pohodu všetkýc
+ h divákov vrátane tých najmenších. Po premietaní si spolu vyrobíme 
+ malý darček pre kamarátku alebo kamaráta a ochutnáme kakavko od Kakaw
+ co+. Máte sa na čo tešiť!\n\nOver dostupné lístky v Cinepasse\; tent
+ o sprievodca rezerváciu nevykonáva.\n\nPrvý let — Adrian Jaffé (3 mi
+ n)\nNočný tunel — Annechien Strouven (9 min)\nPlné hniezdo — Elena 
+ Walf (5 min)\nČipmank a veverička — Sumin Kim (7 min)\nKiki a Buba: Br
+ oskyňový príbeh — Julia Wiereńko\, Adrian Krzych\, Kinga Chłodek\, 
+ Leon Bugajski\, Barbara Szczerbanowska (4 min)\nFilante — Marion Jamault
+  (9 min)\n\nKoniec podľa: Oficiálny rezervačný systém Cinepass – po
+ le Projection.end\; dĺžka podujatia zahŕňa program navyše k filmu.\n\
+ nZdroj: https://jedensvet.cinepass.sk/sk/blocks/eac92a65-ce4c-45b9-95f6-4a
+ 1490c17af8/\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#event=jeden282
+ 026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=jeden282026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:jeden292026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261025T130000Z
-DTEND:20261025T145000Z
-SUMMARY:Jeden svet | Medzi bratmi
-LOCATION:Kino Lumière\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
- e=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+DTEND:20261025T152100Z
+SUMMARY:Medzi bratmi
+LOCATION:Kino Lumière\, K2\, Špitálska 4\, Bratislava
+DESCRIPTION:Filmár sleduje vzťah svojho otca a strýka: bratov\, ktorí s
+ i nedokážu byť blízki bez konfliktov. Projekcia je otvorená aj rodič
+ om s bábätkami.\n\nVstupné: 7 € / festivalový cinepass\n\nPo premiet
+ aní nasleduje diskusia s režisérom Tomom Fassaertom v angličtine.\n\nO
+ ver dostupné lístky v Cinepasse\; tento sprievodca rezerváciu nevykoná
+ va.\n\nKoniec podľa: Oficiálny rezervačný systém Cinepass – pole Pr
+ ojection.end\; dĺžka podujatia zahŕňa program navyše k filmu.\n\nZdro
+ j: https://jedensvet.cinepass.sk/sk/movies/c5936a54-17d0-4916-b30b-5f11cbb
+ 26bf4/\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#event=jeden292026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=jeden292026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:jeden302026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261025T133000Z
-DTEND:20261025T152000Z
-SUMMARY:Jeden svet | Tichá potopa
-LOCATION:Kino Lumière\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
- e=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+DTEND:20261025T151000Z
+SUMMARY:Tichá potopa
+LOCATION:Kino Lumière\, K4\, Špitálska 4\, Bratislava
+DESCRIPTION:Život ukrajinskej náboženskej komunity medzi opakovanými po
+ vodňami a vojnou. Pozorovanie každodennosti\, súdržnosti a zraniteľne
+ j krajiny.\n\nVstupné: 7 € / festivalový cinepass\n\nOver dostupné l
+ ístky v Cinepasse\; tento sprievodca rezerváciu nevykonáva.\n\nKoniec p
+ odľa: Oficiálny rezervačný systém Cinepass – pole Projection.end\; 
+ dĺžka podujatia zahŕňa program navyše k filmu.\n\nZdroj: https://jede
+ nsvet.cinepass.sk/sk/movies/98c9c9e3-b45c-4307-9aef-46607bb3b7e1/\n\nhttps
+ ://sammkoo.github.io/doku-film-ba-2026/#event=jeden302026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=jeden302026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:impresionizmus20261025@doku-film-2026
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:0
+DTSTART:20261025T152000Z
+DTEND:20261025T165200Z
+SUMMARY:Úsvit impresionizmu – Paríž 1874
+LOCATION:Kino Lumière\, K4\, Špitálska 4\, Bratislava
+DESCRIPTION:Dokument o vzniku impresionizmu a prvej nezávislej výstave v 
+ Paríži roku 1874. České titulky.\n\nVstupné: 8 €\n\nKoniec nie je p
+ otvrdený. Čas konca v kalendári je iba orientačný odhad.\n\nKoniec po
+ dľa: Orientačný koniec vypočítaný zo stopáže filmu\; kino samostat
+ ný koniec nepotvrdilo.\n\nZdroj: https://www.kino-lumiere.sk/klient-863/k
+ ino-241/stranka-8409/film-789266\n\nhttps://sammkoo.github.io/doku-film-ba
+ -2026/#event=impresionizmus20261025
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=impresionizmus202610
+ 25
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:jeden312026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261025T154500Z
-DTEND:20261025T173500Z
-SUMMARY:Jeden svet | Dialógová polícia
-LOCATION:Kino Lumière\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
- e=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+DTEND:20261025T175000Z
+SUMMARY:Dialógová polícia
+LOCATION:Kino Lumière\, K2\, Špitálska 4\, Bratislava
+DESCRIPTION:Švédski policajti sa snažia predchádzať konfliktom na demo
+ nštráciách rozhovorom. Dokument skúma prácu medzi protestujúcimi a 
+ štátnou mocou.\n\nVstupné: 7 € / festivalový cinepass\n\nPo premieta
+ ní nasleduje diskusia s režisérkou Susannou Edwards v angličtine\, kto
+ rá bude tlmočená do slovenského posunkového jazyka.\n\nOver dostupné
+  lístky v Cinepasse\; tento sprievodca rezerváciu nevykonáva.\n\nKoniec
+  podľa: Oficiálny rezervačný systém Cinepass – pole Projection.end\
+ ; dĺžka podujatia zahŕňa program navyše k filmu.\n\nZdroj: https://je
+ densvet.cinepass.sk/sk/movies/b441d944-6b93-4f32-a29f-56c16e39ffa2/\n\nhtt
+ ps://sammkoo.github.io/doku-film-ba-2026/#event=jeden312026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=jeden312026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:jeden322026@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261025T180000Z
-DTEND:20261025T195000Z
-SUMMARY:Jeden svet | Odovzdávanie cien + premietanie víťazného filmu
-LOCATION:Kino Lumière\, Bratislava
-DESCRIPTION:Festival Jeden svet 2026. Programová ponuka\, nie potvrdená
-  účasť. Koniec len orientačný (rezervovaných približne 110 minút
- ). Pred návštevou overte lístky a prípadnú diskusiu u organizátora
- .\nZdroj: https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailabl
- e=0
-URL:https://jedensvet.cinepass.sk/sk/tickets/?day=all&onlyAvailable=0
+DTEND:20261025T203000Z
+SUMMARY:Slávnostné odovzdávanie cien spojené s premietaním víťaznéh
+ o filmu
+LOCATION:Kino Lumière\, K1\, Špitálska 4\, Bratislava
+DESCRIPTION:Odovzdanie festivalových cien s Andreou Makýšovou Volárovou
+  a následné premietanie víťazného filmu. Názov víťazného filmu bu
+ de známy po vyhlásení.\n\nVíťazný film ešte nie je známy.\n\nVstup
+ né: 7 € / festivalový cinepass\n\nOver dostupné lístky v Cinepasse\;
+  tento sprievodca rezerváciu nevykonáva.\n\nKoniec podľa: Oficiálny re
+ zervačný systém Cinepass – pole Projection.end\; dĺžka podujatia za
+ hŕňa program navyše k filmu.\n\nZdroj: https://jedensvet.cinepass.sk/sk
+ /accompanying-events/3ae6535b-11ee-4ecb-8e29-4c120d163441/\n\nhttps://samm
+ koo.github.io/doku-film-ba-2026/#event=jeden322026
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=jeden322026
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:mystreet20261025@doku-film-2026
-DTSTAMP:20261018T120000Z
+DTSTAMP:20261018T125945Z
+LAST-MODIFIED:20261018T125945Z
+SEQUENCE:1
 DTSTART:20261025T183000Z
-DTEND:20261025T201000Z
-SUMMARY:Jeden svet | My Street Films SK – premiéra 8 krátkych dokumen
- tov
-LOCATION:Kino Lumière\, Špitálska 4\, Bratislava
-DESCRIPTION:Pásmo ôsmich krátkych dokumentov a vyhlásenie My Street F
- ilms SK Award.\nNevidím tmu – Kristína Horinková (11 min)\nV podzem
- í – Diana Čaklošová (11 min)\nPrepáčte\, že ruším – Dorián
-  Vrbovský (9 min)\nPosolstvo – Veronika Machová (10 min)\nVstup na v
- lastné riziko – Veronika Bajnoková (11 min)\nEma má mamu\, Medo má
-  otca – Ema Ištvánfyová (10 min)\nA pri slovenskej hymne naďalej p
- yšne stáť – Ivana Kováčiková (10 min)\nKde je môj domov? – Ka
- teryna Maliarova (7 min).\nKoniec je orientačný.\nZdroj: https://mobil
- .citylife.sk/film/my-street-films-sk
-URL:https://mobil.citylife.sk/film/my-street-films-sk
+DTEND:20261025T203900Z
+SUMMARY:My Street Films
+LOCATION:Kino Lumière\, K2\, Špitálska 4\, Bratislava
+DESCRIPTION:Premiéra ôsmich krátkych dokumentov projektu My Street Films
+  SK a vyhlásenie autorskej ceny. Viaceré filmy skúmajú domov a vzťah 
+ k priestoru.\n\nVstupné: 7 € / festivalový cinepass\n\nOver dostupné 
+ lístky v Cinepasse\; tento sprievodca rezerváciu nevykonáva.\n\nNevidí
+ m tmu — Kristína Horinková (11 min)\nV podzemí — Diana Čaklošová
+  (11 min)\nPrepáčte\, že ruším — Dorián Vrbovský (9 min)\nPosolst
+ vo — Veronika Machová (10 min)\nVstup na vlastné riziko — Veronika B
+ ajnoková (11 min)\nEma má mamu\, Medo má otca — Ema Ištvánfyová (1
+ 0 min)\nA pri slovenskej hymne naďalej pyšne stáť — Ivana Kováčiko
+ vá (10 min)\nKde je môj domov? — Kateryna Maliarova (7 min)\n\nKoniec 
+ podľa: Oficiálny rezervačný systém Cinepass – pole Projection.end\;
+  dĺžka podujatia zahŕňa program navyše k filmu.\n\nZdroj: https://jed
+ ensvet.cinepass.sk/sk/blocks/0d9aedd4-0de8-4cd4-bbac-d6542c7181ea/\n\nhttp
+ s://sammkoo.github.io/doku-film-ba-2026/#event=mystreet20261025
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=mystreet20261025
 TRANSP:TRANSPARENT
+STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR

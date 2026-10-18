@@ -1,0 +1,26 @@
+name: Review official source changes
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 5 * 10 *'
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Monitor during festival only
+        run: |
+          today=$(date -u +%Y-%m-%d)
+          if [ "$today" \< "2026-10-18" ] || [ "$today" \> "2026-10-25" ]; then
+            echo 'Outside festival week; no requests made.'
+            exit 0
+          fi
+          python3 scripts/check-sources.py
+      - uses: actions/upload-artifact@v4
+        if: ${{ hashFiles('source-check.json') != '' }}
+        with:
+          name: source-changes-for-review
+          path: source-check.json
+          retention-days: 14
