@@ -364,18 +364,19 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko132026@doku-film-2026
-DTSTAMP:20261018T125945Z
-LAST-MODIFIED:20261018T125945Z
-SEQUENCE:1
+DTSTAMP:20261019T072247Z
+LAST-MODIFIED:20261019T072247Z
+SEQUENCE:2
 DTSTART:20261021T080000Z
-DTEND:20261021T103000Z
-SUMMARY:FTF INDUSTRY DAYS − Fórum scenárov
+DTEND:20261021T090000Z
+SUMMARY:FTF INDUSTRY DAYS − Fórum scenárov (1. časť)
 LOCATION:FTF VŠMU\, KLAP\, Svoradova 2A\, Bratislava
-DESCRIPTION:Prezentácie absolventských scenárov študentstva Ateliéru s
- cenáristickej tvorby\n\nVstupné: Vstup voľný\n\nKoniec podľa: Čas ko
- nca publikovaný v oficiálnom harmonograme Áčka.\n\nZdroj: https://fest
- ivalacko.sk/timetable/event/ftf-industry-days-forum-scenarov/\n\nhttps://s
- ammkoo.github.io/doku-film-ba-2026/#event=acko132026
+DESCRIPTION:Prezentácie prác študentstva Ateliéru scenáristickej tvorb
+ y. Prvá časť. Po prestávke pokračuje druhá časť o 11:30.\n\nVstupn
+ é: Vstup voľný\n\nKoniec podľa: Presný rozpis podľa programového pl
+ agátu FTF Industry Days 2026.\n\nZdroj: https://festivalacko.sk/timetable
+ /event/ftf-industry-days-forum-scenarov/\n\nhttps://sammkoo.github.io/doku
+ -film-ba-2026/#event=acko132026
 URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko132026
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -401,6 +402,46 @@ DESCRIPTION:Súťažné pásmo študentských filmov. Jednotlivé filmy\, a
  ilmove-pasma/#spomienky\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#ev
  ent=acko142026
 URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko142026
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:ftf-meetup-20261021-1100@doku-film-2026
+DTSTAMP:20261019T072247Z
+LAST-MODIFIED:20261019T072247Z
+SEQUENCE:0
+DTSTART:20261021T090000Z
+DTEND:20261021T093000Z
+SUMMARY:FTF INDUSTRY DAYS − MEET UP Coffee Break
+LOCATION:FTF VŠMU\, Svoradova 2A\, Bratislava
+DESCRIPTION:Prestávka na stretnutia a neformálne rozhovory medzi časťam
+ i Fóra scenárov. Presné miesto prestávky v budove nie je na plagáte s
+ amostatne uvedené.\n\nVstupné: Samostatné vstupné na prestávku nie je
+  uvedené.\n\nKoniec podľa: Presný začiatok a koniec na programovom pla
+ gáte FTF Industry Days 2026.\n\nZdroj: https://festivalacko.sk/timetable/
+ event/ftf-industry-days-forum-scenarov/\n\nhttps://sammkoo.github.io/doku-
+ film-ba-2026/#event=ftf-meetup-20261021-1100
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=ftf-meetup-20261021-
+ 1100
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:acko132026-part2@doku-film-2026
+DTSTAMP:20261019T072247Z
+LAST-MODIFIED:20261019T072247Z
+SEQUENCE:0
+DTSTART:20261021T093000Z
+DTEND:20261021T103000Z
+SUMMARY:FTF INDUSTRY DAYS − Fórum scenárov (2. časť)
+LOCATION:FTF VŠMU\, KLAP\, Svoradova 2A\, Bratislava
+DESCRIPTION:Prezentácie prác študentstva Ateliéru scenáristickej tvorb
+ y. Pokračovanie po MEET UP Coffee Break.\n\nVstupné: Vstup voľný\n\nKo
+ niec podľa: Presný rozpis podľa programového plagátu FTF Industry Day
+ s 2026.\n\nZdroj: https://festivalacko.sk/timetable/event/ftf-industry-day
+ s-forum-scenarov/\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#event=ac
+ ko132026-part2
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko132026-part2
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -456,19 +497,19 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko162026@doku-film-2026
-DTSTAMP:20261018T125945Z
-LAST-MODIFIED:20261018T125945Z
-SEQUENCE:1
+DTSTAMP:20261019T072247Z
+LAST-MODIFIED:20261019T072247Z
+SEQUENCE:2
 DTSTART:20261021T113000Z
-DTEND:20261021T140000Z
-SUMMARY:FTF INDUSTRY DAYS − Director’s cut
+DTEND:20261021T123000Z
+SUMMARY:FTF INDUSTRY DAYS − Director’s Cut (1. časť)
 LOCATION:FTF VŠMU\, KLAP\, Svoradova 2A\, Bratislava
-DESCRIPTION:Prezentácie pripravovaných filmov študentstva Ateliéru film
- ovej a televíznej réžie a showreelov jeho absolventstva\n\nVstupné: Vs
- tup voľný\n\nKoniec podľa: Čas konca publikovaný v oficiálnom harmon
- ograme Áčka.\n\nZdroj: https://festivalacko.sk/timetable/event/ftf-indus
- try-days-director-s-cut/\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#e
- vent=acko162026
+DESCRIPTION:Prezentácie prác študentstva Ateliéru filmovej a televízne
+ j réžie. Prvá časť. Po prestávke pokračuje druhá časť o 15:00.\n
+ \nVstupné: Vstup voľný\n\nKoniec podľa: Presný rozpis podľa programo
+ vého plagátu FTF Industry Days 2026.\n\nZdroj: https://festivalacko.sk/t
+ imetable/event/ftf-industry-days-director-s-cut/\n\nhttps://sammkoo.github
+ .io/doku-film-ba-2026/#event=acko162026
 URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko162026
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -497,6 +538,27 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:ftf-meetup-20261021-1430@doku-film-2026
+DTSTAMP:20261019T072247Z
+LAST-MODIFIED:20261019T072247Z
+SEQUENCE:0
+DTSTART:20261021T123000Z
+DTEND:20261021T130000Z
+SUMMARY:FTF INDUSTRY DAYS − MEET UP Coffee Break
+LOCATION:FTF VŠMU\, Svoradova 2A\, Bratislava
+DESCRIPTION:Prestávka na stretnutia a neformálne rozhovory medzi časťam
+ i Director’s Cut. Presné miesto prestávky v budove nie je na plagáte 
+ samostatne uvedené.\n\nVstupné: Samostatné vstupné na prestávku nie j
+ e uvedené.\n\nKoniec podľa: Presný začiatok a koniec na programovom pl
+ agáte FTF Industry Days 2026.\n\nZdroj: https://festivalacko.sk/timetable
+ /event/ftf-industry-days-director-s-cut/\n\nhttps://sammkoo.github.io/doku
+ -film-ba-2026/#event=ftf-meetup-20261021-1430
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=ftf-meetup-20261021-
+ 1430
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:acko172026@doku-film-2026
 DTSTAMP:20261018T125945Z
 LAST-MODIFIED:20261018T125945Z
@@ -516,6 +578,25 @@ DESCRIPTION:Súťažné pásmo študentských filmov. Jednotlivé filmy\, a
  ps://festivalacko.sk/filmove-pasma/#zastavene-hodiny\n\nhttps://sammkoo.gi
  thub.io/doku-film-ba-2026/#event=acko172026
 URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko172026
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:acko162026-part2@doku-film-2026
+DTSTAMP:20261019T072247Z
+LAST-MODIFIED:20261019T072247Z
+SEQUENCE:0
+DTSTART:20261021T130000Z
+DTEND:20261021T140000Z
+SUMMARY:FTF INDUSTRY DAYS − Director’s Cut (2. časť)
+LOCATION:FTF VŠMU\, KLAP\, Svoradova 2A\, Bratislava
+DESCRIPTION:Prezentácie prác študentstva Ateliéru filmovej a televízne
+ j réžie. Pokračovanie po MEET UP Coffee Break.\n\nVstupné: Vstup voľn
+ ý\n\nKoniec podľa: Presný rozpis podľa programového plagátu FTF Indu
+ stry Days 2026.\n\nZdroj: https://festivalacko.sk/timetable/event/ftf-indu
+ stry-days-director-s-cut/\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#
+ event=acko162026-part2
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko162026-part2
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -566,19 +647,22 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko182026@doku-film-2026
-DTSTAMP:20261018T125945Z
-LAST-MODIFIED:20261018T125945Z
-SEQUENCE:1
+DTSTAMP:20261019T072247Z
+LAST-MODIFIED:20261019T072247Z
+SEQUENCE:2
 DTSTART:20261021T143000Z
 DTEND:20261021T153000Z
 SUMMARY:FTF INDUSTRY DAYS − Ako vzniká debut
 LOCATION:FTF VŠMU\, KLAP\, Svoradova 2A\, Bratislava
-DESCRIPTION:Panelová diskusia o ceste k oceňovanému debutu s tvorkyňami
-  a tvorcami filmov 33 krokov a Milovník\, nie bojovník.\n\nVstupné: Vst
- up voľný\n\nKoniec podľa: Čas konca publikovaný v oficiálnom harmono
- grame Áčka.\n\nZdroj: https://festivalacko.sk/timetable/event/ftf-indust
- ry-days-ako-vznika-debut/\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#
- event=acko182026
+DESCRIPTION:Diskusia s tvorcovstvom filmov 33 krokov a Milovník\, nie bojo
+ vník o vzniku celovečerného debutu. Hostky a hostia: Anna Domček\, Ši
+ mon Domček\, Martina Buchelová a Erika Paulinská. Moderuje Nataša Jur
+ čová Findrová.\n\nVstupné: Vstup voľný\n\nHostky a hostia: Anna Dom
+ ček\, Šimon Domček\, Martina Buchelová a Erika Paulinská. Moderuje Na
+ taša Jurčová Findrová.\n\nKoniec podľa: Čas konca publikovaný v ofi
+ ciálnom harmonograme Áčka.\n\nZdroj: https://festivalacko.sk/timetable/
+ event/ftf-industry-days-ako-vznika-debut/\n\nhttps://sammkoo.github.io/dok
+ u-film-ba-2026/#event=acko182026
 URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko182026
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -741,19 +825,60 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko212026@doku-film-2026
-DTSTAMP:20261018T125945Z
-LAST-MODIFIED:20261018T125945Z
-SEQUENCE:1
+DTSTAMP:20261019T072247Z
+LAST-MODIFIED:20261019T072247Z
+SEQUENCE:2
 DTSTART:20261022T080000Z
-DTEND:20261022T103000Z
-SUMMARY:FTF INDUSTRY DAYS − Animation pitch
+DTEND:20261022T090000Z
+SUMMARY:FTF INDUSTRY DAYS − Animation Pitch (1. časť)
 LOCATION:FTF VŠMU\, KLAP\, Svoradova 2A\, Bratislava
-DESCRIPTION:Prezentácie pripravovaných filmov študentstva Ateliéru anim
- ovanej tvorby\n\nVstupné: Vstup voľný\n\nKoniec podľa: Čas konca publ
- ikovaný v oficiálnom harmonograme Áčka.\n\nZdroj: https://festivalacko
- .sk/timetable/event/ftf-industry-days-animation-pitch/\n\nhttps://sammkoo.
- github.io/doku-film-ba-2026/#event=acko212026
+DESCRIPTION:Prezentácie prác študentstva Ateliéru animovanej tvorby. Pr
+ vá časť. Po prestávke pokračuje druhá časť o 11:30.\n\nVstupné: V
+ stup voľný\n\nKoniec podľa: Presný rozpis podľa programového plagát
+ u FTF Industry Days 2026.\n\nZdroj: https://festivalacko.sk/timetable/even
+ t/ftf-industry-days-animation-pitch/\n\nhttps://sammkoo.github.io/doku-fil
+ m-ba-2026/#event=acko212026
 URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko212026
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:ftf-meetup-20261022-1100@doku-film-2026
+DTSTAMP:20261019T072247Z
+LAST-MODIFIED:20261019T072247Z
+SEQUENCE:0
+DTSTART:20261022T090000Z
+DTEND:20261022T093000Z
+SUMMARY:FTF INDUSTRY DAYS − MEET UP Coffee Break
+LOCATION:FTF VŠMU\, Svoradova 2A\, Bratislava
+DESCRIPTION:Prestávka na stretnutia a neformálne rozhovory medzi časťam
+ i Animation Pitch. Presné miesto prestávky v budove nie je na plagáte s
+ amostatne uvedené.\n\nVstupné: Samostatné vstupné na prestávku nie je
+  uvedené.\n\nKoniec podľa: Presný začiatok a koniec na programovom pla
+ gáte FTF Industry Days 2026.\n\nZdroj: https://festivalacko.sk/timetable/
+ event/ftf-industry-days-animation-pitch/\n\nhttps://sammkoo.github.io/doku
+ -film-ba-2026/#event=ftf-meetup-20261022-1100
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=ftf-meetup-20261022-
+ 1100
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:acko212026-part2@doku-film-2026
+DTSTAMP:20261019T072247Z
+LAST-MODIFIED:20261019T072247Z
+SEQUENCE:0
+DTSTART:20261022T093000Z
+DTEND:20261022T103000Z
+SUMMARY:FTF INDUSTRY DAYS − Animation Pitch (2. časť)
+LOCATION:FTF VŠMU\, KLAP\, Svoradova 2A\, Bratislava
+DESCRIPTION:Prezentácie prác študentstva Ateliéru animovanej tvorby. Po
+ kračovanie po MEET UP Coffee Break.\n\nVstupné: Vstup voľný\n\nKoniec 
+ podľa: Presný rozpis podľa programového plagátu FTF Industry Days 202
+ 6.\n\nZdroj: https://festivalacko.sk/timetable/event/ftf-industry-days-ani
+ mation-pitch/\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#event=acko21
+ 2026-part2
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko212026-part2
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -783,37 +908,65 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko232026@doku-film-2026
-DTSTAMP:20261018T125945Z
-LAST-MODIFIED:20261018T125945Z
-SEQUENCE:1
+DTSTAMP:20261019T072247Z
+LAST-MODIFIED:20261019T072247Z
+SEQUENCE:2
 DTSTART:20261022T113000Z
 DTEND:20261022T123000Z
 SUMMARY:FTF INDUSTRY DAYS − DocuPitch
 LOCATION:FTF VŠMU\, KLAP\, Svoradova 2A\, Bratislava
-DESCRIPTION:Prezentácie pripravovaných filmov študentstva Ateliéru ré
- žie dokumentárneho filmu\n\nVstupné: Vstup voľný\n\nKoniec podľa: Č
- as konca publikovaný v oficiálnom harmonograme Áčka.\n\nZdroj: https:/
- /festivalacko.sk/timetable/event/ftf-industry-days-docupitch/\n\nhttps://s
- ammkoo.github.io/doku-film-ba-2026/#event=acko232026
+DESCRIPTION:Prezentácie prác študentstva Ateliéru réžie dokumentárne
+ ho filmu. Súčasť FTF Industry Days 2026 — Prepájame študentstvo s p
+ raxou.\n\nVstupné: Vstup voľný\n\nKoniec podľa: Čas konca publikovan
+ ý v oficiálnom harmonograme Áčka.\n\nZdroj: https://festivalacko.sk/ti
+ metable/event/ftf-industry-days-docupitch/\n\nhttps://sammkoo.github.io/do
+ ku-film-ba-2026/#event=acko232026
 URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko232026
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:ftf-meetup-20261022-1430@doku-film-2026
+DTSTAMP:20261019T072247Z
+LAST-MODIFIED:20261019T072247Z
+SEQUENCE:0
+DTSTART:20261022T123000Z
+DTEND:20261022T130000Z
+SUMMARY:FTF INDUSTRY DAYS − MEET UP Coffee Break
+LOCATION:FTF VŠMU\, Svoradova 2A\, Bratislava
+DESCRIPTION:Prestávka na stretnutia a neformálne rozhovory po DocuPitch a
+  pred diskusiou Debut v súčasnej kultúrnej realite. Presné miesto pres
+ távky v budove nie je na plagáte samostatne uvedené.\n\nVstupné: Samos
+ tatné vstupné na prestávku nie je uvedené.\n\nKoniec podľa: Presný z
+ ačiatok a koniec na programovom plagáte FTF Industry Days 2026.\n\nZdroj
+ : https://festivalacko.sk/timetable/event/ftf-industry-days-docupitch/\n\n
+ https://sammkoo.github.io/doku-film-ba-2026/#event=ftf-meetup-20261022-143
+ 0
+URL:https://sammkoo.github.io/doku-film-ba-2026/#event=ftf-meetup-20261022-
+ 1430
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:acko242026@doku-film-2026
-DTSTAMP:20261018T125945Z
-LAST-MODIFIED:20261018T125945Z
-SEQUENCE:1
+DTSTAMP:20261019T072247Z
+LAST-MODIFIED:20261019T072247Z
+SEQUENCE:2
 DTSTART:20261022T130000Z
 DTEND:20261022T140000Z
 SUMMARY:FTF INDUSTRY DAYS − Debut v súčasnej kultúrnej realite
 LOCATION:FTF VŠMU\, KLAP\, Svoradova 2A\, Bratislava
-DESCRIPTION:Panelová diskusia o špecifikách debutovania v súčasnosti s
-  predstaviteľkami a predstaviteľmi slovenských kultúrnych inštitúci
- í\n\nVstupné: Vstup voľný\n\nKoniec podľa: Čas konca publikovaný v 
- oficiálnom harmonograme Áčka.\n\nZdroj: https://festivalacko.sk/timetab
- le/event/ftf-industry-days-debut-v-sucasnej-kulturnej-realite/\n\nhttps://
- sammkoo.github.io/doku-film-ba-2026/#event=acko242026
+DESCRIPTION:Diskusia so zástupcami a zástupkyňami kultúrnej obce a film
+ árskych inštitúcií o debutovaní v súčasnej kultúrnej realite. Host
+ ky a hosť: Katarína Krnáčová (prezidentka SFTA)\, Vladimír Burianek 
+ (riaditeľ AVF) a Katarína Moláková (dekanka FTF VŠMU). Moderuje Ivana
+  Laučíková (Otvorená kultúra).\n\nVstupné: Vstup voľný\n\nHostky a
+  hosť: Katarína Krnáčová (prezidentka SFTA)\, Vladimír Burianek (ria
+ diteľ AVF) a Katarína Moláková (dekanka FTF VŠMU). Moderuje Ivana Lau
+ číková (Otvorená kultúra).\n\nKoniec podľa: Čas konca publikovaný 
+ v oficiálnom harmonograme Áčka.\n\nZdroj: https://festivalacko.sk/timet
+ able/event/ftf-industry-days-debut-v-sucasnej-kulturnej-realite/\n\nhttps:
+ //sammkoo.github.io/doku-film-ba-2026/#event=acko242026
 URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko242026
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -1401,18 +1554,20 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko372026@doku-film-2026
-DTSTAMP:20261018T125945Z
-LAST-MODIFIED:20261018T125945Z
-SEQUENCE:1
+DTSTAMP:20261019T072247Z
+LAST-MODIFIED:20261019T072247Z
+SEQUENCE:2
 DTSTART:20261023T170000Z
 DTEND:20261023T190000Z
 SUMMARY:ZÁVEREČNÝ CEREMONIÁL
 LOCATION:FTF VŠMU\, KLAP\, Svoradova 2A\, Bratislava
-DESCRIPTION:Súčasť programu festivalu Áčko. Podrobnosti organizátor z
- atiaľ nezverejnil.\n\nVstupné: Vstup voľný\n\nKoniec podľa: Čas konc
- a publikovaný v oficiálnom harmonograme Áčka.\n\nZdroj: https://festiv
- alacko.sk/timetable/event/zaverecny-ceremonial/\n\nhttps://sammkoo.github.
- io/doku-film-ba-2026/#event=acko372026
+DESCRIPTION:Súčasť programu festivalu Áčko. Súčasťou ceremoniálu j
+ e slávnostné odovzdávanie ocenení FTF Industry Days\, ohlásené na 23
+ . októbra o 19:00. Samostatný čas odovzdávania ani jeho koniec nie je 
+ uvedený.\n\nVstupné: Vstup voľný\n\nKoniec podľa: Čas konca publikov
+ aný v oficiálnom harmonograme Áčka.\n\nZdroj: https://festivalacko.sk/
+ timetable/event/zaverecny-ceremonial/\n\nhttps://sammkoo.github.io/doku-fi
+ lm-ba-2026/#event=acko372026
 URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko372026
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED

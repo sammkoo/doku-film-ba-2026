@@ -124,3 +124,7 @@ Podľa programového plagátu ASDF dodaného správcom boli k štyrom podujatiam
 
 ### Upresnenie času — 19. 10. 2026
 Správca potvrdil, že čas 15:30 pri politickom dokumente na plagáte je chybný. Platí začiatok 20. 10. o 16:30 podľa Kina Lumière. Upozornenie na rozpor bolo odstránené z webu aj ICS feedu. UID zostáva zachované; SEQUENCE zvýšené.
+
+
+### FTF Industry Days — podrobný program, 19. 10. 2026
+Zdroj: programový plagát FTF Industry Days 2026 dodaný správcom (image-1792394470917.jpg). Šesť hlavných podujatí už bolo v programe. Fórum scenárov, Director’s Cut a Animation Pitch sú teraz rozdelené na skutočné časti pred a po prestávke; pôvodné UID ostali pri prvej časti. Pridané tri pokračovania a štyri samostatné MEET UP Coffee Break (21. aj 22. 10.: 11:00–11:30 a 14:30–15:00). Hostia a moderátorky doplnení pri oboch debatách. DocuPitch spresnený, odovzdávanie cien 23. 10. o 19:00 doplnené do existujúceho záverečného ceremoniálu, bez duplicitnej udalosti. Prestávky majú potvrdenú budovu FTF, samostatná miestnosť ani cena občerstvenia neboli uvedené. Výber má 97 záznamov; nejde o sedem nových hlavných podujatí, ale o detailnejšie členenie programu.

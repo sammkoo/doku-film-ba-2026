@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-19T06:48:08.330Z",
+  "updatedAt": "2026-10-19T07:22:47.112Z",
   "timezone": "Europe/Bratislava",
   "period": {
     "from": "2026-10-19",
@@ -907,18 +907,18 @@
     },
     {
       "id": "acko132026",
-      "title": "FTF INDUSTRY DAYS − Fórum scenárov",
+      "title": "FTF INDUSTRY DAYS − Fórum scenárov (1. časť)",
       "start": "2026-10-21T10:00:00+02:00",
-      "end": "2026-10-21T12:30:00+02:00",
+      "end": "2026-10-21T11:00:00+02:00",
       "url": "https://festivalacko.sk/timetable/event/ftf-industry-days-forum-scenarov/",
       "festival": "Áčko",
       "venueId": "ftf",
       "room": "KLAP",
-      "summary": "Prezentácie absolventských scenárov študentstva Ateliéru scenáristickej tvorby",
+      "summary": "Prezentácie prác študentstva Ateliéru scenáristickej tvorby. Prvá časť. Po prestávke pokračuje druhá časť o 11:30.",
       "uid": "acko132026@doku-film-2026",
-      "updatedAt": "2026-10-18T12:59:45+00:00",
-      "checkedAt": "18. 10. 2026",
-      "sequence": 1,
+      "updatedAt": "2026-10-19T07:22:47.112Z",
+      "checkedAt": "19. 10. 2026",
+      "sequence": 2,
       "films": [],
       "types": [
         "industry"
@@ -926,9 +926,11 @@
       "free": true,
       "organizer": "Festival Áčko / FTF VŠMU",
       "price": "Vstup voľný",
-      "endSource": "Čas konca publikovaný v oficiálnom harmonograme Áčka.",
+      "endSource": "Presný rozpis podľa programového plagátu FTF Industry Days 2026.",
       "evidence": "https://festivalacko.sk/harmonogram/",
-      "group": "acko132026"
+      "group": "acko132026",
+      "programmeSource": "Programový plagát FTF Industry Days 2026 dodaný správcom 19. 10. 2026.",
+      "programmeBlock": "acko132026"
     },
     {
       "id": "acko142026",
@@ -1056,6 +1058,58 @@
       "endSource": "Čas konca publikovaný v oficiálnom harmonograme Áčka.",
       "evidence": "https://festivalacko.sk/harmonogram/",
       "group": "https://festivalacko.sk/filmove-pasma/#spomienky"
+    },
+    {
+      "id": "ftf-meetup-20261021-1100",
+      "uid": "ftf-meetup-20261021-1100@doku-film-2026",
+      "title": "FTF INDUSTRY DAYS − MEET UP Coffee Break",
+      "start": "2026-10-21T11:00:00+02:00",
+      "end": "2026-10-21T11:30:00+02:00",
+      "festival": "Áčko",
+      "venueId": "ftf",
+      "room": "",
+      "summary": "Prestávka na stretnutia a neformálne rozhovory medzi časťami Fóra scenárov. Presné miesto prestávky v budove nie je na plagáte samostatne uvedené.",
+      "types": [
+        "industry"
+      ],
+      "films": [],
+      "organizer": "FTF VŠMU / FTF Industry Days",
+      "url": "https://festivalacko.sk/timetable/event/ftf-industry-days-forum-scenarov/",
+      "evidence": "https://festivalacko.sk/timetable/event/ftf-industry-days-forum-scenarov/",
+      "programmeSource": "Programový plagát FTF Industry Days 2026 dodaný správcom 19. 10. 2026.",
+      "endSource": "Presný začiatok a koniec na programovom plagáte FTF Industry Days 2026.",
+      "price": "Samostatné vstupné na prestávku nie je uvedené.",
+      "updatedAt": "2026-10-19T07:22:47.112Z",
+      "checkedAt": "19. 10. 2026",
+      "sequence": 0,
+      "group": "ftf-meetup-20261021-1100"
+    },
+    {
+      "id": "acko132026-part2",
+      "title": "FTF INDUSTRY DAYS − Fórum scenárov (2. časť)",
+      "start": "2026-10-21T11:30:00+02:00",
+      "end": "2026-10-21T12:30:00+02:00",
+      "url": "https://festivalacko.sk/timetable/event/ftf-industry-days-forum-scenarov/",
+      "festival": "Áčko",
+      "venueId": "ftf",
+      "room": "KLAP",
+      "summary": "Prezentácie prác študentstva Ateliéru scenáristickej tvorby. Pokračovanie po MEET UP Coffee Break.",
+      "uid": "acko132026-part2@doku-film-2026",
+      "updatedAt": "2026-10-19T07:22:47.112Z",
+      "checkedAt": "19. 10. 2026",
+      "sequence": 0,
+      "films": [],
+      "types": [
+        "industry"
+      ],
+      "free": true,
+      "organizer": "Festival Áčko / FTF VŠMU",
+      "price": "Vstup voľný",
+      "endSource": "Presný rozpis podľa programového plagátu FTF Industry Days 2026.",
+      "evidence": "https://festivalacko.sk/harmonogram/",
+      "group": "acko132026-part2",
+      "programmeSource": "Programový plagát FTF Industry Days 2026 dodaný správcom 19. 10. 2026.",
+      "programmeBlock": "acko132026"
     },
     {
       "id": "acko152026",
@@ -1260,18 +1314,18 @@
     },
     {
       "id": "acko162026",
-      "title": "FTF INDUSTRY DAYS − Director’s cut",
+      "title": "FTF INDUSTRY DAYS − Director’s Cut (1. časť)",
       "start": "2026-10-21T13:30:00+02:00",
-      "end": "2026-10-21T16:00:00+02:00",
+      "end": "2026-10-21T14:30:00+02:00",
       "url": "https://festivalacko.sk/timetable/event/ftf-industry-days-director-s-cut/",
       "festival": "Áčko",
       "venueId": "ftf",
       "room": "KLAP",
-      "summary": "Prezentácie pripravovaných filmov študentstva Ateliéru filmovej a televíznej réžie a showreelov jeho absolventstva",
+      "summary": "Prezentácie prác študentstva Ateliéru filmovej a televíznej réžie. Prvá časť. Po prestávke pokračuje druhá časť o 15:00.",
       "uid": "acko162026@doku-film-2026",
-      "updatedAt": "2026-10-18T12:59:45+00:00",
-      "checkedAt": "18. 10. 2026",
-      "sequence": 1,
+      "updatedAt": "2026-10-19T07:22:47.112Z",
+      "checkedAt": "19. 10. 2026",
+      "sequence": 2,
       "films": [],
       "types": [
         "industry"
@@ -1279,9 +1333,11 @@
       "free": true,
       "organizer": "Festival Áčko / FTF VŠMU",
       "price": "Vstup voľný",
-      "endSource": "Čas konca publikovaný v oficiálnom harmonograme Áčka.",
+      "endSource": "Presný rozpis podľa programového plagátu FTF Industry Days 2026.",
       "evidence": "https://festivalacko.sk/harmonogram/",
-      "group": "acko162026"
+      "group": "acko162026",
+      "programmeSource": "Programový plagát FTF Industry Days 2026 dodaný správcom 19. 10. 2026.",
+      "programmeBlock": "acko162026"
     },
     {
       "id": "jeden22026",
@@ -1315,6 +1371,31 @@
       "registrationNote": "Over dostupné lístky v Cinepasse; tento sprievodca rezerváciu nevykonáva.",
       "notice": "Špeciálna projekcia pre klientky a klientov nízkoprahových služieb. Verejnú účasť a kapacitu si najprv over u organizátora.",
       "group": "c4df8102-0275-4bdb-9502-f18fc7a89018"
+    },
+    {
+      "id": "ftf-meetup-20261021-1430",
+      "uid": "ftf-meetup-20261021-1430@doku-film-2026",
+      "title": "FTF INDUSTRY DAYS − MEET UP Coffee Break",
+      "start": "2026-10-21T14:30:00+02:00",
+      "end": "2026-10-21T15:00:00+02:00",
+      "festival": "Áčko",
+      "venueId": "ftf",
+      "room": "",
+      "summary": "Prestávka na stretnutia a neformálne rozhovory medzi časťami Director’s Cut. Presné miesto prestávky v budove nie je na plagáte samostatne uvedené.",
+      "types": [
+        "industry"
+      ],
+      "films": [],
+      "organizer": "FTF VŠMU / FTF Industry Days",
+      "url": "https://festivalacko.sk/timetable/event/ftf-industry-days-director-s-cut/",
+      "evidence": "https://festivalacko.sk/timetable/event/ftf-industry-days-director-s-cut/",
+      "programmeSource": "Programový plagát FTF Industry Days 2026 dodaný správcom 19. 10. 2026.",
+      "endSource": "Presný začiatok a koniec na programovom plagáte FTF Industry Days 2026.",
+      "price": "Samostatné vstupné na prestávku nie je uvedené.",
+      "updatedAt": "2026-10-19T07:22:47.112Z",
+      "checkedAt": "19. 10. 2026",
+      "sequence": 0,
+      "group": "ftf-meetup-20261021-1430"
     },
     {
       "id": "acko172026",
@@ -1433,6 +1514,33 @@
       "group": "https://festivalacko.sk/filmove-pasma/#zastavene-hodiny"
     },
     {
+      "id": "acko162026-part2",
+      "title": "FTF INDUSTRY DAYS − Director’s Cut (2. časť)",
+      "start": "2026-10-21T15:00:00+02:00",
+      "end": "2026-10-21T16:00:00+02:00",
+      "url": "https://festivalacko.sk/timetable/event/ftf-industry-days-director-s-cut/",
+      "festival": "Áčko",
+      "venueId": "ftf",
+      "room": "KLAP",
+      "summary": "Prezentácie prác študentstva Ateliéru filmovej a televíznej réžie. Pokračovanie po MEET UP Coffee Break.",
+      "uid": "acko162026-part2@doku-film-2026",
+      "updatedAt": "2026-10-19T07:22:47.112Z",
+      "checkedAt": "19. 10. 2026",
+      "sequence": 0,
+      "films": [],
+      "types": [
+        "industry"
+      ],
+      "free": true,
+      "organizer": "Festival Áčko / FTF VŠMU",
+      "price": "Vstup voľný",
+      "endSource": "Presný rozpis podľa programového plagátu FTF Industry Days 2026.",
+      "evidence": "https://festivalacko.sk/harmonogram/",
+      "group": "acko162026-part2",
+      "programmeSource": "Programový plagát FTF Industry Days 2026 dodaný správcom 19. 10. 2026.",
+      "programmeBlock": "acko162026"
+    },
+    {
       "id": "jeden32026",
       "title": "Preladenie: repríza",
       "start": "2026-10-21T16:00:00+02:00",
@@ -1503,11 +1611,11 @@
       "festival": "Áčko",
       "venueId": "ftf",
       "room": "KLAP",
-      "summary": "Panelová diskusia o ceste k oceňovanému debutu s tvorkyňami a tvorcami filmov 33 krokov a Milovník, nie bojovník.",
+      "summary": "Diskusia s tvorcovstvom filmov 33 krokov a Milovník, nie bojovník o vzniku celovečerného debutu. Hostky a hostia: Anna Domček, Šimon Domček, Martina Buchelová a Erika Paulinská. Moderuje Nataša Jurčová Findrová.",
       "uid": "acko182026@doku-film-2026",
-      "updatedAt": "2026-10-18T12:59:45+00:00",
-      "checkedAt": "18. 10. 2026",
-      "sequence": 1,
+      "updatedAt": "2026-10-19T07:22:47.112Z",
+      "checkedAt": "19. 10. 2026",
+      "sequence": 2,
       "films": [],
       "types": [
         "industry"
@@ -1517,7 +1625,9 @@
       "price": "Vstup voľný",
       "endSource": "Čas konca publikovaný v oficiálnom harmonograme Áčka.",
       "evidence": "https://festivalacko.sk/harmonogram/",
-      "group": "acko182026"
+      "group": "acko182026",
+      "guests": "Hostky a hostia: Anna Domček, Šimon Domček, Martina Buchelová a Erika Paulinská. Moderuje Nataša Jurčová Findrová.",
+      "programmeSource": "Programový plagát FTF Industry Days 2026 dodaný správcom 19. 10. 2026."
     },
     {
       "id": "zivotfilm20261021",
@@ -1842,18 +1952,18 @@
     },
     {
       "id": "acko212026",
-      "title": "FTF INDUSTRY DAYS − Animation pitch",
+      "title": "FTF INDUSTRY DAYS − Animation Pitch (1. časť)",
       "start": "2026-10-22T10:00:00+02:00",
-      "end": "2026-10-22T12:30:00+02:00",
+      "end": "2026-10-22T11:00:00+02:00",
       "url": "https://festivalacko.sk/timetable/event/ftf-industry-days-animation-pitch/",
       "festival": "Áčko",
       "venueId": "ftf",
       "room": "KLAP",
-      "summary": "Prezentácie pripravovaných filmov študentstva Ateliéru animovanej tvorby",
+      "summary": "Prezentácie prác študentstva Ateliéru animovanej tvorby. Prvá časť. Po prestávke pokračuje druhá časť o 11:30.",
       "uid": "acko212026@doku-film-2026",
-      "updatedAt": "2026-10-18T12:59:45+00:00",
-      "checkedAt": "18. 10. 2026",
-      "sequence": 1,
+      "updatedAt": "2026-10-19T07:22:47.112Z",
+      "checkedAt": "19. 10. 2026",
+      "sequence": 2,
       "films": [],
       "types": [
         "industry"
@@ -1861,9 +1971,63 @@
       "free": true,
       "organizer": "Festival Áčko / FTF VŠMU",
       "price": "Vstup voľný",
-      "endSource": "Čas konca publikovaný v oficiálnom harmonograme Áčka.",
+      "endSource": "Presný rozpis podľa programového plagátu FTF Industry Days 2026.",
       "evidence": "https://festivalacko.sk/harmonogram/",
-      "group": "acko212026"
+      "group": "acko212026",
+      "programmeSource": "Programový plagát FTF Industry Days 2026 dodaný správcom 19. 10. 2026.",
+      "programmeBlock": "acko212026"
+    },
+    {
+      "id": "ftf-meetup-20261022-1100",
+      "uid": "ftf-meetup-20261022-1100@doku-film-2026",
+      "title": "FTF INDUSTRY DAYS − MEET UP Coffee Break",
+      "start": "2026-10-22T11:00:00+02:00",
+      "end": "2026-10-22T11:30:00+02:00",
+      "festival": "Áčko",
+      "venueId": "ftf",
+      "room": "",
+      "summary": "Prestávka na stretnutia a neformálne rozhovory medzi časťami Animation Pitch. Presné miesto prestávky v budove nie je na plagáte samostatne uvedené.",
+      "types": [
+        "industry"
+      ],
+      "films": [],
+      "organizer": "FTF VŠMU / FTF Industry Days",
+      "url": "https://festivalacko.sk/timetable/event/ftf-industry-days-animation-pitch/",
+      "evidence": "https://festivalacko.sk/timetable/event/ftf-industry-days-animation-pitch/",
+      "programmeSource": "Programový plagát FTF Industry Days 2026 dodaný správcom 19. 10. 2026.",
+      "endSource": "Presný začiatok a koniec na programovom plagáte FTF Industry Days 2026.",
+      "price": "Samostatné vstupné na prestávku nie je uvedené.",
+      "updatedAt": "2026-10-19T07:22:47.112Z",
+      "checkedAt": "19. 10. 2026",
+      "sequence": 0,
+      "group": "ftf-meetup-20261022-1100"
+    },
+    {
+      "id": "acko212026-part2",
+      "title": "FTF INDUSTRY DAYS − Animation Pitch (2. časť)",
+      "start": "2026-10-22T11:30:00+02:00",
+      "end": "2026-10-22T12:30:00+02:00",
+      "url": "https://festivalacko.sk/timetable/event/ftf-industry-days-animation-pitch/",
+      "festival": "Áčko",
+      "venueId": "ftf",
+      "room": "KLAP",
+      "summary": "Prezentácie prác študentstva Ateliéru animovanej tvorby. Pokračovanie po MEET UP Coffee Break.",
+      "uid": "acko212026-part2@doku-film-2026",
+      "updatedAt": "2026-10-19T07:22:47.112Z",
+      "checkedAt": "19. 10. 2026",
+      "sequence": 0,
+      "films": [],
+      "types": [
+        "industry"
+      ],
+      "free": true,
+      "organizer": "Festival Áčko / FTF VŠMU",
+      "price": "Vstup voľný",
+      "endSource": "Presný rozpis podľa programového plagátu FTF Industry Days 2026.",
+      "evidence": "https://festivalacko.sk/harmonogram/",
+      "group": "acko212026-part2",
+      "programmeSource": "Programový plagát FTF Industry Days 2026 dodaný správcom 19. 10. 2026.",
+      "programmeBlock": "acko212026"
     },
     {
       "id": "acko222026",
@@ -1990,11 +2154,11 @@
       "festival": "Áčko",
       "venueId": "ftf",
       "room": "KLAP",
-      "summary": "Prezentácie pripravovaných filmov študentstva Ateliéru réžie dokumentárneho filmu",
+      "summary": "Prezentácie prác študentstva Ateliéru réžie dokumentárneho filmu. Súčasť FTF Industry Days 2026 — Prepájame študentstvo s praxou.",
       "uid": "acko232026@doku-film-2026",
-      "updatedAt": "2026-10-18T12:59:45+00:00",
-      "checkedAt": "18. 10. 2026",
-      "sequence": 1,
+      "updatedAt": "2026-10-19T07:22:47.112Z",
+      "checkedAt": "19. 10. 2026",
+      "sequence": 2,
       "films": [],
       "types": [
         "industry"
@@ -2004,7 +2168,33 @@
       "price": "Vstup voľný",
       "endSource": "Čas konca publikovaný v oficiálnom harmonograme Áčka.",
       "evidence": "https://festivalacko.sk/harmonogram/",
-      "group": "acko232026"
+      "group": "acko232026",
+      "programmeSource": "Programový plagát FTF Industry Days 2026 dodaný správcom 19. 10. 2026."
+    },
+    {
+      "id": "ftf-meetup-20261022-1430",
+      "uid": "ftf-meetup-20261022-1430@doku-film-2026",
+      "title": "FTF INDUSTRY DAYS − MEET UP Coffee Break",
+      "start": "2026-10-22T14:30:00+02:00",
+      "end": "2026-10-22T15:00:00+02:00",
+      "festival": "Áčko",
+      "venueId": "ftf",
+      "room": "",
+      "summary": "Prestávka na stretnutia a neformálne rozhovory po DocuPitch a pred diskusiou Debut v súčasnej kultúrnej realite. Presné miesto prestávky v budove nie je na plagáte samostatne uvedené.",
+      "types": [
+        "industry"
+      ],
+      "films": [],
+      "organizer": "FTF VŠMU / FTF Industry Days",
+      "url": "https://festivalacko.sk/timetable/event/ftf-industry-days-docupitch/",
+      "evidence": "https://festivalacko.sk/timetable/event/ftf-industry-days-docupitch/",
+      "programmeSource": "Programový plagát FTF Industry Days 2026 dodaný správcom 19. 10. 2026.",
+      "endSource": "Presný začiatok a koniec na programovom plagáte FTF Industry Days 2026.",
+      "price": "Samostatné vstupné na prestávku nie je uvedené.",
+      "updatedAt": "2026-10-19T07:22:47.112Z",
+      "checkedAt": "19. 10. 2026",
+      "sequence": 0,
+      "group": "ftf-meetup-20261022-1430"
     },
     {
       "id": "acko242026",
@@ -2015,11 +2205,11 @@
       "festival": "Áčko",
       "venueId": "ftf",
       "room": "KLAP",
-      "summary": "Panelová diskusia o špecifikách debutovania v súčasnosti s predstaviteľkami a predstaviteľmi slovenských kultúrnych inštitúcií",
+      "summary": "Diskusia so zástupcami a zástupkyňami kultúrnej obce a filmárskych inštitúcií o debutovaní v súčasnej kultúrnej realite. Hostky a hosť: Katarína Krnáčová (prezidentka SFTA), Vladimír Burianek (riaditeľ AVF) a Katarína Moláková (dekanka FTF VŠMU). Moderuje Ivana Laučíková (Otvorená kultúra).",
       "uid": "acko242026@doku-film-2026",
-      "updatedAt": "2026-10-18T12:59:45+00:00",
-      "checkedAt": "18. 10. 2026",
-      "sequence": 1,
+      "updatedAt": "2026-10-19T07:22:47.112Z",
+      "checkedAt": "19. 10. 2026",
+      "sequence": 2,
       "films": [],
       "types": [
         "industry"
@@ -2029,7 +2219,9 @@
       "price": "Vstup voľný",
       "endSource": "Čas konca publikovaný v oficiálnom harmonograme Áčka.",
       "evidence": "https://festivalacko.sk/harmonogram/",
-      "group": "acko242026"
+      "group": "acko242026",
+      "guests": "Hostky a hosť: Katarína Krnáčová (prezidentka SFTA), Vladimír Burianek (riaditeľ AVF) a Katarína Moláková (dekanka FTF VŠMU). Moderuje Ivana Laučíková (Otvorená kultúra).",
+      "programmeSource": "Programový plagát FTF Industry Days 2026 dodaný správcom 19. 10. 2026."
     },
     {
       "id": "jeden72026",
@@ -3408,11 +3600,11 @@
       "festival": "Áčko",
       "venueId": "ftf",
       "room": "KLAP",
-      "summary": "Súčasť programu festivalu Áčko. Podrobnosti organizátor zatiaľ nezverejnil.",
+      "summary": "Súčasť programu festivalu Áčko. Súčasťou ceremoniálu je slávnostné odovzdávanie ocenení FTF Industry Days, ohlásené na 23. októbra o 19:00. Samostatný čas odovzdávania ani jeho koniec nie je uvedený.",
       "uid": "acko372026@doku-film-2026",
-      "updatedAt": "2026-10-18T12:59:45+00:00",
-      "checkedAt": "18. 10. 2026",
-      "sequence": 1,
+      "updatedAt": "2026-10-19T07:22:47.112Z",
+      "checkedAt": "19. 10. 2026",
+      "sequence": 2,
       "films": [],
       "types": [
         "ostatne"
@@ -3422,7 +3614,8 @@
       "price": "Vstup voľný",
       "endSource": "Čas konca publikovaný v oficiálnom harmonograme Áčka.",
       "evidence": "https://festivalacko.sk/harmonogram/",
-      "group": "acko372026"
+      "group": "acko372026",
+      "programmeSource": "Programový plagát FTF Industry Days 2026 dodaný správcom 19. 10. 2026."
     },
     {
       "id": "jeden192026",

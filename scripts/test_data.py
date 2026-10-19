@@ -30,6 +30,15 @@ class ProgrammeTests(unittest.TestCase):
     def test_block_missing_film_repaired(self):
         films=self.by_id['acko22026']['films'];self.assertEqual(len(films),8)
         self.assertIn('Rozšliapnutý melón',[f['title'] for f in films])
+    def test_industry_sessions_respect_breaks(self):
+        for first,second in [('acko132026','acko132026-part2'),('acko162026','acko162026-part2'),('acko212026','acko212026-part2')]:
+            a,b=self.by_id[first],self.by_id[second]
+            self.assertEqual(datetime.fromisoformat(b['start'])-datetime.fromisoformat(a['end']),timedelta(minutes=30))
+            self.assertNotEqual(a['uid'],b['uid'])
+        breaks=[e for e in self.by_id.values() if e['id'].startswith('ftf-meetup-')]
+        self.assertEqual(len(breaks),4)
+        for event in breaks:
+            self.assertEqual(datetime.fromisoformat(event['end'])-datetime.fromisoformat(event['start']),timedelta(minutes=30))
     def test_feed_matches_single_source(self):
         feed=generate(self.model)
         self.assertEqual(feed.encode(),(ROOT/'program.ics').read_bytes())
