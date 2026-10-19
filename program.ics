@@ -144,44 +144,46 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko42026@doku-film-2026
-DTSTAMP:20261018T125945Z
-LAST-MODIFIED:20261018T125945Z
-SEQUENCE:1
+DTSTAMP:20261019T063955Z
+LAST-MODIFIED:20261019T063955Z
+SEQUENCE:2
 DTSTART:20261020T111500Z
 DTEND:20261020T121500Z
 SUMMARY:Stav pôvodnej tvorby a možnosti koprodukcie v STVR
 LOCATION:Kino Lumière\, K2\, Špitálska 4\, Bratislava
-DESCRIPTION:Diskusia o pôvodnej tvorbe a koprodukciách v STVR. Hostia Ale
- xander Kmeť a Ondrej Starinský\, moderuje Adam Straka.\n\nVstupné: Vstu
- p voľný\, povinná registrácia\n\nPovinná registrácia na konferenciu.
-  Aktuálna kapacita nie je potvrdená.\n\nKoniec nie je potvrdený. Čas k
- onca v kalendári je iba orientačný odhad.\n\nKoniec podľa: Orientačn
- ý koniec vypočítaný z publikovanej dĺžky diskusie\; samostatný čas
-  konca nebol zverejnený.\n\nZdroj: https://www.kino-lumiere.sk/klient-863
- /kino-241/stranka-8409/film-842522\n\nhttps://sammkoo.github.io/doku-film-
- ba-2026/#event=acko42026
+DESCRIPTION:Diskusia o pôvodnej tvorbe a koprodukciách v STVR. Hostia: On
+ drej Starinský a Alexander Kmeť. Moderuje Adam Straka.\n\nVstupné: Vstu
+ p voľný\, povinná registrácia\n\nDiskusia s Ondrejom Starinským a Ale
+ xandrom Kmeťom. Moderuje Adam Straka.\n\nPovinná registrácia na konfere
+ nciu. Aktuálna kapacita nie je potvrdená.\n\nKoniec nie je potvrdený. 
+ Čas konca v kalendári je iba orientačný odhad.\n\nKoniec podľa: Orien
+ tačný koniec vypočítaný z publikovanej dĺžky diskusie\; samostatný
+  čas konca nebol zverejnený.\n\nZdroj: https://www.kino-lumiere.sk/klien
+ t-863/kino-241/stranka-8409/film-842522\n\nhttps://sammkoo.github.io/doku-
+ film-ba-2026/#event=acko42026
 URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko42026
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko52026@doku-film-2026
-DTSTAMP:20261018T125945Z
-LAST-MODIFIED:20261018T125945Z
-SEQUENCE:1
+DTSTAMP:20261019T063955Z
+LAST-MODIFIED:20261019T063955Z
+SEQUENCE:2
 DTSTART:20261020T123000Z
 DTEND:20261020T132000Z
 SUMMARY:Alokácia prostriedkov Audiovizuálneho fondu: Čo sa zmenilo?
 LOCATION:Kino Lumière\, K2\, Špitálska 4\, Bratislava
-DESCRIPTION:Diskusia s riaditeľom Audiovizuálneho fondu o financovaní\, 
- distribúcii a transparentnosti. Moderuje Roman Pivovarník.\n\nVstupné: 
- Vstup voľný\, povinná registrácia\n\nPovinná registrácia na konferen
- ciu. Aktuálna kapacita nie je potvrdená.\n\nKoniec nie je potvrdený. Č
- as konca v kalendári je iba orientačný odhad.\n\nKoniec podľa: Orienta
- čný koniec vypočítaný z publikovanej dĺžky diskusie\; samostatný 
- čas konca nebol zverejnený.\n\nZdroj: https://www.kino-lumiere.sk/klient
- -863/kino-241/stranka-8409/film-842526\n\nhttps://sammkoo.github.io/doku-f
- ilm-ba-2026/#event=acko52026
+DESCRIPTION:Diskusia s Vladimírom Buriankom o financovaní\, distribúcii 
+ a transparentnosti Audiovizuálneho fondu. Moderuje Roman Pivovarník.\n\n
+ Vstupné: Vstup voľný\, povinná registrácia\n\nDiskusia s Vladimírom 
+ Buriankom. Moderuje Roman Pivovarník.\n\nPovinná registrácia na konfere
+ nciu. Aktuálna kapacita nie je potvrdená.\n\nKoniec nie je potvrdený. 
+ Čas konca v kalendári je iba orientačný odhad.\n\nKoniec podľa: Orien
+ tačný koniec vypočítaný z publikovanej dĺžky diskusie\; samostatný
+  čas konca nebol zverejnený.\n\nZdroj: https://www.kino-lumiere.sk/klien
+ t-863/kino-241/stranka-8409/film-842526\n\nhttps://sammkoo.github.io/doku-
+ film-ba-2026/#event=acko52026
 URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko52026
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -236,44 +238,51 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko82026@doku-film-2026
-DTSTAMP:20261018T125945Z
-LAST-MODIFIED:20261018T125945Z
-SEQUENCE:1
+DTSTAMP:20261019T063955Z
+LAST-MODIFIED:20261019T063955Z
+SEQUENCE:2
 DTSTART:20261020T133000Z
 DTEND:20261020T141000Z
 SUMMARY:Fenomén v súčasnej slovenskej dokumentárnej tvorbe
 LOCATION:Kino Lumière\, K2\, Špitálska 4\, Bratislava
 DESCRIPTION:Prednáška Barbory Nemčekovej o súčasnom slovenskom dokumen
  te\, starostlivosti a environmentálnej úzkosti.\n\nVstupné: Vstup voľn
- ý\, povinná registrácia\n\nPovinná registrácia na konferenciu. Aktuá
- lna kapacita nie je potvrdená.\n\nKoniec nie je potvrdený. Čas konca v 
- kalendári je iba orientačný odhad.\n\nKoniec podľa: Orientačný konie
- c vypočítaný z publikovanej dĺžky diskusie\; samostatný čas konca n
- ebol zverejnený.\n\nZdroj: https://www.kino-lumiere.sk/klient-863/kino-24
- 1/stranka-8409/film-842530\n\nhttps://sammkoo.github.io/doku-film-ba-2026/
- #event=acko82026
+ ý\, povinná registrácia\n\nPrednáša Barbora Nemčeková.\n\nPovinná 
+ registrácia na konferenciu. Aktuálna kapacita nie je potvrdená.\n\nKoni
+ ec nie je potvrdený. Čas konca v kalendári je iba orientačný odhad.\n
+ \nKoniec podľa: Orientačný koniec vypočítaný z publikovanej dĺžky 
+ diskusie\; samostatný čas konca nebol zverejnený.\n\nZdroj: https://www
+ .kino-lumiere.sk/klient-863/kino-241/stranka-8409/film-842530\n\nhttps://s
+ ammkoo.github.io/doku-film-ba-2026/#event=acko82026
 URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko82026
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko92026@doku-film-2026
-DTSTAMP:20261018T125945Z
-LAST-MODIFIED:20261018T125945Z
-SEQUENCE:1
+DTSTAMP:20261019T063955Z
+LAST-MODIFIED:20261019T063955Z
+SEQUENCE:2
 DTSTART:20261020T143000Z
 DTEND:20261020T160000Z
 SUMMARY:Politický dokument v strednej Európe
 LOCATION:Kino Lumière\, K2\, Špitálska 4\, Bratislava
 DESCRIPTION:Panel s tvorcami politických dokumentov zo strednej Európy: u
- kážky\, prezentácie projektov a debata o etike a distribúcii.\n\nVstup
- né: Vstup voľný\, povinná registrácia\n\nPovinná registrácia na kon
- ferenciu. Aktuálna kapacita nie je potvrdená.\n\nKoniec nie je potvrden
- ý. Čas konca v kalendári je iba orientačný odhad.\n\nKoniec podľa: O
- rientačný koniec vypočítaný z publikovanej dĺžky diskusie\; samosta
- tný čas konca nebol zverejnený.\n\nZdroj: https://www.kino-lumiere.sk/k
- lient-863/kino-241/stranka-8409/film-842534\n\nhttps://sammkoo.github.io/d
- oku-film-ba-2026/#event=acko92026
+ kážky\, prezentácie projektov a debata o etike a distribúcii. Hostia p
+ odľa programového plagátu: Sára Prokopová\, Radek Ševčík\, Andrej 
+ Kutsila\, Bálint Révész a Anna Krasztev-Kovacs.\n\nRozpor v čase zači
+ atku: Kino Lumière uvádza 20. 10. o 16:30\; programový plagát ASDF dod
+ aný 19. 10. uvádza 15:30 (rovnako ako prednášku pred týmto panelom). 
+ Čas 16:30 ponechávame podľa programu kina\; pred návštevou over u org
+ anizátora.\n\nVstupné: Vstup voľný\, povinná registrácia\n\nMedziná
+ rodná diskusia so Sárou Prokopovou\, Radkom Ševčíkom\, Andrejom Kutsi
+ lom\, Bálintom Réveszom a Annou Krasztev-Kovacs.\n\nPovinná registráci
+ a na konferenciu. Aktuálna kapacita nie je potvrdená.\n\nKoniec nie je p
+ otvrdený. Čas konca v kalendári je iba orientačný odhad.\n\nKoniec po
+ dľa: Orientačný koniec vypočítaný z publikovanej dĺžky diskusie\; 
+ samostatný čas konca nebol zverejnený.\n\nZdroj: https://www.kino-lumie
+ re.sk/klient-863/kino-241/stranka-8409/film-842534\n\nhttps://sammkoo.gith
+ ub.io/doku-film-ba-2026/#event=acko92026
 URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko92026
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED

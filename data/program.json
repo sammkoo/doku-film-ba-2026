@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-18T14:30:03+00:00",
+  "updatedAt": "2026-10-19T06:39:55.893Z",
   "timezone": "Europe/Bratislava",
   "period": {
     "from": "2026-10-19",
@@ -441,11 +441,11 @@
       "festival": "Deň dokumentu",
       "venueId": "lumiere",
       "room": "K2",
-      "summary": "Diskusia o pôvodnej tvorbe a koprodukciách v STVR. Hostia Alexander Kmeť a Ondrej Starinský, moderuje Adam Straka.",
+      "summary": "Diskusia o pôvodnej tvorbe a koprodukciách v STVR. Hostia: Ondrej Starinský a Alexander Kmeť. Moderuje Adam Straka.",
       "uid": "acko42026@doku-film-2026",
-      "updatedAt": "2026-10-18T12:59:45+00:00",
-      "checkedAt": "18. 10. 2026",
-      "sequence": 1,
+      "updatedAt": "2026-10-19T06:39:55.893Z",
+      "checkedAt": "19. 10. 2026",
+      "sequence": 2,
       "films": [],
       "types": [
         "diskusia",
@@ -456,7 +456,9 @@
       "registrationNote": "Povinná registrácia na konferenciu. Aktuálna kapacita nie je potvrdená.",
       "evidence": "https://www.kino-lumiere.sk/klient-863/kino-241/stranka-8409/film-842522",
       "estimatedEnd": "2026-10-20T14:15:00+02:00",
-      "group": "https://www.kino-lumiere.sk/klient-863/kino-241/stranka-8409/film-842522"
+      "group": "https://www.kino-lumiere.sk/klient-863/kino-241/stranka-8409/film-842522",
+      "guests": "Diskusia s Ondrejom Starinským a Alexandrom Kmeťom. Moderuje Adam Straka.",
+      "guestsSource": "Programový plagát ASDF dodaný správcom 19. 10. 2026 (1000063455.png). Mená sú prepísané podľa plagátu; moderátori podľa programu Kina Lumière."
     },
     {
       "id": "acko52026",
@@ -470,11 +472,11 @@
       "festival": "Deň dokumentu",
       "venueId": "lumiere",
       "room": "K2",
-      "summary": "Diskusia s riaditeľom Audiovizuálneho fondu o financovaní, distribúcii a transparentnosti. Moderuje Roman Pivovarník.",
+      "summary": "Diskusia s Vladimírom Buriankom o financovaní, distribúcii a transparentnosti Audiovizuálneho fondu. Moderuje Roman Pivovarník.",
       "uid": "acko52026@doku-film-2026",
-      "updatedAt": "2026-10-18T12:59:45+00:00",
-      "checkedAt": "18. 10. 2026",
-      "sequence": 1,
+      "updatedAt": "2026-10-19T06:39:55.893Z",
+      "checkedAt": "19. 10. 2026",
+      "sequence": 2,
       "films": [],
       "types": [
         "diskusia",
@@ -485,7 +487,9 @@
       "registrationNote": "Povinná registrácia na konferenciu. Aktuálna kapacita nie je potvrdená.",
       "evidence": "https://www.kino-lumiere.sk/klient-863/kino-241/stranka-8409/film-842526",
       "estimatedEnd": "2026-10-20T15:20:00+02:00",
-      "group": "https://www.kino-lumiere.sk/klient-863/kino-241/stranka-8409/film-842526"
+      "group": "https://www.kino-lumiere.sk/klient-863/kino-241/stranka-8409/film-842526",
+      "guests": "Diskusia s Vladimírom Buriankom. Moderuje Roman Pivovarník.",
+      "guestsSource": "Programový plagát ASDF dodaný správcom 19. 10. 2026 (1000063455.png). Mená sú prepísané podľa plagátu; moderátori podľa programu Kina Lumière."
     },
     {
       "id": "acko72026",
@@ -744,9 +748,9 @@
       "room": "K2",
       "summary": "Prednáška Barbory Nemčekovej o súčasnom slovenskom dokumente, starostlivosti a environmentálnej úzkosti.",
       "uid": "acko82026@doku-film-2026",
-      "updatedAt": "2026-10-18T12:59:45+00:00",
-      "checkedAt": "18. 10. 2026",
-      "sequence": 1,
+      "updatedAt": "2026-10-19T06:39:55.893Z",
+      "checkedAt": "19. 10. 2026",
+      "sequence": 2,
       "films": [],
       "types": [
         "diskusia",
@@ -757,7 +761,9 @@
       "registrationNote": "Povinná registrácia na konferenciu. Aktuálna kapacita nie je potvrdená.",
       "evidence": "https://www.kino-lumiere.sk/klient-863/kino-241/stranka-8409/film-842530",
       "estimatedEnd": "2026-10-20T16:10:00+02:00",
-      "group": "https://www.kino-lumiere.sk/klient-863/kino-241/stranka-8409/film-842530"
+      "group": "https://www.kino-lumiere.sk/klient-863/kino-241/stranka-8409/film-842530",
+      "guests": "Prednáša Barbora Nemčeková.",
+      "guestsSource": "Programový plagát ASDF dodaný správcom 19. 10. 2026 (1000063455.png). Mená sú prepísané podľa plagátu; moderátori podľa programu Kina Lumière."
     },
     {
       "id": "acko92026",
@@ -771,11 +777,11 @@
       "festival": "Deň dokumentu",
       "venueId": "lumiere",
       "room": "K2",
-      "summary": "Panel s tvorcami politických dokumentov zo strednej Európy: ukážky, prezentácie projektov a debata o etike a distribúcii.",
+      "summary": "Panel s tvorcami politických dokumentov zo strednej Európy: ukážky, prezentácie projektov a debata o etike a distribúcii. Hostia podľa programového plagátu: Sára Prokopová, Radek Ševčík, Andrej Kutsila, Bálint Révész a Anna Krasztev-Kovacs.",
       "uid": "acko92026@doku-film-2026",
-      "updatedAt": "2026-10-18T12:59:45+00:00",
-      "checkedAt": "18. 10. 2026",
-      "sequence": 1,
+      "updatedAt": "2026-10-19T06:39:55.893Z",
+      "checkedAt": "19. 10. 2026",
+      "sequence": 2,
       "films": [],
       "types": [
         "diskusia",
@@ -786,7 +792,10 @@
       "registrationNote": "Povinná registrácia na konferenciu. Aktuálna kapacita nie je potvrdená.",
       "evidence": "https://www.kino-lumiere.sk/klient-863/kino-241/stranka-8409/film-842534",
       "estimatedEnd": "2026-10-20T18:00:00+02:00",
-      "group": "https://www.kino-lumiere.sk/klient-863/kino-241/stranka-8409/film-842534"
+      "group": "https://www.kino-lumiere.sk/klient-863/kino-241/stranka-8409/film-842534",
+      "guests": "Medzinárodná diskusia so Sárou Prokopovou, Radkom Ševčíkom, Andrejom Kutsilom, Bálintom Réveszom a Annou Krasztev-Kovacs.",
+      "notice": "Rozpor v čase začiatku: Kino Lumière uvádza 20. 10. o 16:30; programový plagát ASDF dodaný 19. 10. uvádza 15:30 (rovnako ako prednášku pred týmto panelom). Čas 16:30 ponechávame podľa programu kina; pred návštevou over u organizátora.",
+      "guestsSource": "Programový plagát ASDF dodaný správcom 19. 10. 2026 (1000063455.png). Mená sú prepísané podľa plagátu; moderátori podľa programu Kina Lumière."
     },
     {
       "id": "acko102026",

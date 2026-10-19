@@ -116,3 +116,7 @@ GitHub Pages úspešne publikované 18. 10. 2026 o 15:45. Overená verejná str�
 
 ### Úprava výberu — 18. 10. 2026
 Na žiadosť správcu bolo zo sprievodcu a verejného ICS feedu odstránené podujatie „Kde končí umelina a začína umenie? Anatómia jedného AI videoklipu“. Nejde o oznámenie zrušenia organizátorom. Aktuálny výber obsahuje 90 podujatí.
+
+
+### Doplnenie hostí — 19. 10. 2026
+Podľa programového plagátu ASDF dodaného správcom boli k štyrom podujatiam Dňa slovenského dokumentárneho filmu doplnení hostia a prednášajúca. Zachované UID, zvýšené SEQUENCE. Pri politickom dokumente je označený konflikt: plagát uvádza 15:30, aktuálna stránka Kina Lumière 16:30. Začiatok 16:30 a orientačný koniec ostávajú nezmenené, kým organizátor neposkytne jednoznačné upresnenie. Zdroj času: https://www.kino-lumiere.sk/klient-863/kino-241/stranka-8409/film-842534
