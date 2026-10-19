@@ -260,9 +260,9 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko92026@doku-film-2026
-DTSTAMP:20261019T063955Z
-LAST-MODIFIED:20261019T063955Z
-SEQUENCE:2
+DTSTAMP:20261019T064808Z
+LAST-MODIFIED:20261019T064808Z
+SEQUENCE:3
 DTSTART:20261020T143000Z
 DTEND:20261020T160000Z
 SUMMARY:Politický dokument v strednej Európe
@@ -270,19 +270,16 @@ LOCATION:Kino Lumière\, K2\, Špitálska 4\, Bratislava
 DESCRIPTION:Panel s tvorcami politických dokumentov zo strednej Európy: u
  kážky\, prezentácie projektov a debata o etike a distribúcii. Hostia p
  odľa programového plagátu: Sára Prokopová\, Radek Ševčík\, Andrej 
- Kutsila\, Bálint Révész a Anna Krasztev-Kovacs.\n\nRozpor v čase zači
- atku: Kino Lumière uvádza 20. 10. o 16:30\; programový plagát ASDF dod
- aný 19. 10. uvádza 15:30 (rovnako ako prednášku pred týmto panelom). 
- Čas 16:30 ponechávame podľa programu kina\; pred návštevou over u org
- anizátora.\n\nVstupné: Vstup voľný\, povinná registrácia\n\nMedziná
- rodná diskusia so Sárou Prokopovou\, Radkom Ševčíkom\, Andrejom Kutsi
- lom\, Bálintom Réveszom a Annou Krasztev-Kovacs.\n\nPovinná registráci
- a na konferenciu. Aktuálna kapacita nie je potvrdená.\n\nKoniec nie je p
- otvrdený. Čas konca v kalendári je iba orientačný odhad.\n\nKoniec po
- dľa: Orientačný koniec vypočítaný z publikovanej dĺžky diskusie\; 
- samostatný čas konca nebol zverejnený.\n\nZdroj: https://www.kino-lumie
- re.sk/klient-863/kino-241/stranka-8409/film-842534\n\nhttps://sammkoo.gith
- ub.io/doku-film-ba-2026/#event=acko92026
+ Kutsila\, Bálint Révész a Anna Krasztev-Kovacs.\n\nVstupné: Vstup voľ
+ ný\, povinná registrácia\n\nMedzinárodná diskusia so Sárou Prokopovo
+ u\, Radkom Ševčíkom\, Andrejom Kutsilom\, Bálintom Réveszom a Annou K
+ rasztev-Kovacs.\n\nPovinná registrácia na konferenciu. Aktuálna kapacit
+ a nie je potvrdená.\n\nKoniec nie je potvrdený. Čas konca v kalendári 
+ je iba orientačný odhad.\n\nKoniec podľa: Orientačný koniec vypočít
+ aný z publikovanej dĺžky diskusie\; samostatný čas konca nebol zverej
+ nený.\n\nZdroj: https://www.kino-lumiere.sk/klient-863/kino-241/stranka-8
+ 409/film-842534\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#event=acko
+ 92026
 URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko92026
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED

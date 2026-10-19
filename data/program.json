@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-19T06:39:55.893Z",
+  "updatedAt": "2026-10-19T06:48:08.330Z",
   "timezone": "Europe/Bratislava",
   "period": {
     "from": "2026-10-19",
@@ -779,9 +779,9 @@
       "room": "K2",
       "summary": "Panel s tvorcami politických dokumentov zo strednej Európy: ukážky, prezentácie projektov a debata o etike a distribúcii. Hostia podľa programového plagátu: Sára Prokopová, Radek Ševčík, Andrej Kutsila, Bálint Révész a Anna Krasztev-Kovacs.",
       "uid": "acko92026@doku-film-2026",
-      "updatedAt": "2026-10-19T06:39:55.893Z",
+      "updatedAt": "2026-10-19T06:48:08.330Z",
       "checkedAt": "19. 10. 2026",
-      "sequence": 2,
+      "sequence": 3,
       "films": [],
       "types": [
         "diskusia",
@@ -794,7 +794,6 @@
       "estimatedEnd": "2026-10-20T18:00:00+02:00",
       "group": "https://www.kino-lumiere.sk/klient-863/kino-241/stranka-8409/film-842534",
       "guests": "Medzinárodná diskusia so Sárou Prokopovou, Radkom Ševčíkom, Andrejom Kutsilom, Bálintom Réveszom a Annou Krasztev-Kovacs.",
-      "notice": "Rozpor v čase začiatku: Kino Lumière uvádza 20. 10. o 16:30; programový plagát ASDF dodaný 19. 10. uvádza 15:30 (rovnako ako prednášku pred týmto panelom). Čas 16:30 ponechávame podľa programu kina; pred návštevou over u organizátora.",
       "guestsSource": "Programový plagát ASDF dodaný správcom 19. 10. 2026 (1000063455.png). Mená sú prepísané podľa plagátu; moderátori podľa programu Kina Lumière."
     },
     {

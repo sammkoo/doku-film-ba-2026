@@ -120,3 +120,7 @@ Na žiadosť správcu bolo zo sprievodcu a verejného ICS feedu odstránené pod
 
 ### Doplnenie hostí — 19. 10. 2026
 Podľa programového plagátu ASDF dodaného správcom boli k štyrom podujatiam Dňa slovenského dokumentárneho filmu doplnení hostia a prednášajúca. Zachované UID, zvýšené SEQUENCE. Pri politickom dokumente je označený konflikt: plagát uvádza 15:30, aktuálna stránka Kina Lumière 16:30. Začiatok 16:30 a orientačný koniec ostávajú nezmenené, kým organizátor neposkytne jednoznačné upresnenie. Zdroj času: https://www.kino-lumiere.sk/klient-863/kino-241/stranka-8409/film-842534
+
+
+### Upresnenie času — 19. 10. 2026
+Správca potvrdil, že čas 15:30 pri politickom dokumente na plagáte je chybný. Platí začiatok 20. 10. o 16:30 podľa Kina Lumière. Upozornenie na rozpor bolo odstránené z webu aj ICS feedu. UID zostáva zachované; SEQUENCE zvýšené.
