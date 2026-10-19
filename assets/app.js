@@ -122,7 +122,7 @@ function render(){
  document.querySelectorAll('[data-festival]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.festival===$('festival').value)));
  const activeFilters=['type','part','from','to'].filter(id=>$(id).value).length+['upcoming','selected-only','free-only'].filter(id=>$(id).checked).length;
  $('filter-count').textContent=activeFilters?'('+activeFilters+')':'';
- $('quick-reset').hidden=!activeDay&&!activeFilters&&!$('festival').value&&!$('search').value;list.forEach(e=>{const d=day(e.start);if(!groups.has(d))groups.set(d,[]);groups.get(d).push(e);});
+ $('quick-reset').hidden=false;list.forEach(e=>{const d=day(e.start);if(!groups.has(d))groups.set(d,[]);groups.get(d).push(e);});
  const opened=[...document.querySelectorAll('.event details[open]')].map(el=>el.closest('.event').dataset.id);
  $('event-list').innerHTML=[...groups].map(([d,items])=>`<section class="event-day" aria-label="${esc(date(items[0].start))}"><div class="day-heading"><h3>${esc(date(items[0].start))}</h3><span>${items.length} PODUJATÍ</span></div>${items.sort((a,b)=>Number(past(a))-Number(past(b))||+new Date(a.start)-+new Date(b.start)).map(card).join('')}</section>`).join('');
  $('results-count').textContent=`${list.length} z ${events.length} podujatí`+($('from').value&&$('to').value&&$('from').value>=$('to').value?' · Čas „do“ musí byť neskôr než „od“.':'');
@@ -263,7 +263,7 @@ $('days').addEventListener('change',e=>{if(e.target.id==='day-select'){followDay
 $('days').addEventListener('click',e=>{const b=e.target.closest('[data-day]');if(b){followDay=false;activeDay=b.dataset.day;render();}});
 document.querySelector('.festival-picker').addEventListener('click',e=>{const button=e.target.closest('[data-festival]');if(button){$('festival').value=button.dataset.festival;render();}});
 $('toggle-past').onclick=()=>{showPast=!showPast;render();};
-$('quick-reset').onclick=reset;$('reset').onclick=reset;$('empty-reset').onclick=()=>{
+$('quick-reset').onclick=()=>{showPast=true;reset();};$('reset').onclick=reset;$('empty-reset').onclick=()=>{
  const target=$('empty-reset').dataset.festivalDay;if(!target){reset();return;}
  const festival=$('festival').value;$('filters').reset();$('festival').value=festival;followDay=false;activeDay=target;showPast=target<day(now());origin=null;place='';$('origin').value='';$('walk').value='';render();
 };
