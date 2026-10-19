@@ -70,6 +70,6 @@ Kód sprievodcu v tomto repozitári; Leaflet © Vladimir Agafonkin a prispievate
 
 Rozhranie obnovuje čas každých 30 sekúnd a hneď po návrate na kartu. Skončené položky sú predvolene skryté; tlačidlo „Zobraziť skončené“ ich vedome sprístupní. Plánovaný priebeh bloku sa zobrazuje cez progressbar, uplynuté a zostávajúce minúty. Odhadované konce sú výslovne odlíšené; pri nezverejnenom konci sa percento ani zostávajúci čas nevymýšľajú. Neznámy koniec zostáva počas dňa označený ako neznámy.
 
-Film v pásme sa môže označiť ako aktuálny len ak má konkrétne potvrdené `films[].start` a `films[].end` v ISO formáte. Stopáže sa automaticky nesčítavajú do vymysleného harmonogramu. Priebeh je podľa publikovaného plánu, nie živý prenos zo sály.
+Film v pásme sa môže označiť ako aktuálny len ak má konkrétne potvrdené `films[].start` a `films[].end` v ISO formáte. Pri pásmach Áčka sa pod filmami zobrazuje orientačný harmonogram: od začiatku konkrétneho pásma sa sčítavajú stopáže `films[].duration` v pôvodnom poradí poľa. Časy sú označené ako približné, nezahŕňajú prestávky, úvody ani diskusie a nemenia potvrdené termíny ani ICS. Pri chýbajúcej stopáži sa nasledujúce časy neodhadujú; pri súčte presahujúcom koniec pásma sa zobrazí upozornenie. Priebeh je podľa publikovaného plánu, nie živý prenos zo sály.
 
 Najviac každých päť minút sa overí nový `data/program.json` bez cache. Pri zmene `updatedAt` sa načíta aktualizovaný program; pri výpadku siete zostávajú posledné dáta. Nevyžaduje sa obnovenie stránky.
