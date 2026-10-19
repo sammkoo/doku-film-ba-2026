@@ -136,7 +136,7 @@ function render(){
  $('empty-reset').dataset.festivalDay=festivalMessage?.target||'';
  renderDays();updateSelection();if(map)renderMap(list);if(!$('schedule-panel').hidden)renderSchedule(list);
 }
-function reset(){followDay=false;activeDay='';$('filters').reset();$('origin').value='';$('walk').value='';origin=null;place='';render();}
+function reset(){followDay=false;activeDay='';HTMLFormElement.prototype.reset.call($('filters'));$('origin').value='';$('walk').value='';origin=null;place='';render();}
 function navigate(e){const v=venue(e);return 'https://www.google.com/maps/dir/?api=1&destination='+encodeURIComponent(v?.lat&&v?.lon?`${v.lat},${v.lon}`:[v?.name,v?.address,'Bratislava'].filter(Boolean).join(', '))+'&travelmode=walking';}
 function openEvent(id){
  const e=events.find(e=>e.id===id);if(!e){toast('Tento odkaz nepatrí k udalosti v programe.');return;}
@@ -265,7 +265,7 @@ document.querySelector('.festival-picker').addEventListener('click',e=>{const bu
 $('toggle-past').onclick=()=>{showPast=!showPast;render();};
 $('quick-reset').onclick=()=>{showPast=true;reset();};$('reset').onclick=reset;$('empty-reset').onclick=()=>{
  const target=$('empty-reset').dataset.festivalDay;if(!target){reset();return;}
- const festival=$('festival').value;$('filters').reset();$('festival').value=festival;followDay=false;activeDay=target;showPast=target<day(now());origin=null;place='';$('origin').value='';$('walk').value='';render();
+ const festival=$('festival').value;HTMLFormElement.prototype.reset.call($('filters'));$('festival').value=festival;followDay=false;activeDay=target;showPast=target<day(now());origin=null;place='';$('origin').value='';$('walk').value='';render();
 };
 $('view-schedule').onclick=showSchedule;$('view-map').onclick=showMap;$('view-program').onclick=showProgram;
 
