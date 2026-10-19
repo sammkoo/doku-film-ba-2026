@@ -98,6 +98,20 @@ function card(e){
  const state=running(e)?'PREBIEHA':recentlyStarted(e)?'NEDÁVNO ZAČALO':'';
  return `<article class="event ${running(e)?'is-live':past(e)?'is-past':''}" data-id="${esc(e.id)}"><div class="event-time"><time datetime="${esc(e.start)}">${time(e.start)}</time><small>${esc(end)}</small>${state?`<small><strong>${state}</strong></small>`:''}</div><div class="event-main"><h4><button class="event-title" data-open="${esc(e.id)}">${esc(e.title)}</button></h4><div class="event-meta"><span class="tag">${esc(e.festival)}</span><span>${e.types.map(t=>typeNames[t]).join(' / ')}</span></div>${e.director?`<p class="event-snippet">${esc(e.director)}${e.duration?' · '+e.duration+' min film':''}</p>`:e.summary?`<p class="event-snippet">${esc(e.summary)}</p>`:''}${e.notice?`<p class="warning">${esc(e.notice)}</p>`:''}${liveHTML(e)}${e.films?.length?`<details class="block-films"><summary>${e.films.length} filmov v pásme — zobraziť</summary>${filmsHTML(e)}</details>`:''}</div><div class="event-place"><strong>${esc(v?.name||e.location||'Miesto nepotvrdené')}</strong><span>${esc(e.room||v?.address||'')}</span>${walking!==null?`<span>≈ ${walking} min pešo (odhad)</span>`:''}<span class="entry">${esc(price(e))}</span></div><button class="select-event" data-select="${esc(e.id)}" aria-pressed="${selection.has(e.id)}" aria-label="Vybrať: ${esc(e.title)}">${selection.has(e.id)?'✓︎':'+'}</button></article>`;
 }
+function festivalDayMessage(){
+ const festival=$('festival').value;
+ if(!festival||!activeDay)return null;
+ const items=events.filter(e=>e.festival===festival||e.programmes?.includes(festival)).sort((a,b)=>+new Date(a.start)-+new Date(b.start));
+ if(!items.length||items.some(e=>day(e.start)===activeDay))return null;
+ const first=items[0],last=items[items.length-1],firstDay=day(first.start),lastFestivalDay=day(last.start);
+ const subject=festival==='Jeden svet'?'Festival Jeden svet':festival==='Áčko'?'Festival Áčko':festival==='FTF Industry Days'?'Program FTF Industry Days':festival==='Deň dokumentu'?'Deň slovenského dokumentárneho filmu':'Program ďalších projekcií';
+ const shortDate=value=>new Intl.DateTimeFormat('sk-SK',{timeZone:TZ,day:'numeric',month:'long'}).format(new Date(value));
+ const oneDay=Date.parse(firstDay+'T12:00:00Z')-Date.parse(activeDay+'T12:00:00Z')===86400000;
+ if(activeDay<firstDay)return {title:subject+' sa začína až '+(oneDay?'nasledujúci deň.':shortDate(first.start)+'.'),description:'Prvé podujatie: '+date(first.start)+' o '+time(first.start)+'.',target:firstDay,button:'Zobraziť program '+shortDate(first.start)};
+ if(activeDay>lastFestivalDay)return {title:subject+' sa skončil '+shortDate(last.start)+'.',description:'Na vybraný deň už nemá zverejnené podujatia. Môžeš si pozrieť jeho posledný deň.',target:lastFestivalDay,button:'Zobraziť posledný deň programu'};
+ const next=items.find(e=>day(e.start)>activeDay);
+ return {title:subject+': v tento deň nie je zverejnený program.',description:next?'Najbližšie podujatie: '+date(next.start)+' o '+time(next.start)+'.':'Vyber iný deň programu.',target:next?day(next.start):firstDay,button:next?'Zobraziť najbližší deň programu':'Zobraziť prvý deň programu'};
+}
 function render(){
  const list=filtered(),groups=new Map();
  const pastCount=filtered(true).filter(e=>past(e)).length;
@@ -114,8 +128,12 @@ function render(){
  $('results-count').textContent=`${list.length} z ${events.length} podujatí`+($('from').value&&$('to').value&&$('from').value>=$('to').value?' · Čas „do“ musí byť neskôr než „od“.':'');
  opened.forEach(id=>{const el=document.querySelector('.event[data-id="'+id+'"] details');if(el)el.open=true;});
  $('empty').hidden=!!list.length;
- $('empty').querySelector('h3').textContent=!showPast&&pastCount?'Tento program už uplynul.':'Nič sa nenašlo.';
- $('empty').querySelector('p:not(.label)').textContent=!showPast&&pastCount?'Skončené podujatia sú skryté. Zobrazíš ich tlačidlom „Zobraziť skončené“.':'Skús iný deň, širší čas alebo menej filtrov.';
+ const festivalMessage=!list.length?festivalDayMessage():null;
+ $('empty').querySelector('.label').textContent=festivalMessage?'FESTIVAL / TERMÍN':'TENTO ZÁBER JE PRÁZDNY';
+ $('empty').querySelector('h3').textContent=festivalMessage?.title||(!showPast&&pastCount?'Tento program už uplynul.':'Nič sa nenašlo.');
+ $('empty').querySelector('p:not(.label)').textContent=festivalMessage?.description||(!showPast&&pastCount?'Skončené podujatia sú skryté. Zobrazíš ich tlačidlom „Zobraziť skončené“.':'Skús iný deň, širší čas alebo menej filtrov.');
+ $('empty-reset').textContent=festivalMessage?.button||'Zobraziť celý týždeň';
+ $('empty-reset').dataset.festivalDay=festivalMessage?.target||'';
  renderDays();updateSelection();if(map)renderMap(list);if(!$('schedule-panel').hidden)renderSchedule(list);
 }
 function reset(){followDay=false;activeDay='';$('filters').reset();$('origin').value='';$('walk').value='';origin=null;place='';render();}
@@ -245,7 +263,10 @@ $('days').addEventListener('change',e=>{if(e.target.id==='day-select'){followDay
 $('days').addEventListener('click',e=>{const b=e.target.closest('[data-day]');if(b){followDay=false;activeDay=b.dataset.day;render();}});
 document.querySelector('.festival-picker').addEventListener('click',e=>{const button=e.target.closest('[data-festival]');if(button){$('festival').value=button.dataset.festival;render();}});
 $('toggle-past').onclick=()=>{showPast=!showPast;render();};
-$('quick-reset').onclick=reset;$('reset').onclick=reset;$('empty-reset').onclick=reset;
+$('quick-reset').onclick=reset;$('reset').onclick=reset;$('empty-reset').onclick=()=>{
+ const target=$('empty-reset').dataset.festivalDay;if(!target){reset();return;}
+ const festival=$('festival').value;$('filters').reset();$('festival').value=festival;followDay=false;activeDay=target;showPast=target<day(now());origin=null;place='';$('origin').value='';$('walk').value='';render();
+};
 $('view-schedule').onclick=showSchedule;$('view-map').onclick=showMap;$('view-program').onclick=showProgram;
 
 $('subscribe-main').onclick=subscribe;$('copy-feed').onclick=()=>copy(FEED,'Odkaz na odber je skopírovaný.');
