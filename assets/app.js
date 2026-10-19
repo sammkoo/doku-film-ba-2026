@@ -70,7 +70,7 @@ function filtered(includePast=showPast){
  return events.filter(e=>{
   if(!includePast&&past(e,n))return false;
   if(activeDay && day(e.start)!==activeDay)return false;
-  if(f && e.festival!==f)return false;
+  if(f && e.festival!==f && !e.programmes?.includes(f))return false;
   if(t && !e.types.includes(t))return false;
   if(q && !e.searchText.includes(q))return false;
   const m=clockMinutes(time(e.start));
@@ -220,7 +220,7 @@ async function init(){
  selection=new Set([...selection].filter(id=>events.some(e=>e.id===id)));
  events.forEach(e=>{e.searchText=norm([e.title,e.director,e.summary,loc(e),venue(e)?.address,...(e.films||[]).flatMap(f=>[f.title,f.director,f.summary])].join(' '));});
  const today=day(now());if(today<'2026-10-19')activeDay='';else if(today<='2026-10-25')activeDay=today;
- $('festival').innerHTML+=[...new Set(events.map(e=>e.festival))].map(f=>`<option>${esc(f)}</option>`).join('');
+ $('festival').innerHTML+=[...new Set(events.flatMap(e=>[e.festival,...(e.programmes||[])]))].map(f=>`<option>${esc(f)}</option>`).join('');
  $('origin').innerHTML+=venues.filter(v=>v.lat&&v.lon).map(v=>`<option value="${esc(v.id)}">${esc(v.name)}</option>`).join('');
  $('venue-options').innerHTML=venues.map(v=>`<option value="${esc(v.name)}">${esc(v.address)}</option>`).join('');
  $('updated').textContent='Posledná aktualizácia: '+longDate(model.updatedAt);

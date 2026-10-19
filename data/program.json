@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-19T07:22:47.112Z",
+  "updatedAt": "2026-10-19T07:31:38.115Z",
   "timezone": "Europe/Bratislava",
   "period": {
     "from": "2026-10-19",
@@ -930,7 +930,10 @@
       "evidence": "https://festivalacko.sk/harmonogram/",
       "group": "acko132026",
       "programmeSource": "Programový plagát FTF Industry Days 2026 dodaný správcom 19. 10. 2026.",
-      "programmeBlock": "acko132026"
+      "programmeBlock": "acko132026",
+      "programmes": [
+        "FTF Industry Days"
+      ]
     },
     {
       "id": "acko142026",
@@ -1082,7 +1085,10 @@
       "updatedAt": "2026-10-19T07:22:47.112Z",
       "checkedAt": "19. 10. 2026",
       "sequence": 0,
-      "group": "ftf-meetup-20261021-1100"
+      "group": "ftf-meetup-20261021-1100",
+      "programmes": [
+        "FTF Industry Days"
+      ]
     },
     {
       "id": "acko132026-part2",
@@ -1109,7 +1115,10 @@
       "evidence": "https://festivalacko.sk/harmonogram/",
       "group": "acko132026-part2",
       "programmeSource": "Programový plagát FTF Industry Days 2026 dodaný správcom 19. 10. 2026.",
-      "programmeBlock": "acko132026"
+      "programmeBlock": "acko132026",
+      "programmes": [
+        "FTF Industry Days"
+      ]
     },
     {
       "id": "acko152026",
@@ -1337,7 +1346,10 @@
       "evidence": "https://festivalacko.sk/harmonogram/",
       "group": "acko162026",
       "programmeSource": "Programový plagát FTF Industry Days 2026 dodaný správcom 19. 10. 2026.",
-      "programmeBlock": "acko162026"
+      "programmeBlock": "acko162026",
+      "programmes": [
+        "FTF Industry Days"
+      ]
     },
     {
       "id": "jeden22026",
@@ -1395,7 +1407,10 @@
       "updatedAt": "2026-10-19T07:22:47.112Z",
       "checkedAt": "19. 10. 2026",
       "sequence": 0,
-      "group": "ftf-meetup-20261021-1430"
+      "group": "ftf-meetup-20261021-1430",
+      "programmes": [
+        "FTF Industry Days"
+      ]
     },
     {
       "id": "acko172026",
@@ -1538,7 +1553,10 @@
       "evidence": "https://festivalacko.sk/harmonogram/",
       "group": "acko162026-part2",
       "programmeSource": "Programový plagát FTF Industry Days 2026 dodaný správcom 19. 10. 2026.",
-      "programmeBlock": "acko162026"
+      "programmeBlock": "acko162026",
+      "programmes": [
+        "FTF Industry Days"
+      ]
     },
     {
       "id": "jeden32026",
@@ -1627,7 +1645,10 @@
       "evidence": "https://festivalacko.sk/harmonogram/",
       "group": "acko182026",
       "guests": "Hostky a hostia: Anna Domček, Šimon Domček, Martina Buchelová a Erika Paulinská. Moderuje Nataša Jurčová Findrová.",
-      "programmeSource": "Programový plagát FTF Industry Days 2026 dodaný správcom 19. 10. 2026."
+      "programmeSource": "Programový plagát FTF Industry Days 2026 dodaný správcom 19. 10. 2026.",
+      "programmes": [
+        "FTF Industry Days"
+      ]
     },
     {
       "id": "zivotfilm20261021",
@@ -1975,7 +1996,10 @@
       "evidence": "https://festivalacko.sk/harmonogram/",
       "group": "acko212026",
       "programmeSource": "Programový plagát FTF Industry Days 2026 dodaný správcom 19. 10. 2026.",
-      "programmeBlock": "acko212026"
+      "programmeBlock": "acko212026",
+      "programmes": [
+        "FTF Industry Days"
+      ]
     },
     {
       "id": "ftf-meetup-20261022-1100",
@@ -2000,7 +2024,10 @@
       "updatedAt": "2026-10-19T07:22:47.112Z",
       "checkedAt": "19. 10. 2026",
       "sequence": 0,
-      "group": "ftf-meetup-20261022-1100"
+      "group": "ftf-meetup-20261022-1100",
+      "programmes": [
+        "FTF Industry Days"
+      ]
     },
     {
       "id": "acko212026-part2",
@@ -2027,7 +2054,10 @@
       "evidence": "https://festivalacko.sk/harmonogram/",
       "group": "acko212026-part2",
       "programmeSource": "Programový plagát FTF Industry Days 2026 dodaný správcom 19. 10. 2026.",
-      "programmeBlock": "acko212026"
+      "programmeBlock": "acko212026",
+      "programmes": [
+        "FTF Industry Days"
+      ]
     },
     {
       "id": "acko222026",
@@ -2169,7 +2199,10 @@
       "endSource": "Čas konca publikovaný v oficiálnom harmonograme Áčka.",
       "evidence": "https://festivalacko.sk/harmonogram/",
       "group": "acko232026",
-      "programmeSource": "Programový plagát FTF Industry Days 2026 dodaný správcom 19. 10. 2026."
+      "programmeSource": "Programový plagát FTF Industry Days 2026 dodaný správcom 19. 10. 2026.",
+      "programmes": [
+        "FTF Industry Days"
+      ]
     },
     {
       "id": "ftf-meetup-20261022-1430",
@@ -2194,7 +2227,10 @@
       "updatedAt": "2026-10-19T07:22:47.112Z",
       "checkedAt": "19. 10. 2026",
       "sequence": 0,
-      "group": "ftf-meetup-20261022-1430"
+      "group": "ftf-meetup-20261022-1430",
+      "programmes": [
+        "FTF Industry Days"
+      ]
     },
     {
       "id": "acko242026",
@@ -2221,7 +2257,10 @@
       "evidence": "https://festivalacko.sk/harmonogram/",
       "group": "acko242026",
       "guests": "Hostky a hosť: Katarína Krnáčová (prezidentka SFTA), Vladimír Burianek (riaditeľ AVF) a Katarína Moláková (dekanka FTF VŠMU). Moderuje Ivana Laučíková (Otvorená kultúra).",
-      "programmeSource": "Programový plagát FTF Industry Days 2026 dodaný správcom 19. 10. 2026."
+      "programmeSource": "Programový plagát FTF Industry Days 2026 dodaný správcom 19. 10. 2026.",
+      "programmes": [
+        "FTF Industry Days"
+      ]
     },
     {
       "id": "jeden72026",
@@ -3615,7 +3654,10 @@
       "endSource": "Čas konca publikovaný v oficiálnom harmonograme Áčka.",
       "evidence": "https://festivalacko.sk/harmonogram/",
       "group": "acko372026",
-      "programmeSource": "Programový plagát FTF Industry Days 2026 dodaný správcom 19. 10. 2026."
+      "programmeSource": "Programový plagát FTF Industry Days 2026 dodaný správcom 19. 10. 2026.",
+      "programmes": [
+        "FTF Industry Days"
+      ]
     },
     {
       "id": "jeden192026",
