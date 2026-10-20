@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-19T07:31:38.115Z",
+  "updatedAt": "2026-10-20T09:39:26.099Z",
   "timezone": "Europe/Bratislava",
   "period": {
     "from": "2026-10-19",
@@ -194,64 +194,20 @@
       "room": "KLAP",
       "summary": "Súťažné pásmo študentských filmov. Jednotlivé filmy, autorky a autori sú uvedení v rozbaliteľnom zozname.",
       "uid": "acko12026@doku-film-2026",
-      "updatedAt": "2026-10-18T12:59:45+00:00",
+      "updatedAt": "2026-10-20T09:39:26.099Z",
       "checkedAt": "18. 10. 2026",
-      "sequence": 1,
+      "sequence": 2,
       "films": [
         {
-          "url": "https://festivalacko.sk/movie/fuck-off-vyroba-platne/",
-          "title": "Fuck off (výroba platne)",
+          "url": "https://festivalacko.sk/movie/kde-rastu-mesiaciky/",
+          "title": "Kde rastú mesiačiky",
           "block": "trvanie",
-          "director": "Šimon Mináč",
-          "duration": 4,
-          "year": "2025",
-          "country": null,
-          "type": "Animovaný s hranými sekvenciami",
-          "summary": "Videoklipový film k hudbe skupiny Berlin Manson sleduje proces výroby gramofónovej platne, od prvého otlačenia cez jednotlivé fázy spracovania…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/betonka/",
-          "title": "Betónka",
-          "block": "trvanie",
-          "director": "Rastislav Kupšo",
-          "duration": 12,
+          "director": "Mária Kišeľová",
+          "duration": 7,
           "year": "2026",
           "country": null,
           "type": "Hraný film",
-          "summary": "Pouličný zlodejík a nádejný raper Laki sníva o úniku z Betónky, sídliska, ktoré ho od detstva drží v pasci dlhov, násilia a beznádeje. Jeho…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/vtedy-na-morave/",
-          "title": "Vtedy na Morave",
-          "block": "trvanie",
-          "director": "Rastislav Kupšo",
-          "duration": 29,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Mladý pomocný murár Rudo, je dobrovoľne na silu odvlečený svojimi kolegami na zdanlivo jednoduchú fušku na Morave. Tá sa s príchodom nového…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/neusmievaj-sa-na-mna-stastie/",
-          "title": "NEUSMIEVAJ SA NA MŇA ŠŤASTIE",
-          "block": "trvanie",
-          "director": "Františka Horváthová",
-          "duration": 11,
-          "year": "2025",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Príbeh o tichej revolúcii v živote jedného dievčaťa. O behu za kariérou, za splneným prianím. NEUSMIEVAJ SA NA MŇA ŠŤASTIE sa hrá s myšlienkou…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/ulica-v-i-lenina/",
-          "title": "Ulica V. I. Lenina",
-          "block": "trvanie",
-          "director": "Katarína Bojtošová",
-          "duration": 14,
-          "year": "2025",
-          "country": null,
-          "type": "Dokumentárny film",
-          "summary": "Čo ostalo z revolúcie tam, kde po nej dodnes visí rovnaká tabuľa? Film, hovorí o téme verejného priestoru a dozvukov minulosti v obciach na…"
+          "summary": "Počas letnej noci pri jazere sa Marek a Elena ukrývajú pred vonkajším svetom. Zatiaľ čo Marek má pocit, že ich zamilovanosť naberá na váhe,…"
         },
         {
           "url": "https://festivalacko.sk/movie/maj/",
@@ -265,15 +221,59 @@
           "summary": "Kristián sa po rokoch vracia domov, aby svojej rodine predstavil partnera Michala. Návrat však otvorí staré rany, najmä medzi ním a…"
         },
         {
-          "url": "https://festivalacko.sk/movie/kde-rastu-mesiaciky/",
-          "title": "Kde rastú mesiačiky",
+          "url": "https://festivalacko.sk/movie/ulica-v-i-lenina/",
+          "title": "Ulica V. I. Lenina",
           "block": "trvanie",
-          "director": "Mária Kišeľová",
-          "duration": 7,
+          "director": "Katarína Bojtošová",
+          "duration": 14,
+          "year": "2025",
+          "country": null,
+          "type": "Dokumentárny film",
+          "summary": "Čo ostalo z revolúcie tam, kde po nej dodnes visí rovnaká tabuľa? Film, hovorí o téme verejného priestoru a dozvukov minulosti v obciach na…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/neusmievaj-sa-na-mna-stastie/",
+          "title": "NEUSMIEVAJ SA NA MŇA ŠŤASTIE",
+          "block": "trvanie",
+          "director": "Františka Horváthová",
+          "duration": 11,
+          "year": "2025",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Príbeh o tichej revolúcii v živote jedného dievčaťa. O behu za kariérou, za splneným prianím. NEUSMIEVAJ SA NA MŇA ŠŤASTIE sa hrá s myšlienkou…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/vtedy-na-morave/",
+          "title": "Vtedy na Morave",
+          "block": "trvanie",
+          "director": "Rastislav Kupšo",
+          "duration": 29,
           "year": "2026",
           "country": null,
           "type": "Hraný film",
-          "summary": "Počas letnej noci pri jazere sa Marek a Elena ukrývajú pred vonkajším svetom. Zatiaľ čo Marek má pocit, že ich zamilovanosť naberá na váhe,…"
+          "summary": "Mladý pomocný murár Rudo, je dobrovoľne na silu odvlečený svojimi kolegami na zdanlivo jednoduchú fušku na Morave. Tá sa s príchodom nového…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/betonka/",
+          "title": "Betónka",
+          "block": "trvanie",
+          "director": "Rastislav Kupšo",
+          "duration": 12,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Pouličný zlodejík a nádejný raper Laki sníva o úniku z Betónky, sídliska, ktoré ho od detstva drží v pasci dlhov, násilia a beznádeje. Jeho…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/fuck-off-vyroba-platne/",
+          "title": "Fuck off (výroba platne)",
+          "block": "trvanie",
+          "director": "Šimon Mináč",
+          "duration": 4,
+          "year": "2025",
+          "country": null,
+          "type": "Animovaný s hranými sekvenciami",
+          "summary": "Videoklipový film k hudbe skupiny Berlin Manson sleduje proces výroby gramofónovej platne, od prvého otlačenia cez jednotlivé fázy spracovania…"
         }
       ],
       "types": [
@@ -286,7 +286,8 @@
       "price": "Vstup voľný",
       "endSource": "Čas konca publikovaný v oficiálnom harmonograme Áčka.",
       "evidence": "https://festivalacko.sk/harmonogram/",
-      "group": "https://festivalacko.sk/filmove-pasma/#trvanie"
+      "group": "https://festivalacko.sk/filmove-pasma/#trvanie",
+      "filmOrderSource": "Poradie opravené podľa správy správcu 20. 10. 2026: pôvodný zoznam bol obrátený."
     },
     {
       "id": "acko22026",
@@ -502,75 +503,20 @@
       "room": "BARCO",
       "summary": "Súťažné pásmo študentských filmov. Jednotlivé filmy, autorky a autori sú uvedení v rozbaliteľnom zozname.",
       "uid": "acko72026@doku-film-2026",
-      "updatedAt": "2026-10-18T12:59:45+00:00",
+      "updatedAt": "2026-10-20T09:39:26.099Z",
       "checkedAt": "18. 10. 2026",
-      "sequence": 1,
+      "sequence": 2,
       "films": [
         {
-          "url": "https://festivalacko.sk/movie/under-dog/",
-          "title": "Under Dog",
+          "url": "https://festivalacko.sk/movie/nekonecna-vojna-pana-nikoho-alebo-kratka-prirucka-toho-ako-robit-nacistom-zo-zivota-peklo/",
+          "title": "Nekonečná vojna pána Nikoho (alebo krátka príručka toho ako robiť nacistom zo života peklo)",
           "block": "medzicas",
-          "director": "Michal Dubjel",
-          "duration": 7,
-          "year": "2026",
-          "country": null,
-          "type": "Animovaný film",
-          "summary": "Pre Adu, utiahnutého introvertného chalana, skrýva jeho kúpeľňa neuveriteľné tajomstvo. Pod jej kachličkami sa nachádza podzemný ostrov plný…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/clovek-nie-je-macka/",
-          "title": "Človek nie je mačka",
-          "block": "medzicas",
-          "director": "Marek Tomajka",
-          "duration": 16,
+          "director": "Jakub Horňák",
+          "duration": 12,
           "year": "2026",
           "country": null,
           "type": "Hraný film",
-          "summary": "Mladá učiteľka Margaréta prichádza do odľahlej dediny, kde medzi jej žiakmi spozná jedenásťročného Murcka – tichého chlapca, o ktorom sú všetci…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/mesto-noci/",
-          "title": "Mesto noci",
-          "block": "medzicas",
-          "director": "Mikloši Richard",
-          "duration": 5,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Robbie a Pete – dvaja mladí muži zdieľajú jednu izbu, prácu v uliciach nočného mesta aj život postavený na každodennej rutine. Jednej noci však…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/problemy-uplne-celeho-sveta/",
-          "title": "Problémy úplne celého světa",
-          "block": "medzicas",
-          "director": "Radek Chromčák Ševčík",
-          "duration": 24,
-          "year": "2024",
-          "country": null,
-          "type": "Dokumentárny film",
-          "summary": "Tak trochu vyhorený študent umenia a eko-aktivista Matyáš sa dozvie, že jeho priateľka Yolka je tehotná. Keď digitalizuje staré rodinné kazety,…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/ruzovejsie-rana/",
-          "title": "ružovejšie rána",
-          "block": "medzicas",
-          "director": "Nina Sabolová",
-          "duration": 5,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Môžeme to nazvať hrou. Detským divadielkom. Deti nazvať deťmi, pravdaže – veď ony to raz pochopia. Keď do sveta vstúpi naivita, vnikne do nás…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/este-chvilu/",
-          "title": "Ešte chvíľu",
-          "block": "medzicas",
-          "director": "Jakub Dúcky",
-          "duration": 19,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Rudo, tvrdohlavý nováčik v domove dôchodcov, sa odmieta zaradiť medzi tých, ktorí už len pokojne dožívajú. Zo strachu z vlastnej staroby sa…"
+          "summary": "V alternatívnej realite, v ktorej nacistické Nemecko vyhralo druhú svetovú vojnu, pokračuje osamelý maskovaný bojovník vo svojej nikdy…"
         },
         {
           "url": "https://festivalacko.sk/movie/2045/",
@@ -584,15 +530,70 @@
           "summary": "Ja, a moji rovesníci sme si totalitný režim nezažili, a preto ku udalostiam 17. novembera 1989 (Nežná revolúcia) máme vzdialenejši vzťah ako…"
         },
         {
-          "url": "https://festivalacko.sk/movie/nekonecna-vojna-pana-nikoho-alebo-kratka-prirucka-toho-ako-robit-nacistom-zo-zivota-peklo/",
-          "title": "Nekonečná vojna pána Nikoho (alebo krátka príručka toho ako robiť nacistom zo života peklo)",
+          "url": "https://festivalacko.sk/movie/este-chvilu/",
+          "title": "Ešte chvíľu",
           "block": "medzicas",
-          "director": "Jakub Horňák",
-          "duration": 12,
+          "director": "Jakub Dúcky",
+          "duration": 19,
           "year": "2026",
           "country": null,
           "type": "Hraný film",
-          "summary": "V alternatívnej realite, v ktorej nacistické Nemecko vyhralo druhú svetovú vojnu, pokračuje osamelý maskovaný bojovník vo svojej nikdy…"
+          "summary": "Rudo, tvrdohlavý nováčik v domove dôchodcov, sa odmieta zaradiť medzi tých, ktorí už len pokojne dožívajú. Zo strachu z vlastnej staroby sa…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/ruzovejsie-rana/",
+          "title": "ružovejšie rána",
+          "block": "medzicas",
+          "director": "Nina Sabolová",
+          "duration": 5,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Môžeme to nazvať hrou. Detským divadielkom. Deti nazvať deťmi, pravdaže – veď ony to raz pochopia. Keď do sveta vstúpi naivita, vnikne do nás…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/problemy-uplne-celeho-sveta/",
+          "title": "Problémy úplne celého světa",
+          "block": "medzicas",
+          "director": "Radek Chromčák Ševčík",
+          "duration": 24,
+          "year": "2024",
+          "country": null,
+          "type": "Dokumentárny film",
+          "summary": "Tak trochu vyhorený študent umenia a eko-aktivista Matyáš sa dozvie, že jeho priateľka Yolka je tehotná. Keď digitalizuje staré rodinné kazety,…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/mesto-noci/",
+          "title": "Mesto noci",
+          "block": "medzicas",
+          "director": "Mikloši Richard",
+          "duration": 5,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Robbie a Pete – dvaja mladí muži zdieľajú jednu izbu, prácu v uliciach nočného mesta aj život postavený na každodennej rutine. Jednej noci však…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/clovek-nie-je-macka/",
+          "title": "Človek nie je mačka",
+          "block": "medzicas",
+          "director": "Marek Tomajka",
+          "duration": 16,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Mladá učiteľka Margaréta prichádza do odľahlej dediny, kde medzi jej žiakmi spozná jedenásťročného Murcka – tichého chlapca, o ktorom sú všetci…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/under-dog/",
+          "title": "Under Dog",
+          "block": "medzicas",
+          "director": "Michal Dubjel",
+          "duration": 7,
+          "year": "2026",
+          "country": null,
+          "type": "Animovaný film",
+          "summary": "Pre Adu, utiahnutého introvertného chalana, skrýva jeho kúpeľňa neuveriteľné tajomstvo. Pod jej kachličkami sa nachádza podzemný ostrov plný…"
         }
       ],
       "types": [
@@ -605,7 +606,8 @@
       "price": "Vstup voľný",
       "endSource": "Čas konca publikovaný v oficiálnom harmonograme Áčka.",
       "evidence": "https://festivalacko.sk/harmonogram/",
-      "group": "https://festivalacko.sk/filmove-pasma/#medzicas"
+      "group": "https://festivalacko.sk/filmove-pasma/#medzicas",
+      "filmOrderSource": "Poradie opravené podľa správy správcu 20. 10. 2026: pôvodný zoznam bol obrátený."
     },
     {
       "id": "acko62026",
@@ -618,86 +620,20 @@
       "room": "KLAP",
       "summary": "Súťažné pásmo študentských filmov. Jednotlivé filmy, autorky a autori sú uvedení v rozbaliteľnom zozname.",
       "uid": "acko62026@doku-film-2026",
-      "updatedAt": "2026-10-18T12:59:45+00:00",
+      "updatedAt": "2026-10-20T09:39:26.099Z",
       "checkedAt": "18. 10. 2026",
-      "sequence": 1,
+      "sequence": 2,
       "films": [
         {
-          "url": "https://festivalacko.sk/movie/zubok-zubnaty/",
-          "title": "zúbok zubnatý",
+          "url": "https://festivalacko.sk/movie/carovny-vrch/",
+          "title": "Čarovný vrch",
           "block": "spomienky-a-zabudnutia",
-          "director": "Nina Sabolová",
-          "duration": 5,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Nik ju nikdy nevidel. Nik ju nepozná. Prečo si berie to, čo nám je už zbytočné? Povera, ktorú každý z nás pozná. Možno si ju vymysleli rodičia.…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/vrksasana/",
-          "title": "Vrksasana",
-          "block": "spomienky-a-zabudnutia",
-          "director": "Hannah Dale",
-          "duration": 22,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Magda sa chystá osláviť svoje päťdesiate narodeniny, no niečo v nej sa začína meniť. Najprv je to len drobnosť pod kožou, ktorú sa snaží zakryť…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/vlak-nikdy-nemeska/",
-          "title": "Vlak nikdy nemešká",
-          "block": "spomienky-a-zabudnutia",
-          "director": "Anastasiia Nikitina",
-          "duration": 8,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Mladá Tereza sa nedokáže vyrovnať so smrťou svojho otca a svoj žiaľ otupuje alkoholom v nočných uliciach mesta. Starý automat na lístky ju cez…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/usmievaj-sa/",
-          "title": "Usmievaj sa!",
-          "block": "spomienky-a-zabudnutia",
-          "director": "Yelyzaveta Hordieieva",
-          "duration": 20,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Eva postupne odhaľuje, že jej brat Oliver, úspešný fotograf, mohol znásilniť svoju modelku. Ocitá sa medzi dvoma verziami tej istej udalosti –…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/sweetheart/",
-          "title": "Sweetheart",
-          "block": "spomienky-a-zabudnutia",
-          "director": "Marek Tomajka",
-          "duration": 10,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Počas nočnej služby na zbernom dvore objavia dvaja strážnici, Miro a Nino, bezdomovca ukrytého v starej chladničke. Zdanlivo banálna situácia…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/nakupny-zoznam/",
-          "title": "Nákupný zoznam",
-          "block": "spomienky-a-zabudnutia",
-          "director": "Patrícia Suráková",
-          "duration": 5,
-          "year": "2025",
-          "country": null,
-          "type": "Animovaný film",
-          "summary": "Čo sa stane, keď sa ľudská myseľ spojí s technológiou? V neustálom prúde informácií sa hranica medzi tým, čo vnímame my a čo za nás vníma…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/koni/",
-          "title": "Koni",
-          "block": "spomienky-a-zabudnutia",
-          "director": "Jakub Vargovčík",
-          "duration": 13,
+          "director": "Mária Farská",
+          "duration": 6,
           "year": "2026",
           "country": null,
           "type": "Dokumentárny film",
-          "summary": "Koni sleduje Arnauda Konana, afrického futbalistu, ktorý hráva za FC Petržalku v Bratislave. Ďaleko od domova v Mali čelí izolácii cudzieho…"
+          "summary": "Čarovný vrch je observačná štúdia prostredia Slovenského rozhlasu ako svojbytného, takmer magického sveta. V jeho členitých priestoroch sa…"
         },
         {
           "url": "https://festivalacko.sk/movie/draha-mama/",
@@ -711,15 +647,81 @@
           "summary": "František sa prebúdza v schátranom a opustenom hoteli, kde ho obklopuje ticho a nepríjemný pocit osamelosti. V spomienkach sa vracia k svojej…"
         },
         {
-          "url": "https://festivalacko.sk/movie/carovny-vrch/",
-          "title": "Čarovný vrch",
+          "url": "https://festivalacko.sk/movie/koni/",
+          "title": "Koni",
           "block": "spomienky-a-zabudnutia",
-          "director": "Mária Farská",
-          "duration": 6,
+          "director": "Jakub Vargovčík",
+          "duration": 13,
           "year": "2026",
           "country": null,
           "type": "Dokumentárny film",
-          "summary": "Čarovný vrch je observačná štúdia prostredia Slovenského rozhlasu ako svojbytného, takmer magického sveta. V jeho členitých priestoroch sa…"
+          "summary": "Koni sleduje Arnauda Konana, afrického futbalistu, ktorý hráva za FC Petržalku v Bratislave. Ďaleko od domova v Mali čelí izolácii cudzieho…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/nakupny-zoznam/",
+          "title": "Nákupný zoznam",
+          "block": "spomienky-a-zabudnutia",
+          "director": "Patrícia Suráková",
+          "duration": 5,
+          "year": "2025",
+          "country": null,
+          "type": "Animovaný film",
+          "summary": "Čo sa stane, keď sa ľudská myseľ spojí s technológiou? V neustálom prúde informácií sa hranica medzi tým, čo vnímame my a čo za nás vníma…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/sweetheart/",
+          "title": "Sweetheart",
+          "block": "spomienky-a-zabudnutia",
+          "director": "Marek Tomajka",
+          "duration": 10,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Počas nočnej služby na zbernom dvore objavia dvaja strážnici, Miro a Nino, bezdomovca ukrytého v starej chladničke. Zdanlivo banálna situácia…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/usmievaj-sa/",
+          "title": "Usmievaj sa!",
+          "block": "spomienky-a-zabudnutia",
+          "director": "Yelyzaveta Hordieieva",
+          "duration": 20,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Eva postupne odhaľuje, že jej brat Oliver, úspešný fotograf, mohol znásilniť svoju modelku. Ocitá sa medzi dvoma verziami tej istej udalosti –…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/vlak-nikdy-nemeska/",
+          "title": "Vlak nikdy nemešká",
+          "block": "spomienky-a-zabudnutia",
+          "director": "Anastasiia Nikitina",
+          "duration": 8,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Mladá Tereza sa nedokáže vyrovnať so smrťou svojho otca a svoj žiaľ otupuje alkoholom v nočných uliciach mesta. Starý automat na lístky ju cez…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/vrksasana/",
+          "title": "Vrksasana",
+          "block": "spomienky-a-zabudnutia",
+          "director": "Hannah Dale",
+          "duration": 22,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Magda sa chystá osláviť svoje päťdesiate narodeniny, no niečo v nej sa začína meniť. Najprv je to len drobnosť pod kožou, ktorú sa snaží zakryť…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/zubok-zubnaty/",
+          "title": "zúbok zubnatý",
+          "block": "spomienky-a-zabudnutia",
+          "director": "Nina Sabolová",
+          "duration": 5,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Nik ju nikdy nevidel. Nik ju nepozná. Prečo si berie to, čo nám je už zbytočné? Povera, ktorú každý z nás pozná. Možno si ju vymysleli rodičia.…"
         }
       ],
       "types": [
@@ -732,7 +734,8 @@
       "price": "Vstup voľný",
       "endSource": "Čas konca publikovaný v oficiálnom harmonograme Áčka.",
       "evidence": "https://festivalacko.sk/harmonogram/",
-      "group": "https://festivalacko.sk/filmove-pasma/#spomienky"
+      "group": "https://festivalacko.sk/filmove-pasma/#spomienky",
+      "filmOrderSource": "Poradie opravené podľa správy správcu 20. 10. 2026: pôvodný zoznam bol obrátený."
     },
     {
       "id": "acko82026",
@@ -946,86 +949,20 @@
       "room": "BARCO",
       "summary": "Súťažné pásmo študentských filmov. Jednotlivé filmy, autorky a autori sú uvedení v rozbaliteľnom zozname.",
       "uid": "acko142026@doku-film-2026",
-      "updatedAt": "2026-10-18T12:59:45+00:00",
+      "updatedAt": "2026-10-20T09:39:26.099Z",
       "checkedAt": "18. 10. 2026",
-      "sequence": 1,
+      "sequence": 2,
       "films": [
         {
-          "url": "https://festivalacko.sk/movie/zubok-zubnaty/",
-          "title": "zúbok zubnatý",
+          "url": "https://festivalacko.sk/movie/carovny-vrch/",
+          "title": "Čarovný vrch",
           "block": "spomienky-a-zabudnutia",
-          "director": "Nina Sabolová",
-          "duration": 5,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Nik ju nikdy nevidel. Nik ju nepozná. Prečo si berie to, čo nám je už zbytočné? Povera, ktorú každý z nás pozná. Možno si ju vymysleli rodičia.…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/vrksasana/",
-          "title": "Vrksasana",
-          "block": "spomienky-a-zabudnutia",
-          "director": "Hannah Dale",
-          "duration": 22,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Magda sa chystá osláviť svoje päťdesiate narodeniny, no niečo v nej sa začína meniť. Najprv je to len drobnosť pod kožou, ktorú sa snaží zakryť…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/vlak-nikdy-nemeska/",
-          "title": "Vlak nikdy nemešká",
-          "block": "spomienky-a-zabudnutia",
-          "director": "Anastasiia Nikitina",
-          "duration": 8,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Mladá Tereza sa nedokáže vyrovnať so smrťou svojho otca a svoj žiaľ otupuje alkoholom v nočných uliciach mesta. Starý automat na lístky ju cez…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/usmievaj-sa/",
-          "title": "Usmievaj sa!",
-          "block": "spomienky-a-zabudnutia",
-          "director": "Yelyzaveta Hordieieva",
-          "duration": 20,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Eva postupne odhaľuje, že jej brat Oliver, úspešný fotograf, mohol znásilniť svoju modelku. Ocitá sa medzi dvoma verziami tej istej udalosti –…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/sweetheart/",
-          "title": "Sweetheart",
-          "block": "spomienky-a-zabudnutia",
-          "director": "Marek Tomajka",
-          "duration": 10,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Počas nočnej služby na zbernom dvore objavia dvaja strážnici, Miro a Nino, bezdomovca ukrytého v starej chladničke. Zdanlivo banálna situácia…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/nakupny-zoznam/",
-          "title": "Nákupný zoznam",
-          "block": "spomienky-a-zabudnutia",
-          "director": "Patrícia Suráková",
-          "duration": 5,
-          "year": "2025",
-          "country": null,
-          "type": "Animovaný film",
-          "summary": "Čo sa stane, keď sa ľudská myseľ spojí s technológiou? V neustálom prúde informácií sa hranica medzi tým, čo vnímame my a čo za nás vníma…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/koni/",
-          "title": "Koni",
-          "block": "spomienky-a-zabudnutia",
-          "director": "Jakub Vargovčík",
-          "duration": 13,
+          "director": "Mária Farská",
+          "duration": 6,
           "year": "2026",
           "country": null,
           "type": "Dokumentárny film",
-          "summary": "Koni sleduje Arnauda Konana, afrického futbalistu, ktorý hráva za FC Petržalku v Bratislave. Ďaleko od domova v Mali čelí izolácii cudzieho…"
+          "summary": "Čarovný vrch je observačná štúdia prostredia Slovenského rozhlasu ako svojbytného, takmer magického sveta. V jeho členitých priestoroch sa…"
         },
         {
           "url": "https://festivalacko.sk/movie/draha-mama/",
@@ -1039,15 +976,81 @@
           "summary": "František sa prebúdza v schátranom a opustenom hoteli, kde ho obklopuje ticho a nepríjemný pocit osamelosti. V spomienkach sa vracia k svojej…"
         },
         {
-          "url": "https://festivalacko.sk/movie/carovny-vrch/",
-          "title": "Čarovný vrch",
+          "url": "https://festivalacko.sk/movie/koni/",
+          "title": "Koni",
           "block": "spomienky-a-zabudnutia",
-          "director": "Mária Farská",
-          "duration": 6,
+          "director": "Jakub Vargovčík",
+          "duration": 13,
           "year": "2026",
           "country": null,
           "type": "Dokumentárny film",
-          "summary": "Čarovný vrch je observačná štúdia prostredia Slovenského rozhlasu ako svojbytného, takmer magického sveta. V jeho členitých priestoroch sa…"
+          "summary": "Koni sleduje Arnauda Konana, afrického futbalistu, ktorý hráva za FC Petržalku v Bratislave. Ďaleko od domova v Mali čelí izolácii cudzieho…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/nakupny-zoznam/",
+          "title": "Nákupný zoznam",
+          "block": "spomienky-a-zabudnutia",
+          "director": "Patrícia Suráková",
+          "duration": 5,
+          "year": "2025",
+          "country": null,
+          "type": "Animovaný film",
+          "summary": "Čo sa stane, keď sa ľudská myseľ spojí s technológiou? V neustálom prúde informácií sa hranica medzi tým, čo vnímame my a čo za nás vníma…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/sweetheart/",
+          "title": "Sweetheart",
+          "block": "spomienky-a-zabudnutia",
+          "director": "Marek Tomajka",
+          "duration": 10,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Počas nočnej služby na zbernom dvore objavia dvaja strážnici, Miro a Nino, bezdomovca ukrytého v starej chladničke. Zdanlivo banálna situácia…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/usmievaj-sa/",
+          "title": "Usmievaj sa!",
+          "block": "spomienky-a-zabudnutia",
+          "director": "Yelyzaveta Hordieieva",
+          "duration": 20,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Eva postupne odhaľuje, že jej brat Oliver, úspešný fotograf, mohol znásilniť svoju modelku. Ocitá sa medzi dvoma verziami tej istej udalosti –…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/vlak-nikdy-nemeska/",
+          "title": "Vlak nikdy nemešká",
+          "block": "spomienky-a-zabudnutia",
+          "director": "Anastasiia Nikitina",
+          "duration": 8,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Mladá Tereza sa nedokáže vyrovnať so smrťou svojho otca a svoj žiaľ otupuje alkoholom v nočných uliciach mesta. Starý automat na lístky ju cez…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/vrksasana/",
+          "title": "Vrksasana",
+          "block": "spomienky-a-zabudnutia",
+          "director": "Hannah Dale",
+          "duration": 22,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Magda sa chystá osláviť svoje päťdesiate narodeniny, no niečo v nej sa začína meniť. Najprv je to len drobnosť pod kožou, ktorú sa snaží zakryť…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/zubok-zubnaty/",
+          "title": "zúbok zubnatý",
+          "block": "spomienky-a-zabudnutia",
+          "director": "Nina Sabolová",
+          "duration": 5,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Nik ju nikdy nevidel. Nik ju nepozná. Prečo si berie to, čo nám je už zbytočné? Povera, ktorú každý z nás pozná. Možno si ju vymysleli rodičia.…"
         }
       ],
       "types": [
@@ -1060,7 +1063,8 @@
       "price": "Vstup voľný",
       "endSource": "Čas konca publikovaný v oficiálnom harmonograme Áčka.",
       "evidence": "https://festivalacko.sk/harmonogram/",
-      "group": "https://festivalacko.sk/filmove-pasma/#spomienky"
+      "group": "https://festivalacko.sk/filmove-pasma/#spomienky",
+      "filmOrderSource": "Poradie opravené podľa správy správcu 20. 10. 2026: pôvodný zoznam bol obrátený."
     },
     {
       "id": "ftf-meetup-20261021-1100",
@@ -1131,64 +1135,20 @@
       "room": "BARCO",
       "summary": "Súťažné pásmo študentských filmov. Jednotlivé filmy, autorky a autori sú uvedení v rozbaliteľnom zozname.",
       "uid": "acko152026@doku-film-2026",
-      "updatedAt": "2026-10-18T12:59:45+00:00",
+      "updatedAt": "2026-10-20T09:39:26.099Z",
       "checkedAt": "18. 10. 2026",
-      "sequence": 1,
+      "sequence": 2,
       "films": [
         {
-          "url": "https://festivalacko.sk/movie/fuck-off-vyroba-platne/",
-          "title": "Fuck off (výroba platne)",
+          "url": "https://festivalacko.sk/movie/kde-rastu-mesiaciky/",
+          "title": "Kde rastú mesiačiky",
           "block": "trvanie",
-          "director": "Šimon Mináč",
-          "duration": 4,
-          "year": "2025",
-          "country": null,
-          "type": "Animovaný s hranými sekvenciami",
-          "summary": "Videoklipový film k hudbe skupiny Berlin Manson sleduje proces výroby gramofónovej platne, od prvého otlačenia cez jednotlivé fázy spracovania…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/betonka/",
-          "title": "Betónka",
-          "block": "trvanie",
-          "director": "Rastislav Kupšo",
-          "duration": 12,
+          "director": "Mária Kišeľová",
+          "duration": 7,
           "year": "2026",
           "country": null,
           "type": "Hraný film",
-          "summary": "Pouličný zlodejík a nádejný raper Laki sníva o úniku z Betónky, sídliska, ktoré ho od detstva drží v pasci dlhov, násilia a beznádeje. Jeho…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/vtedy-na-morave/",
-          "title": "Vtedy na Morave",
-          "block": "trvanie",
-          "director": "Rastislav Kupšo",
-          "duration": 29,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Mladý pomocný murár Rudo, je dobrovoľne na silu odvlečený svojimi kolegami na zdanlivo jednoduchú fušku na Morave. Tá sa s príchodom nového…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/neusmievaj-sa-na-mna-stastie/",
-          "title": "NEUSMIEVAJ SA NA MŇA ŠŤASTIE",
-          "block": "trvanie",
-          "director": "Františka Horváthová",
-          "duration": 11,
-          "year": "2025",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Príbeh o tichej revolúcii v živote jedného dievčaťa. O behu za kariérou, za splneným prianím. NEUSMIEVAJ SA NA MŇA ŠŤASTIE sa hrá s myšlienkou…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/ulica-v-i-lenina/",
-          "title": "Ulica V. I. Lenina",
-          "block": "trvanie",
-          "director": "Katarína Bojtošová",
-          "duration": 14,
-          "year": "2025",
-          "country": null,
-          "type": "Dokumentárny film",
-          "summary": "Čo ostalo z revolúcie tam, kde po nej dodnes visí rovnaká tabuľa? Film, hovorí o téme verejného priestoru a dozvukov minulosti v obciach na…"
+          "summary": "Počas letnej noci pri jazere sa Marek a Elena ukrývajú pred vonkajším svetom. Zatiaľ čo Marek má pocit, že ich zamilovanosť naberá na váhe,…"
         },
         {
           "url": "https://festivalacko.sk/movie/maj/",
@@ -1202,15 +1162,59 @@
           "summary": "Kristián sa po rokoch vracia domov, aby svojej rodine predstavil partnera Michala. Návrat však otvorí staré rany, najmä medzi ním a…"
         },
         {
-          "url": "https://festivalacko.sk/movie/kde-rastu-mesiaciky/",
-          "title": "Kde rastú mesiačiky",
+          "url": "https://festivalacko.sk/movie/ulica-v-i-lenina/",
+          "title": "Ulica V. I. Lenina",
           "block": "trvanie",
-          "director": "Mária Kišeľová",
-          "duration": 7,
+          "director": "Katarína Bojtošová",
+          "duration": 14,
+          "year": "2025",
+          "country": null,
+          "type": "Dokumentárny film",
+          "summary": "Čo ostalo z revolúcie tam, kde po nej dodnes visí rovnaká tabuľa? Film, hovorí o téme verejného priestoru a dozvukov minulosti v obciach na…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/neusmievaj-sa-na-mna-stastie/",
+          "title": "NEUSMIEVAJ SA NA MŇA ŠŤASTIE",
+          "block": "trvanie",
+          "director": "Františka Horváthová",
+          "duration": 11,
+          "year": "2025",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Príbeh o tichej revolúcii v živote jedného dievčaťa. O behu za kariérou, za splneným prianím. NEUSMIEVAJ SA NA MŇA ŠŤASTIE sa hrá s myšlienkou…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/vtedy-na-morave/",
+          "title": "Vtedy na Morave",
+          "block": "trvanie",
+          "director": "Rastislav Kupšo",
+          "duration": 29,
           "year": "2026",
           "country": null,
           "type": "Hraný film",
-          "summary": "Počas letnej noci pri jazere sa Marek a Elena ukrývajú pred vonkajším svetom. Zatiaľ čo Marek má pocit, že ich zamilovanosť naberá na váhe,…"
+          "summary": "Mladý pomocný murár Rudo, je dobrovoľne na silu odvlečený svojimi kolegami na zdanlivo jednoduchú fušku na Morave. Tá sa s príchodom nového…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/betonka/",
+          "title": "Betónka",
+          "block": "trvanie",
+          "director": "Rastislav Kupšo",
+          "duration": 12,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Pouličný zlodejík a nádejný raper Laki sníva o úniku z Betónky, sídliska, ktoré ho od detstva drží v pasci dlhov, násilia a beznádeje. Jeho…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/fuck-off-vyroba-platne/",
+          "title": "Fuck off (výroba platne)",
+          "block": "trvanie",
+          "director": "Šimon Mináč",
+          "duration": 4,
+          "year": "2025",
+          "country": null,
+          "type": "Animovaný s hranými sekvenciami",
+          "summary": "Videoklipový film k hudbe skupiny Berlin Manson sleduje proces výroby gramofónovej platne, od prvého otlačenia cez jednotlivé fázy spracovania…"
         }
       ],
       "types": [
@@ -1223,7 +1227,8 @@
       "price": "Vstup voľný",
       "endSource": "Čas konca publikovaný v oficiálnom harmonograme Áčka.",
       "evidence": "https://festivalacko.sk/harmonogram/",
-      "group": "https://festivalacko.sk/filmove-pasma/#trvanie"
+      "group": "https://festivalacko.sk/filmove-pasma/#trvanie",
+      "filmOrderSource": "Poradie opravené podľa správy správcu 20. 10. 2026: pôvodný zoznam bol obrátený."
     },
     {
       "id": "jeden12026",
@@ -1716,75 +1721,20 @@
       "room": "KLAP",
       "summary": "Súťažné pásmo študentských filmov. Jednotlivé filmy, autorky a autori sú uvedení v rozbaliteľnom zozname.",
       "uid": "acko202026@doku-film-2026",
-      "updatedAt": "2026-10-18T12:59:45+00:00",
+      "updatedAt": "2026-10-20T09:39:26.099Z",
       "checkedAt": "18. 10. 2026",
-      "sequence": 1,
+      "sequence": 2,
       "films": [
         {
-          "url": "https://festivalacko.sk/movie/under-dog/",
-          "title": "Under Dog",
+          "url": "https://festivalacko.sk/movie/nekonecna-vojna-pana-nikoho-alebo-kratka-prirucka-toho-ako-robit-nacistom-zo-zivota-peklo/",
+          "title": "Nekonečná vojna pána Nikoho (alebo krátka príručka toho ako robiť nacistom zo života peklo)",
           "block": "medzicas",
-          "director": "Michal Dubjel",
-          "duration": 7,
-          "year": "2026",
-          "country": null,
-          "type": "Animovaný film",
-          "summary": "Pre Adu, utiahnutého introvertného chalana, skrýva jeho kúpeľňa neuveriteľné tajomstvo. Pod jej kachličkami sa nachádza podzemný ostrov plný…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/clovek-nie-je-macka/",
-          "title": "Človek nie je mačka",
-          "block": "medzicas",
-          "director": "Marek Tomajka",
-          "duration": 16,
+          "director": "Jakub Horňák",
+          "duration": 12,
           "year": "2026",
           "country": null,
           "type": "Hraný film",
-          "summary": "Mladá učiteľka Margaréta prichádza do odľahlej dediny, kde medzi jej žiakmi spozná jedenásťročného Murcka – tichého chlapca, o ktorom sú všetci…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/mesto-noci/",
-          "title": "Mesto noci",
-          "block": "medzicas",
-          "director": "Mikloši Richard",
-          "duration": 5,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Robbie a Pete – dvaja mladí muži zdieľajú jednu izbu, prácu v uliciach nočného mesta aj život postavený na každodennej rutine. Jednej noci však…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/problemy-uplne-celeho-sveta/",
-          "title": "Problémy úplne celého světa",
-          "block": "medzicas",
-          "director": "Radek Chromčák Ševčík",
-          "duration": 24,
-          "year": "2024",
-          "country": null,
-          "type": "Dokumentárny film",
-          "summary": "Tak trochu vyhorený študent umenia a eko-aktivista Matyáš sa dozvie, že jeho priateľka Yolka je tehotná. Keď digitalizuje staré rodinné kazety,…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/ruzovejsie-rana/",
-          "title": "ružovejšie rána",
-          "block": "medzicas",
-          "director": "Nina Sabolová",
-          "duration": 5,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Môžeme to nazvať hrou. Detským divadielkom. Deti nazvať deťmi, pravdaže – veď ony to raz pochopia. Keď do sveta vstúpi naivita, vnikne do nás…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/este-chvilu/",
-          "title": "Ešte chvíľu",
-          "block": "medzicas",
-          "director": "Jakub Dúcky",
-          "duration": 19,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Rudo, tvrdohlavý nováčik v domove dôchodcov, sa odmieta zaradiť medzi tých, ktorí už len pokojne dožívajú. Zo strachu z vlastnej staroby sa…"
+          "summary": "V alternatívnej realite, v ktorej nacistické Nemecko vyhralo druhú svetovú vojnu, pokračuje osamelý maskovaný bojovník vo svojej nikdy…"
         },
         {
           "url": "https://festivalacko.sk/movie/2045/",
@@ -1798,15 +1748,70 @@
           "summary": "Ja, a moji rovesníci sme si totalitný režim nezažili, a preto ku udalostiam 17. novembera 1989 (Nežná revolúcia) máme vzdialenejši vzťah ako…"
         },
         {
-          "url": "https://festivalacko.sk/movie/nekonecna-vojna-pana-nikoho-alebo-kratka-prirucka-toho-ako-robit-nacistom-zo-zivota-peklo/",
-          "title": "Nekonečná vojna pána Nikoho (alebo krátka príručka toho ako robiť nacistom zo života peklo)",
+          "url": "https://festivalacko.sk/movie/este-chvilu/",
+          "title": "Ešte chvíľu",
           "block": "medzicas",
-          "director": "Jakub Horňák",
-          "duration": 12,
+          "director": "Jakub Dúcky",
+          "duration": 19,
           "year": "2026",
           "country": null,
           "type": "Hraný film",
-          "summary": "V alternatívnej realite, v ktorej nacistické Nemecko vyhralo druhú svetovú vojnu, pokračuje osamelý maskovaný bojovník vo svojej nikdy…"
+          "summary": "Rudo, tvrdohlavý nováčik v domove dôchodcov, sa odmieta zaradiť medzi tých, ktorí už len pokojne dožívajú. Zo strachu z vlastnej staroby sa…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/ruzovejsie-rana/",
+          "title": "ružovejšie rána",
+          "block": "medzicas",
+          "director": "Nina Sabolová",
+          "duration": 5,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Môžeme to nazvať hrou. Detským divadielkom. Deti nazvať deťmi, pravdaže – veď ony to raz pochopia. Keď do sveta vstúpi naivita, vnikne do nás…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/problemy-uplne-celeho-sveta/",
+          "title": "Problémy úplne celého světa",
+          "block": "medzicas",
+          "director": "Radek Chromčák Ševčík",
+          "duration": 24,
+          "year": "2024",
+          "country": null,
+          "type": "Dokumentárny film",
+          "summary": "Tak trochu vyhorený študent umenia a eko-aktivista Matyáš sa dozvie, že jeho priateľka Yolka je tehotná. Keď digitalizuje staré rodinné kazety,…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/mesto-noci/",
+          "title": "Mesto noci",
+          "block": "medzicas",
+          "director": "Mikloši Richard",
+          "duration": 5,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Robbie a Pete – dvaja mladí muži zdieľajú jednu izbu, prácu v uliciach nočného mesta aj život postavený na každodennej rutine. Jednej noci však…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/clovek-nie-je-macka/",
+          "title": "Človek nie je mačka",
+          "block": "medzicas",
+          "director": "Marek Tomajka",
+          "duration": 16,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Mladá učiteľka Margaréta prichádza do odľahlej dediny, kde medzi jej žiakmi spozná jedenásťročného Murcka – tichého chlapca, o ktorom sú všetci…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/under-dog/",
+          "title": "Under Dog",
+          "block": "medzicas",
+          "director": "Michal Dubjel",
+          "duration": 7,
+          "year": "2026",
+          "country": null,
+          "type": "Animovaný film",
+          "summary": "Pre Adu, utiahnutého introvertného chalana, skrýva jeho kúpeľňa neuveriteľné tajomstvo. Pod jej kachličkami sa nachádza podzemný ostrov plný…"
         }
       ],
       "types": [
@@ -1819,7 +1824,8 @@
       "price": "Vstup voľný",
       "endSource": "Čas konca publikovaný v oficiálnom harmonograme Áčka.",
       "evidence": "https://festivalacko.sk/harmonogram/",
-      "group": "https://festivalacko.sk/filmove-pasma/#medzicas"
+      "group": "https://festivalacko.sk/filmove-pasma/#medzicas",
+      "filmOrderSource": "Poradie opravené podľa správy správcu 20. 10. 2026: pôvodný zoznam bol obrátený."
     },
     {
       "id": "jeden42026",
@@ -2070,75 +2076,20 @@
       "room": "BARCO",
       "summary": "Súťažné pásmo študentských filmov. Jednotlivé filmy, autorky a autori sú uvedení v rozbaliteľnom zozname.",
       "uid": "acko222026@doku-film-2026",
-      "updatedAt": "2026-10-18T12:59:45+00:00",
+      "updatedAt": "2026-10-20T09:39:26.099Z",
       "checkedAt": "18. 10. 2026",
-      "sequence": 1,
+      "sequence": 2,
       "films": [
         {
-          "url": "https://festivalacko.sk/movie/under-dog/",
-          "title": "Under Dog",
+          "url": "https://festivalacko.sk/movie/nekonecna-vojna-pana-nikoho-alebo-kratka-prirucka-toho-ako-robit-nacistom-zo-zivota-peklo/",
+          "title": "Nekonečná vojna pána Nikoho (alebo krátka príručka toho ako robiť nacistom zo života peklo)",
           "block": "medzicas",
-          "director": "Michal Dubjel",
-          "duration": 7,
-          "year": "2026",
-          "country": null,
-          "type": "Animovaný film",
-          "summary": "Pre Adu, utiahnutého introvertného chalana, skrýva jeho kúpeľňa neuveriteľné tajomstvo. Pod jej kachličkami sa nachádza podzemný ostrov plný…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/clovek-nie-je-macka/",
-          "title": "Človek nie je mačka",
-          "block": "medzicas",
-          "director": "Marek Tomajka",
-          "duration": 16,
+          "director": "Jakub Horňák",
+          "duration": 12,
           "year": "2026",
           "country": null,
           "type": "Hraný film",
-          "summary": "Mladá učiteľka Margaréta prichádza do odľahlej dediny, kde medzi jej žiakmi spozná jedenásťročného Murcka – tichého chlapca, o ktorom sú všetci…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/mesto-noci/",
-          "title": "Mesto noci",
-          "block": "medzicas",
-          "director": "Mikloši Richard",
-          "duration": 5,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Robbie a Pete – dvaja mladí muži zdieľajú jednu izbu, prácu v uliciach nočného mesta aj život postavený na každodennej rutine. Jednej noci však…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/problemy-uplne-celeho-sveta/",
-          "title": "Problémy úplne celého světa",
-          "block": "medzicas",
-          "director": "Radek Chromčák Ševčík",
-          "duration": 24,
-          "year": "2024",
-          "country": null,
-          "type": "Dokumentárny film",
-          "summary": "Tak trochu vyhorený študent umenia a eko-aktivista Matyáš sa dozvie, že jeho priateľka Yolka je tehotná. Keď digitalizuje staré rodinné kazety,…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/ruzovejsie-rana/",
-          "title": "ružovejšie rána",
-          "block": "medzicas",
-          "director": "Nina Sabolová",
-          "duration": 5,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Môžeme to nazvať hrou. Detským divadielkom. Deti nazvať deťmi, pravdaže – veď ony to raz pochopia. Keď do sveta vstúpi naivita, vnikne do nás…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/este-chvilu/",
-          "title": "Ešte chvíľu",
-          "block": "medzicas",
-          "director": "Jakub Dúcky",
-          "duration": 19,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Rudo, tvrdohlavý nováčik v domove dôchodcov, sa odmieta zaradiť medzi tých, ktorí už len pokojne dožívajú. Zo strachu z vlastnej staroby sa…"
+          "summary": "V alternatívnej realite, v ktorej nacistické Nemecko vyhralo druhú svetovú vojnu, pokračuje osamelý maskovaný bojovník vo svojej nikdy…"
         },
         {
           "url": "https://festivalacko.sk/movie/2045/",
@@ -2152,15 +2103,70 @@
           "summary": "Ja, a moji rovesníci sme si totalitný režim nezažili, a preto ku udalostiam 17. novembera 1989 (Nežná revolúcia) máme vzdialenejši vzťah ako…"
         },
         {
-          "url": "https://festivalacko.sk/movie/nekonecna-vojna-pana-nikoho-alebo-kratka-prirucka-toho-ako-robit-nacistom-zo-zivota-peklo/",
-          "title": "Nekonečná vojna pána Nikoho (alebo krátka príručka toho ako robiť nacistom zo života peklo)",
+          "url": "https://festivalacko.sk/movie/este-chvilu/",
+          "title": "Ešte chvíľu",
           "block": "medzicas",
-          "director": "Jakub Horňák",
-          "duration": 12,
+          "director": "Jakub Dúcky",
+          "duration": 19,
           "year": "2026",
           "country": null,
           "type": "Hraný film",
-          "summary": "V alternatívnej realite, v ktorej nacistické Nemecko vyhralo druhú svetovú vojnu, pokračuje osamelý maskovaný bojovník vo svojej nikdy…"
+          "summary": "Rudo, tvrdohlavý nováčik v domove dôchodcov, sa odmieta zaradiť medzi tých, ktorí už len pokojne dožívajú. Zo strachu z vlastnej staroby sa…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/ruzovejsie-rana/",
+          "title": "ružovejšie rána",
+          "block": "medzicas",
+          "director": "Nina Sabolová",
+          "duration": 5,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Môžeme to nazvať hrou. Detským divadielkom. Deti nazvať deťmi, pravdaže – veď ony to raz pochopia. Keď do sveta vstúpi naivita, vnikne do nás…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/problemy-uplne-celeho-sveta/",
+          "title": "Problémy úplne celého světa",
+          "block": "medzicas",
+          "director": "Radek Chromčák Ševčík",
+          "duration": 24,
+          "year": "2024",
+          "country": null,
+          "type": "Dokumentárny film",
+          "summary": "Tak trochu vyhorený študent umenia a eko-aktivista Matyáš sa dozvie, že jeho priateľka Yolka je tehotná. Keď digitalizuje staré rodinné kazety,…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/mesto-noci/",
+          "title": "Mesto noci",
+          "block": "medzicas",
+          "director": "Mikloši Richard",
+          "duration": 5,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Robbie a Pete – dvaja mladí muži zdieľajú jednu izbu, prácu v uliciach nočného mesta aj život postavený na každodennej rutine. Jednej noci však…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/clovek-nie-je-macka/",
+          "title": "Človek nie je mačka",
+          "block": "medzicas",
+          "director": "Marek Tomajka",
+          "duration": 16,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Mladá učiteľka Margaréta prichádza do odľahlej dediny, kde medzi jej žiakmi spozná jedenásťročného Murcka – tichého chlapca, o ktorom sú všetci…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/under-dog/",
+          "title": "Under Dog",
+          "block": "medzicas",
+          "director": "Michal Dubjel",
+          "duration": 7,
+          "year": "2026",
+          "country": null,
+          "type": "Animovaný film",
+          "summary": "Pre Adu, utiahnutého introvertného chalana, skrýva jeho kúpeľňa neuveriteľné tajomstvo. Pod jej kachličkami sa nachádza podzemný ostrov plný…"
         }
       ],
       "types": [
@@ -2173,7 +2179,8 @@
       "price": "Vstup voľný",
       "endSource": "Čas konca publikovaný v oficiálnom harmonograme Áčka.",
       "evidence": "https://festivalacko.sk/harmonogram/",
-      "group": "https://festivalacko.sk/filmove-pasma/#medzicas"
+      "group": "https://festivalacko.sk/filmove-pasma/#medzicas",
+      "filmOrderSource": "Poradie opravené podľa správy správcu 20. 10. 2026: pôvodný zoznam bol obrátený."
     },
     {
       "id": "acko232026",
@@ -2306,86 +2313,20 @@
       "room": "BARCO",
       "summary": "Súťažné pásmo študentských filmov. Jednotlivé filmy, autorky a autori sú uvedení v rozbaliteľnom zozname.",
       "uid": "acko252026@doku-film-2026",
-      "updatedAt": "2026-10-18T12:59:45+00:00",
+      "updatedAt": "2026-10-20T09:39:26.099Z",
       "checkedAt": "18. 10. 2026",
-      "sequence": 1,
+      "sequence": 2,
       "films": [
         {
-          "url": "https://festivalacko.sk/movie/zubok-zubnaty/",
-          "title": "zúbok zubnatý",
+          "url": "https://festivalacko.sk/movie/carovny-vrch/",
+          "title": "Čarovný vrch",
           "block": "spomienky-a-zabudnutia",
-          "director": "Nina Sabolová",
-          "duration": 5,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Nik ju nikdy nevidel. Nik ju nepozná. Prečo si berie to, čo nám je už zbytočné? Povera, ktorú každý z nás pozná. Možno si ju vymysleli rodičia.…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/vrksasana/",
-          "title": "Vrksasana",
-          "block": "spomienky-a-zabudnutia",
-          "director": "Hannah Dale",
-          "duration": 22,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Magda sa chystá osláviť svoje päťdesiate narodeniny, no niečo v nej sa začína meniť. Najprv je to len drobnosť pod kožou, ktorú sa snaží zakryť…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/vlak-nikdy-nemeska/",
-          "title": "Vlak nikdy nemešká",
-          "block": "spomienky-a-zabudnutia",
-          "director": "Anastasiia Nikitina",
-          "duration": 8,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Mladá Tereza sa nedokáže vyrovnať so smrťou svojho otca a svoj žiaľ otupuje alkoholom v nočných uliciach mesta. Starý automat na lístky ju cez…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/usmievaj-sa/",
-          "title": "Usmievaj sa!",
-          "block": "spomienky-a-zabudnutia",
-          "director": "Yelyzaveta Hordieieva",
-          "duration": 20,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Eva postupne odhaľuje, že jej brat Oliver, úspešný fotograf, mohol znásilniť svoju modelku. Ocitá sa medzi dvoma verziami tej istej udalosti –…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/sweetheart/",
-          "title": "Sweetheart",
-          "block": "spomienky-a-zabudnutia",
-          "director": "Marek Tomajka",
-          "duration": 10,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Počas nočnej služby na zbernom dvore objavia dvaja strážnici, Miro a Nino, bezdomovca ukrytého v starej chladničke. Zdanlivo banálna situácia…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/nakupny-zoznam/",
-          "title": "Nákupný zoznam",
-          "block": "spomienky-a-zabudnutia",
-          "director": "Patrícia Suráková",
-          "duration": 5,
-          "year": "2025",
-          "country": null,
-          "type": "Animovaný film",
-          "summary": "Čo sa stane, keď sa ľudská myseľ spojí s technológiou? V neustálom prúde informácií sa hranica medzi tým, čo vnímame my a čo za nás vníma…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/koni/",
-          "title": "Koni",
-          "block": "spomienky-a-zabudnutia",
-          "director": "Jakub Vargovčík",
-          "duration": 13,
+          "director": "Mária Farská",
+          "duration": 6,
           "year": "2026",
           "country": null,
           "type": "Dokumentárny film",
-          "summary": "Koni sleduje Arnauda Konana, afrického futbalistu, ktorý hráva za FC Petržalku v Bratislave. Ďaleko od domova v Mali čelí izolácii cudzieho…"
+          "summary": "Čarovný vrch je observačná štúdia prostredia Slovenského rozhlasu ako svojbytného, takmer magického sveta. V jeho členitých priestoroch sa…"
         },
         {
           "url": "https://festivalacko.sk/movie/draha-mama/",
@@ -2399,15 +2340,81 @@
           "summary": "František sa prebúdza v schátranom a opustenom hoteli, kde ho obklopuje ticho a nepríjemný pocit osamelosti. V spomienkach sa vracia k svojej…"
         },
         {
-          "url": "https://festivalacko.sk/movie/carovny-vrch/",
-          "title": "Čarovný vrch",
+          "url": "https://festivalacko.sk/movie/koni/",
+          "title": "Koni",
           "block": "spomienky-a-zabudnutia",
-          "director": "Mária Farská",
-          "duration": 6,
+          "director": "Jakub Vargovčík",
+          "duration": 13,
           "year": "2026",
           "country": null,
           "type": "Dokumentárny film",
-          "summary": "Čarovný vrch je observačná štúdia prostredia Slovenského rozhlasu ako svojbytného, takmer magického sveta. V jeho členitých priestoroch sa…"
+          "summary": "Koni sleduje Arnauda Konana, afrického futbalistu, ktorý hráva za FC Petržalku v Bratislave. Ďaleko od domova v Mali čelí izolácii cudzieho…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/nakupny-zoznam/",
+          "title": "Nákupný zoznam",
+          "block": "spomienky-a-zabudnutia",
+          "director": "Patrícia Suráková",
+          "duration": 5,
+          "year": "2025",
+          "country": null,
+          "type": "Animovaný film",
+          "summary": "Čo sa stane, keď sa ľudská myseľ spojí s technológiou? V neustálom prúde informácií sa hranica medzi tým, čo vnímame my a čo za nás vníma…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/sweetheart/",
+          "title": "Sweetheart",
+          "block": "spomienky-a-zabudnutia",
+          "director": "Marek Tomajka",
+          "duration": 10,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Počas nočnej služby na zbernom dvore objavia dvaja strážnici, Miro a Nino, bezdomovca ukrytého v starej chladničke. Zdanlivo banálna situácia…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/usmievaj-sa/",
+          "title": "Usmievaj sa!",
+          "block": "spomienky-a-zabudnutia",
+          "director": "Yelyzaveta Hordieieva",
+          "duration": 20,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Eva postupne odhaľuje, že jej brat Oliver, úspešný fotograf, mohol znásilniť svoju modelku. Ocitá sa medzi dvoma verziami tej istej udalosti –…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/vlak-nikdy-nemeska/",
+          "title": "Vlak nikdy nemešká",
+          "block": "spomienky-a-zabudnutia",
+          "director": "Anastasiia Nikitina",
+          "duration": 8,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Mladá Tereza sa nedokáže vyrovnať so smrťou svojho otca a svoj žiaľ otupuje alkoholom v nočných uliciach mesta. Starý automat na lístky ju cez…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/vrksasana/",
+          "title": "Vrksasana",
+          "block": "spomienky-a-zabudnutia",
+          "director": "Hannah Dale",
+          "duration": 22,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Magda sa chystá osláviť svoje päťdesiate narodeniny, no niečo v nej sa začína meniť. Najprv je to len drobnosť pod kožou, ktorú sa snaží zakryť…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/zubok-zubnaty/",
+          "title": "zúbok zubnatý",
+          "block": "spomienky-a-zabudnutia",
+          "director": "Nina Sabolová",
+          "duration": 5,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Nik ju nikdy nevidel. Nik ju nepozná. Prečo si berie to, čo nám je už zbytočné? Povera, ktorú každý z nás pozná. Možno si ju vymysleli rodičia.…"
         }
       ],
       "types": [
@@ -2420,7 +2427,8 @@
       "price": "Vstup voľný",
       "endSource": "Čas konca publikovaný v oficiálnom harmonograme Áčka.",
       "evidence": "https://festivalacko.sk/harmonogram/",
-      "group": "https://festivalacko.sk/filmove-pasma/#spomienky"
+      "group": "https://festivalacko.sk/filmove-pasma/#spomienky",
+      "filmOrderSource": "Poradie opravené podľa správy správcu 20. 10. 2026: pôvodný zoznam bol obrátený."
     },
     {
       "id": "zivotfilm20261022",
@@ -2554,64 +2562,20 @@
       "room": "BARCO",
       "summary": "Súťažné pásmo študentských filmov. Jednotlivé filmy, autorky a autori sú uvedení v rozbaliteľnom zozname.",
       "uid": "acko272026@doku-film-2026",
-      "updatedAt": "2026-10-18T12:59:45+00:00",
+      "updatedAt": "2026-10-20T09:39:26.099Z",
       "checkedAt": "18. 10. 2026",
-      "sequence": 1,
+      "sequence": 2,
       "films": [
         {
-          "url": "https://festivalacko.sk/movie/fuck-off-vyroba-platne/",
-          "title": "Fuck off (výroba platne)",
+          "url": "https://festivalacko.sk/movie/kde-rastu-mesiaciky/",
+          "title": "Kde rastú mesiačiky",
           "block": "trvanie",
-          "director": "Šimon Mináč",
-          "duration": 4,
-          "year": "2025",
-          "country": null,
-          "type": "Animovaný s hranými sekvenciami",
-          "summary": "Videoklipový film k hudbe skupiny Berlin Manson sleduje proces výroby gramofónovej platne, od prvého otlačenia cez jednotlivé fázy spracovania…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/betonka/",
-          "title": "Betónka",
-          "block": "trvanie",
-          "director": "Rastislav Kupšo",
-          "duration": 12,
+          "director": "Mária Kišeľová",
+          "duration": 7,
           "year": "2026",
           "country": null,
           "type": "Hraný film",
-          "summary": "Pouličný zlodejík a nádejný raper Laki sníva o úniku z Betónky, sídliska, ktoré ho od detstva drží v pasci dlhov, násilia a beznádeje. Jeho…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/vtedy-na-morave/",
-          "title": "Vtedy na Morave",
-          "block": "trvanie",
-          "director": "Rastislav Kupšo",
-          "duration": 29,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Mladý pomocný murár Rudo, je dobrovoľne na silu odvlečený svojimi kolegami na zdanlivo jednoduchú fušku na Morave. Tá sa s príchodom nového…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/neusmievaj-sa-na-mna-stastie/",
-          "title": "NEUSMIEVAJ SA NA MŇA ŠŤASTIE",
-          "block": "trvanie",
-          "director": "Františka Horváthová",
-          "duration": 11,
-          "year": "2025",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Príbeh o tichej revolúcii v živote jedného dievčaťa. O behu za kariérou, za splneným prianím. NEUSMIEVAJ SA NA MŇA ŠŤASTIE sa hrá s myšlienkou…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/ulica-v-i-lenina/",
-          "title": "Ulica V. I. Lenina",
-          "block": "trvanie",
-          "director": "Katarína Bojtošová",
-          "duration": 14,
-          "year": "2025",
-          "country": null,
-          "type": "Dokumentárny film",
-          "summary": "Čo ostalo z revolúcie tam, kde po nej dodnes visí rovnaká tabuľa? Film, hovorí o téme verejného priestoru a dozvukov minulosti v obciach na…"
+          "summary": "Počas letnej noci pri jazere sa Marek a Elena ukrývajú pred vonkajším svetom. Zatiaľ čo Marek má pocit, že ich zamilovanosť naberá na váhe,…"
         },
         {
           "url": "https://festivalacko.sk/movie/maj/",
@@ -2625,15 +2589,59 @@
           "summary": "Kristián sa po rokoch vracia domov, aby svojej rodine predstavil partnera Michala. Návrat však otvorí staré rany, najmä medzi ním a…"
         },
         {
-          "url": "https://festivalacko.sk/movie/kde-rastu-mesiaciky/",
-          "title": "Kde rastú mesiačiky",
+          "url": "https://festivalacko.sk/movie/ulica-v-i-lenina/",
+          "title": "Ulica V. I. Lenina",
           "block": "trvanie",
-          "director": "Mária Kišeľová",
-          "duration": 7,
+          "director": "Katarína Bojtošová",
+          "duration": 14,
+          "year": "2025",
+          "country": null,
+          "type": "Dokumentárny film",
+          "summary": "Čo ostalo z revolúcie tam, kde po nej dodnes visí rovnaká tabuľa? Film, hovorí o téme verejného priestoru a dozvukov minulosti v obciach na…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/neusmievaj-sa-na-mna-stastie/",
+          "title": "NEUSMIEVAJ SA NA MŇA ŠŤASTIE",
+          "block": "trvanie",
+          "director": "Františka Horváthová",
+          "duration": 11,
+          "year": "2025",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Príbeh o tichej revolúcii v živote jedného dievčaťa. O behu za kariérou, za splneným prianím. NEUSMIEVAJ SA NA MŇA ŠŤASTIE sa hrá s myšlienkou…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/vtedy-na-morave/",
+          "title": "Vtedy na Morave",
+          "block": "trvanie",
+          "director": "Rastislav Kupšo",
+          "duration": 29,
           "year": "2026",
           "country": null,
           "type": "Hraný film",
-          "summary": "Počas letnej noci pri jazere sa Marek a Elena ukrývajú pred vonkajším svetom. Zatiaľ čo Marek má pocit, že ich zamilovanosť naberá na váhe,…"
+          "summary": "Mladý pomocný murár Rudo, je dobrovoľne na silu odvlečený svojimi kolegami na zdanlivo jednoduchú fušku na Morave. Tá sa s príchodom nového…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/betonka/",
+          "title": "Betónka",
+          "block": "trvanie",
+          "director": "Rastislav Kupšo",
+          "duration": 12,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Pouličný zlodejík a nádejný raper Laki sníva o úniku z Betónky, sídliska, ktoré ho od detstva drží v pasci dlhov, násilia a beznádeje. Jeho…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/fuck-off-vyroba-platne/",
+          "title": "Fuck off (výroba platne)",
+          "block": "trvanie",
+          "director": "Šimon Mináč",
+          "duration": 4,
+          "year": "2025",
+          "country": null,
+          "type": "Animovaný s hranými sekvenciami",
+          "summary": "Videoklipový film k hudbe skupiny Berlin Manson sleduje proces výroby gramofónovej platne, od prvého otlačenia cez jednotlivé fázy spracovania…"
         }
       ],
       "types": [
@@ -2646,7 +2654,8 @@
       "price": "Vstup voľný",
       "endSource": "Čas konca publikovaný v oficiálnom harmonograme Áčka.",
       "evidence": "https://festivalacko.sk/harmonogram/",
-      "group": "https://festivalacko.sk/filmove-pasma/#trvanie"
+      "group": "https://festivalacko.sk/filmove-pasma/#trvanie",
+      "filmOrderSource": "Poradie opravené podľa správy správcu 20. 10. 2026: pôvodný zoznam bol obrátený."
     },
     {
       "id": "jeden102026",
@@ -3072,86 +3081,20 @@
       "room": "BARCO",
       "summary": "Súťažné pásmo študentských filmov. Jednotlivé filmy, autorky a autori sú uvedení v rozbaliteľnom zozname.",
       "uid": "acko322026@doku-film-2026",
-      "updatedAt": "2026-10-18T12:59:45+00:00",
+      "updatedAt": "2026-10-20T09:39:26.099Z",
       "checkedAt": "18. 10. 2026",
-      "sequence": 1,
+      "sequence": 2,
       "films": [
         {
-          "url": "https://festivalacko.sk/movie/zubok-zubnaty/",
-          "title": "zúbok zubnatý",
+          "url": "https://festivalacko.sk/movie/carovny-vrch/",
+          "title": "Čarovný vrch",
           "block": "spomienky-a-zabudnutia",
-          "director": "Nina Sabolová",
-          "duration": 5,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Nik ju nikdy nevidel. Nik ju nepozná. Prečo si berie to, čo nám je už zbytočné? Povera, ktorú každý z nás pozná. Možno si ju vymysleli rodičia.…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/vrksasana/",
-          "title": "Vrksasana",
-          "block": "spomienky-a-zabudnutia",
-          "director": "Hannah Dale",
-          "duration": 22,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Magda sa chystá osláviť svoje päťdesiate narodeniny, no niečo v nej sa začína meniť. Najprv je to len drobnosť pod kožou, ktorú sa snaží zakryť…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/vlak-nikdy-nemeska/",
-          "title": "Vlak nikdy nemešká",
-          "block": "spomienky-a-zabudnutia",
-          "director": "Anastasiia Nikitina",
-          "duration": 8,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Mladá Tereza sa nedokáže vyrovnať so smrťou svojho otca a svoj žiaľ otupuje alkoholom v nočných uliciach mesta. Starý automat na lístky ju cez…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/usmievaj-sa/",
-          "title": "Usmievaj sa!",
-          "block": "spomienky-a-zabudnutia",
-          "director": "Yelyzaveta Hordieieva",
-          "duration": 20,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Eva postupne odhaľuje, že jej brat Oliver, úspešný fotograf, mohol znásilniť svoju modelku. Ocitá sa medzi dvoma verziami tej istej udalosti –…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/sweetheart/",
-          "title": "Sweetheart",
-          "block": "spomienky-a-zabudnutia",
-          "director": "Marek Tomajka",
-          "duration": 10,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Počas nočnej služby na zbernom dvore objavia dvaja strážnici, Miro a Nino, bezdomovca ukrytého v starej chladničke. Zdanlivo banálna situácia…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/nakupny-zoznam/",
-          "title": "Nákupný zoznam",
-          "block": "spomienky-a-zabudnutia",
-          "director": "Patrícia Suráková",
-          "duration": 5,
-          "year": "2025",
-          "country": null,
-          "type": "Animovaný film",
-          "summary": "Čo sa stane, keď sa ľudská myseľ spojí s technológiou? V neustálom prúde informácií sa hranica medzi tým, čo vnímame my a čo za nás vníma…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/koni/",
-          "title": "Koni",
-          "block": "spomienky-a-zabudnutia",
-          "director": "Jakub Vargovčík",
-          "duration": 13,
+          "director": "Mária Farská",
+          "duration": 6,
           "year": "2026",
           "country": null,
           "type": "Dokumentárny film",
-          "summary": "Koni sleduje Arnauda Konana, afrického futbalistu, ktorý hráva za FC Petržalku v Bratislave. Ďaleko od domova v Mali čelí izolácii cudzieho…"
+          "summary": "Čarovný vrch je observačná štúdia prostredia Slovenského rozhlasu ako svojbytného, takmer magického sveta. V jeho členitých priestoroch sa…"
         },
         {
           "url": "https://festivalacko.sk/movie/draha-mama/",
@@ -3165,15 +3108,81 @@
           "summary": "František sa prebúdza v schátranom a opustenom hoteli, kde ho obklopuje ticho a nepríjemný pocit osamelosti. V spomienkach sa vracia k svojej…"
         },
         {
-          "url": "https://festivalacko.sk/movie/carovny-vrch/",
-          "title": "Čarovný vrch",
+          "url": "https://festivalacko.sk/movie/koni/",
+          "title": "Koni",
           "block": "spomienky-a-zabudnutia",
-          "director": "Mária Farská",
-          "duration": 6,
+          "director": "Jakub Vargovčík",
+          "duration": 13,
           "year": "2026",
           "country": null,
           "type": "Dokumentárny film",
-          "summary": "Čarovný vrch je observačná štúdia prostredia Slovenského rozhlasu ako svojbytného, takmer magického sveta. V jeho členitých priestoroch sa…"
+          "summary": "Koni sleduje Arnauda Konana, afrického futbalistu, ktorý hráva za FC Petržalku v Bratislave. Ďaleko od domova v Mali čelí izolácii cudzieho…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/nakupny-zoznam/",
+          "title": "Nákupný zoznam",
+          "block": "spomienky-a-zabudnutia",
+          "director": "Patrícia Suráková",
+          "duration": 5,
+          "year": "2025",
+          "country": null,
+          "type": "Animovaný film",
+          "summary": "Čo sa stane, keď sa ľudská myseľ spojí s technológiou? V neustálom prúde informácií sa hranica medzi tým, čo vnímame my a čo za nás vníma…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/sweetheart/",
+          "title": "Sweetheart",
+          "block": "spomienky-a-zabudnutia",
+          "director": "Marek Tomajka",
+          "duration": 10,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Počas nočnej služby na zbernom dvore objavia dvaja strážnici, Miro a Nino, bezdomovca ukrytého v starej chladničke. Zdanlivo banálna situácia…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/usmievaj-sa/",
+          "title": "Usmievaj sa!",
+          "block": "spomienky-a-zabudnutia",
+          "director": "Yelyzaveta Hordieieva",
+          "duration": 20,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Eva postupne odhaľuje, že jej brat Oliver, úspešný fotograf, mohol znásilniť svoju modelku. Ocitá sa medzi dvoma verziami tej istej udalosti –…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/vlak-nikdy-nemeska/",
+          "title": "Vlak nikdy nemešká",
+          "block": "spomienky-a-zabudnutia",
+          "director": "Anastasiia Nikitina",
+          "duration": 8,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Mladá Tereza sa nedokáže vyrovnať so smrťou svojho otca a svoj žiaľ otupuje alkoholom v nočných uliciach mesta. Starý automat na lístky ju cez…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/vrksasana/",
+          "title": "Vrksasana",
+          "block": "spomienky-a-zabudnutia",
+          "director": "Hannah Dale",
+          "duration": 22,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Magda sa chystá osláviť svoje päťdesiate narodeniny, no niečo v nej sa začína meniť. Najprv je to len drobnosť pod kožou, ktorú sa snaží zakryť…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/zubok-zubnaty/",
+          "title": "zúbok zubnatý",
+          "block": "spomienky-a-zabudnutia",
+          "director": "Nina Sabolová",
+          "duration": 5,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Nik ju nikdy nevidel. Nik ju nepozná. Prečo si berie to, čo nám je už zbytočné? Povera, ktorú každý z nás pozná. Možno si ju vymysleli rodičia.…"
         }
       ],
       "types": [
@@ -3186,7 +3195,8 @@
       "price": "Vstup voľný",
       "endSource": "Čas konca publikovaný v oficiálnom harmonograme Áčka.",
       "evidence": "https://festivalacko.sk/harmonogram/",
-      "group": "https://festivalacko.sk/filmove-pasma/#spomienky"
+      "group": "https://festivalacko.sk/filmove-pasma/#spomienky",
+      "filmOrderSource": "Poradie opravené podľa správy správcu 20. 10. 2026: pôvodný zoznam bol obrátený."
     },
     {
       "id": "acko332026",
@@ -3253,64 +3263,20 @@
       "room": "KLAP",
       "summary": "Súťažné pásmo študentských filmov. Jednotlivé filmy, autorky a autori sú uvedení v rozbaliteľnom zozname.",
       "uid": "acko352026@doku-film-2026",
-      "updatedAt": "2026-10-18T12:59:45+00:00",
+      "updatedAt": "2026-10-20T09:39:26.099Z",
       "checkedAt": "18. 10. 2026",
-      "sequence": 1,
+      "sequence": 2,
       "films": [
         {
-          "url": "https://festivalacko.sk/movie/fuck-off-vyroba-platne/",
-          "title": "Fuck off (výroba platne)",
+          "url": "https://festivalacko.sk/movie/kde-rastu-mesiaciky/",
+          "title": "Kde rastú mesiačiky",
           "block": "trvanie",
-          "director": "Šimon Mináč",
-          "duration": 4,
-          "year": "2025",
-          "country": null,
-          "type": "Animovaný s hranými sekvenciami",
-          "summary": "Videoklipový film k hudbe skupiny Berlin Manson sleduje proces výroby gramofónovej platne, od prvého otlačenia cez jednotlivé fázy spracovania…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/betonka/",
-          "title": "Betónka",
-          "block": "trvanie",
-          "director": "Rastislav Kupšo",
-          "duration": 12,
+          "director": "Mária Kišeľová",
+          "duration": 7,
           "year": "2026",
           "country": null,
           "type": "Hraný film",
-          "summary": "Pouličný zlodejík a nádejný raper Laki sníva o úniku z Betónky, sídliska, ktoré ho od detstva drží v pasci dlhov, násilia a beznádeje. Jeho…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/vtedy-na-morave/",
-          "title": "Vtedy na Morave",
-          "block": "trvanie",
-          "director": "Rastislav Kupšo",
-          "duration": 29,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Mladý pomocný murár Rudo, je dobrovoľne na silu odvlečený svojimi kolegami na zdanlivo jednoduchú fušku na Morave. Tá sa s príchodom nového…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/neusmievaj-sa-na-mna-stastie/",
-          "title": "NEUSMIEVAJ SA NA MŇA ŠŤASTIE",
-          "block": "trvanie",
-          "director": "Františka Horváthová",
-          "duration": 11,
-          "year": "2025",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Príbeh o tichej revolúcii v živote jedného dievčaťa. O behu za kariérou, za splneným prianím. NEUSMIEVAJ SA NA MŇA ŠŤASTIE sa hrá s myšlienkou…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/ulica-v-i-lenina/",
-          "title": "Ulica V. I. Lenina",
-          "block": "trvanie",
-          "director": "Katarína Bojtošová",
-          "duration": 14,
-          "year": "2025",
-          "country": null,
-          "type": "Dokumentárny film",
-          "summary": "Čo ostalo z revolúcie tam, kde po nej dodnes visí rovnaká tabuľa? Film, hovorí o téme verejného priestoru a dozvukov minulosti v obciach na…"
+          "summary": "Počas letnej noci pri jazere sa Marek a Elena ukrývajú pred vonkajším svetom. Zatiaľ čo Marek má pocit, že ich zamilovanosť naberá na váhe,…"
         },
         {
           "url": "https://festivalacko.sk/movie/maj/",
@@ -3324,15 +3290,59 @@
           "summary": "Kristián sa po rokoch vracia domov, aby svojej rodine predstavil partnera Michala. Návrat však otvorí staré rany, najmä medzi ním a…"
         },
         {
-          "url": "https://festivalacko.sk/movie/kde-rastu-mesiaciky/",
-          "title": "Kde rastú mesiačiky",
+          "url": "https://festivalacko.sk/movie/ulica-v-i-lenina/",
+          "title": "Ulica V. I. Lenina",
           "block": "trvanie",
-          "director": "Mária Kišeľová",
-          "duration": 7,
+          "director": "Katarína Bojtošová",
+          "duration": 14,
+          "year": "2025",
+          "country": null,
+          "type": "Dokumentárny film",
+          "summary": "Čo ostalo z revolúcie tam, kde po nej dodnes visí rovnaká tabuľa? Film, hovorí o téme verejného priestoru a dozvukov minulosti v obciach na…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/neusmievaj-sa-na-mna-stastie/",
+          "title": "NEUSMIEVAJ SA NA MŇA ŠŤASTIE",
+          "block": "trvanie",
+          "director": "Františka Horváthová",
+          "duration": 11,
+          "year": "2025",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Príbeh o tichej revolúcii v živote jedného dievčaťa. O behu za kariérou, za splneným prianím. NEUSMIEVAJ SA NA MŇA ŠŤASTIE sa hrá s myšlienkou…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/vtedy-na-morave/",
+          "title": "Vtedy na Morave",
+          "block": "trvanie",
+          "director": "Rastislav Kupšo",
+          "duration": 29,
           "year": "2026",
           "country": null,
           "type": "Hraný film",
-          "summary": "Počas letnej noci pri jazere sa Marek a Elena ukrývajú pred vonkajším svetom. Zatiaľ čo Marek má pocit, že ich zamilovanosť naberá na váhe,…"
+          "summary": "Mladý pomocný murár Rudo, je dobrovoľne na silu odvlečený svojimi kolegami na zdanlivo jednoduchú fušku na Morave. Tá sa s príchodom nového…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/betonka/",
+          "title": "Betónka",
+          "block": "trvanie",
+          "director": "Rastislav Kupšo",
+          "duration": 12,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Pouličný zlodejík a nádejný raper Laki sníva o úniku z Betónky, sídliska, ktoré ho od detstva drží v pasci dlhov, násilia a beznádeje. Jeho…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/fuck-off-vyroba-platne/",
+          "title": "Fuck off (výroba platne)",
+          "block": "trvanie",
+          "director": "Šimon Mináč",
+          "duration": 4,
+          "year": "2025",
+          "country": null,
+          "type": "Animovaný s hranými sekvenciami",
+          "summary": "Videoklipový film k hudbe skupiny Berlin Manson sleduje proces výroby gramofónovej platne, od prvého otlačenia cez jednotlivé fázy spracovania…"
         }
       ],
       "types": [
@@ -3345,7 +3355,8 @@
       "price": "Vstup voľný",
       "endSource": "Čas konca publikovaný v oficiálnom harmonograme Áčka.",
       "evidence": "https://festivalacko.sk/harmonogram/",
-      "group": "https://festivalacko.sk/filmove-pasma/#trvanie"
+      "group": "https://festivalacko.sk/filmove-pasma/#trvanie",
+      "filmOrderSource": "Poradie opravené podľa správy správcu 20. 10. 2026: pôvodný zoznam bol obrátený."
     },
     {
       "id": "jeden142026",
@@ -3459,75 +3470,20 @@
       "room": "BARCO",
       "summary": "Súťažné pásmo študentských filmov. Jednotlivé filmy, autorky a autori sú uvedení v rozbaliteľnom zozname.",
       "uid": "acko362026@doku-film-2026",
-      "updatedAt": "2026-10-18T12:59:45+00:00",
+      "updatedAt": "2026-10-20T09:39:26.099Z",
       "checkedAt": "18. 10. 2026",
-      "sequence": 1,
+      "sequence": 2,
       "films": [
         {
-          "url": "https://festivalacko.sk/movie/under-dog/",
-          "title": "Under Dog",
+          "url": "https://festivalacko.sk/movie/nekonecna-vojna-pana-nikoho-alebo-kratka-prirucka-toho-ako-robit-nacistom-zo-zivota-peklo/",
+          "title": "Nekonečná vojna pána Nikoho (alebo krátka príručka toho ako robiť nacistom zo života peklo)",
           "block": "medzicas",
-          "director": "Michal Dubjel",
-          "duration": 7,
-          "year": "2026",
-          "country": null,
-          "type": "Animovaný film",
-          "summary": "Pre Adu, utiahnutého introvertného chalana, skrýva jeho kúpeľňa neuveriteľné tajomstvo. Pod jej kachličkami sa nachádza podzemný ostrov plný…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/clovek-nie-je-macka/",
-          "title": "Človek nie je mačka",
-          "block": "medzicas",
-          "director": "Marek Tomajka",
-          "duration": 16,
+          "director": "Jakub Horňák",
+          "duration": 12,
           "year": "2026",
           "country": null,
           "type": "Hraný film",
-          "summary": "Mladá učiteľka Margaréta prichádza do odľahlej dediny, kde medzi jej žiakmi spozná jedenásťročného Murcka – tichého chlapca, o ktorom sú všetci…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/mesto-noci/",
-          "title": "Mesto noci",
-          "block": "medzicas",
-          "director": "Mikloši Richard",
-          "duration": 5,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Robbie a Pete – dvaja mladí muži zdieľajú jednu izbu, prácu v uliciach nočného mesta aj život postavený na každodennej rutine. Jednej noci však…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/problemy-uplne-celeho-sveta/",
-          "title": "Problémy úplne celého světa",
-          "block": "medzicas",
-          "director": "Radek Chromčák Ševčík",
-          "duration": 24,
-          "year": "2024",
-          "country": null,
-          "type": "Dokumentárny film",
-          "summary": "Tak trochu vyhorený študent umenia a eko-aktivista Matyáš sa dozvie, že jeho priateľka Yolka je tehotná. Keď digitalizuje staré rodinné kazety,…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/ruzovejsie-rana/",
-          "title": "ružovejšie rána",
-          "block": "medzicas",
-          "director": "Nina Sabolová",
-          "duration": 5,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Môžeme to nazvať hrou. Detským divadielkom. Deti nazvať deťmi, pravdaže – veď ony to raz pochopia. Keď do sveta vstúpi naivita, vnikne do nás…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/este-chvilu/",
-          "title": "Ešte chvíľu",
-          "block": "medzicas",
-          "director": "Jakub Dúcky",
-          "duration": 19,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Rudo, tvrdohlavý nováčik v domove dôchodcov, sa odmieta zaradiť medzi tých, ktorí už len pokojne dožívajú. Zo strachu z vlastnej staroby sa…"
+          "summary": "V alternatívnej realite, v ktorej nacistické Nemecko vyhralo druhú svetovú vojnu, pokračuje osamelý maskovaný bojovník vo svojej nikdy…"
         },
         {
           "url": "https://festivalacko.sk/movie/2045/",
@@ -3541,15 +3497,70 @@
           "summary": "Ja, a moji rovesníci sme si totalitný režim nezažili, a preto ku udalostiam 17. novembera 1989 (Nežná revolúcia) máme vzdialenejši vzťah ako…"
         },
         {
-          "url": "https://festivalacko.sk/movie/nekonecna-vojna-pana-nikoho-alebo-kratka-prirucka-toho-ako-robit-nacistom-zo-zivota-peklo/",
-          "title": "Nekonečná vojna pána Nikoho (alebo krátka príručka toho ako robiť nacistom zo života peklo)",
+          "url": "https://festivalacko.sk/movie/este-chvilu/",
+          "title": "Ešte chvíľu",
           "block": "medzicas",
-          "director": "Jakub Horňák",
-          "duration": 12,
+          "director": "Jakub Dúcky",
+          "duration": 19,
           "year": "2026",
           "country": null,
           "type": "Hraný film",
-          "summary": "V alternatívnej realite, v ktorej nacistické Nemecko vyhralo druhú svetovú vojnu, pokračuje osamelý maskovaný bojovník vo svojej nikdy…"
+          "summary": "Rudo, tvrdohlavý nováčik v domove dôchodcov, sa odmieta zaradiť medzi tých, ktorí už len pokojne dožívajú. Zo strachu z vlastnej staroby sa…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/ruzovejsie-rana/",
+          "title": "ružovejšie rána",
+          "block": "medzicas",
+          "director": "Nina Sabolová",
+          "duration": 5,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Môžeme to nazvať hrou. Detským divadielkom. Deti nazvať deťmi, pravdaže – veď ony to raz pochopia. Keď do sveta vstúpi naivita, vnikne do nás…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/problemy-uplne-celeho-sveta/",
+          "title": "Problémy úplne celého světa",
+          "block": "medzicas",
+          "director": "Radek Chromčák Ševčík",
+          "duration": 24,
+          "year": "2024",
+          "country": null,
+          "type": "Dokumentárny film",
+          "summary": "Tak trochu vyhorený študent umenia a eko-aktivista Matyáš sa dozvie, že jeho priateľka Yolka je tehotná. Keď digitalizuje staré rodinné kazety,…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/mesto-noci/",
+          "title": "Mesto noci",
+          "block": "medzicas",
+          "director": "Mikloši Richard",
+          "duration": 5,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Robbie a Pete – dvaja mladí muži zdieľajú jednu izbu, prácu v uliciach nočného mesta aj život postavený na každodennej rutine. Jednej noci však…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/clovek-nie-je-macka/",
+          "title": "Človek nie je mačka",
+          "block": "medzicas",
+          "director": "Marek Tomajka",
+          "duration": 16,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Mladá učiteľka Margaréta prichádza do odľahlej dediny, kde medzi jej žiakmi spozná jedenásťročného Murcka – tichého chlapca, o ktorom sú všetci…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/under-dog/",
+          "title": "Under Dog",
+          "block": "medzicas",
+          "director": "Michal Dubjel",
+          "duration": 7,
+          "year": "2026",
+          "country": null,
+          "type": "Animovaný film",
+          "summary": "Pre Adu, utiahnutého introvertného chalana, skrýva jeho kúpeľňa neuveriteľné tajomstvo. Pod jej kachličkami sa nachádza podzemný ostrov plný…"
         }
       ],
       "types": [
@@ -3562,7 +3573,8 @@
       "price": "Vstup voľný",
       "endSource": "Čas konca publikovaný v oficiálnom harmonograme Áčka.",
       "evidence": "https://festivalacko.sk/harmonogram/",
-      "group": "https://festivalacko.sk/filmove-pasma/#medzicas"
+      "group": "https://festivalacko.sk/filmove-pasma/#medzicas",
+      "filmOrderSource": "Poradie opravené podľa správy správcu 20. 10. 2026: pôvodný zoznam bol obrátený."
     },
     {
       "id": "jeden182026",
@@ -3843,86 +3855,20 @@
       "room": "BARCO",
       "summary": "Súťažné pásmo študentských filmov. Jednotlivé filmy, autorky a autori sú uvedení v rozbaliteľnom zozname.",
       "uid": "acko412026@doku-film-2026",
-      "updatedAt": "2026-10-18T12:59:45+00:00",
+      "updatedAt": "2026-10-20T09:39:26.099Z",
       "checkedAt": "18. 10. 2026",
-      "sequence": 1,
+      "sequence": 2,
       "films": [
         {
-          "url": "https://festivalacko.sk/movie/zubok-zubnaty/",
-          "title": "zúbok zubnatý",
+          "url": "https://festivalacko.sk/movie/carovny-vrch/",
+          "title": "Čarovný vrch",
           "block": "spomienky-a-zabudnutia",
-          "director": "Nina Sabolová",
-          "duration": 5,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Nik ju nikdy nevidel. Nik ju nepozná. Prečo si berie to, čo nám je už zbytočné? Povera, ktorú každý z nás pozná. Možno si ju vymysleli rodičia.…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/vrksasana/",
-          "title": "Vrksasana",
-          "block": "spomienky-a-zabudnutia",
-          "director": "Hannah Dale",
-          "duration": 22,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Magda sa chystá osláviť svoje päťdesiate narodeniny, no niečo v nej sa začína meniť. Najprv je to len drobnosť pod kožou, ktorú sa snaží zakryť…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/vlak-nikdy-nemeska/",
-          "title": "Vlak nikdy nemešká",
-          "block": "spomienky-a-zabudnutia",
-          "director": "Anastasiia Nikitina",
-          "duration": 8,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Mladá Tereza sa nedokáže vyrovnať so smrťou svojho otca a svoj žiaľ otupuje alkoholom v nočných uliciach mesta. Starý automat na lístky ju cez…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/usmievaj-sa/",
-          "title": "Usmievaj sa!",
-          "block": "spomienky-a-zabudnutia",
-          "director": "Yelyzaveta Hordieieva",
-          "duration": 20,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Eva postupne odhaľuje, že jej brat Oliver, úspešný fotograf, mohol znásilniť svoju modelku. Ocitá sa medzi dvoma verziami tej istej udalosti –…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/sweetheart/",
-          "title": "Sweetheart",
-          "block": "spomienky-a-zabudnutia",
-          "director": "Marek Tomajka",
-          "duration": 10,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Počas nočnej služby na zbernom dvore objavia dvaja strážnici, Miro a Nino, bezdomovca ukrytého v starej chladničke. Zdanlivo banálna situácia…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/nakupny-zoznam/",
-          "title": "Nákupný zoznam",
-          "block": "spomienky-a-zabudnutia",
-          "director": "Patrícia Suráková",
-          "duration": 5,
-          "year": "2025",
-          "country": null,
-          "type": "Animovaný film",
-          "summary": "Čo sa stane, keď sa ľudská myseľ spojí s technológiou? V neustálom prúde informácií sa hranica medzi tým, čo vnímame my a čo za nás vníma…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/koni/",
-          "title": "Koni",
-          "block": "spomienky-a-zabudnutia",
-          "director": "Jakub Vargovčík",
-          "duration": 13,
+          "director": "Mária Farská",
+          "duration": 6,
           "year": "2026",
           "country": null,
           "type": "Dokumentárny film",
-          "summary": "Koni sleduje Arnauda Konana, afrického futbalistu, ktorý hráva za FC Petržalku v Bratislave. Ďaleko od domova v Mali čelí izolácii cudzieho…"
+          "summary": "Čarovný vrch je observačná štúdia prostredia Slovenského rozhlasu ako svojbytného, takmer magického sveta. V jeho členitých priestoroch sa…"
         },
         {
           "url": "https://festivalacko.sk/movie/draha-mama/",
@@ -3936,15 +3882,81 @@
           "summary": "František sa prebúdza v schátranom a opustenom hoteli, kde ho obklopuje ticho a nepríjemný pocit osamelosti. V spomienkach sa vracia k svojej…"
         },
         {
-          "url": "https://festivalacko.sk/movie/carovny-vrch/",
-          "title": "Čarovný vrch",
+          "url": "https://festivalacko.sk/movie/koni/",
+          "title": "Koni",
           "block": "spomienky-a-zabudnutia",
-          "director": "Mária Farská",
-          "duration": 6,
+          "director": "Jakub Vargovčík",
+          "duration": 13,
           "year": "2026",
           "country": null,
           "type": "Dokumentárny film",
-          "summary": "Čarovný vrch je observačná štúdia prostredia Slovenského rozhlasu ako svojbytného, takmer magického sveta. V jeho členitých priestoroch sa…"
+          "summary": "Koni sleduje Arnauda Konana, afrického futbalistu, ktorý hráva za FC Petržalku v Bratislave. Ďaleko od domova v Mali čelí izolácii cudzieho…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/nakupny-zoznam/",
+          "title": "Nákupný zoznam",
+          "block": "spomienky-a-zabudnutia",
+          "director": "Patrícia Suráková",
+          "duration": 5,
+          "year": "2025",
+          "country": null,
+          "type": "Animovaný film",
+          "summary": "Čo sa stane, keď sa ľudská myseľ spojí s technológiou? V neustálom prúde informácií sa hranica medzi tým, čo vnímame my a čo za nás vníma…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/sweetheart/",
+          "title": "Sweetheart",
+          "block": "spomienky-a-zabudnutia",
+          "director": "Marek Tomajka",
+          "duration": 10,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Počas nočnej služby na zbernom dvore objavia dvaja strážnici, Miro a Nino, bezdomovca ukrytého v starej chladničke. Zdanlivo banálna situácia…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/usmievaj-sa/",
+          "title": "Usmievaj sa!",
+          "block": "spomienky-a-zabudnutia",
+          "director": "Yelyzaveta Hordieieva",
+          "duration": 20,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Eva postupne odhaľuje, že jej brat Oliver, úspešný fotograf, mohol znásilniť svoju modelku. Ocitá sa medzi dvoma verziami tej istej udalosti –…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/vlak-nikdy-nemeska/",
+          "title": "Vlak nikdy nemešká",
+          "block": "spomienky-a-zabudnutia",
+          "director": "Anastasiia Nikitina",
+          "duration": 8,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Mladá Tereza sa nedokáže vyrovnať so smrťou svojho otca a svoj žiaľ otupuje alkoholom v nočných uliciach mesta. Starý automat na lístky ju cez…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/vrksasana/",
+          "title": "Vrksasana",
+          "block": "spomienky-a-zabudnutia",
+          "director": "Hannah Dale",
+          "duration": 22,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Magda sa chystá osláviť svoje päťdesiate narodeniny, no niečo v nej sa začína meniť. Najprv je to len drobnosť pod kožou, ktorú sa snaží zakryť…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/zubok-zubnaty/",
+          "title": "zúbok zubnatý",
+          "block": "spomienky-a-zabudnutia",
+          "director": "Nina Sabolová",
+          "duration": 5,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Nik ju nikdy nevidel. Nik ju nepozná. Prečo si berie to, čo nám je už zbytočné? Povera, ktorú každý z nás pozná. Možno si ju vymysleli rodičia.…"
         }
       ],
       "types": [
@@ -3957,7 +3969,8 @@
       "price": "Vstup voľný",
       "endSource": "Čas konca publikovaný v oficiálnom harmonograme Áčka.",
       "evidence": "https://festivalacko.sk/harmonogram/",
-      "group": "https://festivalacko.sk/filmove-pasma/#spomienky"
+      "group": "https://festivalacko.sk/filmove-pasma/#spomienky",
+      "filmOrderSource": "Poradie opravené podľa správy správcu 20. 10. 2026: pôvodný zoznam bol obrátený."
     },
     {
       "id": "acko422026",
@@ -3970,64 +3983,20 @@
       "room": "BARCO",
       "summary": "Súťažné pásmo študentských filmov. Jednotlivé filmy, autorky a autori sú uvedení v rozbaliteľnom zozname.",
       "uid": "acko422026@doku-film-2026",
-      "updatedAt": "2026-10-18T12:59:45+00:00",
+      "updatedAt": "2026-10-20T09:39:26.099Z",
       "checkedAt": "18. 10. 2026",
-      "sequence": 1,
+      "sequence": 2,
       "films": [
         {
-          "url": "https://festivalacko.sk/movie/fuck-off-vyroba-platne/",
-          "title": "Fuck off (výroba platne)",
+          "url": "https://festivalacko.sk/movie/kde-rastu-mesiaciky/",
+          "title": "Kde rastú mesiačiky",
           "block": "trvanie",
-          "director": "Šimon Mináč",
-          "duration": 4,
-          "year": "2025",
-          "country": null,
-          "type": "Animovaný s hranými sekvenciami",
-          "summary": "Videoklipový film k hudbe skupiny Berlin Manson sleduje proces výroby gramofónovej platne, od prvého otlačenia cez jednotlivé fázy spracovania…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/betonka/",
-          "title": "Betónka",
-          "block": "trvanie",
-          "director": "Rastislav Kupšo",
-          "duration": 12,
+          "director": "Mária Kišeľová",
+          "duration": 7,
           "year": "2026",
           "country": null,
           "type": "Hraný film",
-          "summary": "Pouličný zlodejík a nádejný raper Laki sníva o úniku z Betónky, sídliska, ktoré ho od detstva drží v pasci dlhov, násilia a beznádeje. Jeho…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/vtedy-na-morave/",
-          "title": "Vtedy na Morave",
-          "block": "trvanie",
-          "director": "Rastislav Kupšo",
-          "duration": 29,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Mladý pomocný murár Rudo, je dobrovoľne na silu odvlečený svojimi kolegami na zdanlivo jednoduchú fušku na Morave. Tá sa s príchodom nového…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/neusmievaj-sa-na-mna-stastie/",
-          "title": "NEUSMIEVAJ SA NA MŇA ŠŤASTIE",
-          "block": "trvanie",
-          "director": "Františka Horváthová",
-          "duration": 11,
-          "year": "2025",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Príbeh o tichej revolúcii v živote jedného dievčaťa. O behu za kariérou, za splneným prianím. NEUSMIEVAJ SA NA MŇA ŠŤASTIE sa hrá s myšlienkou…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/ulica-v-i-lenina/",
-          "title": "Ulica V. I. Lenina",
-          "block": "trvanie",
-          "director": "Katarína Bojtošová",
-          "duration": 14,
-          "year": "2025",
-          "country": null,
-          "type": "Dokumentárny film",
-          "summary": "Čo ostalo z revolúcie tam, kde po nej dodnes visí rovnaká tabuľa? Film, hovorí o téme verejného priestoru a dozvukov minulosti v obciach na…"
+          "summary": "Počas letnej noci pri jazere sa Marek a Elena ukrývajú pred vonkajším svetom. Zatiaľ čo Marek má pocit, že ich zamilovanosť naberá na váhe,…"
         },
         {
           "url": "https://festivalacko.sk/movie/maj/",
@@ -4041,15 +4010,59 @@
           "summary": "Kristián sa po rokoch vracia domov, aby svojej rodine predstavil partnera Michala. Návrat však otvorí staré rany, najmä medzi ním a…"
         },
         {
-          "url": "https://festivalacko.sk/movie/kde-rastu-mesiaciky/",
-          "title": "Kde rastú mesiačiky",
+          "url": "https://festivalacko.sk/movie/ulica-v-i-lenina/",
+          "title": "Ulica V. I. Lenina",
           "block": "trvanie",
-          "director": "Mária Kišeľová",
-          "duration": 7,
+          "director": "Katarína Bojtošová",
+          "duration": 14,
+          "year": "2025",
+          "country": null,
+          "type": "Dokumentárny film",
+          "summary": "Čo ostalo z revolúcie tam, kde po nej dodnes visí rovnaká tabuľa? Film, hovorí o téme verejného priestoru a dozvukov minulosti v obciach na…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/neusmievaj-sa-na-mna-stastie/",
+          "title": "NEUSMIEVAJ SA NA MŇA ŠŤASTIE",
+          "block": "trvanie",
+          "director": "Františka Horváthová",
+          "duration": 11,
+          "year": "2025",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Príbeh o tichej revolúcii v živote jedného dievčaťa. O behu za kariérou, za splneným prianím. NEUSMIEVAJ SA NA MŇA ŠŤASTIE sa hrá s myšlienkou…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/vtedy-na-morave/",
+          "title": "Vtedy na Morave",
+          "block": "trvanie",
+          "director": "Rastislav Kupšo",
+          "duration": 29,
           "year": "2026",
           "country": null,
           "type": "Hraný film",
-          "summary": "Počas letnej noci pri jazere sa Marek a Elena ukrývajú pred vonkajším svetom. Zatiaľ čo Marek má pocit, že ich zamilovanosť naberá na váhe,…"
+          "summary": "Mladý pomocný murár Rudo, je dobrovoľne na silu odvlečený svojimi kolegami na zdanlivo jednoduchú fušku na Morave. Tá sa s príchodom nového…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/betonka/",
+          "title": "Betónka",
+          "block": "trvanie",
+          "director": "Rastislav Kupšo",
+          "duration": 12,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Pouličný zlodejík a nádejný raper Laki sníva o úniku z Betónky, sídliska, ktoré ho od detstva drží v pasci dlhov, násilia a beznádeje. Jeho…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/fuck-off-vyroba-platne/",
+          "title": "Fuck off (výroba platne)",
+          "block": "trvanie",
+          "director": "Šimon Mináč",
+          "duration": 4,
+          "year": "2025",
+          "country": null,
+          "type": "Animovaný s hranými sekvenciami",
+          "summary": "Videoklipový film k hudbe skupiny Berlin Manson sleduje proces výroby gramofónovej platne, od prvého otlačenia cez jednotlivé fázy spracovania…"
         }
       ],
       "types": [
@@ -4062,7 +4075,8 @@
       "price": "Vstup voľný",
       "endSource": "Čas konca publikovaný v oficiálnom harmonograme Áčka.",
       "evidence": "https://festivalacko.sk/harmonogram/",
-      "group": "https://festivalacko.sk/filmove-pasma/#trvanie"
+      "group": "https://festivalacko.sk/filmove-pasma/#trvanie",
+      "filmOrderSource": "Poradie opravené podľa správy správcu 20. 10. 2026: pôvodný zoznam bol obrátený."
     },
     {
       "id": "acko432026",
@@ -4133,75 +4147,20 @@
       "room": "BARCO",
       "summary": "Súťažné pásmo študentských filmov. Jednotlivé filmy, autorky a autori sú uvedení v rozbaliteľnom zozname.",
       "uid": "acko442026@doku-film-2026",
-      "updatedAt": "2026-10-18T12:59:45+00:00",
+      "updatedAt": "2026-10-20T09:39:26.099Z",
       "checkedAt": "18. 10. 2026",
-      "sequence": 1,
+      "sequence": 2,
       "films": [
         {
-          "url": "https://festivalacko.sk/movie/under-dog/",
-          "title": "Under Dog",
+          "url": "https://festivalacko.sk/movie/nekonecna-vojna-pana-nikoho-alebo-kratka-prirucka-toho-ako-robit-nacistom-zo-zivota-peklo/",
+          "title": "Nekonečná vojna pána Nikoho (alebo krátka príručka toho ako robiť nacistom zo života peklo)",
           "block": "medzicas",
-          "director": "Michal Dubjel",
-          "duration": 7,
-          "year": "2026",
-          "country": null,
-          "type": "Animovaný film",
-          "summary": "Pre Adu, utiahnutého introvertného chalana, skrýva jeho kúpeľňa neuveriteľné tajomstvo. Pod jej kachličkami sa nachádza podzemný ostrov plný…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/clovek-nie-je-macka/",
-          "title": "Človek nie je mačka",
-          "block": "medzicas",
-          "director": "Marek Tomajka",
-          "duration": 16,
+          "director": "Jakub Horňák",
+          "duration": 12,
           "year": "2026",
           "country": null,
           "type": "Hraný film",
-          "summary": "Mladá učiteľka Margaréta prichádza do odľahlej dediny, kde medzi jej žiakmi spozná jedenásťročného Murcka – tichého chlapca, o ktorom sú všetci…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/mesto-noci/",
-          "title": "Mesto noci",
-          "block": "medzicas",
-          "director": "Mikloši Richard",
-          "duration": 5,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Robbie a Pete – dvaja mladí muži zdieľajú jednu izbu, prácu v uliciach nočného mesta aj život postavený na každodennej rutine. Jednej noci však…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/problemy-uplne-celeho-sveta/",
-          "title": "Problémy úplne celého světa",
-          "block": "medzicas",
-          "director": "Radek Chromčák Ševčík",
-          "duration": 24,
-          "year": "2024",
-          "country": null,
-          "type": "Dokumentárny film",
-          "summary": "Tak trochu vyhorený študent umenia a eko-aktivista Matyáš sa dozvie, že jeho priateľka Yolka je tehotná. Keď digitalizuje staré rodinné kazety,…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/ruzovejsie-rana/",
-          "title": "ružovejšie rána",
-          "block": "medzicas",
-          "director": "Nina Sabolová",
-          "duration": 5,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Môžeme to nazvať hrou. Detským divadielkom. Deti nazvať deťmi, pravdaže – veď ony to raz pochopia. Keď do sveta vstúpi naivita, vnikne do nás…"
-        },
-        {
-          "url": "https://festivalacko.sk/movie/este-chvilu/",
-          "title": "Ešte chvíľu",
-          "block": "medzicas",
-          "director": "Jakub Dúcky",
-          "duration": 19,
-          "year": "2026",
-          "country": null,
-          "type": "Hraný film",
-          "summary": "Rudo, tvrdohlavý nováčik v domove dôchodcov, sa odmieta zaradiť medzi tých, ktorí už len pokojne dožívajú. Zo strachu z vlastnej staroby sa…"
+          "summary": "V alternatívnej realite, v ktorej nacistické Nemecko vyhralo druhú svetovú vojnu, pokračuje osamelý maskovaný bojovník vo svojej nikdy…"
         },
         {
           "url": "https://festivalacko.sk/movie/2045/",
@@ -4215,15 +4174,70 @@
           "summary": "Ja, a moji rovesníci sme si totalitný režim nezažili, a preto ku udalostiam 17. novembera 1989 (Nežná revolúcia) máme vzdialenejši vzťah ako…"
         },
         {
-          "url": "https://festivalacko.sk/movie/nekonecna-vojna-pana-nikoho-alebo-kratka-prirucka-toho-ako-robit-nacistom-zo-zivota-peklo/",
-          "title": "Nekonečná vojna pána Nikoho (alebo krátka príručka toho ako robiť nacistom zo života peklo)",
+          "url": "https://festivalacko.sk/movie/este-chvilu/",
+          "title": "Ešte chvíľu",
           "block": "medzicas",
-          "director": "Jakub Horňák",
-          "duration": 12,
+          "director": "Jakub Dúcky",
+          "duration": 19,
           "year": "2026",
           "country": null,
           "type": "Hraný film",
-          "summary": "V alternatívnej realite, v ktorej nacistické Nemecko vyhralo druhú svetovú vojnu, pokračuje osamelý maskovaný bojovník vo svojej nikdy…"
+          "summary": "Rudo, tvrdohlavý nováčik v domove dôchodcov, sa odmieta zaradiť medzi tých, ktorí už len pokojne dožívajú. Zo strachu z vlastnej staroby sa…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/ruzovejsie-rana/",
+          "title": "ružovejšie rána",
+          "block": "medzicas",
+          "director": "Nina Sabolová",
+          "duration": 5,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Môžeme to nazvať hrou. Detským divadielkom. Deti nazvať deťmi, pravdaže – veď ony to raz pochopia. Keď do sveta vstúpi naivita, vnikne do nás…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/problemy-uplne-celeho-sveta/",
+          "title": "Problémy úplne celého světa",
+          "block": "medzicas",
+          "director": "Radek Chromčák Ševčík",
+          "duration": 24,
+          "year": "2024",
+          "country": null,
+          "type": "Dokumentárny film",
+          "summary": "Tak trochu vyhorený študent umenia a eko-aktivista Matyáš sa dozvie, že jeho priateľka Yolka je tehotná. Keď digitalizuje staré rodinné kazety,…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/mesto-noci/",
+          "title": "Mesto noci",
+          "block": "medzicas",
+          "director": "Mikloši Richard",
+          "duration": 5,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Robbie a Pete – dvaja mladí muži zdieľajú jednu izbu, prácu v uliciach nočného mesta aj život postavený na každodennej rutine. Jednej noci však…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/clovek-nie-je-macka/",
+          "title": "Človek nie je mačka",
+          "block": "medzicas",
+          "director": "Marek Tomajka",
+          "duration": 16,
+          "year": "2026",
+          "country": null,
+          "type": "Hraný film",
+          "summary": "Mladá učiteľka Margaréta prichádza do odľahlej dediny, kde medzi jej žiakmi spozná jedenásťročného Murcka – tichého chlapca, o ktorom sú všetci…"
+        },
+        {
+          "url": "https://festivalacko.sk/movie/under-dog/",
+          "title": "Under Dog",
+          "block": "medzicas",
+          "director": "Michal Dubjel",
+          "duration": 7,
+          "year": "2026",
+          "country": null,
+          "type": "Animovaný film",
+          "summary": "Pre Adu, utiahnutého introvertného chalana, skrýva jeho kúpeľňa neuveriteľné tajomstvo. Pod jej kachličkami sa nachádza podzemný ostrov plný…"
         }
       ],
       "types": [
@@ -4236,7 +4250,8 @@
       "price": "Vstup voľný",
       "endSource": "Čas konca publikovaný v oficiálnom harmonograme Áčka.",
       "evidence": "https://festivalacko.sk/harmonogram/",
-      "group": "https://festivalacko.sk/filmove-pasma/#medzicas"
+      "group": "https://festivalacko.sk/filmove-pasma/#medzicas",
+      "filmOrderSource": "Poradie opravené podľa správy správcu 20. 10. 2026: pôvodný zoznam bol obrátený."
     },
     {
       "id": "jeden232026",

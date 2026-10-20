@@ -74,20 +74,20 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko12026@doku-film-2026
-DTSTAMP:20261018T125945Z
-LAST-MODIFIED:20261018T125945Z
-SEQUENCE:1
+DTSTAMP:20261020T093926Z
+LAST-MODIFIED:20261020T093926Z
+SEQUENCE:2
 DTSTART:20261020T083000Z
 DTEND:20261020T101000Z
 SUMMARY:Filmové pásmo TRVANIE
 LOCATION:FTF VŠMU\, KLAP\, Svoradova 2A\, Bratislava
 DESCRIPTION:Súťažné pásmo študentských filmov. Jednotlivé filmy\, a
  utorky a autori sú uvedení v rozbaliteľnom zozname.\n\nVstupné: Vstup 
- voľný\n\nFuck off (výroba platne) — Šimon Mináč (4 min)\nBetónka 
- — Rastislav Kupšo (12 min)\nVtedy na Morave — Rastislav Kupšo (29 mi
- n)\nNEUSMIEVAJ SA NA MŇA ŠŤASTIE — Františka Horváthová (11 min)\n
- Ulica V. I. Lenina — Katarína Bojtošová (14 min)\nMáj — Richard Mi
- kloši (21 min)\nKde rastú mesiačiky — Mária Kišeľová (7 min)\n\nK
+ voľný\n\nKde rastú mesiačiky — Mária Kišeľová (7 min)\nMáj — 
+ Richard Mikloši (21 min)\nUlica V. I. Lenina — Katarína Bojtošová (1
+ 4 min)\nNEUSMIEVAJ SA NA MŇA ŠŤASTIE — Františka Horváthová (11 mi
+ n)\nVtedy na Morave — Rastislav Kupšo (29 min)\nBetónka — Rastislav 
+ Kupšo (12 min)\nFuck off (výroba platne) — Šimon Mináč (4 min)\n\nK
  oniec podľa: Čas konca publikovaný v oficiálnom harmonograme Áčka.\n
  \nZdroj: https://festivalacko.sk/filmove-pasma/#trvanie\n\nhttps://sammkoo
  .github.io/doku-film-ba-2026/#event=acko12026
@@ -190,48 +190,48 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko72026@doku-film-2026
-DTSTAMP:20261018T125945Z
-LAST-MODIFIED:20261018T125945Z
-SEQUENCE:1
+DTSTAMP:20261020T093926Z
+LAST-MODIFIED:20261020T093926Z
+SEQUENCE:2
 DTSTART:20261020T130000Z
 DTEND:20261020T144000Z
 SUMMARY:Filmové pásmo MEDZIČAS
 LOCATION:FTF VŠMU\, BARCO\, Svoradova 2A\, Bratislava
 DESCRIPTION:Súťažné pásmo študentských filmov. Jednotlivé filmy\, a
  utorky a autori sú uvedení v rozbaliteľnom zozname.\n\nVstupné: Vstup 
- voľný\n\nUnder Dog — Michal Dubjel (7 min)\nČlovek nie je mačka — 
- Marek Tomajka (16 min)\nMesto noci — Mikloši Richard (5 min)\nProblémy
-  úplne celého světa — Radek Chromčák Ševčík (24 min)\nružovejš
- ie rána — Nina Sabolová (5 min)\nEšte chvíľu — Jakub Dúcky (19 m
- in)\n2045 — Jakub Frištyk (10 min)\nNekonečná vojna pána Nikoho (ale
- bo krátka príručka toho ako robiť nacistom zo života peklo) — Jakub
-  Horňák (12 min)\n\nKoniec podľa: Čas konca publikovaný v oficiálnom
-  harmonograme Áčka.\n\nZdroj: https://festivalacko.sk/filmove-pasma/#med
- zicas\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#event=acko72026
+ voľný\n\nNekonečná vojna pána Nikoho (alebo krátka príručka toho a
+ ko robiť nacistom zo života peklo) — Jakub Horňák (12 min)\n2045 —
+  Jakub Frištyk (10 min)\nEšte chvíľu — Jakub Dúcky (19 min)\nružov
+ ejšie rána — Nina Sabolová (5 min)\nProblémy úplne celého světa 
+ — Radek Chromčák Ševčík (24 min)\nMesto noci — Mikloši Richard (
+ 5 min)\nČlovek nie je mačka — Marek Tomajka (16 min)\nUnder Dog — Mi
+ chal Dubjel (7 min)\n\nKoniec podľa: Čas konca publikovaný v oficiálno
+ m harmonograme Áčka.\n\nZdroj: https://festivalacko.sk/filmove-pasma/#me
+ dzicas\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#event=acko72026
 URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko72026
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko62026@doku-film-2026
-DTSTAMP:20261018T125945Z
-LAST-MODIFIED:20261018T125945Z
-SEQUENCE:1
+DTSTAMP:20261020T093926Z
+LAST-MODIFIED:20261020T093926Z
+SEQUENCE:2
 DTSTART:20261020T130000Z
 DTEND:20261020T144000Z
 SUMMARY:Filmové pásmo SPOMIENKY A ZABUDNUTIA
 LOCATION:FTF VŠMU\, KLAP\, Svoradova 2A\, Bratislava
 DESCRIPTION:Súťažné pásmo študentských filmov. Jednotlivé filmy\, a
  utorky a autori sú uvedení v rozbaliteľnom zozname.\n\nVstupné: Vstup 
- voľný\n\nzúbok zubnatý — Nina Sabolová (5 min)\nVrksasana — Hanna
- h Dale (22 min)\nVlak nikdy nemešká — Anastasiia Nikitina (8 min)\nUsm
- ievaj sa! — Yelyzaveta Hordieieva (20 min)\nSweetheart — Marek Tomajka
-  (10 min)\nNákupný zoznam — Patrícia Suráková (5 min)\nKoni — Jak
- ub Vargovčík (13 min)\nDrahá mama — Rastislav Kupšo (11 min)\nČarov
- ný vrch — Mária Farská (6 min)\n\nKoniec podľa: Čas konca publikova
- ný v oficiálnom harmonograme Áčka.\n\nZdroj: https://festivalacko.sk/f
- ilmove-pasma/#spomienky\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#ev
- ent=acko62026
+ voľný\n\nČarovný vrch — Mária Farská (6 min)\nDrahá mama — Rast
+ islav Kupšo (11 min)\nKoni — Jakub Vargovčík (13 min)\nNákupný zozn
+ am — Patrícia Suráková (5 min)\nSweetheart — Marek Tomajka (10 min)
+ \nUsmievaj sa! — Yelyzaveta Hordieieva (20 min)\nVlak nikdy nemešká 
+ — Anastasiia Nikitina (8 min)\nVrksasana — Hannah Dale (22 min)\nzúbo
+ k zubnatý — Nina Sabolová (5 min)\n\nKoniec podľa: Čas konca publiko
+ vaný v oficiálnom harmonograme Áčka.\n\nZdroj: https://festivalacko.sk
+ /filmove-pasma/#spomienky\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#
+ event=acko62026
 URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko62026
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -383,24 +383,24 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko142026@doku-film-2026
-DTSTAMP:20261018T125945Z
-LAST-MODIFIED:20261018T125945Z
-SEQUENCE:1
+DTSTAMP:20261020T093926Z
+LAST-MODIFIED:20261020T093926Z
+SEQUENCE:2
 DTSTART:20261021T083000Z
 DTEND:20261021T101000Z
 SUMMARY:Filmové pásmo SPOMIENKY A ZABUDNUTIA
 LOCATION:FTF VŠMU\, BARCO\, Svoradova 2A\, Bratislava
 DESCRIPTION:Súťažné pásmo študentských filmov. Jednotlivé filmy\, a
  utorky a autori sú uvedení v rozbaliteľnom zozname.\n\nVstupné: Vstup 
- voľný\n\nzúbok zubnatý — Nina Sabolová (5 min)\nVrksasana — Hanna
- h Dale (22 min)\nVlak nikdy nemešká — Anastasiia Nikitina (8 min)\nUsm
- ievaj sa! — Yelyzaveta Hordieieva (20 min)\nSweetheart — Marek Tomajka
-  (10 min)\nNákupný zoznam — Patrícia Suráková (5 min)\nKoni — Jak
- ub Vargovčík (13 min)\nDrahá mama — Rastislav Kupšo (11 min)\nČarov
- ný vrch — Mária Farská (6 min)\n\nKoniec podľa: Čas konca publikova
- ný v oficiálnom harmonograme Áčka.\n\nZdroj: https://festivalacko.sk/f
- ilmove-pasma/#spomienky\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#ev
- ent=acko142026
+ voľný\n\nČarovný vrch — Mária Farská (6 min)\nDrahá mama — Rast
+ islav Kupšo (11 min)\nKoni — Jakub Vargovčík (13 min)\nNákupný zozn
+ am — Patrícia Suráková (5 min)\nSweetheart — Marek Tomajka (10 min)
+ \nUsmievaj sa! — Yelyzaveta Hordieieva (20 min)\nVlak nikdy nemešká 
+ — Anastasiia Nikitina (8 min)\nVrksasana — Hannah Dale (22 min)\nzúbo
+ k zubnatý — Nina Sabolová (5 min)\n\nKoniec podľa: Čas konca publiko
+ vaný v oficiálnom harmonograme Áčka.\n\nZdroj: https://festivalacko.sk
+ /filmove-pasma/#spomienky\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#
+ event=acko142026
 URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko142026
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -447,20 +447,20 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko152026@doku-film-2026
-DTSTAMP:20261018T125945Z
-LAST-MODIFIED:20261018T125945Z
-SEQUENCE:1
+DTSTAMP:20261020T093926Z
+LAST-MODIFIED:20261020T093926Z
+SEQUENCE:2
 DTSTART:20261021T103000Z
 DTEND:20261021T121000Z
 SUMMARY:Filmové pásmo TRVANIE
 LOCATION:FTF VŠMU\, BARCO\, Svoradova 2A\, Bratislava
 DESCRIPTION:Súťažné pásmo študentských filmov. Jednotlivé filmy\, a
  utorky a autori sú uvedení v rozbaliteľnom zozname.\n\nVstupné: Vstup 
- voľný\n\nFuck off (výroba platne) — Šimon Mináč (4 min)\nBetónka 
- — Rastislav Kupšo (12 min)\nVtedy na Morave — Rastislav Kupšo (29 mi
- n)\nNEUSMIEVAJ SA NA MŇA ŠŤASTIE — Františka Horváthová (11 min)\n
- Ulica V. I. Lenina — Katarína Bojtošová (14 min)\nMáj — Richard Mi
- kloši (21 min)\nKde rastú mesiačiky — Mária Kišeľová (7 min)\n\nK
+ voľný\n\nKde rastú mesiačiky — Mária Kišeľová (7 min)\nMáj — 
+ Richard Mikloši (21 min)\nUlica V. I. Lenina — Katarína Bojtošová (1
+ 4 min)\nNEUSMIEVAJ SA NA MŇA ŠŤASTIE — Františka Horváthová (11 mi
+ n)\nVtedy na Morave — Rastislav Kupšo (29 min)\nBetónka — Rastislav 
+ Kupšo (12 min)\nFuck off (výroba platne) — Šimon Mináč (4 min)\n\nK
  oniec podľa: Čas konca publikovaný v oficiálnom harmonograme Áčka.\n
  \nZdroj: https://festivalacko.sk/filmove-pasma/#trvanie\n\nhttps://sammkoo
  .github.io/doku-film-ba-2026/#event=acko152026
@@ -711,24 +711,24 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko202026@doku-film-2026
-DTSTAMP:20261018T125945Z
-LAST-MODIFIED:20261018T125945Z
-SEQUENCE:1
+DTSTAMP:20261020T093926Z
+LAST-MODIFIED:20261020T093926Z
+SEQUENCE:2
 DTSTART:20261021T160000Z
 DTEND:20261021T174000Z
 SUMMARY:Filmové pásmo MEDZIČAS
 LOCATION:FTF VŠMU\, KLAP\, Svoradova 2A\, Bratislava
 DESCRIPTION:Súťažné pásmo študentských filmov. Jednotlivé filmy\, a
  utorky a autori sú uvedení v rozbaliteľnom zozname.\n\nVstupné: Vstup 
- voľný\n\nUnder Dog — Michal Dubjel (7 min)\nČlovek nie je mačka — 
- Marek Tomajka (16 min)\nMesto noci — Mikloši Richard (5 min)\nProblémy
-  úplne celého světa — Radek Chromčák Ševčík (24 min)\nružovejš
- ie rána — Nina Sabolová (5 min)\nEšte chvíľu — Jakub Dúcky (19 m
- in)\n2045 — Jakub Frištyk (10 min)\nNekonečná vojna pána Nikoho (ale
- bo krátka príručka toho ako robiť nacistom zo života peklo) — Jakub
-  Horňák (12 min)\n\nKoniec podľa: Čas konca publikovaný v oficiálnom
-  harmonograme Áčka.\n\nZdroj: https://festivalacko.sk/filmove-pasma/#med
- zicas\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#event=acko202026
+ voľný\n\nNekonečná vojna pána Nikoho (alebo krátka príručka toho a
+ ko robiť nacistom zo života peklo) — Jakub Horňák (12 min)\n2045 —
+  Jakub Frištyk (10 min)\nEšte chvíľu — Jakub Dúcky (19 min)\nružov
+ ejšie rána — Nina Sabolová (5 min)\nProblémy úplne celého světa 
+ — Radek Chromčák Ševčík (24 min)\nMesto noci — Mikloši Richard (
+ 5 min)\nČlovek nie je mačka — Marek Tomajka (16 min)\nUnder Dog — Mi
+ chal Dubjel (7 min)\n\nKoniec podľa: Čas konca publikovaný v oficiálno
+ m harmonograme Áčka.\n\nZdroj: https://festivalacko.sk/filmove-pasma/#me
+ dzicas\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#event=acko202026
 URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko202026
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -884,24 +884,24 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko222026@doku-film-2026
-DTSTAMP:20261018T125945Z
-LAST-MODIFIED:20261018T125945Z
-SEQUENCE:1
+DTSTAMP:20261020T093926Z
+LAST-MODIFIED:20261020T093926Z
+SEQUENCE:2
 DTSTART:20261022T103000Z
 DTEND:20261022T121000Z
 SUMMARY:Filmové pásmo MEDZIČAS
 LOCATION:FTF VŠMU\, BARCO\, Svoradova 2A\, Bratislava
 DESCRIPTION:Súťažné pásmo študentských filmov. Jednotlivé filmy\, a
  utorky a autori sú uvedení v rozbaliteľnom zozname.\n\nVstupné: Vstup 
- voľný\n\nUnder Dog — Michal Dubjel (7 min)\nČlovek nie je mačka — 
- Marek Tomajka (16 min)\nMesto noci — Mikloši Richard (5 min)\nProblémy
-  úplne celého světa — Radek Chromčák Ševčík (24 min)\nružovejš
- ie rána — Nina Sabolová (5 min)\nEšte chvíľu — Jakub Dúcky (19 m
- in)\n2045 — Jakub Frištyk (10 min)\nNekonečná vojna pána Nikoho (ale
- bo krátka príručka toho ako robiť nacistom zo života peklo) — Jakub
-  Horňák (12 min)\n\nKoniec podľa: Čas konca publikovaný v oficiálnom
-  harmonograme Áčka.\n\nZdroj: https://festivalacko.sk/filmove-pasma/#med
- zicas\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#event=acko222026
+ voľný\n\nNekonečná vojna pána Nikoho (alebo krátka príručka toho a
+ ko robiť nacistom zo života peklo) — Jakub Horňák (12 min)\n2045 —
+  Jakub Frištyk (10 min)\nEšte chvíľu — Jakub Dúcky (19 min)\nružov
+ ejšie rána — Nina Sabolová (5 min)\nProblémy úplne celého světa 
+ — Radek Chromčák Ševčík (24 min)\nMesto noci — Mikloši Richard (
+ 5 min)\nČlovek nie je mačka — Marek Tomajka (16 min)\nUnder Dog — Mi
+ chal Dubjel (7 min)\n\nKoniec podľa: Čas konca publikovaný v oficiálno
+ m harmonograme Áčka.\n\nZdroj: https://festivalacko.sk/filmove-pasma/#me
+ dzicas\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#event=acko222026
 URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko222026
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -998,24 +998,24 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko252026@doku-film-2026
-DTSTAMP:20261018T125945Z
-LAST-MODIFIED:20261018T125945Z
-SEQUENCE:1
+DTSTAMP:20261020T093926Z
+LAST-MODIFIED:20261020T093926Z
+SEQUENCE:2
 DTSTART:20261022T140000Z
 DTEND:20261022T154000Z
 SUMMARY:Filmové pásmo SPOMIENKY A ZABUDNUTIA
 LOCATION:FTF VŠMU\, BARCO\, Svoradova 2A\, Bratislava
 DESCRIPTION:Súťažné pásmo študentských filmov. Jednotlivé filmy\, a
  utorky a autori sú uvedení v rozbaliteľnom zozname.\n\nVstupné: Vstup 
- voľný\n\nzúbok zubnatý — Nina Sabolová (5 min)\nVrksasana — Hanna
- h Dale (22 min)\nVlak nikdy nemešká — Anastasiia Nikitina (8 min)\nUsm
- ievaj sa! — Yelyzaveta Hordieieva (20 min)\nSweetheart — Marek Tomajka
-  (10 min)\nNákupný zoznam — Patrícia Suráková (5 min)\nKoni — Jak
- ub Vargovčík (13 min)\nDrahá mama — Rastislav Kupšo (11 min)\nČarov
- ný vrch — Mária Farská (6 min)\n\nKoniec podľa: Čas konca publikova
- ný v oficiálnom harmonograme Áčka.\n\nZdroj: https://festivalacko.sk/f
- ilmove-pasma/#spomienky\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#ev
- ent=acko252026
+ voľný\n\nČarovný vrch — Mária Farská (6 min)\nDrahá mama — Rast
+ islav Kupšo (11 min)\nKoni — Jakub Vargovčík (13 min)\nNákupný zozn
+ am — Patrícia Suráková (5 min)\nSweetheart — Marek Tomajka (10 min)
+ \nUsmievaj sa! — Yelyzaveta Hordieieva (20 min)\nVlak nikdy nemešká 
+ — Anastasiia Nikitina (8 min)\nVrksasana — Hannah Dale (22 min)\nzúbo
+ k zubnatý — Nina Sabolová (5 min)\n\nKoniec podľa: Čas konca publiko
+ vaný v oficiálnom harmonograme Áčka.\n\nZdroj: https://festivalacko.sk
+ /filmove-pasma/#spomienky\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#
+ event=acko252026
 URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko252026
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -1111,20 +1111,20 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko272026@doku-film-2026
-DTSTAMP:20261018T125945Z
-LAST-MODIFIED:20261018T125945Z
-SEQUENCE:1
+DTSTAMP:20261020T093926Z
+LAST-MODIFIED:20261020T093926Z
+SEQUENCE:2
 DTSTART:20261022T160000Z
 DTEND:20261022T174000Z
 SUMMARY:Filmové pásmo TRVANIE
 LOCATION:FTF VŠMU\, BARCO\, Svoradova 2A\, Bratislava
 DESCRIPTION:Súťažné pásmo študentských filmov. Jednotlivé filmy\, a
  utorky a autori sú uvedení v rozbaliteľnom zozname.\n\nVstupné: Vstup 
- voľný\n\nFuck off (výroba platne) — Šimon Mináč (4 min)\nBetónka 
- — Rastislav Kupšo (12 min)\nVtedy na Morave — Rastislav Kupšo (29 mi
- n)\nNEUSMIEVAJ SA NA MŇA ŠŤASTIE — Františka Horváthová (11 min)\n
- Ulica V. I. Lenina — Katarína Bojtošová (14 min)\nMáj — Richard Mi
- kloši (21 min)\nKde rastú mesiačiky — Mária Kišeľová (7 min)\n\nK
+ voľný\n\nKde rastú mesiačiky — Mária Kišeľová (7 min)\nMáj — 
+ Richard Mikloši (21 min)\nUlica V. I. Lenina — Katarína Bojtošová (1
+ 4 min)\nNEUSMIEVAJ SA NA MŇA ŠŤASTIE — Františka Horváthová (11 mi
+ n)\nVtedy na Morave — Rastislav Kupšo (29 min)\nBetónka — Rastislav 
+ Kupšo (12 min)\nFuck off (výroba platne) — Šimon Mináč (4 min)\n\nK
  oniec podľa: Čas konca publikovaný v oficiálnom harmonograme Áčka.\n
  \nZdroj: https://festivalacko.sk/filmove-pasma/#trvanie\n\nhttps://sammkoo
  .github.io/doku-film-ba-2026/#event=acko272026
@@ -1324,24 +1324,24 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko322026@doku-film-2026
-DTSTAMP:20261018T125945Z
-LAST-MODIFIED:20261018T125945Z
-SEQUENCE:1
+DTSTAMP:20261020T093926Z
+LAST-MODIFIED:20261020T093926Z
+SEQUENCE:2
 DTSTART:20261023T100000Z
 DTEND:20261023T114000Z
 SUMMARY:Filmové pásmo SPOMIENKY A ZABUDNUTIA
 LOCATION:FTF VŠMU\, BARCO\, Svoradova 2A\, Bratislava
 DESCRIPTION:Súťažné pásmo študentských filmov. Jednotlivé filmy\, a
  utorky a autori sú uvedení v rozbaliteľnom zozname.\n\nVstupné: Vstup 
- voľný\n\nzúbok zubnatý — Nina Sabolová (5 min)\nVrksasana — Hanna
- h Dale (22 min)\nVlak nikdy nemešká — Anastasiia Nikitina (8 min)\nUsm
- ievaj sa! — Yelyzaveta Hordieieva (20 min)\nSweetheart — Marek Tomajka
-  (10 min)\nNákupný zoznam — Patrícia Suráková (5 min)\nKoni — Jak
- ub Vargovčík (13 min)\nDrahá mama — Rastislav Kupšo (11 min)\nČarov
- ný vrch — Mária Farská (6 min)\n\nKoniec podľa: Čas konca publikova
- ný v oficiálnom harmonograme Áčka.\n\nZdroj: https://festivalacko.sk/f
- ilmove-pasma/#spomienky\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#ev
- ent=acko322026
+ voľný\n\nČarovný vrch — Mária Farská (6 min)\nDrahá mama — Rast
+ islav Kupšo (11 min)\nKoni — Jakub Vargovčík (13 min)\nNákupný zozn
+ am — Patrícia Suráková (5 min)\nSweetheart — Marek Tomajka (10 min)
+ \nUsmievaj sa! — Yelyzaveta Hordieieva (20 min)\nVlak nikdy nemešká 
+ — Anastasiia Nikitina (8 min)\nVrksasana — Hannah Dale (22 min)\nzúbo
+ k zubnatý — Nina Sabolová (5 min)\n\nKoniec podľa: Čas konca publiko
+ vaný v oficiálnom harmonograme Áčka.\n\nZdroj: https://festivalacko.sk
+ /filmove-pasma/#spomienky\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#
+ event=acko322026
 URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko322026
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -1394,20 +1394,20 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko352026@doku-film-2026
-DTSTAMP:20261018T125945Z
-LAST-MODIFIED:20261018T125945Z
-SEQUENCE:1
+DTSTAMP:20261020T093926Z
+LAST-MODIFIED:20261020T093926Z
+SEQUENCE:2
 DTSTART:20261023T140000Z
 DTEND:20261023T154000Z
 SUMMARY:Filmové pásmo TRVANIE
 LOCATION:FTF VŠMU\, KLAP\, Svoradova 2A\, Bratislava
 DESCRIPTION:Súťažné pásmo študentských filmov. Jednotlivé filmy\, a
  utorky a autori sú uvedení v rozbaliteľnom zozname.\n\nVstupné: Vstup 
- voľný\n\nFuck off (výroba platne) — Šimon Mináč (4 min)\nBetónka 
- — Rastislav Kupšo (12 min)\nVtedy na Morave — Rastislav Kupšo (29 mi
- n)\nNEUSMIEVAJ SA NA MŇA ŠŤASTIE — Františka Horváthová (11 min)\n
- Ulica V. I. Lenina — Katarína Bojtošová (14 min)\nMáj — Richard Mi
- kloši (21 min)\nKde rastú mesiačiky — Mária Kišeľová (7 min)\n\nK
+ voľný\n\nKde rastú mesiačiky — Mária Kišeľová (7 min)\nMáj — 
+ Richard Mikloši (21 min)\nUlica V. I. Lenina — Katarína Bojtošová (1
+ 4 min)\nNEUSMIEVAJ SA NA MŇA ŠŤASTIE — Františka Horváthová (11 mi
+ n)\nVtedy na Morave — Rastislav Kupšo (29 min)\nBetónka — Rastislav 
+ Kupšo (12 min)\nFuck off (výroba platne) — Šimon Mináč (4 min)\n\nK
  oniec podľa: Čas konca publikovaný v oficiálnom harmonograme Áčka.\n
  \nZdroj: https://festivalacko.sk/filmove-pasma/#trvanie\n\nhttps://sammkoo
  .github.io/doku-film-ba-2026/#event=acko352026
@@ -1486,24 +1486,24 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko362026@doku-film-2026
-DTSTAMP:20261018T125945Z
-LAST-MODIFIED:20261018T125945Z
-SEQUENCE:1
+DTSTAMP:20261020T093926Z
+LAST-MODIFIED:20261020T093926Z
+SEQUENCE:2
 DTSTART:20261023T152000Z
 DTEND:20261023T170000Z
 SUMMARY:Filmové pásmo MEDZIČAS
 LOCATION:FTF VŠMU\, BARCO\, Svoradova 2A\, Bratislava
 DESCRIPTION:Súťažné pásmo študentských filmov. Jednotlivé filmy\, a
  utorky a autori sú uvedení v rozbaliteľnom zozname.\n\nVstupné: Vstup 
- voľný\n\nUnder Dog — Michal Dubjel (7 min)\nČlovek nie je mačka — 
- Marek Tomajka (16 min)\nMesto noci — Mikloši Richard (5 min)\nProblémy
-  úplne celého světa — Radek Chromčák Ševčík (24 min)\nružovejš
- ie rána — Nina Sabolová (5 min)\nEšte chvíľu — Jakub Dúcky (19 m
- in)\n2045 — Jakub Frištyk (10 min)\nNekonečná vojna pána Nikoho (ale
- bo krátka príručka toho ako robiť nacistom zo života peklo) — Jakub
-  Horňák (12 min)\n\nKoniec podľa: Čas konca publikovaný v oficiálnom
-  harmonograme Áčka.\n\nZdroj: https://festivalacko.sk/filmove-pasma/#med
- zicas\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#event=acko362026
+ voľný\n\nNekonečná vojna pána Nikoho (alebo krátka príručka toho a
+ ko robiť nacistom zo života peklo) — Jakub Horňák (12 min)\n2045 —
+  Jakub Frištyk (10 min)\nEšte chvíľu — Jakub Dúcky (19 min)\nružov
+ ejšie rána — Nina Sabolová (5 min)\nProblémy úplne celého světa 
+ — Radek Chromčák Ševčík (24 min)\nMesto noci — Mikloši Richard (
+ 5 min)\nČlovek nie je mačka — Marek Tomajka (16 min)\nUnder Dog — Mi
+ chal Dubjel (7 min)\n\nKoniec podľa: Čas konca publikovaný v oficiálno
+ m harmonograme Áčka.\n\nZdroj: https://festivalacko.sk/filmove-pasma/#me
+ dzicas\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#event=acko362026
 URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko362026
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -1698,44 +1698,44 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko412026@doku-film-2026
-DTSTAMP:20261018T125945Z
-LAST-MODIFIED:20261018T125945Z
-SEQUENCE:1
+DTSTAMP:20261020T093926Z
+LAST-MODIFIED:20261020T093926Z
+SEQUENCE:2
 DTSTART:20261024T083000Z
 DTEND:20261024T101000Z
 SUMMARY:Filmové pásmo SPOMIENKY A ZABUDNUTIA
 LOCATION:FTF VŠMU\, BARCO\, Svoradova 2A\, Bratislava
 DESCRIPTION:Súťažné pásmo študentských filmov. Jednotlivé filmy\, a
  utorky a autori sú uvedení v rozbaliteľnom zozname.\n\nVstupné: Vstup 
- voľný\n\nzúbok zubnatý — Nina Sabolová (5 min)\nVrksasana — Hanna
- h Dale (22 min)\nVlak nikdy nemešká — Anastasiia Nikitina (8 min)\nUsm
- ievaj sa! — Yelyzaveta Hordieieva (20 min)\nSweetheart — Marek Tomajka
-  (10 min)\nNákupný zoznam — Patrícia Suráková (5 min)\nKoni — Jak
- ub Vargovčík (13 min)\nDrahá mama — Rastislav Kupšo (11 min)\nČarov
- ný vrch — Mária Farská (6 min)\n\nKoniec podľa: Čas konca publikova
- ný v oficiálnom harmonograme Áčka.\n\nZdroj: https://festivalacko.sk/f
- ilmove-pasma/#spomienky\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#ev
- ent=acko412026
+ voľný\n\nČarovný vrch — Mária Farská (6 min)\nDrahá mama — Rast
+ islav Kupšo (11 min)\nKoni — Jakub Vargovčík (13 min)\nNákupný zozn
+ am — Patrícia Suráková (5 min)\nSweetheart — Marek Tomajka (10 min)
+ \nUsmievaj sa! — Yelyzaveta Hordieieva (20 min)\nVlak nikdy nemešká 
+ — Anastasiia Nikitina (8 min)\nVrksasana — Hannah Dale (22 min)\nzúbo
+ k zubnatý — Nina Sabolová (5 min)\n\nKoniec podľa: Čas konca publiko
+ vaný v oficiálnom harmonograme Áčka.\n\nZdroj: https://festivalacko.sk
+ /filmove-pasma/#spomienky\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#
+ event=acko412026
 URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko412026
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko422026@doku-film-2026
-DTSTAMP:20261018T125945Z
-LAST-MODIFIED:20261018T125945Z
-SEQUENCE:1
+DTSTAMP:20261020T093926Z
+LAST-MODIFIED:20261020T093926Z
+SEQUENCE:2
 DTSTART:20261024T101000Z
 DTEND:20261024T115000Z
 SUMMARY:Filmové pásmo TRVANIE
 LOCATION:FTF VŠMU\, BARCO\, Svoradova 2A\, Bratislava
 DESCRIPTION:Súťažné pásmo študentských filmov. Jednotlivé filmy\, a
  utorky a autori sú uvedení v rozbaliteľnom zozname.\n\nVstupné: Vstup 
- voľný\n\nFuck off (výroba platne) — Šimon Mináč (4 min)\nBetónka 
- — Rastislav Kupšo (12 min)\nVtedy na Morave — Rastislav Kupšo (29 mi
- n)\nNEUSMIEVAJ SA NA MŇA ŠŤASTIE — Františka Horváthová (11 min)\n
- Ulica V. I. Lenina — Katarína Bojtošová (14 min)\nMáj — Richard Mi
- kloši (21 min)\nKde rastú mesiačiky — Mária Kišeľová (7 min)\n\nK
+ voľný\n\nKde rastú mesiačiky — Mária Kišeľová (7 min)\nMáj — 
+ Richard Mikloši (21 min)\nUlica V. I. Lenina — Katarína Bojtošová (1
+ 4 min)\nNEUSMIEVAJ SA NA MŇA ŠŤASTIE — Františka Horváthová (11 mi
+ n)\nVtedy na Morave — Rastislav Kupšo (29 min)\nBetónka — Rastislav 
+ Kupšo (12 min)\nFuck off (výroba platne) — Šimon Mináč (4 min)\n\nK
  oniec podľa: Čas konca publikovaný v oficiálnom harmonograme Áčka.\n
  \nZdroj: https://festivalacko.sk/filmove-pasma/#trvanie\n\nhttps://sammkoo
  .github.io/doku-film-ba-2026/#event=acko422026
@@ -1793,24 +1793,24 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:acko442026@doku-film-2026
-DTSTAMP:20261018T125945Z
-LAST-MODIFIED:20261018T125945Z
-SEQUENCE:1
+DTSTAMP:20261020T093926Z
+LAST-MODIFIED:20261020T093926Z
+SEQUENCE:2
 DTSTART:20261024T120000Z
 DTEND:20261024T134000Z
 SUMMARY:Filmové pásmo MEDZIČAS
 LOCATION:FTF VŠMU\, BARCO\, Svoradova 2A\, Bratislava
 DESCRIPTION:Súťažné pásmo študentských filmov. Jednotlivé filmy\, a
  utorky a autori sú uvedení v rozbaliteľnom zozname.\n\nVstupné: Vstup 
- voľný\n\nUnder Dog — Michal Dubjel (7 min)\nČlovek nie je mačka — 
- Marek Tomajka (16 min)\nMesto noci — Mikloši Richard (5 min)\nProblémy
-  úplne celého světa — Radek Chromčák Ševčík (24 min)\nružovejš
- ie rána — Nina Sabolová (5 min)\nEšte chvíľu — Jakub Dúcky (19 m
- in)\n2045 — Jakub Frištyk (10 min)\nNekonečná vojna pána Nikoho (ale
- bo krátka príručka toho ako robiť nacistom zo života peklo) — Jakub
-  Horňák (12 min)\n\nKoniec podľa: Čas konca publikovaný v oficiálnom
-  harmonograme Áčka.\n\nZdroj: https://festivalacko.sk/filmove-pasma/#med
- zicas\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#event=acko442026
+ voľný\n\nNekonečná vojna pána Nikoho (alebo krátka príručka toho a
+ ko robiť nacistom zo života peklo) — Jakub Horňák (12 min)\n2045 —
+  Jakub Frištyk (10 min)\nEšte chvíľu — Jakub Dúcky (19 min)\nružov
+ ejšie rána — Nina Sabolová (5 min)\nProblémy úplne celého světa 
+ — Radek Chromčák Ševčík (24 min)\nMesto noci — Mikloši Richard (
+ 5 min)\nČlovek nie je mačka — Marek Tomajka (16 min)\nUnder Dog — Mi
+ chal Dubjel (7 min)\n\nKoniec podľa: Čas konca publikovaný v oficiálno
+ m harmonograme Áčka.\n\nZdroj: https://festivalacko.sk/filmove-pasma/#me
+ dzicas\n\nhttps://sammkoo.github.io/doku-film-ba-2026/#event=acko442026
 URL:https://sammkoo.github.io/doku-film-ba-2026/#event=acko442026
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
